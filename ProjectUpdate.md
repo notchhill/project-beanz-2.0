@@ -1,3 +1,3 @@
-* CHANGES SINCE PHASE 1 *
+### CHANGES SINCE PHASE 1
 
 - none so far
