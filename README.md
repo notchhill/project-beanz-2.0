@@ -26,11 +26,11 @@ directory of the app:
 
 ## Contributors
 
-Developer: 
-Developer: 
-Developer: 
-Developer: 
-Developer: 
+Dustin: 
+Robert: 
+Lucas: 
+Trevor: 
+Austin: 
 
 
 ## License
