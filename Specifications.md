@@ -1,5 +1,5 @@
 
-### Info from Dave
+### Info from Dave 
 Links to examples at bottom of http://csci.viu.ca/~wesselsd/courses/csci265/labs/lab2.html
 
 
