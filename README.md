@@ -1,11 +1,25 @@
-# project-beanz-2.0
-
-something
-
-
+## PROJECT BEANZ 2.0
 ## Technologies
 
 This application has been developed using C++ programming language. This application can be built and run on a system with a GCC compiler. This application has been tested on Debian 4.9 (Linux) with GCC 10.2.1. 
+
+
+### DIRECTORY STRUCTURE
+
+>bin
+    Holds the executables
+
+>build
+    Holds the object(*.o) files
+
+>include
+    Holds the header(*.h) files
+
+>resource
+    Holds the input files
+
+>src
+    Holds the source(*.cpp) files
 
 
 ## Build and Installation
@@ -26,11 +40,11 @@ directory of the app:
 
 ## Contributors
 
-Dustin: 
-Robert: 
-Lucas: 
-Trevor: 
-Austin: 
+Developer: Dustin
+Developer: Robert
+Developer: Lucas 
+Developer: Trevor
+Developer: Austin
 
 
 ## License
