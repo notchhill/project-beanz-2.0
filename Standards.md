@@ -1,3 +1,4 @@
+### STANDARDS
 The code standards we have decided to use for our project are the CSCI 265 Code Standards.
 Link: http://csci.viu.ca/~wesselsd/courses/csci265/standards.html
 
