@@ -10,6 +10,8 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         To provide entertainment through a text-based adventure experience, providing a unique kind of gaming adventure
     1.2 Theme
         Each of the adventure areas the player can access have slightly different fantasy-style, but the closest thing the game has to an overall theme is beanz
+
+        In this fictional world Planet Beanz (a bean-shaped planet) and is tidally locked (meaning one side always faces towards the sun and the other side always faces away.) This affects the biomes and the inhabitants. On the "hot" side (facing towards sun) there is an arid desert environment. On the cold side, there is the fractal forest, with a colder environment inhabited by forest gnomes. The cold side only gets light from the moon, which is reflected light from the sun. The fractal trees, with fractal-like leaves, developed in this environment to maximize their surface area for collecting light for photosynthisis. On the polar equator between the hot and cold sides is the Beancouver. Residing in Beancouver is Chef Garbanzo, who runs the Michelin 5 Star resturaunt Chef Garbanzo's Lean Bean Cuisine. Rising above Beancouver is the giant beanstalk that leads to the giant's castle in the sky. The player has to hunt for beans to be used in a delicious dish being prepared by Chef Garbanzo. 
         
         1.2.1 
         Desert area features a mirror and glass tunnels in a desert environment
@@ -19,6 +21,9 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
         1.2.3 
         The fractal forest area contains trees with fractal-like leaves, a hut, a giant hollowed out tree to be explored, and of course, a treehouse
+
+    1.3 Goals
+
 
 2.0 description of the overall flow/sequence of events for the game, conditions for winning/losing, player goals and scoring systems
     - conditions for winning/losing, 
