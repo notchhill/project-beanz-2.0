@@ -1,11 +1,9 @@
-###
+### VERSION CONTROL
 Modified distributed version control system
 - main branch
     - dev branch
         - branch to clone from for anyone using multiple computers
-        - anyone using single computer can just clone from dev branch
-
-More elaborate description: 
+        - anyone using single computer can clone from dev branch 
 
 We will have two primary branches. A branch for the final/client version, and one for the development version.
 
