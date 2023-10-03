@@ -6,6 +6,19 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
 # TABLE OF CONTENTS
 1.0 an overall description of the game purpose, theme, goals, and target audience (like the product overview for other software products)
+    1.1 Game Purpose
+        To provide entertainment through a text-based adventure experience, providing a unique kind of gaming adventure
+    1.2 Theme
+        Each of the adventure areas the player can access have slightly different fantasy-style, but the closest thing the game has to an overall theme is beanz
+        
+        1.2.1 
+        Desert area features a mirror and glass tunnels in a desert environment
+
+        1.2.2 
+        Giant's castle features a giant beanstalk leading up to the huge castle where the giant resides
+
+        1.2.3 
+        The fractal forest area contains trees with fractal-like leaves, a hut, a giant hollowed out tree to be explored, and of course, a treehouse
 
 2.0 description of the overall flow/sequence of events for the game, conditions for winning/losing, player goals and scoring systems
     - conditions for winning/losing, 
