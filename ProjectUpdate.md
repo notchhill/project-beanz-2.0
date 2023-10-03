@@ -11,4 +11,4 @@ For this phase, that includes any changes to
 
 ### CHANGES SINCE PHASE 1
 
-- none so far
+- changed name of main town from Bean Village to Beancouver
