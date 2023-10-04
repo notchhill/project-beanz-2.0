@@ -303,11 +303,27 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
 7.0 Non-functional Requirements.
     
-    7.1 Core Features.
-        stuff
+    7.1 Spelling and Grammar.
+        The text shown in game must be written with no spelling or grammatical errors. More specifically, putting all of the text though a spell-checker should return no errors.
 
-    7.2 Secondary Features.
-        stuff
+    7.2 Intuitive Design.
 
-    7.3 Teriary Features.
-        stuff
+        7.2.1 Controls.
+              The options the player has available to them must be clearly defined and intuitively grasped. For this game, that means 90% of third party testers must be able to work out the controls without any assistance.
+
+        7.2.2 Game Flow.
+              Likewise, all third party testers should report that they understood what was happening during gameplay at least 90% of the time. Also, all third party testers must understand what the goal of the game is. Demonstrated by an ability to explain the setting and plot of the game consistent with our outline in this specs doc.
+
+    7.3 Performance.
+
+        7.3.1 Response Time.
+              The game must provide feedback to the player's inputs in under 0.5s 99% of the time.
+
+        7.3.2 Code Quality.
+                There must be minimal or no bugs in the code. More specifically, each function should do what is intended to do (as outlined in our design specs), and the player should not be able to crash or softlock the program. Also, the code must be able to be understood by a third party (the prof.). The code must reflect what is indicated in the design specs.
+        
+        7.3.3 Requirements.
+              The game must be able to run on terminal. The game should take up no more than (x storage units), and should require no more than (basically any) ram.
+
+    7.4 Fun.
+        The game must be enjoyable to play. For our purposes, this means 75% or more of third party testers must consider the game at least somewhat enjoyable.
