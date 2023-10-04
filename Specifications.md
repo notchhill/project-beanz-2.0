@@ -5,71 +5,309 @@ Game name: Project Beanz 2.0
 Contact info: Dustin, dustin.gabriel777@gmail.com
 
 # TABLE OF CONTENTS
-1.0 an overall description of the game purpose, theme, goals, and target audience (like the product overview for other software products)
-    1.1 Game Purpose
+
+1.0 Overall Description of the Game.
+    1.1 Purpose.
+    1.2 Theme.
+        1.2.1 Beancouver.
+        1.2.2 Giant's Castle.
+        1.2.3 Fractal Forest.
+        1.2.4 Desert.
+    1.3 Goals.
+    1.4 Target Audience.
+
+2.0 Description of the Overall Sequence of Events for Beanz 2.0.
+    2.1 Conditions for Winning and Losing.
+    2.1 Player Goals.
+    2.3 Scoring Systems.
+
+3.0 Menus, Screens, and Control Systems.
+    3.1 Loading Screen.
+    3.2 Main Menu.
+    3.3 Intro Screen.
+    3.4 Help Screen.
+    3.5 Game Interface.
+    3.5 Game Over Screen.
+    3.6 Victory Screen.
+
+4.0 Descriptions and Flowchart of the Levels.
+    4.1 What is in Each Level.
+        4.1.1 Beancouver.
+        4.1.2 Giant's Castle.
+        4.1.3 Fractal Forest.
+        4.1.4 Desert.
+    4.2 The Layout.
+    4.3 Key Features.
+        4.1.1 Beancouver.
+        4.1.2 Giant's Castle.
+        4.1.3 Fractal Forest.
+        4.1.4 Desert.
+    4.4 Characters.
+        4.1.1 Beancouver.
+        4.1.2 Giant's Castle.
+        4.1.3 Fractal Forest.
+        4.1.4 Desert.
+    4.5 Sequence of Actions/Puzzles/Steps Associated With the Level.
+
+5.0 The Characters.
+    5.1 The Hero.
+    5.2 Chef Garganzo.
+    5.3 Other Characters.
+
+6.0 Priority for Scalability.
+    6.1 Core Features.
+    6.2 Secondary Features.
+    6.3 Teriary Features.
+
+7.0 Non-functional Requirements.
+    7.1 Core Features.
+    7.2 Secondary Features.
+    7.3 Teriary Features.
+
+# SPECIFICATIONS
+
+1.0 Overall Description of the Game.
+
+    1.1 Purpose.
         To provide entertainment through a text-based adventure experience, providing a unique kind of gaming adventure
-    1.2 Theme
-        Each of the adventure areas the player can access have slightly different fantasy-style, but the closest thing the game has to an overall theme is beanz
 
-        In this fictional world Planet Beanz (a bean-shaped planet) and is tidally locked (meaning one side always faces towards the sun and the other side always faces away.) This affects the biomes and the inhabitants. On the "hot" side (facing towards sun) there is an arid desert environment. On the cold side, there is the fractal forest, with a colder environment inhabited by forest gnomes. The cold side only gets light from the moon, which is reflected light from the sun. The fractal trees, with fractal-like leaves, developed in this environment to maximize their surface area for collecting light for photosynthisis. On the polar equator between the hot and cold sides is the Beancouver. Residing in Beancouver is Chef Garbanzo, who runs the Michelin 5 Star resturaunt Chef Garbanzo's Lean Bean Cuisine. Rising above Beancouver is the giant beanstalk that leads to the giant's castle in the sky. The player has to hunt for beans to be used in a delicious dish being prepared by Chef Garbanzo. 
+    1.2 Theme.
+        Each of the adventure areas the player can access have slightly different fantasy-style, but the closest thing the game has to an overall theme is beans.
+
+        In this fictional world Planet Beanz (a bean-shaped planet) and is tidally locked (meaning one side always faces towards the sun and the other side always faces away.) This affects the biomes and the inhabitants. On the "hot" side (facing towards sun) there is an arid desert environment. On the cold side, there is the fractal forest, with a colder environment inhabited by forest gnomes. The cold side only gets light from the moon, which is reflected light from the sun. The fractal trees, with fractal-like leaves, developed in this environment to maximize their surface area for collecting light for photosynthesis. On the polar equator between the hot and cold sides is the Beancouver. Residing in Beancouver is Chef Garbanzo, who runs the Michelin 5 Star restaurant Chef Garbanzo's Lean Bean Cuisine. Rising above Beancouver is the giant beanstalk that leads to the giant's castle in the sky. The player has to hunt for beans to be used in a delicious dish being prepared by Chef Garbanzo. 
         
-        1.2.1 
-        Desert area features a mirror and glass tunnels in a desert environment
+        1.2.1 Beancouver.
+              A peaceful bean farming village laying in the shadow of a giant's castle. This village consists of a restaurant, a village square, and a bean farm.
+              
+        1.2.2 Giant's Castle.
+              The Giant's castle features a giant beanstalk leading up to the huge castle where the giant resides. In the castle a visitor will find a kitchen, a basement, and a bathroom.
 
-        1.2.2 
-        Giant's castle features a giant beanstalk leading up to the huge castle where the giant resides
+        1.2.3 Fractal Forest.
+              The fractal forest area contains trees with fractal-like leaves, a hut, a giant hollowed out tree to be explored, and of course, a treehouse.
 
-        1.2.3 
-        The fractal forest area contains trees with fractal-like leaves, a hut, a giant hollowed out tree to be explored, and of course, a treehouse
+        1.2.4 Desert.
+              The Desert area features dunes, oasis, a palace, and glass tunnels in a desert environment.
 
-    1.3 Goals
-        Out goal is to create the best and most functional game we can
+    1.3 Goals.
+        A linear adventure game running in the terminal using text/ASCII to present the story, visuals, and possible decisions that the user can make. User can influence the story based on their decisions, taking different paths to the success or failure.
 
-2.0 description of the overall flow/sequence of events for the game, conditions for winning/losing, player goals and scoring systems
-    - conditions for winning/losing, 
-        - winning - collect the beans
-        - losing - die to some mishap, for example die in combat with a forest gnome due to a poor decision
-    - player goals
-        - collect the beans
-    - scoring systems
-        number of beans collected, for first iteration of the game player will have to collect all the beans and bring them back to Chef Garbanzo in Beancouver in order to win
-3.0 detailed descriptions and sketches of each of the control systems, menus, screens, and interfaces the player will interact with
-    - a list of options to choose from
-    - keywords to enter
+        This application will be developed with the C++ programming language. This application can be built and run on a system with GCC compiler. This program will use a creative commons license for free software.
+    
+    1.4 Target Audience.
+        The target audience is players of adventure story games. It will lack visual violence and gore, but contain mentions of violence so the target audience can include youths. Further scaling will add content that can appeal to more users: people who enjoy exploration or statistics and character building for example.
 
-    Being a text adventure, the game will take place and be played in a text-based terminal window. Below is an ASCII drawing of a sample terminal window where the player has the environment they're in described to them and is given a list of options/things they can do:
 
-    +---------------------------------------------------------------------------------------------+
-    | You see a darkened room in front of you,       [chest] to open chest                        |
-    | with a chest lying on the ground               [door] to go through the door                |      
-    | and a door to the shed in the back.                                                         |
-    |                                                                                             |
-    |                                                                                             |
-    +---------------------------------------------------------------------------------------------+
+2.0 Description of the Overall Sequence of Events for Beanz 2.0.
 
-4.0 detailed descriptions and sketches of each of the game levels (if any), what is in each level, the layout, key features, characters, and sequence of actions/puzzles/steps associated with the level
-    - All of the above are described on the flowchart below, which you (Dave) should be able to view
-    - https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493
+    2.1 Conditions for Winning and Losing.
+        Winning - for first iteration of the game the player will have to collect all the beans and bring them back to Chef Garbanzo in Beancouver in order to win.
+        Losing - die to some mishap, for example die in combat with a forest gnome due to a poor decision.
 
-5.0 detailed descriptions of the key characters, attributes, and items present within the game (if any), and the interactions between them
-    - the player character
-        + The basic framework of the game won't include any real attributes for the player, but a major part of the scalability of the game will be player attributes that can be added later
-        + E.g. health, progression system/levels/skills, an inventory/holding items, etc
-    - The chef
-        + Chef Garbanzo is the most important NPC, the player's main task in the game is to collect special beans for his ultimate dish and bring them back to his resturaunt in Beancouver
-        + The player will talk to Chef Garbanzo at the beginning of the game
-    - Other characters:
-        + Some of the tasks in the three adventure areas (to start with) will involve talking to various NPCs
-        + The other important NPCs are the frogs the player can fight in the giant log (located in the Forest area), and the forest gnomes the player can fight in the hut (within the Fractal Forest area)
+    2.1 Player Goals.
+        In the core release the players goal is to survive and collect 3 beans.
 
-6.0 priority tiers for the levels, features, characters, etc (which ones are core, which ones are secondary, which ones are just nice-to-have extras if time permits)
-    6.1
-    The top priority tier will include the three basic adventure areas the player can explore (Giant's Castle, Fractal Forest, Desert) and the basic input system where the player is given a text blurb and some options to choose from
+    2.3 Scoring Systems.
+        Based on the number of beans collected. 
 
-    6.2 
-    Some features of secondary importance include the game being made non-linear. To start with, the player will progress through the three basic adventure areas one after the other, but later we could allow the player to complete them in whatever order they want, accessing each from Beancouver, the hub/starting area where Chef Garbanzo is located (at his gourmet resturaunt, Chef Garbanzo's Lean Bean Cuisine.) Also of secondary importance would be player attributes (health, inventory, progression system) and a combat system
+3.0 Menus, Screens, and Control Systems.
 
-    6.3 
-    Nice-to-have features if time permits would include a map the player can view showing where they are, drawn with ASCII art
+    3.1 Loading Screen.
+        +---------------------------------------------------------------------------------------------+
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                Beanz 2.0                                                    |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                               Press any key to continue                                     |
+        |                                                                                             |
+        |                                                                                             |
+        +---------------------------------------------------------------------------------------------+
 
-7.0 non-functional requirements, glossary, and appendices (as with the other software products)
+    3.2 Main Menu.
+        +---------------------------------------------------------------------------------------------+
+        | Welcome to Beanz 2.0!                          [start] to start the game                    |
+        |                                                [quit] to exit the game                      |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                 Enter your choice                           |
+        |                                                >                                            |
+        +---------------------------------------------------------------------------------------------+
+    
+    3.3 Intro Screen.
+        +---------------------------------------------------------------------------------------------+
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                             A story will be displayed here                                  |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                               Press any key to continue                                     |        +---------------------------------------------------------------------------------------------+
+    
+    3.4 Help Screen.
+        +---------------------------------------------------------------------------------------------+
+        |                                                                                             |
+        |                                                                                             |
+        |                      Keywords:                                                              |
+        |                      To return to the main menu enter [quit]                                |
+        |                      To exit the game enter [exit]                                          |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                               Press any key to continue                                     |          +---------------------------------------------------------------------------------------------+
+    
+    3.5 Game Interface.
+        +---------------------------------------------------------------------------------------------+
+        | You see a darkened room in front of you,       [chest] to open chest                        |
+        | with a chest lying on the ground               [door] to go through the door                |
+        | and a door to the shed in the back.                                                         |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                 Enter your choice                           |
+        |                                                >                                            |
+        +---------------------------------------------------------------------------------------------+
+
+    3.5 Game Over Screen.
+        +---------------------------------------------------------------------------------------------+
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                             A game over message will be displayed here                      |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                               Press any key to continue                                     |        +---------------------------------------------------------------------------------------------+
+
+    3.6 Victory Screen.
+        +---------------------------------------------------------------------------------------------+
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                             A victory message will be displayed here                        |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                                                                                             |
+        |                               Press any key to continue                                     |        +---------------------------------------------------------------------------------------------+
+
+4.0 Descriptions and Flowchart of the Levels.
+
+    4.1 What is in Each Level.
+        
+        4.1.1 Beancouver.
+              This level is inhabited by the villages, the chef, and the player character. If features the restaurant, the village square, and the bean farm.
+        
+        4.1.2 Giant's Castle.
+              This level is inhabited by a magical dust bunny and a giant. It features three areas: the kitchen, the basement, and the bathroom.
+        
+        4.1.3 Fractal Forest.
+              This level is inhabited by giant frogs and forest gnomes. It features a giant hollowed out log, a treehouse, and a hut.
+        
+        4.1.4 Desert.
+              This level is mysteriously uninhabited. It features dunes, oasis, cactuses, a palace, and glass tunnels.
+
+    4.2 The Layout.
+        Visualized on the flowchart, which you can view at https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493.
+
+    4.3 Key Features.
+        
+        4.1.1 Beancouver.
+              This is the starting area.
+        
+        4.1.2 Giant's Castle.
+              This area features a giant with sensitive hearing.
+        
+        4.1.3 Fractal Forest.
+              This area features a dig for the bean with the chance of success based on the tool that is used.
+        
+        4.1.4 Desert.
+              This area features exploration and a puzzle.
+
+    4.4 Characters.
+
+        4.1.1 Beancouver.
+              Chef Garbanzo, villagers, the player character.
+        
+        4.1.2 Giant's Castle.
+              Magical Dust Bunny, Giant.
+        
+        4.1.3 Fractal Forest.
+              Giant Frogs, Forest Gnomes.
+        
+        4.1.4 Desert.
+              Uninhabited.
+
+    4.5 Sequence of Actions/Puzzles/Steps Associated with the Level.
+        Visualized on the flowchart, which you can view at https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493.
+
+5.0 The Characters.
+
+    5.1 The Hero.
+        This is the players character. He is the hero of the adventure and is tasked with saving the three beans.
+
+    5.2 Chef Garganzo.
+        Chef Garbanzo is the most important NPC, the player's main task in the game is to collect special beans for his ultimate dish and bring them back to his resturaunt in Beancouver. The player will talk to Chef Garbanzo at the beginning of the game
+
+    5.3 Other Characters.
+        Dust Bunny - a magical bunny that resides in the Giant's Castle.
+        The Giant - an unnamed giant that the player must avoid.
+        Giant Frogs - large humanoid frogs that inhabit the Giant Hollowed Out Log.
+        Forest Gnomes - inhabitants of the Fractal Forest that may be located around the Hut.
+
+6.0 Priority for Scalability.
+
+    6.1 Core Features.
+        The core tier will include the three basic adventure areas the player can explore (Giant's Castle, Fractal Forest, Desert) and the basic input system where the player is given a text blurb and some options to choose from.
+
+    6.2 Secondary Features.
+        Some features of secondary importance include the game being made non-linear. To start with, the player will progress through the three basic adventure areas one after the other, but later we could allow the player to complete them in whatever order they want, accessing each from Beancouver, the hub/starting area where Chef Garbanzo is located (at his gourmet resturaunt, Chef Garbanzo's Lean Bean Cuisine.) Also of secondary importance would be player attributes (health, inventory, progression system) and a combat system.
+
+    6.3 Teriary Features.
+        Nice-to-have features if time permits would include a map the player can view showing where they are, drawn with ASCII art.
+
+7.0 Non-functional Requirements.
+    
+    7.1 Core Features.
+        stuff
+
+    7.2 Secondary Features.
+        stuff
+
+    7.3 Teriary Features.
+        stuff
