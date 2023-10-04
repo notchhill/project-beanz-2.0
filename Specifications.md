@@ -48,7 +48,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     +---------------------------------------------------------------------------------------------+
 
 4.0 detailed descriptions and sketches of each of the game levels (if any), what is in each level, the layout, key features, characters, and sequence of actions/puzzles/steps associated with the level
-    - Described on the flowchart below, which you (Dave) should be able to view
+    - All of the above are described on the flowchart below, which you (Dave) should be able to view
     - https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493
 
 5.0 detailed descriptions of the key characters, attributes, and items present within the game (if any), and the interactions between them
