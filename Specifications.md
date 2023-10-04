@@ -53,8 +53,23 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
 5.0 detailed descriptions of the key characters, attributes, and items present within the game (if any), and the interactions between them
     - the player character
-    - the chef
+        + The basic framework of the game won't include any real attributes for the player, but a major part of the scalability of the game will be player attributes that can be added later
+        + E.g. health, progression system/levels/skills, an inventory/holding items, etc
+    - The chef
+        + Chef Garbanzo is the most important NPC, the player's main task in the game is to collect special beans for his ultimate dish and bring them back to his resturaunt in Beancouver
+        + The player will talk to Chef Garbanzo at the beginning of the game
+    - Other characters:
+        + Some of the tasks in the three adventure areas (to start with) will involve talking to various NPCs
+        + The other important NPCs are the frogs the player can fight in the giant log (located in the Forest area), and the forest gnomes the player can fight in the hut (within the Fractal Forest area)
 
 6.0 priority tiers for the levels, features, characters, etc (which ones are core, which ones are secondary, which ones are just nice-to-have extras if time permits)
+    6.1
+    The top priority tier will include the three basic adventure areas the player can explore (Giant's Castle, Fractal Forest, Desert) and the basic input system where the player is given a text blurb and some options to choose from
+
+    6.2 
+    Some features of secondary importance include the game being made non-linear. To start with, the player will progress through the three basic adventure areas one after the other, but later we could allow the player to complete them in whatever order they want, accessing each from Beancouver, the hub/starting area where Chef Garbanzo is located (at his gourmet resturaunt, Chef Garbanzo's Lean Bean Cuisine.) Also of secondary importance would be player attributes (health, inventory, progression system) and a combat system
+
+    6.3 
+    Nice-to-have features if time permits would include a map the player can view showing where they are, drawn with ASCII art
 
 7.0 non-functional requirements, glossary, and appendices (as with the other software products)
