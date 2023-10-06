@@ -15,4 +15,4 @@ For this phase, that includes any changes to
 
 ### CHANGES SINCE PHASE 2
 
-- 
+- Decided to add a player struct or class to contain health/hit points and other player stats
