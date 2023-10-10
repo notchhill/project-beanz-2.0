@@ -17,7 +17,6 @@
 #define __GAMESCREEN_LINKED_LIST_HEADER__
 
 
-#include "gamescreennode.h"
 #include <string>
 
 
@@ -27,13 +26,22 @@
 class GameScreenLinkedList {
 	private:
 		
-		GameScreenNode* option1;
-		GameScreenNode* option2;
-        GameScreenNode* option3;
-        GameScreenNode* option4;
-        GameScreenNode* option5;
+		GameScreenLinkedList* next;
+
 		std::string screenID;
-        std::string screenText;		
+        std::string screenText;
+
+		std::string option1Text;
+		std::string option2Text;
+		std::string option3Text;
+		std::string option4Text;
+		std::string option5Text;
+
+		std::string option1screenID;
+		std::string option2screenID;
+		std::string option3screenID;
+		std::string option4screenID;
+		std::string option5screenID;
 		
 
 	public:
@@ -57,10 +65,16 @@ class GameScreenLinkedList {
 		//found node.
 
 
-		const GameScreenNode* const search(const std::string screenID);
+		const GameScreenLinkedList* const search(const std::string screenID);
 		//Loop through the list and campare the screenID of each node with parameter 'screenID'
 		//If a node matches, return it.
 		//Otherwise, return NULL.
+
+
+		const std::string getData() const {return screenText;}			
+
+
+		GameScreenLinkedList* getNext() const {return next;}
 
 
 		void clear();
