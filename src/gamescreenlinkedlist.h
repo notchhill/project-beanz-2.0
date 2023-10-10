@@ -31,17 +31,17 @@ class GameScreenLinkedList {
 		std::string screenID;
         std::string screenText;
 
-		std::string option1Text;
-		std::string option2Text;
-		std::string option3Text;
-		std::string option4Text;
-		std::string option5Text;
+		struct option {
+			std::string optionTextBlurb;
+			std::string optionChoiceText;
+			std::string optionscreenID;
+		};
 
-		std::string option1screenID;
-		std::string option2screenID;
-		std::string option3screenID;
-		std::string option4screenID;
-		std::string option5screenID;
+		option option1;
+		option option2;
+		option option3;
+		option option4;
+		option option5;
 		
 
 	public:
