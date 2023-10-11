@@ -2,10 +2,14 @@
 
 
 - design overview
-    This provides an intuitive overview of the high level logical design, preferably with a context diagram (the top level DFD), and also of the key transformations/decisions going from the logical to the physical design.
+    See top level DFD in the screenshots of our Miro flowchart board included in the repository.
+    Top level DFD consists of the game's player providing input to the game (Beanz 2.0) and the game (Beanz 2.0) displaying information back to the player
 
 
 - logical design
+    Level 1 DFD shown on the Miro board contains descriptions of the logical design for the player selecting an option ingame and the correct screen being loaded.
+    Player enters the name of the option they wish to choose, and a player input function passes the name to a find option function.
+
     In the logical design we need to specify the decomposition of our system into smaller components from a logical (code-independent) perspective. The logical design should reflect a layered/top-down approach, first clearly describing the division of the overall system into smaller elements, then clearly describing the decompositions of those, etc. A medium-sized project might involve dividing the overall system into several interacting subsystems, dividing each subsystem into several interacting modules, dividing each module into a number of interacting components, etc.
 
     Since different subsystems/modules/components will likely be developed by different people, it is important that as a team we clearly establish the responsibilities of each element and how they will interact with others. Thus for each level of decomposition I strongly recommend the inclusion of a data flow diagram (DFD), with clear supporting explanation.
