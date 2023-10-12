@@ -15,6 +15,5 @@ For this phase, that includes any changes to
 
 ### CHANGES SINCE PHASE 2
 
-- Decided to add a player class to contain health/hit points and other player stats
 - Changed design of terminal window input screen to be laid out vertically instead of horizontally, i.e text blurb, then below it the player's options
 - Changed quintery linked list to single linked list for loading screens
