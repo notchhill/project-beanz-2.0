@@ -5,7 +5,7 @@
  * @author Robert
  * @author Dustin
  * @author Lucas
- * @version 1.0.1
+ * @version 1.0.2
  * @date 2023/10/08
  *
  * GameScreenLinkedList class definition.
