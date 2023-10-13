@@ -2,15 +2,22 @@
 
 
 - design overview
-    See top level DFD in the screenshots of our Miro flowchart board included in the repository.
+    See top level (Level 0) DFD in the screenshots of our Miro flowchart board included in the repository.
     Top level DFD consists of the game's player providing input to the game (Beanz 2.0) and the game (Beanz 2.0) displaying information back to the player
 
 
 - logical design
-    Level 0 DFD shown on the Miro board contains descriptions of the logical design for the player selecting an option ingame and the correct screen being loaded.
-    Player enters the name of the option they wish to choose, and a player input function passes the name to a find option function.
+    Level 1 DFD shown on the Miro board contains descriptions of the logical design for the player selecting an option ingame and the correct screen being loaded.
 
-    Level 1 DFD (shown on Miro board) beans beans canned beanz   
+    Player enters the name of the option they wish to choose, and a player input function passes the name to a find option function.  
+
+    Find option function takes name of the function, grabs the unique ID assigned to the screen with that name out of (5 to start) options and passes the ID to a search function
+
+    Search function finds the next screen by searching through the single linked list containing all the game screens unti it finds the one with the screen ID matching the one it was passed
+
+    Display function loads the appropriate screen, outputtingn the text blurb and list of options to the terminal window
+
+
 
     In the logical design we need to specify the decomposition of our system into smaller components from a logical (code-independent) perspective. The logical design should reflect a layered/top-down approach, first clearly describing the division of the overall system into smaller elements, then clearly describing the decompositions of those, etc. A medium-sized project might involve dividing the overall system into several interacting subsystems, dividing each subsystem into several interacting modules, dividing each module into a number of interacting components, etc.
 
