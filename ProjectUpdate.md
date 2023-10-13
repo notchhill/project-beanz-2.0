@@ -17,3 +17,5 @@ For this phase, that includes any changes to
 
 - Changed design of terminal window input screen to be laid out vertically instead of horizontally, i.e text blurb, then below it the player's options
 - Changed quintery linked list to single linked list for loading screens
+- Removed any chance based aspects from the fractal forest. it now will work or it won't.
+- Removed hydration/thirst from desert area
