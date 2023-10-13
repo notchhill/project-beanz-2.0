@@ -10,7 +10,7 @@
     Level 0 DFD shown on the Miro board contains descriptions of the logical design for the player selecting an option ingame and the correct screen being loaded.
     Player enters the name of the option they wish to choose, and a player input function passes the name to a find option function.
 
-    
+    Level 1 DFD (shown on Miro board) beans beans canned beanz   
 
     In the logical design we need to specify the decomposition of our system into smaller components from a logical (code-independent) perspective. The logical design should reflect a layered/top-down approach, first clearly describing the division of the overall system into smaller elements, then clearly describing the decompositions of those, etc. A medium-sized project might involve dividing the overall system into several interacting subsystems, dividing each subsystem into several interacting modules, dividing each module into a number of interacting components, etc.
 
