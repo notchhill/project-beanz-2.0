@@ -51,7 +51,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
 5.0 The Characters.
     5.1 The Hero.
-    5.2 Chef Garganzo.
+    5.2 Chef Garbanzo.
     5.3 Other Characters.
 
 6.0 Priority for Scalability.
@@ -254,7 +254,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
               This area features a giant with sensitive hearing.
         
         4.1.3 Fractal Forest.
-              This area features a dig for the bean with the chance of success based on the tool that is used.
+              This area features a dig mechanic where you need a specific tool to dig up the bean.
         
         4.1.4 Desert.
               This area features exploration and a puzzle.
@@ -281,7 +281,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     5.1 The Hero.
         This is the players character. He is the hero of the adventure and is tasked with saving the three beans.
 
-    5.2 Chef Garganzo.
+    5.2 Chef Garbanzo.
         Chef Garbanzo is the most important NPC, the player's main task in the game is to collect special beans for his ultimate dish and bring them back to his resturaunt in Beancouver. The player will talk to Chef Garbanzo at the beginning of the game
 
     5.3 Other Characters.
