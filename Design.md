@@ -20,7 +20,9 @@
 
     Level 2 DFD describes linked list manipulation functions
 
-    Player runs the shell script, which runs the game binary, which in turn runs main.cpp, which calls the load() function. Load function 
+    Player runs the shell script, which runs the game binary, which in turn runs main.cpp, which calls the load() function. Load function opens the input.txt file containing the text blurbs and their associated screen IDs. Load function creates a string to hold the text as well as creating a gameScreenLinkedList node. Load function then opens input.txt. Load function now uses a loop to read the first line of input.txt and puts the text into inputStuff. The screenID of the new node is set to inputStuff. This is then repeated until load() reaches the end of the file input.txt. For each of the five options associated with a single screen, load() reads the options and their associated description out of the input.txt file and puts them into the option1, option 2 etc member variables of the node. Load() will eventusally reach the end of the input.txt file once all options are put into the linked list by pushBack(). The text from inputStuff is passed to pushBack() to facilitate creating the linked list.
+
+    
 
 
     In the logical design we need to specify the decomposition of our system into smaller components from a logical (code-independent) perspective. The logical design should reflect a layered/top-down approach, first clearly describing the division of the overall system into smaller elements, then clearly describing the decompositions of those, etc. A medium-sized project might involve dividing the overall system into several interacting subsystems, dividing each subsystem into several interacting modules, dividing each module into a number of interacting components, etc.
