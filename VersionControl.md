@@ -15,4 +15,6 @@ We make a commit for everything changes or added (code standards), and only merg
 
 We will only merge the development branch into main whenever there are no unmerged branches of the development branch. Once all of the branches created from the dev branch are merged back into it, the dev branch is merged into main. When we begin work again, we make a new dev branch and go from there. 
 
-Merging of dev branch into main will be conducted by team lead for that week.
+Merging of dev branch into main will be conducted by team lead for that week. Anyone editing dev branch is required to have Discord open to the version_control channel while editing a source code file. They will announce before committing or pushing in the version_control channel. Anyone who responds on Discord during a five-minute window after this announcement will be considered the only other ones editing and if they approve the commit/push then it's good to go forward. 
+
+We will conduct our own testing of dev branch before a dev branch merge into main. This will consist of going through the game and trying options. 
