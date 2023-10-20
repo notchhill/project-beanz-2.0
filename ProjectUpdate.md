@@ -21,3 +21,4 @@ For this phase, that includes any changes to
 - Removed hydration/thirst from desert area
 
 - Changed version control process, detailed in VersionControl.md, as well as testing process
+- Updated specifications.md to better reflect the information on the Miro flowchart
