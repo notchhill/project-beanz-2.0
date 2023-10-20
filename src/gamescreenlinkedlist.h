@@ -58,23 +58,12 @@ class GameScreenLinkedList {
 		//Insert the 'screenID' at the end of the list.
 
 
-		void insert(const std::string beforeID, const std::string screenID);
-		//Loop through the list to find a node whose screenID is equal to parameter 'beforeID'.
-		//If no such node is found, do nothing.
-		//Otherwise, create a new node using 'screenID' and insert the new node after the
-		//found node.
-
 
 		const GameScreenLinkedList* const search(const std::string screenID);
 		//Loop through the list and campare the screenID of each node with parameter 'screenID'
 		//If a node matches, return it.
 		//Otherwise, return NULL.
 
-
-		const std::string getData() const {return screenText;}			
-
-
-		GameScreenLinkedList* getNext() const {return next;}
 
 
 		void clear();
