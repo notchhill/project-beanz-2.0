@@ -67,6 +67,12 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
             - publicly accessible data types and constants
             - publicly callable function names, return types, parameter lists
             - class names, public field names/types, public method names, parameters, return types
-
-# PHYSICAL DESIGN
-
+    3.5 Function Layout
+            - load(filename,root) function takes the name of the input.txt file to be opened as well as the first screen that the player sees
+            - load reads from filename, creates a node with a screen ID and a text blurb drawn from filename as well as all the options, option descriptions, and IDs of the screens that the options lead to
+            - This node is passed to pushBack(node) which inserts the node at the end of the single linked list
+            - pushBack takes a gameScreenLinkedList pointer and inserts it at the end of the list
+            - search(root,screenID) traverses through the entire linked list and returns the node with the same screenID as that it was passed
+            - display(node) prints the screenText, optionChoiceTexts, and optionTextBlurbs to the terminal for the player's viewing
+            - clear(root) Clears the entire list, freeing memory
+            - input() Not part of gameScreenLinkedList class, takes input from player, and searches for and displays game screens
