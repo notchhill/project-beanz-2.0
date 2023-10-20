@@ -5,7 +5,7 @@
  * @author Robert
  * @author Dustin
  * @author Lucas
- * @version 1.0.0
+ * @version 1.0.2
  * @date 2023/10/08
  *
  * GameScreenLinkedList class definition.
@@ -56,6 +56,7 @@ class GameScreenLinkedList {
 
 		void pushBack(const std::string screenID);
 		//Insert the 'screenID' at the end of the list.
+
 
 
 		const GameScreenLinkedList* const search(const std::string screenID);

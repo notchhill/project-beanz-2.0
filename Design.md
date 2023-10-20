@@ -1,36 +1,5 @@
 # Team design document
 
-
-- design overview
-    See top level (Level 0) DFD in the screenshots of our Miro flowchart board included in the repository.
-    Top level DFD consists of the game's player providing input to the game (Beanz 2.0) and the game (Beanz 2.0) displaying information back to the player
-
-
-- logical design
-    Level 1 DFD shown on the Miro board contains descriptions of the logical design for the player selecting an option ingame and the correct screen being loaded.
-
-    Player enters the name of the option they wish to choose, and a player input function passes the name to a find option function.  
-
-    Find option function takes name of the function, grabs the unique ID assigned to the screen with that name out of (5 to start) options and passes the ID to a search function
-
-    Search function finds the next screen by searching through the single linked list containing all the game screens unti it finds the one with the screen ID matching the one it was passed
-
-    Display function loads the appropriate screen, outputtingn the text blurb and list of options to the terminal window
-
-
-
-    In the logical design we need to specify the decomposition of our system into smaller components from a logical (code-independent) perspective. The logical design should reflect a layered/top-down approach, first clearly describing the division of the overall system into smaller elements, then clearly describing the decompositions of those, etc. A medium-sized project might involve dividing the overall system into several interacting subsystems, dividing each subsystem into several interacting modules, dividing each module into a number of interacting components, etc.
-
-    Since different subsystems/modules/components will likely be developed by different people, it is important that as a team we clearly establish the responsibilities of each element and how they will interact with others. Thus for each level of decomposition I strongly recommend the inclusion of a data flow diagram (DFD), with clear supporting explanation.
-
-    Each element of the system (i.e. each subsystem, module, component, etc) should contain clear, easily referenced descriptions of:
-        - its overall purpose
-        - each of the services it provides for other elements of the same DFD level (what will it implement that is used by other portions of the system?) 
-            - this should show the information exchanged during that process
-        - the interactions between it and the user(s) and any other external systems
-        - any persistent data it will need to store, giving each data component a name and identifying the type and restrictions on the data (e.g. "vehicle weight will be stored as a non-negative real number of kilos, rounded to the nearest kilo)
-        
-
 - physical design
     In the physical design we want to map the elements of our logical design to actual codable entities, in a way that will subsequently allow our team to begin implementation.
 
@@ -57,8 +26,24 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 # TABLE OF CONTENTS
 
 1.0 Design Overview.
+    See top level (Level 0) DFD in the screenshots of our Miro flowchart board included in the repository.
+    Top level DFD consists of the game's player providing input to the game (Beanz 2.0) and the game (Beanz 2.0) displaying information back to the player
 
 2.0 Logical Design.
+    Level 1 DFD shown on the Miro board contains descriptions of the logical design for the player selecting an option ingame and the correct screen being loaded.
+
+    Player enters the name of the option they wish to choose, and a player input function passes the name to a find option function.  
+
+    Find option function takes name of the function, grabs the unique ID assigned to the screen with that name out of (5 to start) options and passes the ID to a search function
+
+    Search function finds the next screen by searching through the single linked list containing all the game screens unti it finds the one with the screen ID matching the one it was passed
+
+    Display function loads the appropriate screen, outputtingn the text blurb and list of options to the terminal window
+
+
+    Level 2 DFD describes linked list manipulation functions
+
+    Player runs the shell script, which runs the game binary, which in turn runs main.cpp, which calls the load() function. Load function opens the input.txt file containing the text blurbs and their associated screen IDs. Load function creates a string to hold the text as well as creating a gameScreenLinkedList node. Load function then opens input.txt. Load function now uses a loop to read the first line of input.txt and puts the text into inputStuff. The screenID of the new node is set to inputStuff. This is then repeated until load() reaches the end of the file input.txt. For each of the five options associated with a single screen, load() reads the options and their associated description out of the input.txt file and puts them into the option1, option 2 etc member variables of the node. Load() will eventusally reach the end of the input.txt file once all options are put into the linked list by pushBack(). The text from inputStuff is passed to pushBack() to facilitate creating the linked list.
 
 3.0 Physical Design.
 
@@ -83,5 +68,5 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
             - publicly callable function names, return types, parameter lists
             - class names, public field names/types, public method names, parameters, return types
 
-# DESIGN
+# PHYSICAL DESIGN
 
