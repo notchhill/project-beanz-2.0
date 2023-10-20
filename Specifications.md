@@ -243,7 +243,9 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
               This level is mysteriously uninhabited. It features dunes, oasis, cactuses, a palace, and glass tunnels.
 
     4.2 The Layout.
-        Visualized on the flowchart, which you can view at https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493.
+        Below is a flowchart. This contails all the details of all the options the player can choose from at each game screen. This flowchart is the main source of how the player will interact with the game. The flowchart shows the layout of the game in esquisite detail starting with Beancouver, then the Giant's Castle, Fractal Forest, and Desert. Each area is further broken down into its sub-areas.
+    
+        https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493.
 
     4.3 Key Features.
         
@@ -275,6 +277,8 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
     4.5 Sequence of Actions/Puzzles/Steps Associated with the Level.
         Visualized on the flowchart, which you can view at https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493.
+
+        The above flowchart shows the sequence of actions, in esquisite detail, that the player must go through in order to advance through the game.
 
 5.0 The Characters.
 
