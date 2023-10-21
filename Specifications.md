@@ -243,9 +243,11 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
               This level is mysteriously uninhabited. It features dunes, oasis, cactuses, a palace, and glass tunnels.
 
     4.2 The Layout.
-        Below is a flowchart. This contails all the details of all the options the player can choose from at each game screen. This flowchart is the main source of how the player will interact with the game. The flowchart shows the layout of the game in esquisite detail starting with Beancouver, then the Giant's Castle, Fractal Forest, and Desert. Each area is further broken down into its sub-areas.
-    
-        https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493.
+        All of the information regarding how these levels are mechanically interlinked is displayed in our Miro chart: https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493
+        
+        Each square denotes a screen which might be displayed to the player. Note that each square contains a rough outline of what the player will see on each screen. They will see a text blurb (written within each screen between two curly braces), multiple options (the options for each screen are written inside the squares), and they will be prompted to give input in the terminal. The arrows from one square to the next indicate which screen the player will go to next based on the option they chose. Note that the arrows contain a letter (A, B, C, etc) in their midsection. This represents the option which will take the player along this arrow.
+
+        The Miro chart is divided roughly into two sections. The one higher up is a high-level logical flow of how the player will traverse through the parts of the game. This diagram contains comparatively few details than the diagram lower down. The lower diagram showcases every screen which the player can come across throughout gameplay. Notice that the chart begins at the very left with the loading screens. The options chosen by the player will lead them along the arrows. Each of the overall areas (Giant's Castle, Fractal Forest, The Desert) have various paths available for the players to take. Notice how each of these paths will converge at the end, and lead linearly into the next general area. The player will start in the loading screen, go to the village, then the Giant's Castle, then Fractal Forest, then The Desert, and finally the player will arrive at the ending of the game. There they will trade the beans they found with Chef Garbonzo, and receive a final score based on the number of beans.
 
     4.3 Key Features.
         
@@ -276,9 +278,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
               Uninhabited.
 
     4.5 Sequence of Actions/Puzzles/Steps Associated with the Level.
-        Visualized on the flowchart, which you can view at https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493.
-
-        The above flowchart shows the sequence of actions, in esquisite detail, that the player must go through in order to advance through the game.
+        See 4.2.
 
 5.0 The Characters.
 
