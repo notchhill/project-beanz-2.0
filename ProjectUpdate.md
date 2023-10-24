@@ -22,3 +22,4 @@ For this phase, that includes any changes to
 
 - Changed version control process, detailed in VersionControl.md, as well as testing process
 - Updated specifications.md to better reflect the information on the Miro flowchart
+- Removed makefile sections from specifications.md and design.md

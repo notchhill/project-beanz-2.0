@@ -33,7 +33,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     In the physical design we want to map the elements of our logical design to actual codable entities, in a way that will subsequently allow our team to begin implementation.
 
     3.1 Programming language(s) and supporting tools.
-        C++, GCC, Make.
+        C++, GCC
 
     3.2 Directory and file naming structure.
         >bin
