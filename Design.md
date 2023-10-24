@@ -80,7 +80,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 	void display(GameScreenLinkedList* node);
 	const GameScreenLinkedList* const search(const std::string optionScreenID);
 	void clear(GameScreenLinkedList* root);
-	void load(const char* fileName);
+	void load(const std::string fileName);
 
     3.5 Function Layout
             - load(filename,root) function takes the name of the input.txt file to be opened as well as the first screen that the player sees

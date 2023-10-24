@@ -5,7 +5,7 @@
  * @author Robert
  * @author Dustin
  * @author Lucas
- * @version 1.0.2
+ * @version 1.0.3
  * @date 2023/10/08
  *
  * GameScreenLinkedList class definition.
@@ -71,7 +71,7 @@ class GameScreenLinkedList {
 		//Remove all nodes from the list and release memory from all nodes.
 
 
-		void load(const char* fileName);
+		void load(const std::string fileName);
 		//Open the file named 'filename' in read only mode.
 		//Read the data from the file and insert them in the list.
 		//Close the file after all data have been inserted.
