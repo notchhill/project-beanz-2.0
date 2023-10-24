@@ -33,7 +33,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     In the physical design we want to map the elements of our logical design to actual codable entities, in a way that will subsequently allow our team to begin implementation.
 
     3.1 Programming language(s) and supporting tools.
-        C++, GCC
+        C++, GCC.
 
     3.2 Directory and file naming structure.
         >bin
@@ -50,7 +50,25 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     3.3 Implementation method for each shared data store.
     - identifying the implementation method for each shared data store (database, file, etc), including format, fields, layout
 
-        This is only input.txt I think.
+        input.txt holds data in text form to be grabbed by the load() function. screenID identifies each screen. screenText is the text blurb describing the environment the player is in. The text blurb for each option describes that option. The optionChoiceText for each option is the actual word the player types in the terminal to select that option. The screenID for each option matches the screenID of the screen that the option leads to. 
+
+        screenID;
+        screenText;
+        option1TextBlurb;
+        option1ChoiceText;
+        option1screenID;
+        option2TextBlurb;
+        option2ChoiceText;
+        option2screenID;
+        option3TextBlurb;
+        option3ChoiceText;
+        option3screenID;
+        option4TextBlurb;
+        option4ChoiceText;
+        option4screenID;
+        option5TextBlurb;
+        option5ChoiceText;
+        option5screenID;
 
     3.4 Interface for all public services provided by the element:
             - identifying the interface for all public services provided by the element:
