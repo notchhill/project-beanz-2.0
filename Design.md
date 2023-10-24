@@ -74,7 +74,9 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
             - identifying the interface for all public services provided by the element:
             - publicly accessible data types and constants
             - publicly callable function names, return types, parameter lists
+                search() returns const GameScreenLinkedList
             - class names, public field names/types, public method names, parameters, return types
+                GameScreenLinkedList class
 
     void pushBack(GameScreenLinkedlist* node);
 	void display(GameScreenLinkedList* node);
