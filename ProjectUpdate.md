@@ -19,3 +19,7 @@ For this phase, that includes any changes to
 - Changed quintery linked list to single linked list for loading screens
 - Removed any chance based aspects from the fractal forest. It now will work or it won't.
 - Removed hydration/thirst from desert area
+
+- Changed version control process, detailed in VersionControl.md, as well as testing process
+- Updated specifications.md to better reflect the information on the Miro flowchart
+- Removed makefile sections from specifications.md and design.md

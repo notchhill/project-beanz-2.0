@@ -5,7 +5,7 @@
  * @author Robert
  * @author Dustin
  * @author Lucas
- * @version 1.0.0
+ * @version 1.0.3
  * @date 2023/10/08
  *
  * GameScreenLinkedList class definition.
@@ -54,16 +54,11 @@ class GameScreenLinkedList {
 		//Remove all the nodes from the linked list and release memory from them.
 
 
-		void pushFront(const std::string screenID);
-		//Insert the 'screenID' at the beginning of the list.
+		void pushBack(const std::string screenID);
+		//Insert the 'screenID' at the end of the list.
 
-
-		void insert(const std::string beforeID, const std::string screenID);
-		//Loop through the list to find a node whose screenID is equal to parameter 'beforeID'.
-		//If no such node is found, do nothing.
-		//Otherwise, create a new node using 'screenID' and insert the new node after the
-		//found node.
-
+		void display(GameScreenLinkedList* node);
+		//Displays the screen text in node parameter, along with the option texts, and the text blurbs/descriptions for each option
 
 		const GameScreenLinkedList* const search(const std::string screenID);
 		//Loop through the list and campare the screenID of each node with parameter 'screenID'
@@ -71,17 +66,12 @@ class GameScreenLinkedList {
 		//Otherwise, return NULL.
 
 
-		const std::string getData() const {return screenText;}			
-
-
-		GameScreenLinkedList* getNext() const {return next;}
-
 
 		void clear();
 		//Remove all nodes from the list and release memory from all nodes.
 
 
-		void load(const char* fileName);
+		void load(const std::string fileName);
 		//Open the file named 'filename' in read only mode.
 		//Read the data from the file and insert them in the list.
 		//Close the file after all data have been inserted.
