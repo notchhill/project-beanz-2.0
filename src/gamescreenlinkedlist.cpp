@@ -14,6 +14,11 @@
 
 #include "../include/gamescreenlinkedlist.h"
 
-void pushBack(GameScreenLinkedList node) {
-    
-}
+/*void pushBack(GameScreenLinkedList node, GameScreenLinkedList root) {
+   GameScreenLinkedList iterator = root;
+    while(iterator != NULL) {
+        iterator = iterator.next;
+    }
+
+
+}*/
