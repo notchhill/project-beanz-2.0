@@ -5,7 +5,7 @@
  * @author Robert
  * @author Dustin
  * @author Lucas
- * @version 1.0.1
+ * @version 1.0.2
  * @date 2023/10/27
  *
  * GameScreenLinkedList class definition.
@@ -13,4 +13,4 @@
  */
 
 #include <string>
-#include "gamescreenlinkedlist.h"
+#include "../include/gamescreenlinkedlist.h"
