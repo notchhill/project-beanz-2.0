@@ -57,7 +57,7 @@ class GameScreenLinkedList {
 		void pushBack(const std::string screenID);
 		//Insert the 'screenID' at the end of the list.
 
-		void display(GameScreenLinkedList* node);
+		//void display(GameScreenLinkedList* node);
 		//Displays the screen text in node parameter, along with the option texts, and the text blurbs/descriptions for each option
 
 		const GameScreenLinkedList* const search(const std::string screenID);
