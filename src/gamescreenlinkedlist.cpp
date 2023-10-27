@@ -13,3 +13,7 @@
  */
 
 #include "../include/gamescreenlinkedlist.h"
+
+void pushBack(GameScreenLinkedList node) {
+    
+}

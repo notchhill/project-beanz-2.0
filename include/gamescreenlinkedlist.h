@@ -54,7 +54,7 @@ class GameScreenLinkedList {
 		//Remove all the nodes from the linked list and release memory from them.
 
 
-		void pushBack(const std::string screenID);
+		void pushBack(GameScreenLinkedList node);
 		//Insert the 'screenID' at the end of the list.
 
 		//void display(GameScreenLinkedList* node);
