@@ -16,6 +16,10 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     3.3 Implementation method for each shared data store.
     3.4 Interface for all public services provided by the element:
     3.5 Function Layout
+    3.6 File hierarchy, compilation, makefile
+        3.6.1 File hierarchy
+        3.6.2 Compilation
+        3.6.3 makefile
 
 # Design
 
