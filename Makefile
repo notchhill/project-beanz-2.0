@@ -19,3 +19,7 @@ build/utility.o: src/utility.cpp include/utility.h
 .PHONY: clean
 clean:
 	rm -f ${objects} bin/beans2
+
+.PHONY: wclean
+wclean:
+	del ${objects} bin\beans2.exe
