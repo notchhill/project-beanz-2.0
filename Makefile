@@ -4,11 +4,11 @@ objects= main.o gamescreenlinkedlist.o utility.o
 progx: ${objects}
 	${general} ${objects} -o bin/$@
 
-main.o:
+main.o: src/main.cpp
 	${general} -c src/main.cpp -o build/$@
 
-gamescreenlinkedlist.o: include/gamescreenlinkedlist.h
+gamescreenlinkedlist.o: src/gamescreenlinkedlist.cpp include/gamescreenlinkedlist.h
 	${general} -c src/gamescreenlinkedlist.cpp -o build/$@
 
-utility.o: utility.h
+utility.o: src/utility.cpp include/utility.h
 	${general} -c utility.cpp -o build/$@
