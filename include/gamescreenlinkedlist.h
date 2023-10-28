@@ -17,7 +17,7 @@
 #define __GAMESCREEN_LINKED_LIST_HEADER__
 
 
-#include <string>
+#include "../include/utility.h"
 
 
 /*
