@@ -1,7 +1,4 @@
-#include <iostream>
-#include <fstream>
-
-#include "gamescreenlinkedlist.h"
+#include "../include/gamescreenlinkedlist.h"
 
 
 
