@@ -18,4 +18,4 @@ build/utility.o: src/utility.cpp include/utility.h
 
 .PHONY: clean
 clean:
-	rm -f ${objects} bin\beans2
+	rm -f ${objects} bin/beans2
