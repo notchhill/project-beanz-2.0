@@ -19,7 +19,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     3.6 File hierarchy, compilation, makefile
         3.6.1 File hierarchy
         3.6.2 Compilation
-        3.6.3 makefile
+        3.6.3 Makefile
 
 # Design
 
@@ -128,18 +128,18 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     All compilation will be done with g++
                     We will use -Wall, -Wextra, and -Wpedantic for our warning options
                     We will use -g to create an executable that can be easily debugged with gdb
-                    We will use a makefile to partially automate the process of compilation
+                    We will use a makefile to mostly automate the process of compilation
                     Compilation will be done from the root directory (project-beans-2.0/)
             3.6.3 Makefile
                     Our makefile will be located in project-beans-2.0/. It will be structured as follows:
                     It will declare two variables: general and objects. "general" will contain our compiler of choice, selected warning options, and -g. (g++ -Wall -Wextra -Wpedantic -g)
-                    "objects" will contain our three object files. (main.o gamescreenlinkedlist.o utility.o)
-                    The first listed target will be the name of our executable. Its dependencies will be the object variable, so all three object files.
-                    It will run is "general" "objects" -o bin/$@. This will compile the exectutable into the bin/ directory, and give it the same name as the target (which is named after the game exectuable).
-                    The second target will be main.o. Its dependency will be main.cpp. 
-                    It will run "general" -c main.cpp -o build/$@. This will compile main.o into the build/ directory, and give it the same name as the target.
-                    The third target will be gamescreenlinkedlist.o. Its dependencies will be gamescreenlinkedlist.cpp and gamescreenlinkedlist.h
-                    It will run "general" -c gamescreenlinkedlist.cpp -o build/$@. This will compile gamescreenlinkedlist.o into the build/ directory, and give it the same name as the target.
-                    The fourth target will be utility.o. Its dependencies will be utility.cpp and utility.h
-                    It will run "general" -c utility.cpp -o build/$@. This will compile utility.o into the build/ directory, and give it the same name as the target.
-                    Running 'make' will default to the first target, which itself will go through the other three targets. Thus, to compile we only need to run 'make'.
+                    "objects" will contain our three object files, and their directories. (build/main.o build/gamescreenlinkedlist.o build/utility.o)
+                    The first listed target will be bin/progx. Its dependencies will be the object variable, so all three object files.
+                        It will run: ${general} ${objects} -o $@. This will compile the exectutable into bin/progx.
+                    The second target will be build/main.o. Its dependency will be src/main.cpp. 
+                        It will run: ${general} -c $< -o $@. This will compile main.o into build/main.o
+                    The third target will be gamescreenlinkedlist.o. Its dependencies will be src/gamescreenlinkedlist.cpp and include/gamescreenlinkedlist.h
+                        It will run: ${general} -c $< -o $@. This will compile gamescreenlinkedlist.o into build/gamescreenlinkedlist.o
+                    The fourth target will be utility.o. Its dependencies will be src/utility.cpp and include/utility.h
+                        It will run: ${general} -c $< -o $@. This will compile utility.o into build/utility.o
+                    Running 'make' will default to the first target, which itself will go through the other three targets. Thus, to compile, we only need to run 'make'.
