@@ -96,3 +96,46 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
             - display(node) prints the screenText, optionChoiceTexts, and optionTextBlurbs to the terminal for the player's viewing
             - clear(root) Clears the entire list, freeing memory
             - input() Not part of gameScreenLinkedList class, takes input from player, and searches for and displays game screens
+
+    3.6 Hierarchy of files, compilation, and the makefile
+            3.6.1 Hierarchy of files
+                    Our program will consist of 9 files, and there will also be a makefile, giving a total of 10 files.
+                    Binary Executables: progx (we should probably rename this to ProjectBeans2.0 at some point). Directory: project-beans-2.0/bin
+                    Object Files: main.o, gamescreenlinkedlist.o, utility.o. Directory: project-beans-2.0/build
+                    Header files: gamescreenlinkedlist.h, utility.h. Directory: project-beans-2.0/include
+                    Source files: main.cpp, gamescreenlinkedlist.cpp, utility.cpp. Directory: project-beans-2.0/src
+                    utility.h will #include our libraries and general function definitions. It will also have #pragma once to avoid duplicate definitions
+                    utility.cpp will #include utility.h and contain the implementation of the general functions
+                    gamescreenlinkedlist.h will #include utility.h, and contain the GameScreenLinkedList class definition, and the definitions for its methods
+                    gamescreenlinkedlist.cpp will #include gamescreenlinkedlist.h (which entails including utility.h), and contain the implementations for GameScreenLinkedList's methods
+                    main.cpp will #include gamescreenlinkedlist.h (and by extension, utility.h), and contain the main routine
+                    Visualization:
+                    [utility.h] children: [utility.cpp] & [gamescreenlinkedlist.h]. [utility.cpp] has no children.
+                    [gamescreenlinkedlist.h] children: [gamescreenlinkedlist.cpp] & [main.cpp]. Neither have children of their own.
+                    NOTE: The reader may notice that #pragma once is not required in this setup. The reason we have it there, is because we have future scalability options in mind.
+                            For example, if we needed another class, that class would almost certainly #include utility.h. and main.cpp would have to #include that class in addition to gamescreenlinkedlist.h
+                            In this case, #pragma once would be necessary to have in utility.h.
+            3.6.2 Compilation
+                    The three .cpp files and the two header files will be compiled into three object files. These object files will be compiled into the game executable
+                    First, main.cpp will be compiled into main.o
+                    Second, gamescreenlinkedlist.h and gamescreenlinkedlist.cpp will be compiled into gamescreenlinkedlist.o
+                    Third, utility.h and utility.cpp will be compiled into utility.o
+                    Finally, main.o, gamescreenlinkedlist.o, and utility.o will be compiled into progx
+                    All compilation will be done with g++
+                    We will use -Wall, -Wextra, and -Wpedantic for our warning options
+                    We will use -g to create an executable that can be easily debugged with gdb
+                    We will use a makefile to partially automate the process of compilation
+                    Compilation will be done from the root directory (project-beans-2.0/)
+            3.6.3 Makefile
+                    Our makefile will be located in project-beans-2.0/. It will be structured as follows:
+                    It will declare two variables: general and objects. "general" will contain our compiler of choice, selected warning options, and -g. (g++ -Wall -Wextra -Wpedantic -g)
+                    "objects" will contain our three object files. (main.o gamescreenlinkedlist.o utility.o)
+                    The first listed target will be the name of our executable. Its dependencies will be the object variable, so all three object files.
+                    It will run is "general" "objects" -o bin/$@. This will compile the exectutable into the bin/ directory, and give it the same name as the target (which is named after the game exectuable).
+                    The second target will be main.o. Its dependency will be main.cpp. 
+                    It will run "general" -c main.cpp -o build/$@. This will compile main.o into the build/ directory, and give it the same name as the target.
+                    The third target will be gamescreenlinkedlist.o. Its dependencies will be gamescreenlinkedlist.cpp and gamescreenlinkedlist.h
+                    It will run "general" -c gamescreenlinkedlist.cpp -o build/$@. This will compile gamescreenlinkedlist.o into the build/ directory, and give it the same name as the target.
+                    The fourth target will be utility.o. Its dependencies will be utility.cpp and utility.h
+                    It will run "general" -c utility.cpp -o build/$@. This will compile utility.o into the build/ directory, and give it the same name as the target.
+                    Running 'make' will default to the first target, which itself will go through the other three targets. Thus, to compile we only need to run 'make'.
