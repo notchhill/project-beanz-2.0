@@ -29,3 +29,4 @@ For this phase, that includes any changes to
 - Added a description of how the game's files will be organized in design.md
 - Detailed how the game will be compiled in design.md
 - Gave physical design of the makefile that will be used to compile our game
+- Created a Makefile to assist with compilation, and created the proper directories for all of our files
