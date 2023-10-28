@@ -1,5 +1,5 @@
 general= g++ -Wall -Wextra -Wpedantic -g
-objects= main.o gamescreenlinkedlist.o utility.o
+objects= build/main.o build/gamescreenlinkedlist.o build/utility.o
 
 progx: ${objects}
 	${general} ${objects} -o bin/$@
