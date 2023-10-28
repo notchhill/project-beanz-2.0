@@ -22,4 +22,4 @@ clean:
 
 .PHONY: wclean
 wclean:
-	del ${objects} bin\beans2.exe
+	del build\main.o build\gamescreenlinkedlist.o build\utility.o bin\beans2.exe
