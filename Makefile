@@ -1,5 +1,7 @@
 general= g++ -Wall -Wextra -Wpedantic -g
 objects= build/main.o build/gamescreenlinkedlist.o build/utility.o
+# output= -c $< -o $@. 
+# Yes, we can also have this variable name in here. Each .o file would run ${general} ${output}. This is not really much different
 
 bin/progx: ${objects}
 	${general} ${objects} -o $@
