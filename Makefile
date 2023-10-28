@@ -11,4 +11,4 @@ gamescreenlinkedlist.o: src/gamescreenlinkedlist.cpp include/gamescreenlinkedlis
 	${general} -c src/gamescreenlinkedlist.cpp -o build/$@
 
 utility.o: src/utility.cpp include/utility.h
-	${general} -c utility.cpp -o build/$@
+	${general} -c src/utility.cpp -o build/$@
