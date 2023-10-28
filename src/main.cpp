@@ -12,5 +12,4 @@
  *
  */
 
-#include <string>
 #include "../include/gamescreenlinkedlist.h"
