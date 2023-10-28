@@ -23,3 +23,9 @@ For this phase, that includes any changes to
 - Changed version control process, detailed in VersionControl.md, as well as testing process
 - Updated specifications.md to better reflect the information on the Miro flowchart
 - Removed makefile sections from specifications.md and design.md
+
+- ### CHANGES SINCE PHASE 3
+
+- Added a description of how the game's files will be organized in design.md
+- Detailed how the game will be compiled in design.md
+- Gave physical design of the makefile that will be used to compile our game
