@@ -18,13 +18,11 @@
    GameScreenLinkedList iterator = root;
     while(iterator != NULL) {
         iterator = iterator.next;
-    }
-
-    
+    }  
 }
+*/
 
-
-const GameScreenLinkedList* const search(const std::string screenID, const std::GameScreenLinkedList* root);
+const GameScreenLinkedList* search(const std::string screenID, const std::GameScreenLinkedList* root) const
 {  
     for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
     {
@@ -35,4 +33,3 @@ const GameScreenLinkedList* const search(const std::string screenID, const std::
     }
 }
 
-}*/
