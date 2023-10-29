@@ -1,0 +1,51 @@
+FF00100
+Beans Beans Beans beans garbanzo beans heinz beans beans chickpea bush's grillin beans SCREEN FF00100
+You see a container of beans, with beans flowing over the sides.
+container
+FF00200
+You see a barrel of beans
+barrel
+FF00300
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+FF00200
+Chickpea chickpea lentils THIS IS SCREEN FF00200
+you see option 1
+option1
+FF00100
+you see option2
+option2
+FF00300
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+FF00300
+This is screen FF00300
+option1 this is, yoda i am, type quit you should
+quit
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
+ieee
