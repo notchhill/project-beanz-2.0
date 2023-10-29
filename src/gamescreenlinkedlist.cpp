@@ -18,6 +18,9 @@
    GameScreenLinkedList iterator = root;
     while(iterator != NULL) {
         iterator = iterator.next;
+    }
+
+    
 }
 
 
