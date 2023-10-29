@@ -18,7 +18,7 @@
    GameScreenLinkedList iterator = root;
     while(iterator != NULL) {
         iterator = iterator.next;
-    }
+}
 
 
 const GameScreenLinkedList* const search(const std::string screenID, const std::GameScreenLinkedList* root);
