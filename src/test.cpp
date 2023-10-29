@@ -1,7 +1,5 @@
 #include "../include/gamescreenlinkedlist.h"
 
-
-
 /*
 This function loads the contents from filename, into a linked list of GameScreens.
 @param: std::string fileName: The name of the input file formatted in the following way:
@@ -27,6 +25,7 @@ Option5 screen ID: The screen ID of the option the user selected.
 There should be one blank line in between every game screen.
 If you want fewer options, just leave that many lines blank, plus the one that should always be blank.
 @param GameScreenLinkedList* head, the first element of the linked list.
+@return void
 */  
 void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList* head){
 
@@ -76,8 +75,11 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 	file.close();
 }
 
-//Deletes all elements from the list, and frees their memory, if necessary.
-//@param: GameScreenLinkedList* head. The pointer to the head of the list. 
+/*
+@brief Deletes all elements from the list, and frees their memory, if necessary.
+@param: GameScreenLinkedList* head. The pointer to the head of the list. 
+@return void
+*/
 void GameScreenLinkedList::clear(GameScreenLinkedList* &head){
 	if(head == this){
 		head = head->next;

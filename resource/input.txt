@@ -15,5 +15,3 @@ option4screenID
 option5TextBlurb
 option5ChoiceText
 option5screenID
-
-//each screen should consist of the 17 lines above, or a blank line if there is no text or key
