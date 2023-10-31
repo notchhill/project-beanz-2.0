@@ -46,11 +46,11 @@ class GameScreenLinkedList {
 
 	public:
 
-		GameScreenLinkedList();// Default Constructor
+		GameScreenLinkedList(){}// Default Constructor
 		//Create an empty list with its front pointing to NULL.
 
 
-		~GameScreenLinkedList();// Destructor
+		~GameScreenLinkedList(){}// Destructor
 		//Remove all the nodes from the linked list and release memory from them.
 
 
@@ -60,7 +60,7 @@ class GameScreenLinkedList {
 		//void display(GameScreenLinkedList* node);
 		//Displays the screen text in node parameter, along with the option texts, and the text blurbs/descriptions for each option
 
-		const GameScreenLinkedList* search(const std::string screenID, const GameScreenLinkedList* root) const;
+		const GameScreenLinkedList* search(const std::string screenID, GameScreenLinkedList* root) const;
 		//Loop through the list and campare the screenID of each node with parameter 'screenID'
 		//If a node matches, return it.
 		//Otherwise, return NULL.
