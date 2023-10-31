@@ -5,7 +5,7 @@
  * @author Robert
  * @author Dustin
  * @author Lucas
- * @version 1.0.1
+ * @version 1.0.4
  * @date 2023/10/27
  *
  * GameScreenLinkedList method implementations.
@@ -15,7 +15,11 @@
 
 #include "../include/gamescreenlinkedlist.h"
 
-
+/*
+@brief Displays the contents of the node it is passed to the terminal
+@param GameScreenLinkedList* node ; The node to be displayed
+@return void
+*/
 void GameScreenLinkedList::display(GameScreenLinkedList* node) {
    std::cout << node->screenText << std::endl;
    std::cout << node->option1.optionTextBlurb << " -- ";
@@ -31,7 +35,12 @@ void GameScreenLinkedList::display(GameScreenLinkedList* node) {
    std::cout << std::endl << std::endl << std::endl;
 }
 
-
+/*
+@brief Searches for the node in the list with the screen ID it's passed. Starts at the top, from the head.
+@param const string screenID ; ScreenID to be searched for.
+@param GameScreenLinkedList* head ; The head node of the list
+@return const GameScreenLinkedList* ; The found node
+*/
 const GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  GameScreenLinkedList* head) const {  
     /*for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
     {
