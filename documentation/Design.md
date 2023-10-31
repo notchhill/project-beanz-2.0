@@ -143,3 +143,6 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     The fourth target will be utility.o. Its dependencies will be src/utility.cpp and include/utility.h
                         It will run: ${general} -c $< -o $@. This will compile utility.o into build/utility.o
                     Running 'make' will default to the first target, which itself will go through the other three targets. Thus, to compile, we only need to run 'make'.
+
+                    Make test has also been added, which builds test.o
+                    Make testclean cleans resulting files
