@@ -17,7 +17,18 @@
 
 
 void display(GameScreenLinkedList* node) {
-    
+   std::cout << Node->screenText << std::endl;
+   std::cout << Node->option1.optionTextBlurb << " -- ";
+   std::cout << Node->option1.optionChoiceText << std::endl;
+   std::cout << Node->option2.optionTextBlurb << " -- ";
+   std::cout << Node->option2.optionChoiceText << std::endl;
+   std::cout << Node->option3.optionTextBlurb << " -- ";
+   std::cout << Node->option3.optionChoiceText << std::endl;
+   std::cout << Node->option4.optionTextBlurb << " -- ";
+   std::cout << Node->option4.optionChoiceText << std::endl;
+   std::cout << Node->option5.optionTextBlurb << " -- ";
+   std::cout << Node->option5.optionChoiceText << std::endl;
+   std::cout << std::endl << std::endl << std::endl;
 }
 
 
