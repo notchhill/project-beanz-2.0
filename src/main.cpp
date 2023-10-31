@@ -46,8 +46,7 @@ int main()
     display(current); (hopefully the player is at the main menu screen)
     std::string playerIn;
     std::cin >> playerIn;
-    gameSequence.clear(current);
-    GameScreenLinkedList* current = gameSequence.search(playerIn); (the next game screen is determined by the player's input.
+    GameScreenLinkedList* current = gameSequence.search(playerIn); (the next game screen is determined by the player's input.)
   }
   */
   
