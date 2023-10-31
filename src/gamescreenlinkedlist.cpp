@@ -123,7 +123,7 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 		std::getline(file, ptr->screenID);
 		if(!((ptr->screenID[0] == 'L' && ptr->screenID[1] == 'S') || (ptr->screenID[0] == 'B' && ptr->screenID[1] == 'C') || (ptr->screenID[0] == 'G' && ptr->screenID[1] == 'C') || 
 		     (ptr->screenID[0] == 'F' && ptr->screenID[1] == 'F') || (ptr->screenID[0] == 'D' && ptr->screenID[1] == 'D'))){
-			std::cout << " The input File is in an invalid format. Problem Occurred around this text: " << ptr->screenID << std::endl;
+			std::cout << " The input file is in an invalid format. Problem occurred around this text: " << ptr->screenID << std::endl;
 			tail->next = NULL;
 			if(ptr != this){
 				delete ptr;
