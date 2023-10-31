@@ -4,11 +4,14 @@
 
  // My test version of main. If it isnt here, it probs hasnt been tested
 int main(){
+	  system("mode con: cols=120 lines=20");
+  system("cls");
+  
 	GameScreenLinkedList gameScreen;
 	GameScreenLinkedList* ptr = &gameScreen;
 	gameScreen.load("./resource/input.txt", ptr);
 
-
+	gameScreen.display(ptr);
 
 	/*while(ptr != NULL){
 	std::cout << ptr->screenID << '\n'
