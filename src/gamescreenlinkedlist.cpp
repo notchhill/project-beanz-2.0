@@ -111,6 +111,7 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 	file.open(fileName);
 	GameScreenLinkedList* tail = head;
 
+if(file.is_open()) {
 	while(!(file.eof())){
 		//Just for the first time around, if the memory address of object is passed through.
 		GameScreenLinkedList* ptr;
@@ -130,6 +131,7 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 			}
 			return;
 		}
+			
 		std::getline(file, ptr->screenText);
 		std::getline(file, ptr->option1.optionTextBlurb);
 		std::getline(file, ptr->option1.optionChoiceText);
@@ -160,4 +162,6 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 	}
 	
 	file.close();
+}
+else{std::cout<<"didnt open"<< std::endl;}
 }

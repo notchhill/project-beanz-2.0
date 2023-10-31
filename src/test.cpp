@@ -4,9 +4,9 @@
 
  // My test version of main. If it isnt here, it probs hasnt been tested
 int main(){
-	/*GameScreenLinkedList gameScreen;
+	GameScreenLinkedList gameScreen;
 	GameScreenLinkedList* ptr = &gameScreen;
-	gameScreen.load("input.txt", ptr);*/
+	gameScreen.load("./resource/input.txt", ptr);
 
 
 
