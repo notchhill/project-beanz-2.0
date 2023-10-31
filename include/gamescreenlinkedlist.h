@@ -54,9 +54,6 @@ class GameScreenLinkedList {
 		//Remove all the nodes from the linked list and release memory from them.
 
 
-		void pushBack(GameScreenLinkedList node);
-		//Insert the 'screenID' at the end of the list.
-
 		//void display(GameScreenLinkedList* node);
 		//Displays the screen text in node parameter, along with the option texts, and the text blurbs/descriptions for each option
 
@@ -64,7 +61,6 @@ class GameScreenLinkedList {
 		//Loop through the list and campare the screenID of each node with parameter 'screenID'
 		//If a node matches, return it.
 		//Otherwise, return NULL.
-
 
 
 		void clear(GameScreenLinkedList* &head);
@@ -75,6 +71,10 @@ class GameScreenLinkedList {
 		//Open the file named 'filename' in read only mode.
 		//Read the data from the file and insert them in the list.
 		//Close the file after all data have been inserted.
+
+
+		//void pushBack(GameScreenLinkedList node);
+		//Insert the 'screenID' at the end of the list.
 
 
 		//void save(const char* fileName);

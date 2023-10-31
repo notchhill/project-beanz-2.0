@@ -12,20 +12,16 @@
  *
  */
 
+
 #include "../include/gamescreenlinkedlist.h"
 
-/*void pushBack(GameScreenLinkedList node, GameScreenLinkedList root) {
-   GameScreenLinkedList iterator = root;
-    while(iterator != NULL) {
-        iterator = iterator.next;
-    }  
+
+void display(GameScreenLinkedList* node) {
+    
 }
-*/
 
-  
 
-const GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  GameScreenLinkedList* root) const
-{  
+const GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  GameScreenLinkedList* head) const {  
     /*for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
     {
         if(temp->screenID == screenID)
@@ -34,12 +30,33 @@ const GameScreenLinkedList* GameScreenLinkedList::search(const std::string scree
         }
     }*/
 
-    GameScreenLinkedList* search = root;
+    GameScreenLinkedList* search = head;
     
     while(search != NULL && search->screenID!=screenID) search = search->next;
 
     return search;
 }
+
+
+/*
+@brief Deletes all elements from the list, and frees their memory, if necessary.
+@param: GameScreenLinkedList* head. The pointer to the head of the list. 
+@return void
+*/
+void GameScreenLinkedList::clear(GameScreenLinkedList* &head) {
+	if(head == this){
+		head = head->next;
+	}
+	while(head != NULL){
+		GameScreenLinkedList* victim = head;
+		if(head->next != NULL){
+			head = head->next;
+		}
+		delete victim;
+		head = NULL;
+	}
+}
+
 
 /*
 This function loads the contents from filename, into a linked list of GameScreens.
@@ -68,7 +85,7 @@ If you want fewer options, just leave that many lines blank, plus the one that s
 @param GameScreenLinkedList* head, the first element of the linked list.
 @return void
 */  
-void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList* head){
+void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList* head) {
 
 	std::ifstream file; 
 	file.open(fileName);
@@ -114,23 +131,4 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 	}
 	
 	file.close();
-}
-
-/*
-@brief Deletes all elements from the list, and frees their memory, if necessary.
-@param: GameScreenLinkedList* head. The pointer to the head of the list. 
-@return void
-*/
-void GameScreenLinkedList::clear(GameScreenLinkedList* &head){
-	if(head == this){
-		head = head->next;
-	}
-	while(head != NULL){
-		GameScreenLinkedList* victim = head;
-		if(head->next != NULL){
-			head = head->next;
-		}
-		delete victim;
-		head = NULL;
-	}
 }
