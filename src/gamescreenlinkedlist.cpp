@@ -22,14 +22,14 @@
 }
 */
 
-const GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, const std::GameScreenLinkedList* root) const
+const GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, const GameScreenLinkedList* root) const
 {  
-    for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
+    /*for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
     {
         if(temp->screenID == screenID)
         {
             return temp;
         }
-    }
+    }*/
 }
 

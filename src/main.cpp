@@ -16,6 +16,7 @@
 
 int main()
 {
+  std::cout << "GAME RAN" << std::endl;
   /*
   GameScreenLinkedList gameSequence; (we create a GameScreenLinkedList)
   GameScreenLinkedList* current; (set it to the head -- the load screen)
