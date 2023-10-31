@@ -16,18 +16,18 @@
 #include "../include/gamescreenlinkedlist.h"
 
 
-void display(GameScreenLinkedList* node) {
-   std::cout << Node->screenText << std::endl;
-   std::cout << Node->option1.optionTextBlurb << " -- ";
-   std::cout << Node->option1.optionChoiceText << std::endl;
-   std::cout << Node->option2.optionTextBlurb << " -- ";
-   std::cout << Node->option2.optionChoiceText << std::endl;
-   std::cout << Node->option3.optionTextBlurb << " -- ";
-   std::cout << Node->option3.optionChoiceText << std::endl;
-   std::cout << Node->option4.optionTextBlurb << " -- ";
-   std::cout << Node->option4.optionChoiceText << std::endl;
-   std::cout << Node->option5.optionTextBlurb << " -- ";
-   std::cout << Node->option5.optionChoiceText << std::endl;
+void GameScreenLinkedList::display(GameScreenLinkedList* node) {
+   std::cout << node->screenText << std::endl;
+   std::cout << node->option1.optionTextBlurb << " -- ";
+   std::cout << node->option1.optionChoiceText << std::endl;
+   std::cout << node->option2.optionTextBlurb << " -- ";
+   std::cout << node->option2.optionChoiceText << std::endl;
+   std::cout << node->option3.optionTextBlurb << " -- ";
+   std::cout << node->option3.optionChoiceText << std::endl;
+   std::cout << node->option4.optionTextBlurb << " -- ";
+   std::cout << node->option4.optionChoiceText << std::endl;
+   std::cout << node->option5.optionTextBlurb << " -- ";
+   std::cout << node->option5.optionChoiceText << std::endl;
    std::cout << std::endl << std::endl << std::endl;
 }
 
