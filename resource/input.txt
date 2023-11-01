@@ -15,3 +15,291 @@ option4screenID;
 option5TextBlurb;
 option5ChoiceText;
 option5screenID;
+
+FF01900
+As you approach the towering tree-house, the lively sounds of a mock battle grow louder. Laughter and playful taunts fill the air as the inhabitants engage in a spirited melee. You grasp your imaginary sword, its invisible weight reassuring in your hand. Now, at the precipice of the playful war, you must make a crucial choice. Will you make your stand on the ramparts, offering a commanding view of the battleground, or venture into the bustling courtyard where the skirmish rages on, or perhaps, with a daring heart, make your way to the throne room where the highest stakes may await? Your decision awaits.
+Make haste to the ramparts
+[ramparts]
+FF02000
+Take your position in the courtyard
+[courtyard]
+FF02100
+Defend the throne room
+[throne]
+FF02200
+
+
+
+
+
+
+
+FF02000
+Upon reaching the ramparts, you find yourself facing two formidable opponents. To your left, an archer with a quiver of imaginary arrows at the ready, eyes locked onto you with an uncanny accuracy. To your right, a wizard, conjuring ethereal spells in the palm of their hand, a hint of mischief in their eyes. With your imaginary sword gripped tightly, you must decide which opponent to engage first. Do you challenge the archer, aiming for a swift and precise victory, or do you confront the enigmatic wizard, ready to test your mettle against their arcane abilities? The choice is yours, and your fate hangs in the balance.
+Swing at the archer
+[archer]
+FF02300
+Swing at the wizard
+[wizard]
+FF02900
+
+
+
+
+
+
+
+
+
+
+FF02100
+Entering the bustling courtyard, you find yourself amidst the heart of the mock battle. Playful combatants clash all around, swords clashing and laughter echoing through the air. In front of you stand two opponents. To your left, an archer with a quiver of imaginary arrows at the ready, eyes locked onto you with uncanny accuracy. To your right, a wizard, conjuring ethereal spells in the palm of their hand, a hint of mischief in their eyes. With your imaginary sword in hand, you must now choose who to engage in combat with first. Do you challenge the archer, aiming for a swift and precise victory, or do you confront the enigmatic wizard, ready to test your mettle against their arcane abilities? The courtyard awaits your decision.
+Swing at the archer
+[archer]
+FF02500
+Swing at the wizard
+[wizard]
+FF03100
+
+
+
+
+
+
+
+
+
+
+FF02200
+As you enter the regal throne room, an air of grandeur surrounds you, a stark contrast to the mock battle outside. Within, you face two formidable opponents. To your left, an archer with a quiver of imaginary arrows, poised with an air of precision. To your right, a wizard, their eyes brimming with arcane energy, ready to unleash powerful spells. With your imaginary sword at the ready, you must choose who to engage in combat with first. Will you take on the archer, hoping to outmaneuver their arrows in the grandeur of the throne room, or challenge the wizard in a test of wits and bravery amidst the opulence of the regal chamber? Your choice determines your path in this unexpected battle.
+Swing at the archer
+[archer]
+FF02700
+Swing at the wizard
+[wizard]
+FF03300
+
+
+
+
+
+
+
+
+
+
+FF02300
+With a skilled and swift display of swordsmanship, you bested the archer upon the ramparts. As they yield to your prowess, you now stand victorious, ready to face your next challenge. The enigmatic wizard awaits, a shimmer of anticipation in their eyes. With your imaginary sword held high, you steel yourself for the upcoming clash of steel and sorcery. The wizard's spells crackle with energy, and the outcome of this duel lies in your hands. Engage the wizard, and may your bravery and skill prevail once more.
+Swing at the wizard
+[wizard]
+FF02400
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF02400
+Having vanquished the archer on the ramparts, you turn your attention to the enigmatic wizard. With deft moves and a determined spirit, you successfully overcome the wizard's arcane prowess. As the wizard concedes defeat, they hand you a valuable reward—a map leading to a place known as "The Hut." It's a newfound piece of knowledge and a key to your adventure's continuation. With this newfound information in hand, you're one step closer to uncovering the secrets that await you in this imaginative world.
+Collect the map to the hut and proceed onwards
+[map]
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF02500
+Amidst the bustling courtyard, you emerge victorious in a duel against the agile archer. As they concede defeat, you stand triumphant, ready to face your next adversary. To your right, the enigmatic wizard awaits, their eyes filled with an air of mystique. With your imaginary sword at the ready, you brace yourself for the upcoming battle of steel and sorcery. The wizard's spells crackle with arcane energy, and the outcome of this magical encounter hinges on your decision. Face the wizard, and may your bravery and skill prove victorious once again.
+Swing at the wizard
+[wizard]
+FF02600
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF02600
+Within the bustling courtyard, you emerged victorious after defeating the skilled archer. Now, you face the enigmatic wizard, demonstrating your determination and skill. With a display of bravery and finesse, you successfully overcome the wizard's mystical abilities. In acknowledgment of your victory, the wizard presents you with a valuable reward—a map leading to a mysterious location known as "The Hut." This newfound knowledge paves the way for your next adventure, promising secrets and challenges yet to be uncovered in this fantastical realm.
+Collect the map to the hut and proceed onwards
+[map]
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF02700
+In the resplendent throne room, you emerge triumphant in your initial encounter, besting the archer with grace and skill. As they yield to your prowess, you now turn your attention to your next challenge. To your right, the enigmatic wizard awaits, their eyes filled with an aura of arcane power. With your imaginary sword raised high, you prepare for the upcoming clash of steel and sorcery. The wizard's spells crackle with otherworldly energy, and the outcome of this mystical duel depends on your choices. Engage the wizard, and may your courage and expertise shine once again within the opulent confines of the throne room.
+Swing at the wizard
+[wizard]
+FF02800
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF02800
+Within the grandeur of the throne room, you emerged victorious in your initial battle against the archer, showcasing your mastery of the sword. With confidence, you turned your attention to the enigmatic wizard. Through a display of courage and skill, you managed to defeat the wizard, whose arcane power could not stand against your determination. In recognition of your prowess, the wizard presents you with a valuable reward—a map leading to a hidden location known as "The Hut." This newfound knowledge is a key to your ongoing adventure, promising further mysteries and challenges to be unveiled in this captivating world.
+Collect the map to the hut and proceed onwards
+[map]
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF02900
+Opting for a bold challenge, you decided to confront the enigmatic wizard on the ramparts. Through a blend of bravery and skill, you managed to overcome the wizard's mystical abilities and secure a hard-fought victory. With the wizard's defeat, you now turn your attention to the archer who awaits your next move. Armed with your imaginary sword, you prepare to engage the archer in battle, ready to test your agility and precision against their swift and accurate shots. The archer stands poised for the encounter, and your triumph over them is your next objective in this thrilling mock battle.
+Swing at the archer
+[archer]
+FF03000
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03000
+With your courage and skill, you prove victorious in your battle against the archer on the ramparts. The archer concedes defeat, and in recognition of your triumph, they hand you a valuable reward—a map that reveals the path to a secretive location known as "The Hut." This newfound knowledge is a pivotal step in your ongoing adventure, hinting at intriguing secrets and challenges yet to be uncovered in this fantastical world.
+Collect the map to the hut and proceed onwards
+[map]
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03100
+Opting for a daring challenge, you confronted the enigmatic wizard within the bustling courtyard. Through your bravery and skill, you successfully overcame the wizard's mystical abilities, securing a hard-fought victory. With the wizard vanquished, you now turn your attention to the archer who stands as your next opponent. Armed with your imaginary sword, you prepare to engage the archer in battle, ready to test your agility and precision against their swift and accurate shots. The archer awaits your challenge, and your ultimate goal in this thrilling mock battle is to claim victory once more.
+Swing at the archer
+[archer]
+FF03200
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03200
+With your unwavering courage and skill, you emerge victorious in your battle against the archer within the bustling courtyard. The archer concedes defeat, and in recognition of your triumph, they hand you a valuable reward—a map revealing the path to a hidden destination known as "The Hut." This newfound knowledge is a significant step in your ongoing adventure, promising a journey filled with intriguing secrets and challenges yet to be uncovered in this captivating world.
+Collect the map to the hut and proceed onwards
+[map]
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03300
+In the opulent throne room, you make the bold choice to engage in combat with the enigmatic wizard. With unwavering determination and skill, you successfully overcome the wizard's arcane prowess, securing a hard-earned victory. Now, you turn your attention to the archer, poised and ready to face your next opponent. Armed with your imaginary sword, you prepare to challenge the archer, ready to test your agility and precision against their swift and accurate shots. The archer awaits your challenge, and your ultimate goal in this thrilling mock battle is to claim victory once more.
+Swing at the archer
+[archer]
+FF03400
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03400
+With your unwavering courage and skill, you emerge victorious in your battle against the archer within the throne room. The archer concedes defeat, and as a token of your success, they hand you a valuable reward—a map revealing the path to a concealed location known as "The Hut." This newfound knowledge is a significant step in your ongoing adventure, promising a journey filled with intriguing secrets and challenges yet to be uncovered in this captivating world.
+Collect the map to the hut and proceed onwards
+[map]
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
