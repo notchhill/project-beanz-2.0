@@ -1,3 +1,21 @@
+screenID; LS00100
+screenText; Beanz 2.0: Refried Beanz (LOADING)
+
+
+
+
+
+
+
+
+
+
+
+
+Press Any Key To Continue
+
+LS00200
+
 FF06700
 You find a quaint forest gnome's hut nestled in the heart of the enchanting forest. The trees have fractal-like leaves, and the hut, with its charming design, boasts a basement, a ladder to the roof, a well-tended garden out front, and a small storage shed behind it.
 Climb up the ladder
