@@ -321,3 +321,471 @@ FF06700
 
 
 
+
+DD00100
+You find yourself standing in a vast, scorching desert, its golden sands stretching as far as the eye can see. The sun beats down relentlessly, casting shimmering waves of heat across the barren landscape. Your quest for a fabled magic bean has brought you to this unforgiving terrain, guided by rumors of a lost civilization and their mysterious mirror palace. With each step, the soft grains of sand shift beneath your feet, and the distant dunes appear like elusive mirages. As you venture deeper into the desert, the legends of the lost civilization and their mirror palace fuel your determination, for you believe that the magic bean might be hidden within its secrets. The mysteries and challenges of this arid world await, and your journey to the heart of the desert holds the promise of uncovering the truth.
+Go north
+[north]
+DD00300
+Go west
+[west]
+DD00400
+Go south
+[south]
+DD00500
+
+
+
+
+
+
+
+DD00200
+You continue your trek through the desert; sand stretches to the horizon in all directions. If you go anymore east, you’ll be heading back to Beancouver.
+Go north
+[north]
+DD00300
+Go south
+[south]
+DD00500
+Go west
+[west]
+DD00400
+
+
+
+
+
+
+
+DD00300
+You continue your trek through the desert; sand stretches to the horizon in all directions. The dunes here are particularly difficult to scale. If you go anymore east, you’ll be heading back to Beancouver.
+Go south
+[south]
+DD00200
+Go north
+[north]
+DD00600
+Go west
+[west]
+DD01100
+
+
+
+
+
+
+
+DD00400
+You continue your trek through the desert; sand stretches to the horizon in all directions.
+Go west
+[west]
+DD01500
+Go south
+[south]
+DD01800
+Go east
+[east]
+DD00200
+Go north
+[north]
+DD01100
+
+
+
+
+DD00500
+You continue your trek through the desert; sand stretches to the horizon in all directions. If you go anymore east, you’ll be heading back to Beancouver.
+Go south
+[south]
+DD02200
+Go north
+[north]
+DD00200
+Go west
+[west]
+DD01800
+
+
+
+
+
+
+
+DD00600
+You continue your trek through the desert; the dunes here are particularly difficult to scale. To the north, the desert gives way to a towering, rocky cliff face, and if you go anymore east, you’ll be heading back to Beancouver.
+Go west
+[west]
+DD00700
+Go south
+[south]
+DD00300
+
+
+
+
+
+
+
+
+
+
+DD00700
+You continue your trek through the desert; the dunes here are particularly difficult to scale. To the north, the desert gives way to a towering, rocky cliff face.
+Go east
+[east]
+DD00600
+Go south
+[south]
+DD01100
+Go west
+[west]
+DD00800
+
+
+
+
+
+
+
+DD00800
+You continue your trek through the desert; the dunes here are particularly difficult to scale. To the north, the desert gives way to a towering, rocky cliff face.
+Go west
+[west]
+DD00900
+Go south
+[south]
+DD01200
+Go east
+[east]
+DD00700
+
+
+
+
+
+
+
+DD00900
+You continue your trek through the desert. To the north, the desert gives way to a towering, rocky cliff face.
+Go east
+[east]
+DD00800
+Go south
+[south]
+DD01300
+Go west
+[west]
+DD01000
+
+
+
+
+
+
+
+DD01000
+You continue your trek through the desert. To the north, the desert gives way to a towering, rocky cliff face, and if you head any farther west, you’ll end up getting lost in the endless sand.
+Go east
+[east]
+DD00900
+Go south
+[south]
+DD01400
+
+
+
+
+
+
+
+
+
+
+DD01100
+You continue your trek through the desert; sand stretches to the horizon in all directions. The dunes here are particularly difficult to scale.
+Go west
+[west]
+DD01200
+Go north
+[north]
+DD00700
+Go east
+[east]
+DD00300
+Go south
+[south]
+DD00400
+
+
+
+
+DD01200
+You continue your trek through the desert; sand stretches to the horizon in all directions.
+Go east
+[east]
+DD01100
+Go north
+[north]
+DD00800
+Go south
+[south]
+DD01300
+Go west
+[west]
+DD01500
+
+
+
+
+DD01300
+You continue your trek through the desert; sand stretches to the horizon in all directions.
+Go west
+[west]
+DD01400
+Go north
+[north]
+DD00900
+Go south
+[south]
+DD01600
+Go east
+[east]
+DD01200
+
+
+
+
+DD01400
+You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you’ll end up getting lost in the endless sand.
+Go east
+[east]
+DD01300
+Go north
+[north]
+DD01000
+Go south
+[south]
+DD01700
+
+
+
+
+
+
+
+DD01500
+Laced between the rippling heatwaves, you spot… the sun? No. What else could be reflecting light at such a high intensity, but a structure made of mirrors? It must be the Mirror Palace! You squint and shield your eyes as you make your way towards the palace. At its foot, the palace’s luminescence totally dominates the surrounding area; even the sand is too bright to look at.
+Go east
+[east]
+DD01600
+Go south
+[south]
+DD01900
+Go north
+[north]
+DD01200
+Go west
+[west]
+DD01500
+Enter the palace
+enter
+DD02700
+
+DD01600
+You continue your trek through the desert; sand stretches to the horizon in all directions.
+Go south
+[south]
+DD02000
+Go west
+[west]
+DD01700
+Go north
+[north]
+DD01300
+Go east
+[east]
+DD01500
+
+
+
+
+DD01700
+You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you’ll end up getting lost in the endless sand.
+Go north
+[north]
+DD01400
+Go east
+[east]
+DD01600
+Go south
+[south]
+DD02100
+
+
+
+
+
+
+
+DD01800
+You continue your trek through the desert; sand stretches to the horizon in all directions.
+Go south
+[south]
+DD02300
+Go north
+[north]
+DD00400
+Go east
+[east]
+DD00500
+Go west
+[west]
+DD01900
+
+
+
+
+DD01900
+You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun.
+Go south
+[south]
+DD02400
+Go north
+[north]
+DD01500
+Go west
+[west]
+DD02000
+Go east
+[east]
+DD01800
+
+
+
+
+DD02000
+You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun.
+Go north
+[north]
+DD01600
+Go west
+[west]
+DD02100
+Go east
+[east]
+DD01900
+Go south
+[south]
+DD02500
+
+
+
+
+DD02100
+You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun. If you head any farther west, you’ll end up getting lost in the endless sand.
+Go south
+[south]
+DD02600
+Go east
+[east]
+DD02000
+Go north
+[north]
+DD01700
+
+
+
+
+
+
+
+DD02200
+You continue your trek through the desert. The desert gives way to a savanna to the south, and if you go anymore east, you’ll be heading back to Beancouver.
+Go north
+[north]
+DD00500
+Go west
+[west]
+DD02300
+
+
+
+
+
+
+
+
+
+
+DD02300
+You continue your trek through the desert. The desert gives way to a savanna to the south.
+Go north
+[north]
+DD01800
+Go east
+[east]
+DD02200
+Go west
+[west]
+DD02400
+
+
+
+
+
+
+
+DD02400
+You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south.
+Go north
+[north]
+DD01900
+Go west
+[west]
+DD02500
+Go east
+[east]
+DD02300
+
+
+
+
+
+
+
+DD02500
+Amidst the unforgiving desert, your weary steps lead you to a serene oasis, a verdant refuge against the scorching sands. Surrounded by lush palm trees and the shimmering waters of a cool pool, the oasis provides a much-needed respite from the harsh desert terrain, offering both refreshment and a moment of peace on your journey.
+Go north
+[north]
+DD02000
+Go east
+[east]
+DD02400
+Go west
+[west]
+DD02600
+
+
+
+
+
+
+
+DD02600
+You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south, and if you head any farther west, you’ll end up getting lost in the endless sand.
+Go north
+[north]
+DD02100
+Go east
+[east]
+DD02500
+
+
+
+
+
+
+
+
+
