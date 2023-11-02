@@ -842,6 +842,8 @@ GC10063
 
 
 
+
+
 GC10057
 As I strode into the giant's castle, feeling more like a minuscule intruder than ever, I spotted a massive, antiquated fan that looked like it could've been used to cool a prehistoric dinosaur rave. My heart pounded like a tiny drum as I tiptoed towards the switch, which seemed to be designed for a creature with fingers the size of tree trunks. With all the grace of a squirrel attempting ballet, I stretched, jumped, and eventually, on my third heroic attempt, slapped the switch. The fan, awakening with a groan that echoed through the castle like a tired giant's snore, began to spin with all the subtlety of a bull in a china shop. I couldn't help but wonder if this was a giant's idea of a prank – turning a simple fan into a whirlwind adventure for a pint-sized troublemaker like me.
 Try to fly up to the table with a giant paper airplane with a gust of wind
@@ -1201,6 +1203,7 @@ GC10052
 
 
 
+
 GC10078
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
@@ -1353,6 +1356,9 @@ GC10085
 Use the giant tape measure 
 Measure
 GC10103
+
+
+
 
 
 
@@ -1624,9 +1630,6 @@ GC10107
 Read The Giants Diary
 Diary
 GC10108
-
-
-
 
 
 
