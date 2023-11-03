@@ -218,7 +218,7 @@ GC10022
 Picture this: You, with a wild glint in your eye and a cape billowing dramatically behind you, decided to conquer the giants' castle in search of a legendary cheese wheel rumored to be stashed in their treasure trove. With all the courage of a lactose-intolerant mouse, you embarked on your daring descent down their mammoth staircase. But alas, your enthusiasm far exceeded your understanding of basic physics. In a comedic twist of fate, you tripped on your own cape, tumbled head over heels, and performed a series of accidental acrobatics that would have made Cirque du Soleil jealous. The giants, meanwhile, gathered around, not to fight you, but to watch the most entertaining show they'd seen in ages. Your epic descent concluded with a cheese-shaped splat at the bottom, forever proving that when it comes to cheese quests, it's a gouda idea to take the elevator.
 You Died!
 Restart
-LS00100
+LS00200
 
 
 
