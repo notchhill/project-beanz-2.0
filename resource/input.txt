@@ -576,7 +576,7 @@ DD01700
 
 
 DD01500
-Laced between the rippling heatwaves, you spot… the sun? No. What else could be reflecting light at such a high intensity, but a structure made of mirrors? It must be the Mirror Palace! You squint and shield your eyes as you make your way towards the palace. At its foot, the palace’s luminescence totally dominates the surrounding area; even the sand is too bright to look at.
+Laced between the rippling heatwaves, you spot… the sun? No. What else could be reflecting light at such a high intensity, but a structure made of mirrors? It must be the Mirror Palace! You squint and shield your eyes against the light being reflected from every inch of the Mirror Palace’s surface. At its foot, the palace’s luminescence totally dominates the surrounding area; even the sand is too bright to look at.
 Go east
 east
 DD01600
