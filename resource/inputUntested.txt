@@ -1366,7 +1366,6 @@ GC10103
 
 
 
-
 GC10087
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
@@ -1889,7 +1888,6 @@ GC10109
 
 
 
-
 FF00100
 As I ventured deeper into the surreal forest, my jaw dropped in awe at the mesmerizing sight that surrounded me. The leaves on the towering trees above were not your typical foliage; they were intricate fractals, each one a stunning blend of mathematical precision and natural beauty. It felt as if I had stumbled into a mathematician's dream, where nature herself had mastered the art of geometry. The sunlight filtering through the fractal leaves cast a kaleidoscope of patterns on the forest floor, creating an otherworldly atmosphere. The very ground I walked on seemed to pulse with the harmonious rhythm of mathematical wonder. Continuing my exploration, I reached the forest's edge, where a vast, flowing river stretched out before me. As I gazed across, I noticed an enormous log serving as a bridge. This wasn't just any log; it was a colossal wooden behemoth, spanning the river like a titanic natural bridge. Its gnarled surface and enormous size made it appear as if it had been plucked from a fairy tale. As I approached, I marveled at the sheer scale of the log, and the sound of the river rushing below was a soothing symphony. I couldn't help but feel like a tiny explorer in a land where even the planet's shape was as peculiar as the fractal foliage above - a place where nature's oddities knew no bounds.
 Cross the river via the log
@@ -1985,7 +1983,6 @@ After what felt like an eternity, I was finally set free from my bizarre impriso
 Thank them for releasing you and head on your way
 Thank
 FF00900
-
 
 
 
