@@ -27,12 +27,12 @@ FF06900
 Explore the clearing behind the hut
 hut
 FF08700
-option4TextBlurb;
-option4ChoiceText;
-option4screenID;
-option5TextBlurb;
-option5ChoiceText;
-option5screenID;
+
+
+
+
+
+
 
 FF01900
 As you approach the towering tree-house, the lively sounds of a mock battle grow louder. Laughter and playful taunts fill the air as the inhabitants engage in a spirited melee. You grasp your imaginary sword, its invisible weight reassuring in your hand. Now, at the precipice of the playful war, you must make a crucial choice. Will you make your stand on the ramparts, offering a commanding view of the battleground, or venture into the bustling courtyard where the skirmish rages on, or perhaps, with a daring heart, make your way to the throne room where the highest stakes may await? Your decision awaits.
