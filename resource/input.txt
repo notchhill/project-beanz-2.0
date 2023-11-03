@@ -16,6 +16,240 @@ Press Any Key To Continue
 
 LS00200
 
+LS00200
+Main Menu
+Start Game
+start
+LS00300
+Quit Game
+quit
+LS00300
+
+
+
+
+
+
+
+
+
+
+LS00300
+{story intro text goes here}
+
+
+
+
+
+
+
+
+
+
+
+
+Type start
+start
+BC00100
+
+BC00100
+Welcome to Beancouver, a picturesque village nestled amidst rolling hills. The air is filled with the inviting aroma of fresh beans. On one side, a diligent bean farmer tends to vibrant bean plants in a sun-kissed field. On the opposite side, you discover Chef Garbanzo's Lean Bean Cuisine, a quaint restaurant renowned for its delectable bean-based dishes. Beancouver is a charming place that embraces the magic of beans in both its fields and its cuisine.
+Talk to the farmer
+talk
+BC00200
+Go to the restaurant
+restaurant
+BC00300
+
+
+
+
+
+
+
+
+
+
+BC00200
+As you approach the farmer in the midst of the verdant bean fields, his weathered hands and the warm, gentle sun create a picturesque backdrop for your encounter. The farmer's gaze exudes kindness and inquisitiveness, and the rustling of bean leaves in the breeze adds a soothing and melodic quality to the moment. You stand at the precipice of a conversation with this guardian of the beans, ready to learn about the events of the previous night, as the vibrant field sets the stage for this intriguing encounter.
+Ask "What happened here last night?"
+ask
+BC00400
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+
+BC00400
+The farmer begins to share his knowledge and insights with you, his words flowing like a gentle stream of wisdom. He speaks of the history of the beans, the secrets of their cultivation, and the challenges faced by the bean fields. His stories are filled with a deep connection to the land, and you can feel the passion he holds for his craft. As the conversation unfolds, you find yourself drawn into a world of beans, both ordinary and extraordinary, and the knowledge you gain from the farmer enriches your understanding of this unique village.
+Go to the restaurant to talk to the chef
+restaurant
+BC00300
+
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+
+
+BC00300
+As you step into the cozy restaurant, you're greeted by the delightful aroma of various bean dishes being prepared in Chef Garbanzo's Lean Bean Cuisine. The chef, a friendly and talented culinary artist, stands behind the counter, orchestrating a symphony of flavors. You strike up a conversation, and the chef's eyes light up as they share their passion for beans and the art of creating mouthwatering bean-based dishes. You can't help but be captivated by the stories of culinary experiments, secret recipes, and the magic of beans that Chef Garbanzo imparts. Talking to the chef feels like a journey into the heart of Beancouver's culinary world, and you're eager to learn more.
+Talk to the chef
+talk
+BC00500
+Go to the village square
+square
+BC00600
+
+   
+   
+   
+   
+   
+   
+   
+   
+  
+ BC00500
+As you approach the chef, a skilled artisan in the culinary world, you can't help but admire the organized chaos of the kitchen. Pots and pans clatter, and the delightful scents of simmering bean-based dishes waft through the air. With curiosity, you strike up a conversation with the chef, their face lighting up as they share the tales of last night's events in the village. Their account is filled with flavorful details, like the ingredients in a well-crafted dish, and as you listen, you become increasingly drawn into the mystery. The beans in the kitchen may hold the key to the secrets that unfolded, and you're eager to uncover the truth.
+What happened here last night?
+ask
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+
+
+
+
+BC00700
+As you converse with the chef, they reveal a series of intriguing stories and tidbits about recent events in Beancouver. Their animated storytelling paints a vivid picture of the village square, where various mysteries unfolded. The chef's tales are seasoned with details of lively gatherings, enigmatic occurrences, and the magical allure of the square at night. With every word, your curiosity deepens, and it becomes clear that the village square holds the key to understanding the events that transpired. The chef's narrative acts as an irresistible invitation to explore the square and unravel the mysteries that await.
+Go to the village square
+go
+BC00600
+
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+
+
+BC00600
+In the heart of Beancouver, the village square bustles with life and activity. The square is a hub of community interaction and commerce, where various intriguing characters play their roles. To your left, the friendly bean vendor proudly displays an array of beans and offers a taste of Beancouver's bean delicacies. To your right, the diligent blacksmith forges and repairs tools, the rhythmic clang of metal echoing in the air. Near the center, the cheerful butcher showcases a selection of fresh meats, and further ahead, the town crier, with a commanding presence, delivers the latest news and announcements to the attentive villagers.
+Ask the bean vendor
+ask
+BC00800
+Ask the blacksmith
+question
+BC00900
+Ask the butcher
+interrogate
+BC01000
+Ask the town crier
+listen
+BC01100
+   
+   
+   
+   
+BC00800
+Amidst the vibrant square, the bean vendor welcomes you with a warm smile, surrounded by an impressive display of colorful beans. As you engage in conversation, their eyes light up with excitement, and they eagerly recount tales of the towering beanstalk that has sprouted nearby. With vivid descriptions and enthusiasm, the vendor weaves a narrative of the beanstalk's legendary nature, its mythical allure, and the mysteries that may await at its peak. You can't help but be captivated by their words, and the call to adventure is clear—journey to the magnificent beanstalk and uncover the secrets it holds.
+Go to the beanstalk
+go
+GC00100
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+
+
+
+BC00900
+In the bustling village square, you approach the skilled blacksmith with the rhythmic ring of metal filling the air. With a friendly nod, you engage in a conversation, and the blacksmith eagerly shares stories of the remarkable beanstalk that has recently sprouted. Their words resonate with the deep admiration they hold for the beanstalk and the curiosity it has ignited. The blacksmith's enthusiasm is infectious, and you find yourself drawn to embark on a journey to the towering beanstalk, eager to uncover the secrets it may hold.
+Go to the beanstalk
+go
+GC00100
+
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+BC01000
+Amidst the lively village square, you approach the jovial butcher as the delightful aroma of fresh meats wafts through the air. In a friendly exchange, the butcher shares stories of the legendary beanstalk that has recently sprung up nearby. Their tales are filled with excitement and wonder, and it's clear that the butcher is captivated by the beanstalk's allure. As you listen, you can't help but feel a growing curiosity about the magnificent plant. The butcher's words serve as an irresistible call to adventure, urging you to journey to the towering beanstalk and uncover the mysteries it holds.
+Go to the beanstalk
+go
+GC00100
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+BC01100
+Amid the bustling village square, you approach the town crier, whose commanding presence demands attention. As they share their stories and announcements with unwavering enthusiasm, you find yourself drawn into tales of the legendary beanstalk that has recently grown near the square. The town crier's words are filled with the same mystery and excitement that seem to envelop the beanstalk. You can't resist the call to venture to the towering plant and uncover the secrets that await at its peak.
+Go to the beanstalk
+go
+GC00100
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
 FF06700
 You find a quaint forest gnome's hut nestled in the heart of the enchanting forest. The trees have fractal-like leaves, and the hut, with its charming design, boasts a basement, a ladder to the roof, a well-tended garden out front, and a small storage shed behind it.
 Climb up the ladder
