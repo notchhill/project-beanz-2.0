@@ -38,16 +38,20 @@ int main()
 
   int i;
   std::cin >> i;
+
   /*
-  GameScreenLinkedList gameSequence; (we create a GameScreenLinkedList)
-  GameScreenLinkedList* current; (set it to the head -- the load screen)
-  load(input.txt, current)
-  while ('the player hasn't quit the program') {
-    display(current); (hopefully the player is at the main menu screen)
+  
+  GameScreenLinkedList gameSequence;
+  GameScreenLinkedList* current = &gameSequence;
+  gameSequence.load(input.txt, &gameSequence);
+  while (1) {
+    display(current);
     std::string playerIn;
     std::cin >> playerIn;
-    GameScreenLinkedList* current = gameSequence.search(playerIn); (the next game screen is determined by the player's input.)
+    std::string screenID = 
+    current = gameSequence.search(playerIn, gameSequence);
   }
+  gameSequence.clear(gameSequence);
   */
   
   return 0;
