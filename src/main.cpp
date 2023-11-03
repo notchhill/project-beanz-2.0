@@ -22,6 +22,7 @@ int main()
 {
   system("mode con: cols=120 lines=20");
   system("cls");
+  /*
   std::cout << "You find a quaint forest gnome's hut nestled in the heart of the enchanting forest. ";
   std::cout << "The trees have fractal-like leaves, and the hut, with its charming design, boasts a basement, a ";
   std::cout << "ladder to the roof, a well-tended garden out front, and a small storage shed behind it." << std::endl;
@@ -37,10 +38,9 @@ int main()
   std::cout << std::endl;
 
   int i;
-  std::cin >> i;
+  std::cin >> i; 
+  */
 
-  /*
-  
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* current = &gameSequence;
   gameSequence.load(input.txt, &gameSequence);
@@ -48,11 +48,12 @@ int main()
     display(current);
     std::string playerIn;
     std::cin >> playerIn;
-    std::string screenID = 
-    current = gameSequence.search(playerIn, gameSequence);
+    std::string nextScreenID = gameSequence.match(playerInput, current);
+    if(nextScreenID != NULL){
+      current = gameSequence.search(nextScreenID, gameSequence);
+    }
   }
   gameSequence.clear(gameSequence);
-  */
   
   return 0;
 }
