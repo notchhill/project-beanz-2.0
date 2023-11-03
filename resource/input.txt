@@ -37,13 +37,13 @@ option5screenID;
 FF01900
 As you approach the towering tree-house, the lively sounds of a mock battle grow louder. Laughter and playful taunts fill the air as the inhabitants engage in a spirited melee. You grasp your imaginary sword, its invisible weight reassuring in your hand. Now, at the precipice of the playful war, you must make a crucial choice. Will you make your stand on the ramparts, offering a commanding view of the battleground, or venture into the bustling courtyard where the skirmish rages on, or perhaps, with a daring heart, make your way to the throne room where the highest stakes may await? Your decision awaits.
 Make haste to the ramparts
-[ramparts]
+ramparts
 FF02000
 Take your position in the courtyard
-[courtyard]
+courtyard
 FF02100
 Defend the throne room
-[throne]
+throne
 FF02200
 
 
@@ -55,10 +55,10 @@ FF02200
 FF02000
 Upon reaching the ramparts, you find yourself facing two formidable opponents. To your left, an archer with a quiver of imaginary arrows at the ready, eyes locked onto you with an uncanny accuracy. To your right, a wizard, conjuring ethereal spells in the palm of their hand, a hint of mischief in their eyes. With your imaginary sword gripped tightly, you must decide which opponent to engage first. Do you challenge the archer, aiming for a swift and precise victory, or do you confront the enigmatic wizard, ready to test your mettle against their arcane abilities? The choice is yours, and your fate hangs in the balance.
 Swing at the archer
-[archer]
+archer
 FF02300
 Swing at the wizard
-[wizard]
+wizard
 FF02900
 
 
@@ -73,10 +73,10 @@ FF02900
 FF02100
 Entering the bustling courtyard, you find yourself amidst the heart of the mock battle. Playful combatants clash all around, swords clashing and laughter echoing through the air. In front of you stand two opponents. To your left, an archer with a quiver of imaginary arrows at the ready, eyes locked onto you with uncanny accuracy. To your right, a wizard, conjuring ethereal spells in the palm of their hand, a hint of mischief in their eyes. With your imaginary sword in hand, you must now choose who to engage in combat with first. Do you challenge the archer, aiming for a swift and precise victory, or do you confront the enigmatic wizard, ready to test your mettle against their arcane abilities? The courtyard awaits your decision.
 Swing at the archer
-[archer]
+archer
 FF02500
 Swing at the wizard
-[wizard]
+wizard
 FF03100
 
 
@@ -91,10 +91,10 @@ FF03100
 FF02200
 As you enter the regal throne room, an air of grandeur surrounds you, a stark contrast to the mock battle outside. Within, you face two formidable opponents. To your left, an archer with a quiver of imaginary arrows, poised with an air of precision. To your right, a wizard, their eyes brimming with arcane energy, ready to unleash powerful spells. With your imaginary sword at the ready, you must choose who to engage in combat with first. Will you take on the archer, hoping to outmaneuver their arrows in the grandeur of the throne room, or challenge the wizard in a test of wits and bravery amidst the opulence of the regal chamber? Your choice determines your path in this unexpected battle.
 Swing at the archer
-[archer]
+archer
 FF02700
 Swing at the wizard
-[wizard]
+wizard
 FF03300
 
 
@@ -109,7 +109,7 @@ FF03300
 FF02300
 With a skilled and swift display of swordsmanship, you bested the archer upon the ramparts. As they yield to your prowess, you now stand victorious, ready to face your next challenge. The enigmatic wizard awaits, a shimmer of anticipation in their eyes. With your imaginary sword held high, you steel yourself for the upcoming clash of steel and sorcery. The wizard's spells crackle with energy, and the outcome of this duel lies in your hands. Engage the wizard, and may your bravery and skill prevail once more.
 Swing at the wizard
-[wizard]
+wizard
 FF02400
 
 
@@ -127,7 +127,7 @@ FF02400
 FF02400
 Having vanquished the archer on the ramparts, you turn your attention to the enigmatic wizard. With deft moves and a determined spirit, you successfully overcome the wizard's arcane prowess. As the wizard concedes defeat, they hand you a valuable reward—a map leading to a place known as "The Hut." It's a newfound piece of knowledge and a key to your adventure's continuation. With this newfound information in hand, you're one step closer to uncovering the secrets that await you in this imaginative world.
 Collect the map to the hut and proceed onwards
-[map]
+map
 FF06700
 
 
@@ -145,7 +145,7 @@ FF06700
 FF02500
 Amidst the bustling courtyard, you emerge victorious in a duel against the agile archer. As they concede defeat, you stand triumphant, ready to face your next adversary. To your right, the enigmatic wizard awaits, their eyes filled with an air of mystique. With your imaginary sword at the ready, you brace yourself for the upcoming battle of steel and sorcery. The wizard's spells crackle with arcane energy, and the outcome of this magical encounter hinges on your decision. Face the wizard, and may your bravery and skill prove victorious once again.
 Swing at the wizard
-[wizard]
+wizard
 FF02600
 
 
@@ -163,7 +163,7 @@ FF02600
 FF02600
 Within the bustling courtyard, you emerged victorious after defeating the skilled archer. Now, you face the enigmatic wizard, demonstrating your determination and skill. With a display of bravery and finesse, you successfully overcome the wizard's mystical abilities. In acknowledgment of your victory, the wizard presents you with a valuable reward—a map leading to a mysterious location known as "The Hut." This newfound knowledge paves the way for your next adventure, promising secrets and challenges yet to be uncovered in this fantastical realm.
 Collect the map to the hut and proceed onwards
-[map]
+map
 FF06700
 
 
@@ -181,7 +181,7 @@ FF06700
 FF02700
 In the resplendent throne room, you emerge triumphant in your initial encounter, besting the archer with grace and skill. As they yield to your prowess, you now turn your attention to your next challenge. To your right, the enigmatic wizard awaits, their eyes filled with an aura of arcane power. With your imaginary sword raised high, you prepare for the upcoming clash of steel and sorcery. The wizard's spells crackle with otherworldly energy, and the outcome of this mystical duel depends on your choices. Engage the wizard, and may your courage and expertise shine once again within the opulent confines of the throne room.
 Swing at the wizard
-[wizard]
+wizard
 FF02800
 
 
@@ -199,7 +199,7 @@ FF02800
 FF02800
 Within the grandeur of the throne room, you emerged victorious in your initial battle against the archer, showcasing your mastery of the sword. With confidence, you turned your attention to the enigmatic wizard. Through a display of courage and skill, you managed to defeat the wizard, whose arcane power could not stand against your determination. In recognition of your prowess, the wizard presents you with a valuable reward—a map leading to a hidden location known as "The Hut." This newfound knowledge is a key to your ongoing adventure, promising further mysteries and challenges to be unveiled in this captivating world.
 Collect the map to the hut and proceed onwards
-[map]
+map
 FF06700
 
 
@@ -217,7 +217,7 @@ FF06700
 FF02900
 Opting for a bold challenge, you decided to confront the enigmatic wizard on the ramparts. Through a blend of bravery and skill, you managed to overcome the wizard's mystical abilities and secure a hard-fought victory. With the wizard's defeat, you now turn your attention to the archer who awaits your next move. Armed with your imaginary sword, you prepare to engage the archer in battle, ready to test your agility and precision against their swift and accurate shots. The archer stands poised for the encounter, and your triumph over them is your next objective in this thrilling mock battle.
 Swing at the archer
-[archer]
+archer
 FF03000
 
 
@@ -235,7 +235,7 @@ FF03000
 FF03000
 With your courage and skill, you prove victorious in your battle against the archer on the ramparts. The archer concedes defeat, and in recognition of your triumph, they hand you a valuable reward—a map that reveals the path to a secretive location known as "The Hut." This newfound knowledge is a pivotal step in your ongoing adventure, hinting at intriguing secrets and challenges yet to be uncovered in this fantastical world.
 Collect the map to the hut and proceed onwards
-[map]
+map
 FF06700
 
 
@@ -253,7 +253,7 @@ FF06700
 FF03100
 Opting for a daring challenge, you confronted the enigmatic wizard within the bustling courtyard. Through your bravery and skill, you successfully overcame the wizard's mystical abilities, securing a hard-fought victory. With the wizard vanquished, you now turn your attention to the archer who stands as your next opponent. Armed with your imaginary sword, you prepare to engage the archer in battle, ready to test your agility and precision against their swift and accurate shots. The archer awaits your challenge, and your ultimate goal in this thrilling mock battle is to claim victory once more.
 Swing at the archer
-[archer]
+archer
 FF03200
 
 
@@ -271,7 +271,7 @@ FF03200
 FF03200
 With your unwavering courage and skill, you emerge victorious in your battle against the archer within the bustling courtyard. The archer concedes defeat, and in recognition of your triumph, they hand you a valuable reward—a map revealing the path to a hidden destination known as "The Hut." This newfound knowledge is a significant step in your ongoing adventure, promising a journey filled with intriguing secrets and challenges yet to be uncovered in this captivating world.
 Collect the map to the hut and proceed onwards
-[map]
+map
 FF06700
 
 
@@ -289,7 +289,7 @@ FF06700
 FF03300
 In the opulent throne room, you make the bold choice to engage in combat with the enigmatic wizard. With unwavering determination and skill, you successfully overcome the wizard's arcane prowess, securing a hard-earned victory. Now, you turn your attention to the archer, poised and ready to face your next opponent. Armed with your imaginary sword, you prepare to challenge the archer, ready to test your agility and precision against their swift and accurate shots. The archer awaits your challenge, and your ultimate goal in this thrilling mock battle is to claim victory once more.
 Swing at the archer
-[archer]
+archer
 FF03400
 
 
@@ -307,8 +307,9 @@ FF03400
 FF03400
 With your unwavering courage and skill, you emerge victorious in your battle against the archer within the throne room. The archer concedes defeat, and as a token of your success, they hand you a valuable reward—a map revealing the path to a concealed location known as "The Hut." This newfound knowledge is a significant step in your ongoing adventure, promising a journey filled with intriguing secrets and challenges yet to be uncovered in this captivating world.
 Collect the map to the hut and proceed onwards
-[map]
+map
 FF06700
+
 
 
 
@@ -325,13 +326,13 @@ FF06700
 DD00100
 You find yourself standing in a vast, scorching desert, its golden sands stretching as far as the eye can see. The sun beats down relentlessly, casting shimmering waves of heat across the barren landscape. Your quest for a fabled magic bean has brought you to this unforgiving terrain, guided by rumors of a lost civilization and their mysterious mirror palace. With each step, the soft grains of sand shift beneath your feet, and the distant dunes appear like elusive mirages. As you venture deeper into the desert, the legends of the lost civilization and their mirror palace fuel your determination, for you believe that the magic bean might be hidden within its secrets. The mysteries and challenges of this arid world await, and your journey to the heart of the desert holds the promise of uncovering the truth.
 Go north
-[north]
+north
 DD00300
 Go west
-[west]
+west
 DD00400
 Go south
-[south]
+south
 DD00500
 
 
@@ -343,13 +344,13 @@ DD00500
 DD00200
 You continue your trek through the desert; sand stretches to the horizon in all directions. If you go anymore east, you’ll be heading back to Beancouver.
 Go north
-[north]
+north
 DD00300
 Go south
-[south]
+south
 DD00500
 Go west
-[west]
+west
 DD00400
 
 
@@ -361,13 +362,13 @@ DD00400
 DD00300
 You continue your trek through the desert; sand stretches to the horizon in all directions. The dunes here are particularly difficult to scale. If you go anymore east, you’ll be heading back to Beancouver.
 Go south
-[south]
+south
 DD00200
 Go north
-[north]
+north
 DD00600
 Go west
-[west]
+west
 DD01100
 
 
@@ -379,16 +380,16 @@ DD01100
 DD00400
 You continue your trek through the desert; sand stretches to the horizon in all directions.
 Go west
-[west]
+west
 DD01500
 Go south
-[south]
+south
 DD01800
 Go east
-[east]
+east
 DD00200
 Go north
-[north]
+north
 DD01100
 
 
@@ -397,13 +398,13 @@ DD01100
 DD00500
 You continue your trek through the desert; sand stretches to the horizon in all directions. If you go anymore east, you’ll be heading back to Beancouver.
 Go south
-[south]
+south
 DD02200
 Go north
-[north]
+north
 DD00200
 Go west
-[west]
+west
 DD01800
 
 
@@ -415,10 +416,10 @@ DD01800
 DD00600
 You continue your trek through the desert; the dunes here are particularly difficult to scale. To the north, the desert gives way to a towering, rocky cliff face, and if you go anymore east, you’ll be heading back to Beancouver.
 Go west
-[west]
+west
 DD00700
 Go south
-[south]
+south
 DD00300
 
 
@@ -433,13 +434,13 @@ DD00300
 DD00700
 You continue your trek through the desert; the dunes here are particularly difficult to scale. To the north, the desert gives way to a towering, rocky cliff face.
 Go east
-[east]
+east
 DD00600
 Go south
-[south]
+south
 DD01100
 Go west
-[west]
+west
 DD00800
 
 
@@ -451,13 +452,13 @@ DD00800
 DD00800
 You continue your trek through the desert; the dunes here are particularly difficult to scale. To the north, the desert gives way to a towering, rocky cliff face.
 Go west
-[west]
+west
 DD00900
 Go south
-[south]
+south
 DD01200
 Go east
-[east]
+east
 DD00700
 
 
@@ -469,13 +470,13 @@ DD00700
 DD00900
 You continue your trek through the desert. To the north, the desert gives way to a towering, rocky cliff face.
 Go east
-[east]
+east
 DD00800
 Go south
-[south]
+south
 DD01300
 Go west
-[west]
+west
 DD01000
 
 
@@ -487,10 +488,10 @@ DD01000
 DD01000
 You continue your trek through the desert. To the north, the desert gives way to a towering, rocky cliff face, and if you head any farther west, you’ll end up getting lost in the endless sand.
 Go east
-[east]
+east
 DD00900
 Go south
-[south]
+south
 DD01400
 
 
@@ -505,16 +506,16 @@ DD01400
 DD01100
 You continue your trek through the desert; sand stretches to the horizon in all directions. The dunes here are particularly difficult to scale.
 Go west
-[west]
+west
 DD01200
 Go north
-[north]
+north
 DD00700
 Go east
-[east]
+east
 DD00300
 Go south
-[south]
+south
 DD00400
 
 
@@ -523,16 +524,16 @@ DD00400
 DD01200
 You continue your trek through the desert; sand stretches to the horizon in all directions.
 Go east
-[east]
+east
 DD01100
 Go north
-[north]
+north
 DD00800
 Go south
-[south]
+south
 DD01300
 Go west
-[west]
+west
 DD01500
 
 
@@ -541,16 +542,16 @@ DD01500
 DD01300
 You continue your trek through the desert; sand stretches to the horizon in all directions.
 Go west
-[west]
+west
 DD01400
 Go north
-[north]
+north
 DD00900
 Go south
-[south]
+south
 DD01600
 Go east
-[east]
+east
 DD01200
 
 
@@ -559,13 +560,13 @@ DD01200
 DD01400
 You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you’ll end up getting lost in the endless sand.
 Go east
-[east]
+east
 DD01300
 Go north
-[north]
+north
 DD01000
 Go south
-[south]
+south
 DD01700
 
 
@@ -577,16 +578,16 @@ DD01700
 DD01500
 Laced between the rippling heatwaves, you spot… the sun? No. What else could be reflecting light at such a high intensity, but a structure made of mirrors? It must be the Mirror Palace! You squint and shield your eyes as you make your way towards the palace. At its foot, the palace’s luminescence totally dominates the surrounding area; even the sand is too bright to look at.
 Go east
-[east]
+east
 DD01600
 Go south
-[south]
+south
 DD01900
 Go north
-[north]
+north
 DD01200
 Go west
-[west]
+west
 DD01500
 Enter the palace
 enter
@@ -595,16 +596,16 @@ DD02700
 DD01600
 You continue your trek through the desert; sand stretches to the horizon in all directions.
 Go south
-[south]
+south
 DD02000
 Go west
-[west]
+west
 DD01700
 Go north
-[north]
+north
 DD01300
 Go east
-[east]
+east
 DD01500
 
 
@@ -613,13 +614,13 @@ DD01500
 DD01700
 You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you’ll end up getting lost in the endless sand.
 Go north
-[north]
+north
 DD01400
 Go east
-[east]
+east
 DD01600
 Go south
-[south]
+south
 DD02100
 
 
@@ -631,16 +632,16 @@ DD02100
 DD01800
 You continue your trek through the desert; sand stretches to the horizon in all directions.
 Go south
-[south]
+south
 DD02300
 Go north
-[north]
+north
 DD00400
 Go east
-[east]
+east
 DD00500
 Go west
-[west]
+west
 DD01900
 
 
@@ -649,16 +650,16 @@ DD01900
 DD01900
 You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun.
 Go south
-[south]
+south
 DD02400
 Go north
-[north]
+north
 DD01500
 Go west
-[west]
+west
 DD02000
 Go east
-[east]
+east
 DD01800
 
 
@@ -667,16 +668,16 @@ DD01800
 DD02000
 You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun.
 Go north
-[north]
+north
 DD01600
 Go west
-[west]
+west
 DD02100
 Go east
-[east]
+east
 DD01900
 Go south
-[south]
+south
 DD02500
 
 
@@ -685,13 +686,13 @@ DD02500
 DD02100
 You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun. If you head any farther west, you’ll end up getting lost in the endless sand.
 Go south
-[south]
+south
 DD02600
 Go east
-[east]
+east
 DD02000
 Go north
-[north]
+north
 DD01700
 
 
@@ -703,10 +704,10 @@ DD01700
 DD02200
 You continue your trek through the desert. The desert gives way to a savanna to the south, and if you go anymore east, you’ll be heading back to Beancouver.
 Go north
-[north]
+north
 DD00500
 Go west
-[west]
+west
 DD02300
 
 
@@ -721,13 +722,13 @@ DD02300
 DD02300
 You continue your trek through the desert. The desert gives way to a savanna to the south.
 Go north
-[north]
+north
 DD01800
 Go east
-[east]
+east
 DD02200
 Go west
-[west]
+west
 DD02400
 
 
@@ -739,13 +740,13 @@ DD02400
 DD02400
 You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south.
 Go north
-[north]
+north
 DD01900
 Go west
-[west]
+west
 DD02500
 Go east
-[east]
+east
 DD02300
 
 
@@ -757,13 +758,13 @@ DD02300
 DD02500
 Amidst the unforgiving desert, your weary steps lead you to a serene oasis, a verdant refuge against the scorching sands. Surrounded by lush palm trees and the shimmering waters of a cool pool, the oasis provides a much-needed respite from the harsh desert terrain, offering both refreshment and a moment of peace on your journey.
 Go north
-[north]
+north
 DD02000
 Go east
-[east]
+east
 DD02400
 Go west
-[west]
+west
 DD02600
 
 
@@ -775,10 +776,10 @@ DD02600
 DD02600
 You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south, and if you head any farther west, you’ll end up getting lost in the endless sand.
 Go north
-[north]
+north
 DD02100
 Go east
-[east]
+east
 DD02500
 
 
