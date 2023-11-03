@@ -29,7 +29,7 @@ class GameScreenLinkedList {
 		GameScreenLinkedList* next;
 
 		std::string screenID;
-        std::string screenText;
+        	std::string screenText;
 
 		struct option {
 			std::string optionTextBlurb;
