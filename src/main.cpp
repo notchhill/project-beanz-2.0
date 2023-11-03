@@ -44,6 +44,7 @@ int main()
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* current = &gameSequence;
   gameSequence.load(input.txt, &gameSequence);
+  // We decided to just have Ctrl + c as killing the program for now.
   while (1) {
     display(current);
     std::string playerIn;
