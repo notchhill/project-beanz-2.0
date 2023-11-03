@@ -64,7 +64,7 @@ class GameScreenLinkedList {
 		//Otherwise, return NULL.
 
 
-		GameScreenLinkedList* match(const std::string playerInput, const GameScreenLinkedList* currentNode);
+		std::string match(const std::string playerInput, const GameScreenLinkedList* currentNode);
 		//Matches the input that the player has entered with the input for each option of currentNode.
 		//If it matches, return the associated screenID.
 		//Otherwise, return NULL.
