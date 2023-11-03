@@ -790,3 +790,39 @@ DD02500
 
 
 
+
+BC01200
+As you return to Beancouver, your home, a warm sense of accomplishment washes over you. The townspeople cheerfully welcome you back from your epic journey, having heard tales of your quest to collect the fabled magic beans. Their gratitude and admiration shine in their eyes as they gather to celebrate your triumphant return. You make your way to Chef Garbonzo's Lean Bean Cuisine. His warm smile and hearty congratulations fill you with pride as he expresses his gratitude for your efforts. With a sense of anticipation, you present Chef Garbonzo with the precious magic beans you've collected throughout your adventure. Chef Garbonzo holds a hand to his heart, "Those are just the ingredients I need to create my magnum opus! Thank you! Thank you, from the bottom of my heart." Chef Garbonzo holds out his hands, ready to accept the magic beans.
+Give the beans to the chef
+give
+LS00400
+
+
+
+
+
+
+
+
+
+
+
+
+
+LS00400
+Congratualtions, you won the game!! After receiving the magic beans, Chef Garbonzo went on to create his magnum opus, a dish which would surely be remembered for years to come in Beancouver. Whatever happens next is a tale for another time. Until then, we hope you'll continue to explore new worlds, and listen to new stories. Thank you so much for playing our game. I guess you could say, it *beans* the world to us :)
+
+
+
+
+
+
+
+
+
+
+
+
+Press Enter
+
+LS00200
