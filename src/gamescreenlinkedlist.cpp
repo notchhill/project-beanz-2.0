@@ -41,7 +41,7 @@ void GameScreenLinkedList::display(GameScreenLinkedList* node) {
 @param GameScreenLinkedList* head ; The head node of the list
 @return const GameScreenLinkedList* ; The found node
 */
-const GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  GameScreenLinkedList* head) const {  
+GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  GameScreenLinkedList* head) const {  
     /*for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
     {
         if(temp->screenID == screenID)
@@ -57,6 +57,29 @@ const GameScreenLinkedList* GameScreenLinkedList::search(const std::string scree
     return search;
 }
 
+
+std::string GameScreenLinkedList::match(const std::string playerInput, const GameScreenLinkedList* currentNode){
+	if(currentNode == NULL || playerInput == ""){
+		return NULL;
+	}
+
+	if(playerInput == currentNode->option1.optionChoiceText){
+		return currentNode->option1.optionscreenID;
+	}
+	if(playerInput == currentNode->option2.optionChoiceText){
+		return currentNode->option2.optionscreenID;
+	}
+	if(playerInput == currentNode->option3.optionChoiceText){
+		return currentNode->option3.optionscreenID;
+	}
+	if(playerInput == currentNode->option4.optionChoiceText){
+		return currentNode->option4.optionscreenID;
+	}
+	if(playerInput == currentNode->option5.optionChoiceText){
+		return currentNode->option5.optionscreenID;
+	}
+	return NULL;
+}
 
 /*
 @brief Deletes all elements from the list, and frees their memory, if necessary.
