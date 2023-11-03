@@ -14,8 +14,18 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     3.1 Programming language(s) and supporting tools.
     3.2 Directory and file naming structure.
     3.3 Implementation method for each shared data store.
-    3.4 Interface for all public services provided by the element:
-    3.5 Function Layout
+    3.4 Classes and class methods. Including parameters and return value/type.
+    3.5 Function and Class Implementations.
+        3.5.1 GameScreenLinkedList class
+            Variables
+            Methods
+                Load Method
+                Display Method
+                Match Method
+                Search Method
+                Clear Method
+        3.5.2 Functions
+            Main Routine
     3.6 File hierarchy, compilation, makefile
         3.6.1 File hierarchy
         3.6.2 Compilation
@@ -41,12 +51,12 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
     Level 2 DFD describes linked list manipulation functions
 
-    Player runs the shell script, which runs the game binary, which in turn runs main.cpp, which calls the load() function. Load function opens the input.txt file containing the text blurbs and their associated screen IDs. Load function creates a string to hold the text as well as creating a gameScreenLinkedList node. Load function then opens input.txt. Load function now uses a loop to read the first line of input.txt and puts the text into inputStuff. The screenID of the new node is set to inputStuff. This is then repeated until load() reaches the end of the file input.txt. For each of the five options associated with a single screen, load() reads the options and their associated description out of the input.txt file and puts them into the option1, option 2 etc member variables of the node. Load() will eventually reach the end of the input.txt file once all options are put into the linked list by pushBack(). The text from inputStuff is passed to pushBack() to facilitate creating the linked list.
+    Player runs the shell script, which runs the game binary, which in turn runs main.cpp, which calls the load() function. Load function opens the input.txt file containing the text blurbs and their associated screen IDs. Load function creates a string to hold the text as well as creating a gameScreenLinkedList node. Load function then opens input.txt. Load function now uses a loop to read the first line of input.txt and puts the text into inputStuff. The screenID of the new node is set to inputStuff. This is then repeated until load() reaches the end of the file input.txt. For each of the five options associated with a single screen, load() reads the options and their associated description out of the input.txt file and puts them into the option1, option 2 etc member variables of the node. Load() will eventually reach the end of the input.txt, close the file, and then end.
 
 3.0 Physical Design.
 
-    3.1 Programming language(s) and supporting tools.
-        C++, GCC.
+    3.1 Programming language(s) and compiler.
+        C++, g++.
 
     3.2 Directory and file naming structure.
         >bin
@@ -82,24 +92,69 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         option5ChoiceText;
         option5screenID;
 
-    3.4 Interface for all public services provided by the element.
-                void pushBack(GameScreenLinkedlist* node);
-                void display(GameScreenLinkedList* node);
-                const GameScreenLinkedList* const search(const std::string optionScreenID);
-                search() returns const GameScreenLinkedList
-                void clear(GameScreenLinkedList* root);
-                void load(const std::string fileName);
-                GameScreenLinkedList class
+    3.4 Classes and class methods. Including parameters and return value/type.
+                CLASSES:
+                    class: GameScreenLinkedList{};
+                METHODS: (For GameScreenLinkedList)
+                    void display(GameScreenLinkedList* node);
+                    GameScreenLinkedList* search(const std::string screenID, const GameScreenLinkedList* head) const;
+                    std::string match(const std::string playerInput, const GameScreenLinkedList* currentNode);
+                    void clear(GameScreenLinkedList* head);
+                    void load(const std::string fileName, GameScreenLinkedList* head)
 
-    3.5 Function Layout.
-            - load(filename,root) function takes the name of the input.txt file to be opened as well as the first screen that the player sees
-            - load reads from filename, creates a node with a screen ID and a text blurb drawn from filename as well as all the options, option descriptions, and IDs of the screens that the options lead to
-            - This node is passed to pushBack(node) which inserts the node at the end of the single linked list
-            - pushBack takes a gameScreenLinkedList pointer and inserts it at the end of the list
-            - search(root,screenID) traverses through the entire linked list and returns the node with the same screenID as that it was passed
-            - display(node) prints the screenText, optionChoiceTexts, and optionTextBlurbs to the terminal for the player's viewing
-            - clear(root) Clears the entire list, freeing memory
-            - input() Not part of gameScreenLinkedList class, takes input from player, and searches for and displays game screens
+    3.5 Function and Class Implementations.
+        3.5.1 GameScreenLinkedList class
+            Variables
+                - GameScreenLinkedList contains nine variables, all of which are private. 
+                - It has a GameScreenLinkedList pointer that points to the next GameScreenLinkedList in the list
+                - It has two strings: an ID, and a string for area description.
+                - It will have an 'option' datatype in the form of a struct. 
+                - The struct contains three strings: 
+                - One for text to display to the player which described the option,
+                - One single-word string which indicates to the player what to type in to select the option,
+                - And the third string will contain an ID which will match with a GameScreenLinkedList somewhere in the data.
+                - Each GameScreenLinkedList will contain five option variables. These may or may not be blank.
+            Methods
+                Load Method
+                    - Open the file named fileName, using standard library functions to open files, detect end of files, and close files.
+                    - Create a new GameScreenLinkedList object.
+                    - Read and insert the next line into the next GameScreenLinkedList string variable (listed in order in 3.3)
+                    - Loop through the step above 17 times (once for each variable), and then push the new GameScreenLinkedList object into the back of the list.
+                    - The first GameScreenLinkedList that gets created will be the first screen of the game, and the head of the list. The order of the others does not matter.
+                    - Continue doing that until end of file, then exit. No return value.
+                Display Method
+                    - Display the node's screenText, first option's blurb and text, second option's blurb and text, etc... until all of the options have been displayed.
+                    - Done using simple couts, endls. The screenText is displayed on one line, then each option and associated text are displayed a line down from the previous.
+                    - In other words, the player will see the screenText, and below that see option 1, then below that, option 2. Then below that, option 3, and so on.
+                    - The text associated with each option will be displayed after the option, encased in square brackets, and separated from the option via two hyphens. ("option blurb" -- [text])
+                    - All printed to the terminal
+                Match Method
+                    - The main routine will grab input from the player, and pass it here, along with the current GameScreenLinkedList position the player is at.
+                    - Match will compare the player's input to each of the GameScreenLinkedList's option texts. If it finds a match, it returns that option's ID. Otherwise, it returns null.
+                    - Done with five if..else statements. e.g. "If the player's input matches the first option's text, return first option's ID", and so on for all five options. Returns null if no matches exist
+                Search Method
+                    - The search method is passed the head GameScreenLinkedList, and the ID returned from the match method
+                    - Search checks if the ID it was passed, matches the head's ID (hopefully not, because that would take the player back to the beginning)
+                    - If it doesn't, it moves on to the head's next pointer, and compares the ID it was passed to that
+                    - This process is repeated until it eventually finds the correct GameScreenLinkedList, in which case it'll return a pointer to that GameScreenLinkedList.
+                    - If search fails to find a matching GameScreenLinkedList, something has gone horribly wrong.
+                Clear Method
+                    - The clear method is passed the head of the GameScreenLinkedList.
+                    - Clear will delete that GameScreenLinkedList (as it was dynamically allocated by the load function), and then move on to its next.
+                    - It will repeat that procedure until it reaches the end of the list, then it will exit and return nothing.
+        3.5.2 Functions
+            Main Routine
+                - The main routine is the only function in our program.
+                - It will define a GameScreenLinkedList, which will serve as the head of the linked list.
+                - Then, it will define a GameScreenLinkedList pointer, which points to the head
+                - The main routine then runs the load method on the head, passing input.txt and the head pointer.
+                - It then enters the main while loop. The while loop will loop until the player, at one point, returns to the main menu GameScreenLinkedList and chooses to quit.
+                - In the loop, it will call display on the current GameScreenLinkedList, then cin the player's input into a string.
+                - A new string will be defined, which will be set to the return value of match called on current. (it should return a valid GameScreenLinkedList ID.)
+                - If that string is null, we return to the beginning of the while loop to try again.
+                - If that string isn't null, it will be passed to search (called on current) in order to locate the associated GameScreenLinkedList.
+                - The current GameScreenLinkedList will be set to that newly found one, and that is the final execution within the while loop.
+                - Outside of the while loop, we will run the clear method on the GameScreenLinkedList head to free up memory, then return 0 to end the main routine.
 
     3.6 Hierarchy of files, compilation, and the makefile
             3.6.1 Hierarchy of files
