@@ -1060,3 +1060,327 @@ Congratulations, you won the game!! After receiving the magic beans, Chef Garbon
 Press Enter
 
 LS00200
+
+DD04200
+You find yourself standing at the entrance of an underground labyrinth of glass tunnels. A vast expanse of rock and sand has been excavated to accommodate an intricate network of transparent glass pipes, crisscrossing in all directions. The intricate mesh of tunnels appears to stretch endlessly, and their combined faintly blue hue dominates your vision. The light plodding of your feet sends soft echoes throughout the glass corridors. It is eerily silent. Speckled amongst the tunnels, you notice glass rooms where several tunnels converge to meet, mumch like the one you're in now. From where you're standing, you see only one path forward. Also, what appears to be a logbook rests on a nearby glass table. Perhaps it contains useful information?
+Read the log
+read
+DD04300
+Bravely venture forth into the Glass Tunnels
+forward
+DD04400
+
+
+
+
+
+
+
+
+
+
+DD04250
+It's the section of the Glass Tunnels you first arrived in.
+Read the log
+read
+DD04300
+Go forwards
+forward
+DD04400
+
+
+
+
+
+
+
+
+
+
+DD04300
+Worker's Log 1: Our construction of the wonderous Glass Tunnel Network has finally completed! Our latest masterpiece of architecture easily rivals even our most beautiful Mirror Palace above! I hope the Fire God continues to bless us with his warmth, so that we may continue smelting glass for our buildings!
+Go forwards
+forward
+DD04400
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD04400
+After a long walk down twisting glass corridors, you reach a small room that appears similar to the entrance area. However, this room features large cracks running along the walls and ceiling, as well as small specks of glass sprinkled on the glass floor. A ragged logbook opened on its side rests on a crumpled glass table.
+Read the log
+read
+DD04500
+Continue moving forwards
+forward
+DD04600
+Go back
+back
+DD04200
+
+
+
+
+
+
+
+DD04500
+Worker's Log 2: Our bravest explorers discovered a supposedly "magic" bean. Apparently, the natives of a small, fledgling settlement to the east sold it to us in return for sharing our furnace technology. For some reason, our leaders have diverted their attention to this bean, and even wish to display it within the Glass Tunnel Network! I believe it would clash with the beauty of these tunnels. I can't say I trust a magic bean from far away lands.
+Continue moving forwards
+forward
+DD04600
+Go back
+back
+DD04200
+
+
+
+
+
+
+
+
+
+
+DD04600
+After navigating through the intricate glass tunnels for a while, you arrive at a room bathed in a soft, ethereal glow. In the center of the room, you find the object of your quest—an enchanting magic bean encased in a glass display case. The glass around the bean appears to bend, almost as though it was jello. The display case doesn't look secured; you should be able to lift it up and grab the bean! There is also a logbook on the floor.
+Read the log
+read
+DD04700
+Lift the display case, and grab the bean
+bean
+DD04800
+Go back
+back
+DD04400
+
+
+
+
+
+
+
+DD04700
+Worker's Log 3: We're being instructed to build more tunnels, and not just a little bit more. I'm convined the inhabitants of that village have cursed us. I refuse to believe our explorers did what they are being accused of. Hm, the whole situation is just a little weird. Anyway, on another note, many of my best glassworkers have stopped working as productively as they used to. I'm not sure why. I think they've been distracted by the bean... for some reason. I really wish they hadn't put it down here with us. I'm just... I'm just not sure what things are coming to right now. For the first time in my life, I feel pessimistic about the future. I'm finding it impossible to see the beauty I once saw in these Glass Tunnels.
+Lift the display case, and grab the bean
+bean
+DD04800
+Go back
+back
+DD04400
+
+
+
+
+
+
+
+
+
+
+DD04800
+You lift the display case, and upon grabbing the magic bean, everything starts to shake! The deafening rumble of shattering glass and colliding pipes echoes throughout the Glass Tunnels. Panicking, you turn around to find the way back blocked by a cave-in of shattered glass! You must act quickly and escape through one of the side-paths! It's your only chance!
+Escape through a side-path!
+escape
+DD04900
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD04900
+After a frantic sprint through the glass tunnels, desperately trying to veer in a direction towards the entrance, you encounter your first obstacle. In front of you is a room with uneven mounds of shattered glass piled up on the floor, while more shards come raining in through a large crack in the roof. However, you see a way forward on the other side of the room! If you could just make it through this room...
+Grit your teeth, and run through the hailing shards of glass
+run
+DD05000
+Or... try going back? (you might end up in a cave-in)
+back
+DD05300
+
+
+
+
+
+
+
+
+
+
+DD05000
+You clench your jaw and make a dash through the broken glass. Searing pain shoots through your body as you skid and fumble during your sprint across the room, but your resolve to bring this magic bean back to the people of beancouver fills you with determination. By some miracle, you emerge on the other side, but to your horror, yet another obstacle blocks your path! A large chunk of the tunnel ahead was totally destroyed! You can still see the other end, but it's so far away! The only conceivable way to proceed would be to...
+Get a running start, and make a leap of faith towards the other side of the gap
+leap
+DD05050
+Try going *back* through the previous room, somehow
+back
+DD05400
+
+
+
+
+
+
+
+
+
+
+DD05050
+You back up as much as the narrow space allows, and take a few deep breaths. It's now or never. You sprint as fast as you can towards the tunnel's precipice, praying you don't accidentally slip off before you can even attempt the jump. Your left foot lands one step before the edge, and you know you have to jump on the next. You hold your breath and lock your eyes to the far end of the tunnel as you propel yourself above the abyss. Suspended in mid-air, the distance across the chasm narrows with each passing moment, and in the final heartbeats, you realize you've achieved just enough height to clear the gap! Landing on the very brink, you waver momentarily, then regain your balance, and exhale a sigh of profound relief.
+continue to next page...
+next
+DD05100
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD05100
+At this point, you should be close to the way you came in, but to your disbelief, you find yourself at a dead end! You freeze -- this can't be happening! -- Panic surges through your veins as you frantically look around but there are no exits other than the way back! Is it over? Are you doomed to be buried in glass, never to be found again? Have you failed to bring the magic beans back to your people?
+Make a desperate attempt to smash through the glass wall with your body
+smash
+DD05150
+Maybe your only way forwards, is to move backwards? But you'll surely perish...
+back
+DD05500
+
+
+
+
+
+
+
+
+
+
+DD05150
+In a state of total mania, you bolt directly into the glass wall in front of you in hopes of something, anything. But nothing happens. The glass recoils with a subtle quiver as you fall backwards and let out a cry. You crawl towards the wall and slam your fists into it, begging for it to let you past. And, to your surprise, a hairline crack began to snake across its surface. With renewed hope, you stand up, and begin hurtling yourself against the wall as the cacophony of shattering glass grows louder and louder behind you -- just a few more tries... you think to yourself. You ram into the wall again and again, but the sound of collapsing glass grows closer and closer. Panic starts to swell in your mind once more. You start flailing yourself against the wall, but it remains impervious to your attempts to breach it. The cave-in gets louder, until it sounds like it's practically right behind you! With one final, all-or-nothing attempt, and with adrenaline coursing through your body, you throw yourself into the wall.
+
+
+DD05200
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD05200
+Is the crisp shattering of glass you hear the cave-in finally catching up to you? No, it was you, FINALLY smashing right through the wall in your way! You're sent plummeting out of the hole and into the void. Everything whips past you in a blur, except a glass block below you, which only seems to be getting closer and closer. It seems like you're going to fall on top of it. But instead, you break right through the ceiling, and collapse to the floor.
+Make the journey back home
+home
+DD05250
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD05250
+Dazed, you stagger to your feet. Your vision warbles as stars dance in your eyes. A familiar logbook morphs into view, confirming the impossible reality: You made it. You actually made it back to the entrance of the Glass Tunnels! You are overcome with elation, and can't help but dance fervently to celebrate your victory. But now is not the time to dwindle; you exit the Glass Tunnels for good, and begin the journey back home. Back to Beancouver.
+
+
+BC01200
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD05300
+As you try to go back, it happens before you can even register what happened. A wall of shattering glass rushes over you, buring you in its depths forever. YOU DIED.
+To restart, press enter
+
+LS00200
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD05400
+As you try to make your way back through the broken glass, you cut your foot and slip onto your back. The pain from the shards of glass lances through your body, leaving you writhing in agony as more and more glass cascades upon you from above. YOU DIED.
+To restart, press enter
+
+LS00200
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD05500
+As you try to make the leap back, your foot slips off the edge before you can push yourself off the ground. You slice your foot as you plunge into the chasm, never to be seen again. YOU DIED.
+To restart, press enter
+
+LS00200
+
+
+
+
+
+
+
+
+
+
+
+
