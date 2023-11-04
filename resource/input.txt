@@ -1384,3 +1384,21 @@ LS00200
 
 
 
+
+DD02700
+You walk into the Mirror Palace, the interior is a majestic palace hall filled with intricate structures made out of reflective materials. Most prominently featured is a reflective statue of a person resting their cheek on a bent index finger. The statue's gaze appears to fall on nothing in particular, but its brows are furrowed, and lips ever so slightly pursed.
+go back to main menu
+back
+LS00200
+return to main menu
+return
+LS00200
+backtrack to main menu
+backtrack
+LS00200
+Skip ahead to the Glass Tunnels
+skip
+DD04200
+
+
+
