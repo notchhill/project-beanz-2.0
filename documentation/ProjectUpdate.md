@@ -31,3 +31,7 @@ For this phase, that includes any changes to
 - Gave physical design of the makefile that will be used to compile our game
 - Created a Makefile to assist with compilation, and created the proper directories for all of our files
 - Added make test, make testclean (it's supposed to be one word) to our Makefile
+- Removed references to 'root' and replaced it with references to 'head'; we are using a linked list, not a tree
+- Removed pushBack method and input function. pushBack's functionatlity has been incorporated into the load method, and input's functionality has been incorporated into the main routine
+- Edited section 3.0 of design.md to include a more fleshed out description of how our classes/functions will be implemented. Specifically, section 3.5 got a huge update, with 3.4 getting some minor touches.
+- The search method is now split into two methods called search (but a new version of search), and match.
