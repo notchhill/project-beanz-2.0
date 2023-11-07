@@ -49,6 +49,7 @@ int main()
     gameSequence.display(current);
     std::string playerIn;
     std::cin >> playerIn;
+    std::cout >> std::endl;
     std::string nextScreenID = gameSequence.match(playerIn, current);
     if(nextScreenID != ""){
       current = gameSequence.search(nextScreenID, &gameSequence);
