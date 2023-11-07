@@ -91,7 +91,7 @@ std::string GameScreenLinkedList::match(const std::string playerInput, const Gam
 @param: GameScreenLinkedList* head. The pointer to the head of the list. 
 @return void
 */
-void GameScreenLinkedList::clear(GameScreenLinkedList &&head) {
+void GameScreenLinkedList::clear(GameScreenLinkedList &head) {
 	if(head == this){
 		head = head->next;
 	}
