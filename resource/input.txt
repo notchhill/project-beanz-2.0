@@ -250,6 +250,546 @@ GC00100
 
 
 
+FF06800
+As you ascend to the hut's roof, you discover a hoe, its handle leaning against the chimney. From this vantage point, you gaze upon a well-tended garden that stretches out before you. Lush greenery, colorful blooms, and thriving vegetables greet your eyes, a testament to the care bestowed upon this natural oasis. The hoe's presence and the sight of the garden suggest tasks awaiting your attention.
+Go back down
+down
+FF06700
+Take the hoe to the garden
+garden
+FF07000
+Go down to the shed
+shed
+FF06900
+   
+   
+   
+
+
+
+
+FF07000
+You find yourself in the charming garden, hoe in hand, ready to tend to the earth. The vibrant garden is divided into two beds, the east and the west. Each bed is a canvas for your gardening aspirations, waiting for the touch of your hoe to create something beautiful. The possibilities are endless, and the decision of where to dig first is yours to make.
+Try and dig in the east bed
+east
+FF07300
+Try and dig in the west bed
+west
+FF07300
+   
+   
+   
+
+
+
+
+
+
+
+FF07300
+As you delve your hoe into the soil with anticipation, the earth beneath remains unmoved. Despite your efforts, there's no sign of a hidden treasure or any significant discovery. It appears that this particular spot in the garden yields no secrets for now, leaving you with a sense of curiosity about other potential locations.
+Try and dig in the other spot
+dig
+FF07700
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+FF07700
+In the garden, you shift your focus to another spot, the soil yielding as you dig with determination. However, despite your best efforts, you still come up empty-handed, finding no hidden treasures or secrets beneath the surface. Your gardening endeavors have not led to any significant discoveries yet, leaving you wondering if the answers lie elsewhere.
+Try and dig in the other spot
+dig
+FF07300
+
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+FF07700
+Your trusty hoe, as you laboriously work the garden, unexpectedly snaps in two, leaving you with a broken tool in your hands. Frustration and disappointment briefly wash over you, but your determination to continue the tasks at hand remains undeterred. It's clear that you'll need to find a replacement tool to complete your gardening duties.
+Check the storage shed for a new digging tool
+shed
+FF06900
+
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+FF06900
+Approaching the storage shed, you discover that the door is securely locked, preventing you from accessing the tools and equipment stored inside. A sense of frustration washes over you, realizing that your gardening tasks have been momentarily stymied by this unexpected obstacle. Now, you face the decision of how to overcome this setback and gain access to the shed's contents.
+Try breaking down the door
+break
+FF07200
+Take the rake and check in the garden
+garden
+FF07100
+Take the shovel leaning on the shed and dig under the door
+shovel
+FF07200
+
+   
+   
+   
+
+
+
+FF07100
+In the garden, with the rake in hand, you contemplate the next step in your gardening tasks. The raised bed, filled with the promise of growth, awaits your attention. Meanwhile, the compost pile stands as a treasure trove of nourishment for the plants. With the rake, you have the means to choose your next destination as you consider the possibilities of where to dig and what secrets the earth may reveal.
+Try and dig in the raised bed
+raised
+FF07400
+Try and dig in the compost pile
+compost
+FF07400
+
+   
+   
+   
+
+
+
+
+
+
+FF07400
+After diligently digging and searching the designated spots in the garden, you find yourself empty-handed. No hidden treasures or secrets have revealed themselves in this endeavor. It's a moment of reflection, wondering if perhaps there's another location or method that may lead to more fruitful results.
+Check the other spot
+rake
+FF07800
+
+   
+   
+   
+
+
+
+
+
+
+
+
+
+FF07800
+You return to the shed, the rake in hand, after an unsuccessful search in the garden. Unfortunately, your efforts with the rake did not yield the desired results, and the shed remains locked. The sense of determination still burns within you, and you have a choice to make to overcome the locked door's obstacle.
+Try breaking down the door
+break
+FF07200
+Take the shovel leaning on the shed and dig under the door
+shovel
+FF07200
+
+   
+   
+   
+
+
+
+
+
+
+FF07200
+In a sudden and unexpected turn of events, an angry forest gnome charges out of the trees, catching you off guard. The gnome appears to be quite upset and confrontational, leaving you with limited options to defuse the situation or protect yourself.
+Try to talk to him
+talk
+FF08000
+Pick up a potato and throw it at him
+potato
+FF07500
+Pick up a stick and throw it at him
+stick
+FF07600
+
+   
+   
+   
+
+
+
+FF07500
+After the potato hit, the forest gnome is temporarily knocked over but quickly regains his footing and resumes his charge. It's a critical moment, and you have to act swiftly to defend yourself or attempt to defuse the situation.
+Kick the gnome in the spleen
+kick
+FF08000
+Punch the gnome in the solar plexus
+punch
+FF07900
+
+   
+   
+   
+
+
+
+
+
+
+FF07900
+Your punch has a solid impact on the forest gnome, causing him to fall to the ground defeated and unconscious. The situation has taken a significant turn, and the gnome is now incapacitated. You have a moment to decide what to do next.
+Search the gnome's body
+search
+F08100
+
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+FF07600
+The thrown stick strikes the forest gnome with precision, rendering him unconscious and causing him to fall to the ground. With the gnome now incapacitated, you have an opportunity to decide your next course of action.
+Search the gnome's body
+search
+FF08100
+
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+FF08100
+Upon searching the unconscious gnome's body, you come across a shiny new trowel, gleaming in the daylight. The opportunity to make use of this unexpected find presents itself, and you must decide how to proceed.
+Steal the trowel and try it in the garden
+trowel
+FF08300
+Steal his wallet
+wallet
+FF08200
+
+   
+   
+   
+   
+
+
+
+
+
+FF08200
+Having successfully stolen the gnome's wallet, you now hold his personal belongings. The opportunity to act presents itself, and you must decide how to proceed.
+Steal the trowel and try it in the garden
+trowel
+FF08300
+
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+FF08300
+As you inspect the garden bed, you notice an old, marked garden bed with a symbol that matches the one on the trowel you obtained. The alignment of these symbols suggests a connection, and you must decide how to proceed.
+Dig in the marked spot
+marked
+FF08600
+Dig somewhere else
+elsewhere
+FF08400
+
+   
+   
+   
+   
+   
+
+
+
+
+FF08400
+With your trowel in hand, you stand before the garden beds and wonder where to dig next. You have several options at your disposal; the choice is yours.
+Dig in east bed
+east
+FF08500
+Dig in the west bed
+west
+FF08500
+Dig in the raised bed
+raised
+FF08500
+Dig in the compost pile
+compost
+FF08500
+Dig in the marked spot
+marked
+FF08600
+
+FF08500
+You've dug diligently, but this time, you've found nothing in the selected spot. Undeterred, you can try your luck again in one of the following places:
+Dig in the east bed
+east
+FF08500
+Dig in the west bed
+west
+FF08500
+Dig in the raised bed
+raised
+FF08500
+Dig in the compost pile
+compost
+FF08500
+Dig in the marked spot
+marked
+FF08600
+
+FF08600
+You've unearthed a second magical bean, and to your surprise, it came with a map. The map appears to lead to a mysterious desert. It seems like a new adventure awaits.
+Go to the desert
+desert
+DD00100
+
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+FF08000
+Your attempt to engage with the gnome through non-violence didn't go as planned. He responded by fiercely striking you with his walking stick, leaving you no choice but to restart your journey.   (SKILL ISSUE L L L L  L L L L L LL)
+To restart the game, press the Enter key.
+
+LS00200
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+FF08700
+In the open clearing, you spot a worn leather bag half-buried beneath a bed of dry leaves.
+Search the bag
+bag
+FF08800
+Pile up some dried leaves
+leaves
+FF08900
+Return to the hut
+hut
+FF06700
+
+
+
+
+
+
+
+FF08800
+You rummage through the contents of the leather bag and discover a small stash of copper coins and a box of matches.
+Pile up some dried leaves
+leaves
+FF09000
+Put the coins and matches back and return to the hut
+hut
+FF06700
+
+
+
+
+
+
+
+
+
+
+FF09000
+While carefully piling up a small stack of dried leaves, you ponder your next course of action.
+Put the coins and matches back and return to the hut
+hut
+FF06700
+Light the leaves on fire
+fire
+FF09200
+
+
+
+
+
+
+
+
+
+
+FF08900
+As you gather a small portion of the fallen leaves, you notice their earthy scent filling the air, and the sound of rustling leaves beneath your hands is oddly soothing. The leaves crinkle and crunch as you form them into a loose pile. The forest around you seems to grow still, and a sense of calm washes over you.
+Search the bag
+search
+FF09100
+Return to the hut
+hut
+FF06700
+
+
+
+
+
+
+
+
+
+
+FF09100
+As you rummage through the leaves, your fingers brush against something hard and metallic. To your surprise, you uncover a handful of copper coins and a small box of matches. The discovery leaves you with a sense of intrigue and possibility.
+Put the coins and matches back and return to the hut
+hut
+FF06700
+Light the leaves on fire
+fire
+FF09200
+
+
+
+
+
+
+
+
+
+
+FF09200
+You light the leaves on fire, and soon, a crackling blaze illuminates the area around you. The dancing flames cast flickering shadows in the dark forest. The warm glow is oddly comforting. As the fire crackles, you hear the distant sound of footsteps approaching down the trail.
+Hide in the bushes
+hide
+FF09300
+Stay and watch the fire
+stay
+FF09400
+
+
+
+
+
+
+
+
+
+
+FF09300
+A group of Beancouver villagers comes down the trail, drawn by the plume of smoke from your fire. They gather around the flames, speaking in hushed tones as they try to figure out what might have caused the fire. You overhear them expressing relief that the fire isn't near the storage shed.
+Go to the storage shed
+shed
+FF06900
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF09400
+A group of Beancouver villagers, drawn by the plume of smoke, arrives at the scene. They notice you standing near the fire and approach with curiosity. One of them speaks up, "Did you start the fire?"
+Admit it and bribe them with the coins
+bribe
+FF09500
+Deny it
+deny
+FF09600
+
+
+
+
+
+
+
+
+
+
+FF09500
+The villagers exchange glances and then one of them nods and says, "Alright, we won't tell anyone about the fire. By the way, there's a magical bean in the garden and a shed full of digging tools nearby. You might find them useful."
+Go to the storage shed
+shed
+FF06900
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF09600
+The villagers seem relieved that the fire you're standing near isn't threatening the storage shed. They exchange a few words of gratitude and continue their conversation.
+Go to the storage shed
+shed
+FF06900
+
+
+
+
+
+
+
+
+
+
+
+
+
 GC00100
 Having just climbed a towering beanstalk that seemed to stretch endlessly towards the heavens, I found myself standing before a massive castle perched high above the town of Beancouver. The town below appeared miniature, with its tiny houses and winding streets now resembling mere dots on the landscape. The climb had been both exhilarating and exhausting, but the sight of the giant's castle filled me with awe and anticipation. I couldn't help but wonder what adventures awaited within those colossal walls, where the ordinary world of Beancouver had given way to a realm of giants and enchantment.
 Should I dare enter the castle?
