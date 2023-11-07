@@ -57,7 +57,12 @@ GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  
     return search;
 }
 
-
+/*
+@brief Matches player's inputted text with the appropriate optionChoiceText
+@param string playerInput ; the player's inputted text
+@param const GameScreenLinkedList* currentNode ; Node to have its options examined for a match with the player's input
+@return string GameScreenLinkedList ; ScreenID of matching option
+*/
 std::string GameScreenLinkedList::match(const std::string playerInput, const GameScreenLinkedList* currentNode){
 	if(currentNode == NULL || playerInput == ""){
 		return NULL;
