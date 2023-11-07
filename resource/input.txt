@@ -4821,3 +4821,1047 @@ FF00300
 
 
 
+
+GC11800
+Standing before the enigmatic bathroom door, you notice its peculiar features: faded, peeling paint on the wooden surface, an old brass doorknob, and a subtle musty odor wafting from within.
+With a determined effort, you push on the door.
+push
+GC12000
+You decide to try using the handle.
+use
+GC11900
+Feeling daring, you opt to crawl under the giant gap.
+crawl
+GC12200
+You ponder the extreme option of blowing up the door.
+explode
+GC12100
+
+
+
+
+GC12000
+You've tried pushing the door, but it remains stubbornly unmoved.
+Try to use the handle
+use
+GC11900
+Crawl under the giant gap
+crawl
+GC12200
+Blow up the door
+explode
+GC12100
+
+
+
+
+
+
+
+GC11900
+The handle is frustratingly out of your reach.
+Try to push on the door
+push
+GC12000
+Crawl under the giant gap
+crawl
+GC12200
+Blow up the door
+explode
+GC12100
+
+
+
+
+
+
+
+GC12100
+As you stand before the closed door, you realize that your bean grenades, left at home, would have been an unconventional solution to this predicament.
+Try to push on the door
+push
+GC12000
+Try to use the handle
+use
+GC11900
+Crawl under the giant gap
+crawl
+GC12200
+
+
+
+
+
+
+
+GC12200
+You crawled under the door and found yourself in a small, dimly lit space. It's dusty, and a musty odor fills the air. You realize that to make the bean grow, it will need some water. Where would you like to check for water?
+Check the toilet
+toilet
+GC12300
+Check the sink
+sink
+GC12400
+Check the tub
+tub
+GC12500
+
+
+
+
+
+
+
+GC12300
+You stand before an unusually tall toilet, towering over you like a giant porcelain behemoth. Its sheer height poses a formidable challenge, leaving you pondering how to ascend.
+Climb the nearby plunger
+climb
+GC12600
+Find something to help climb it
+find
+GC12700
+Check the sink instead
+check
+GC12400
+Check the tub instead
+tub
+GC12500
+
+
+
+
+GC12400
+Before you stands an unusually tall sink, a giant in the realm of bathroom fixtures. Its towering presence demands a creative solution to reach its heights.
+Climb it using the drawers as handholds
+climb
+GC12800
+Find something to help climb it
+find
+GC12900
+Try the toilet instead
+toilet
+GC12300
+Try the tub instead
+tub
+GC12500
+
+
+
+
+GC12500
+In front of you stands a colossal bathtub, a towering behemoth among bathroom fixtures. Its immense height challenges your every effort to ascend it.
+Climb the shower curtains
+climb
+GC13000
+Find something to help climb it
+find
+GC13100
+Try the toilet instead
+toilet
+GC12300
+Try the sink instead
+sink
+GC12400
+
+
+
+
+GC12600
+You've successfully made the daring leap from the plunger, landing atop the toilet's porcelain surface. Now, perched on the toilet, a couple of intriguing choices lie before you.
+Push the tank lid aside and jump in
+jump
+GC13200
+Push the tank lid aside and collect some water
+collect
+GC13300
+Try to get water from the toilet bowl
+bowl
+GC13200
+
+
+
+
+
+
+
+GC12700
+You've ingeniously scaled the shower curtains, landing gracefully atop the toilet's porcelain surface. Now, with various options at your disposal, you must decide on your next course of action.
+Push the tank lid aside and jump in
+jump
+GC13200
+Push the tank lid aside and collect some water
+collect
+GC13300
+Try to get water from the toilet bowl
+bowl
+GC13200
+
+
+
+
+
+
+
+GC12800
+You've successfully achieved your goal and obtained some water. Now, with water in hand, you're faced with a choice regarding your next move.
+Climb back down and head back to the kitchen
+climb
+GC14300
+Jump down and head back to the kitchen
+jump
+GC13400
+
+
+
+
+
+
+
+
+
+
+GC12900
+Having ingeniously utilized one of the many brooms available, you've ascended to the sink's lofty heights. The giant's broom collection has proven to be quite the resource. Now, having collected water from the sink, you must decide on your next step.
+Climb back down and head back to the kitchen
+climb
+GC14300
+Jump down and head back to the kitchen
+jump
+GC13400
+
+
+
+
+
+
+
+
+
+
+GC13000
+You've successfully reached the edge of the tall tub, and now you have a couple of options as you stand by the precipice.
+Jump in
+jump
+GC13500
+Turn the faucet on
+faucet
+GC13600
+
+
+
+
+
+
+
+
+
+
+GC13100
+You've skillfully scaled a plunger to reach the edge of the towering tub. Now, perched on the edge, you face a couple of choices.
+Jump in
+jump
+GC13500
+Turn the faucet on
+faucet
+GC13600
+
+
+
+
+
+
+
+
+
+
+GC13200
+Your adventure takes an unfortunate turn as the giant discovers you, trapped within the toilet's porcelain confines.
+Restart
+restart
+Option1ScreenID
+
+
+
+
+
+
+
+
+
+
+
+
+
+GC13300
+With a successful water collection under your belt, you now have a choice to make as you stand perched at your current location.
+Climb back down and head back to the kitchen
+climb
+GC14300
+Jump down and head back to the kitchen
+jump
+GC14200
+
+
+
+
+
+
+
+
+
+
+GC13400
+Standing at your elevated vantage point, you survey the height you've reached and contemplate your options. The descent back to solid ground seems considerably distant, and you weigh your alternatives.
+Climb back down
+climb
+GC14300
+Nah, jump down...
+jump
+GC14400
+
+
+
+
+
+
+
+
+
+
+GC13500
+As you stand on the edge of the giant bathtub, you realize that the high walls make it clear that jumping into the tub might not leave you with an easy way out.
+Jump in
+jump
+GC13800
+Turn the faucet on
+faucet
+GC13600
+
+
+
+
+
+
+
+
+
+
+GC13600
+As you observe the giant bathtub starting to fill with water while you stand on its edge, you consider your options.
+Jump in
+jump
+GC13700
+Wait for the tub to fill and turn the faucet off
+wait
+GC13900
+
+
+
+
+
+
+
+
+
+
+GC13700
+You've successfully obtained the water you needed, but now you must exercise patience as you wait for the giant tub to fill.
+Wait for the tub to fill and turn the faucet off
+wait
+GC14000
+Wait for the tub to fill but don't turn the faucet off
+leave
+GC14500
+
+
+
+
+
+
+
+
+
+
+GC13800
+Your predicament takes an unfortunate turn as the giant discovers you trapped within the bathtub.
+Restart
+restart
+Option1ScreenID
+
+
+
+
+
+
+
+
+
+
+
+
+
+GC13900
+The giant tub has now filled up with water, presenting you with new options to consider.
+Jump in
+jump
+GC14000
+Collect some water
+collect
+GC14100
+
+
+
+
+
+
+
+
+
+
+GC14000
+Having successfully collected the water you needed, you now find yourself rather soggy. The time has come to figure out your descent from your current position.
+Climb down the shower curtain and head to the kitchen
+curtain
+GC14300
+Climb down the plunger and head to the kitchen
+plunger
+GC14300
+
+
+
+
+
+
+
+
+
+
+GC14100
+With the water you needed in your possession, you're now prepared to start your descent.
+Climb down the shower curtain and head to the kitchen
+shower
+GC14300
+Climb down the plunger and head to the kitchen
+plunger
+GC14300
+
+
+
+
+
+
+
+
+
+
+FF00900
+You find yourself in the midst of a mystical forest, where an awe-inspiring treehouse, reaching toward the sky, stands as a symbol of both wonder and chaos. Its inhabitants are entangled in a ferocious battle, their fierce clashes and magical spells filling the air with tension and excitement.
+Ask what is going on
+ask
+FF01800
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF01800
+The inhabitants ecstatically proclaim that the victor of the epic treehouse battle earns the right to enter the legendary hut, home to a priceless, mystical bean hidden in the enchanted garden.
+Grab an imaginary sword
+sword
+FF01900
+Grab an imaginary bow
+bow
+FF04700
+Grab an imaginary wizard hat
+hat
+FF05100
+
+
+
+
+
+
+
+FF05100
+Having made your choice of weapon, you now face the pivotal decision of where to explore within the treehouse.
+Make haste to the ramparts
+ramparts
+FF05200
+Take your position in the courtyard
+courtyard
+FF05300
+Defend the throne room
+throne
+FF05400
+
+
+
+
+
+
+
+FF04800
+You reach the ramparts, armed with your bow, and encounter a fierce battle between a valiant warrior and a powerful wizard.
+Fire at the warrior
+warrior
+FF03500
+Fire at the wizard
+wizard
+FF04100
+
+
+
+
+
+
+
+
+
+
+FF04900
+As you step into the expansive courtyard of the treehouse, your senses are overwhelmed by the sights and sounds of an epic battle. A cunning wizard and a fearless warrior clash in a mesmerizing spectacle of magic and martial prowess.
+Fire at the warrior
+warrior
+FF03700
+Fire at the wizard
+wizard
+FF04300
+
+
+
+
+
+
+
+
+
+
+FF05000
+You dash into the resplendent throne room, your heart pounding with anticipation. Before you stands a fierce warrior and a cunning wizard, locked in an intense duel that threatens to reshape the fate of the treehouse.
+Fire at the warrior
+warrior
+FF03900
+Fire at the wizard
+wizard
+FF04500
+
+
+
+
+
+
+
+
+
+
+FF03500
+With your precise aim, your arrow finds its mark, and the valiant warrior falls from the ramparts, plummeting to the ground below. The wizard, taken aback by the sudden turn of events, is now yours to confront.
+Fire at the wizard
+wizard
+FF03600
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03600
+With your unerring aim, the wizard meets the same fate as the warrior, tumbling from the ramparts. As the dust settles, a map the wizard was clutching falls to the ground, revealing a path forward.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03700
+With your swift and deadly shot, the warrior meets his end, leaving the bewildered wizard alone in the courtyard, struggling to comprehend the sudden turn of events.
+Fire at the wizard
+wizard
+FF03800
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03800
+Your relentless accuracy continues as the wizard falls victim to your bow. As the dust settles, a map drops from the wizard's grasp, revealing a new path to follow.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF03900
+Your arrow finds its mark, and the warrior meets his end. In the aftermath, the wizard retaliates with a spell, but his aim falters, and you narrowly escape unscathed.
+Fire at the wizard
+wizard
+FF04000
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04000
+Your decisive shot claims the wizard as your next victory. As he falls, a map that was in his possession lands on the ground, offering a path forward.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04100
+The wizard meets a dramatic and abrupt end as your arrow finds its mark, causing them to tumble off the ramparts. Behind them, the warrior appears utterly bewildered by the sudden turn of events.
+Fire at the warrior
+warrior
+FF04200
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04200
+With unerring precision, you dispatch the warrior, and they too tumble from the ramparts. In their wake, a map drops to the ground, revealing a new path to explore.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04300
+Your shot proves fatal to the wizard, causing them to collapse within the courtyard. In response, the warrior, fueled by a surge of determination, begins to sprint toward you.
+Fire at the warrior
+warrior
+FF04400
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04400
+Your arrow finds its mark, and the warrior, once relentless, now collapses, defeated. In their fall, a map slips from their grasp, offering you a new path forward.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04500
+With your shot, the wizard meets a sudden and unexpected end, leaving the warrior in surprise and confusion.
+Fire at the warrior
+warrior
+FF04600
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04600
+Your precise shot brings an end to the warrior's struggle, leaving them defeated. As you look around, you notice a map hanging on the wall, offering you valuable information.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF05100
+Adorned with a wizard's hat, you are now imbued with newfound power, and your choices determine your next destination.
+Make haste to the ramparts
+ramparts
+FF05200
+Take your position in the courtyard
+courtyard
+FF05300
+Defend the throne room
+throne
+FF05400
+
+
+
+
+
+
+
+FF05200
+You find yourself on the ramparts, with a front-row view of a heated duel between a warrior and an archer.
+Shoot a fireball at the warrior
+warrior
+FF05500
+Shoot a fireball at the archer
+archer
+FF06100
+
+
+
+
+
+
+
+
+
+
+FF05300
+You step into the courtyard, where a fierce battle is underway between a warrior and an archer.
+Shoot a fireball at the warrior
+warrior
+FF05700
+Shoot a fireball at the archer
+archer
+FF06300
+
+
+
+
+
+
+
+
+
+
+FF05400
+Arriving at the throne room, a warrior and archer are fighting with unbridled intensity, their clash disrupting the regal ambiance. The ornate surroundings bear witness to their struggle as they make a mess of the place.
+Shoot a fireball at the warrior
+warrior
+FF05900
+Shoot a fireball at the archer
+archer
+FF06500
+
+
+
+
+
+
+
+
+
+
+FF05500
+The warrior falls victim to your fireball, and the impact sends him flying off the ramparts.
+Fire at the archer
+archer
+FF05600
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF05600
+Your fireball finds its mark, and the archer succumbs to the flames. As the embers smolder, a map is left behind, waiting to guide you on your journey.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF05700
+Your fireball proves to be the warrior's undoing, leaving only the archer to contend with in the courtyard.
+Fire at the archer
+archer
+FF05800
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF05800
+The archer's last arrow misses its mark, and your fireball brings an end to their struggle. With the archer defeated, you spot a map left behind.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF05900
+Your fireball proves to be the warrior's undoing, leaving only the archer to confront you in the throne room.
+Fire at the archer
+archer
+FF06000
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF06000
+In the grandeur of the throne room, your fireball collides with the archer, creating a spectacular explosion. The archer is flung across the room, crashing against the throne and leaving a trail of destruction. Amid the chaos, you notice a tattered and scorched map, partially concealed beneath fallen banners and shattered artifacts.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF06100
+On the ramparts, the archer falls to your fireball and is blown off the ramparts, leaving a path of destruction in their wake.
+Fire at the warrior
+warrior
+FF06200
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF06200
+In the fiery aftermath of your powerful spell, the warrior falls to the ground, leaving behind a smoldering crater. Amidst the destruction, you spot a map that appears to have survived the blast.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF06300
+The archer falls to your explosive fireball, leaving a smoldering crater in the courtyard.
+Fire at the warrior
+warrior
+FF06400
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF06400
+The warrior is blasted out of the courtyard by the force of your fireball, creating a whirlwind of dust and debris. Among the scattered remnants, you find a map.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF06500
+Your fireball engulfs the archer, causing the warrior to charge towards you. The battle continues as the warrior draws near.
+Fire at the warrior
+warrior
+FF06600
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF06600
+The warrior skillfully avoids your fireball, but the explosive impact sends him flying through a nearby window. In the aftermath, you notice a map hanging on the wall.
+Collect the map to the hut and proceed onwards
+map
+FF06700
+
+
+
+
+
+
+
+
+
+
+
+
