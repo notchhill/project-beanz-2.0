@@ -49,9 +49,12 @@ int main()
     gameSequence.display(current);
     std::string playerIn;
     std::cin >> playerIn;
-    std::cout >> std::endl;
+    std::cout << std::endl;
     std::string nextScreenID = gameSequence.match(playerIn, current);
-    if(nextScreenID != ""){
+    if(nextScreenID == ""){
+        std::cout << "Invalid Input! Please Try Again.\n";
+        continue;
+    }else{
       current = gameSequence.search(nextScreenID, &gameSequence);
     }
   }
