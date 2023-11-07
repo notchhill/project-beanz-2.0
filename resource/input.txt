@@ -3727,13 +3727,13 @@ GC10090
 GC10071
 As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery - a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the pièce de résistance was a massive, leather-bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
-Back
+back
 GC10091
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10092
 Use the giant tape measure 
-Measure
+measure
 GC10093
 
 
@@ -3745,10 +3745,10 @@ GC10093
 GC10072
 As I stood at the base of the colossal staircase in the giant's castle, I couldn't help but feel a tad optimistic – after all, I had tackled a flight of stairs or two in my time. With my hiking boots laced up and a steely determination in my eyes, I took a deep breath and boldly launched myself at the first step. Alas, the step was so vast that it felt like I was attempting to scale Mount Everest with a toothpick. After a few desperate attempts at hoisting myself up, I realized that my ambitious stair-climbing dreams were more far-fetched than a unicorn's vacation photos. Defeated and utterly perplexed, I contemplated my next move.
 Use the damaged broom to help you climb the stairs 
-Broom
+broom
 GC10094
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3763,10 +3763,10 @@ GC10034
 GC10073
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10072
 Use the giant tape measure 
-Measure
+measure
 GC10095
 
 
@@ -3781,10 +3781,10 @@ GC10095
 GC10074
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10072
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10096
 
 
@@ -3799,10 +3799,10 @@ GC10096
 GC10075
 Picture this: You, the intrepid adventurer, armed with nothing but a broom and a head full of determination, stand at the foot of a colossal staircase inside a giant's castle. With unwavering confidence, you decide to conquer the monstrous ascent, your broom clenched like a knight's sword. However, as you take your first sweeping step, it becomes abundantly clear that this battle won't be easily won. With each jab and poke at the stairs, your broom rebels, bouncing you back like a trampoline on steroids. Soon, your broom is more like a pogo stick, propelling you in comical fits and starts, while the giant enjoys a front-row seat to the most entertaining show in the castle. Victory may be reserved for the giants, but you've certainly won the hearts of all with your valiant, if not quite successful, broomstick escapade.
 Try to climb the stairs 
-Stairs
+stairs
 GC10097
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3817,10 +3817,10 @@ GC10034
 GC10076
 As I stood at the base of the colossal staircase in the giant's castle, I couldn't help but feel a tad optimistic – after all, I had tackled a flight of stairs or two in my time. With my hiking boots laced up and a steely determination in my eyes, I took a deep breath and boldly launched myself at the first step. Alas, the step was so vast that it felt like I was attempting to scale Mount Everest with a toothpick. After a few desperate attempts at hoisting myself up, I realized that my ambitious stair-climbing dreams were more far-fetched than a unicorn's vacation photos. Defeated and utterly perplexed, I contemplated my next move.
 Use the damaged broom to help you climb the stairs
-Broom
+broom
 GC10098
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3835,7 +3835,7 @@ GC10034
 GC10077
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10052
 
 
@@ -3853,7 +3853,7 @@ GC10052
 GC10078
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10051
 
 
@@ -3871,10 +3871,10 @@ GC10051
 GC10079
 As I stood at the entrance of the giant's castle, my heart pounding like a caffeinated woodpecker on a drum kit, I couldn't help but laugh at the absurdity of it all. Here I was, a pint-sized David in a world of Goliaths, about to face off in a fistfight that was as winnable as a penguin's attempt at synchronized swimming. I muttered to myself, "You've got this, champ! You're the Napoleon of determination, the Hulk Hogan of hope, and the Rocky Balboa of delusion!" With a deep breath, I cracked my knuckles (or rather, they cracked themselves), squared my shoulders, and strode into the giant's lair, ready to give him a piece of my not-so-giant mind and maybe a ticklish punch for good measure. After all, "size doesn't matter."
 Lets show the Giant who's boss!!
-FIGHT!
+FIGHT
 GC10099
 After thinking this over a bit more, this is a bad idea...
-Surrender
+surrender
 GC10080
 
 
@@ -3889,10 +3889,10 @@ GC10080
 GC10080
 As I stood there in the colossal castle, surrounded by towering walls and gargantuan furniture, I couldn't help but contemplate my life choices. On one side, there was the massive giant, eyeing me like I was a mere appetizer in the world's weirdest buffet. On the other side, there was me, a pint-sized adventurer with a sneeze that could probably knock over a stack of playing cards. I pondered my odds: Fist fighting a giant in his own domain? Let's just say that when your best fighting move is "the tickle attack," it's time to reevaluate your career as a heroic underdog. So, I opted for Plan B: "Operation Run Away Screaming Like a Little Girl." Because let's be honest, there are battles worth fighting, and then there are battles better left to the professionals... or at least someone with a little more reach and a lot less fear of heights!
 Hide In The Dryer 
-Hide
+hide
 GC10055
 Climb into the Dryer vent 
-Vent
+vent
 GC11800
 
 
@@ -3907,7 +3907,7 @@ GC11800
 GC10081
 In a whimsical twist of fate, you found yourself in a precarious predicament fit for a fairy tale gone awry. While exploring a giant's castle, you stumbled upon a colossal clothes dryer that could easily pass for a makeshift Jacuzzi for a family of hippos. With the mischievous curiosity of a cat chasing a laser pointer, you couldn't resist the urge to hop inside, thinking it was the latest spa trend for thrill-seekers. Little did you know, the giant, with a penchant for extra-fluffy laundry, returned home and unwittingly activated the dryer. You spun like a human sock in a spin cycle extravaganza, your shouts of "I'm in a pickle!" muffled by the tumbling garments, making your final moments a laundry-day legend for giants and gnomes alike.
 You Died!
-Restart
+restart
 LS00100
 
 
