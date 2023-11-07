@@ -5,14 +5,14 @@ objectstest= build/test.o build/gamescreenlinkedlist.o build/utility.o
 # Each .o file would run ${general} ${output} instead of ${general} -c $< -o $@
 # This is not much different, but I tested it in VS Code and it worked
 
-# bin/beans2: ${objects}
+# bin/beanz2: ${objects}
 #	${general} ${objects} -o $@
 
 build: ${objects}
-	${general} ${objects} -o bin/beans2
+	${general} ${objects} -o bin/beanz2
 
 test: ${objectstest}
-	${general} ${objectstest} -o bin/beans2
+	${general} ${objectstest} -o bin/beanz2
 
 build/main.o: src/main.cpp
 	${general} -c $< -o $@
@@ -28,12 +28,12 @@ build/utility.o: src/utility.cpp include/utility.h
 
 .PHONY: clean
 clean:
-	rm -f ${objects} bin/beans2
+	rm -f ${objects} bin/beanz2
 
 .PHONY: testclean
 testclean:
-	rm -f ${objectstest} bin/beans2
+	rm -f ${objectstest} bin/beanz2
 
 .PHONY: wclean
 wclean:
-	del build\main.o build\gamescreenlinkedlist.o build\utility.o bin\beans2.exe
+	del build\main.o build\gamescreenlinkedlist.o build\utility.o bin\beanz2.exe
