@@ -3079,13 +3079,13 @@ GC10053
 GC10034
 As you stood there, contemplating your latest zany adventure, you couldn't resist the tantalizing allure of the oversized dryer in the corner of the room. With the confidence of a squirrel trying to outwit a squirrel-proof bird feeder, you decided to attempt the climb. You scaled that dryer like a spider monkey on an espresso binge, but just as you were about to make a triumphant entrance, a deafening rumble echoed through the castle. Suddenly, the ground shook, and you realized that the giant, was on a mission to clean his colossal undies. As you teetered on the dryer's edge, you pondered your life choices and the absurdity of being the first human to attempt laundry in a giant's castle, all while praying that you wouldn't become a permanent resident of a lint-filled kingdom.
 Fight The Giant!!! 
-Fight
+fight
 GC10054
 Hide In The Dryer 
-Hide
+hide
 GC10055
 Climb into the Dryer vent 
-Vent
+vent
 GC11800
 
 
@@ -3097,10 +3097,10 @@ GC11800
 GC10035
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Use the giant tape measure 
-Measure
+measure
 GC10056
 Turn on the Giant Fan 
-Fan
+fan
 GC10057
 
 
@@ -3115,10 +3115,10 @@ GC10057
 GC10036
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10058
 Turn on the Giant Fan 
-Fan
+fan
 GC10059
 
 
@@ -3133,13 +3133,13 @@ GC10059
 GC10037
 As I strode into the giant's castle, feeling more like a minuscule intruder than ever, I spotted a massive, antiquated fan that looked like it could've been used to cool a prehistoric dinosaur rave. My heart pounded like a tiny drum as I tiptoed towards the switch, which seemed to be designed for a creature with fingers the size of tree trunks. With all the grace of a squirrel attempting ballet, I stretched, jumped, and eventually, on my third heroic attempt, slapped the switch. The fan, awakening with a groan that echoed through the castle like a tired giant's snore, began to spin with all the subtlety of a bull in a china shop. I couldn't help but wonder if this was a giant's idea of a prank – turning a simple fan into a whirlwind adventure for a pint-sized troublemaker like me.
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10060
 Use the giant tape measure 
-Measure
+measure
 GC10061
 Try to fly up to the table with a giant paper airplane and a gust of wind 
-Airplane
+airplane
 GC10044
 
 
@@ -3151,10 +3151,10 @@ GC10044
 GC10038
 Picture this: You, a brave soul with dreams as big as the giant's castle you find yourself in. Armed with determination and a colossal paper airplane that seems more suited for a pterodactyl than a mere human, you embark on a mission to conquer the skies. As you prepare for takeoff, you can't help but wonder if your choice of transportation was slightly ambitious. With a running start and arms flapping like a caffeinated seagull, you launch yourself off the ramp. The results, however, are less Wright Brothers and more "Wrong Human." Your giant paper airplane barely budges, and you find yourself in a perpetual loop of running, flapping, and absolutely zero liftoff. You might not be soaring through the skies, but at least you've earned the title of "Castle's Funniest Aviator."
 Use the giant tape measure 
-Measure
+measure
 GC10056
 Turn on the Giant Fan 
-Fan
+fan
 GC10057
 
 
@@ -3169,10 +3169,10 @@ GC10057
 GC10039
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Try to fly up to the table with a giant paper airplane
-Airplane
+airplane
 GC10062
 Turn on the Giant Fan 
-Fan
+fan
 GC10063
 
 
@@ -3187,10 +3187,10 @@ GC10063
 GC10040
 As I strode into the giant's castle, feeling more like a minuscule intruder than ever, I spotted a massive, antiquated fan that looked like it could've been used to cool a prehistoric dinosaur rave. My heart pounded like a tiny drum as I tiptoed towards the switch, which seemed to be designed for a creature with fingers the size of tree trunks. With all the grace of a squirrel attempting ballet, I stretched, jumped, and eventually, on my third heroic attempt, slapped the switch. The fan, awakening with a groan that echoed through the castle like a tired giant's snore, began to spin with all the subtlety of a bull in a china shop. I couldn't help but wonder if this was a giant's idea of a prank – turning a simple fan into a whirlwind adventure for a pint-sized troublemaker like me.
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10082
 Use the giant tape measure 
-Measure
+measure
 GC10064
 
 
@@ -3205,10 +3205,10 @@ GC10064
 GC10041
 Picture this: You, a brave soul with dreams as big as the giant's castle you find yourself in. Armed with determination and a colossal paper airplane that seems more suited for a pterodactyl than a mere human, you embark on a mission to conquer the skies. As you prepare for takeoff, you can't help but wonder if your choice of transportation was slightly ambitious. With a running start and arms flapping like a caffeinated seagull, you launch yourself off the ramp. The results, however, are less Wright Brothers and more "Wrong Human." Your giant paper airplane barely budges, and you find yourself in a perpetual loop of running, flapping, and absolutely zero liftoff. You might not be soaring through the skies, but at least you've earned the title of "Castle's Funniest Aviator."
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10058
 Turn on the Giant Fan 
-Fan
+fan
 GC10059
 
 
@@ -3223,10 +3223,10 @@ GC10059
 GC10042
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Try to fly up to the table with a giant paper airplane 
-Airplane
+airplane
 GC10062
 Turn on the Giant Fan 
-Fan
+fan
 GC10063
 
 
@@ -3241,10 +3241,10 @@ GC10063
 GC10043
 As I strode into the giant's castle, feeling more like a minuscule intruder than ever, I spotted a massive, antiquated fan that looked like it could've been used to cool a prehistoric dinosaur rave. My heart pounded like a tiny drum as I tiptoed towards the switch, which seemed to be designed for a creature with fingers the size of tree trunks. With all the grace of a squirrel attempting ballet, I stretched, jumped, and eventually, on my third heroic attempt, slapped the switch. The fan, awakening with a groan that echoed through the castle like a tired giant's snore, began to spin with all the subtlety of a bull in a china shop. I couldn't help but wonder if this was a giant's idea of a prank – turning a simple fan into a whirlwind adventure for a pint-sized troublemaker like me.
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10044
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10065
 
 
@@ -3259,13 +3259,13 @@ GC10065
 GC10044
 Armed with nothing but a grin and a dash of audacity, you hopped aboard a colossal paper airplane that defied all reason, propelled by an industrial-sized fan that sounded like a herd of disgruntled elephants auditioning for a kazoo ensemble. You gracefully crash-landed on top of the giant table, perched triumphantly with all the elegance of a triumphant pelican on stilts. You found yourself perched at the edge of a table, armed with nothing but determination and a handful of dirt. As you delicately plucked dirt from the tabletop summit, your options lay before you like a perplexing choose-your-own-adventure novel: a broom, standing tall like a medieval lance; a colossal flight of stairs that seemed more fitting for giants than mere mortals; a storage box that looked like the kind of treasure chest adventurers dream of; and, to your surprise, a dryer that could have been the fortress of laundry royalty
 Try to climb the stairs 
-Stairs
+stairs
 GC10047
 Check the storage Box for something to use 
-Box
+box
 GC10048
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3277,10 +3277,10 @@ GC10034
 GC10045
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Try to fly up to the table with a giant paper airplane and a gust of wind 
-Airplane
+airplane
 GC10044
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10065
 
 
@@ -3295,10 +3295,10 @@ GC10065
 GC10046
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Try to fly up to the table with a giant paper airplane and a gust of wind 
-Airplane
+airplane
 GC10082
 Use the giant tape measure 
-Measure
+measure
 GC10064
 
 
@@ -3313,10 +3313,10 @@ GC10064
 GC10047
 As I stood at the base of the colossal staircase in the giant's castle, I couldn't help but feel a tad optimistic – after all, I had tackled a flight of stairs or two in my time. With my hiking boots laced up and a steely determination in my eyes, I took a deep breath and boldly launched myself at the first step. Alas, the step was so vast that it felt like I was attempting to scale Mount Everest with a toothpick. After a few desperate attempts at hoisting myself up, I realized that my ambitious stair-climbing dreams were more far-fetched than a unicorn's vacation photos. Defeated and utterly perplexed, I contemplated my next move.
 Check the storage Box for something to use 
-Box
+box
 GC10067
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3331,13 +3331,13 @@ GC10034
 GC10048
 As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery - a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the pièce de résistance was a massive, leather-bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
-Back
+back
 GC10068
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10069
 Use the giant tape measure 
-Measure
+measure
 GC10070
 
 
@@ -3349,10 +3349,10 @@ GC10070
 GC10049
 Picture this: You, the intrepid adventurer, armed with nothing but a broom and a head full of determination, stand at the foot of a colossal staircase inside a giant's castle. With unwavering confidence, you decide to conquer the monstrous ascent, your broom clenched like a knight's sword. However, as you take your first sweeping step, it becomes abundantly clear that this battle won't be easily won. With each jab and poke at the stairs, your broom rebels, bouncing you back like a trampoline on steroids. Soon, your broom is more like a pogo stick, propelling you in comical fits and starts, while the giant enjoys a front-row seat to the most entertaining show in the castle. Victory may be reserved for the giants, but you've certainly won the hearts of all with your valiant, if not quite successful, broomstick escapade.
 Check the storage Box for something to use 
-Box
+box
 GC10071
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3367,13 +3367,13 @@ GC10034
 GC10050
 As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery - a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the pièce de résistance was a massive, leather-bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
-Back
+back
 GC10072
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10073
 Use the giant tape measure 
-Measure
+measure
 GC10074
 
 
@@ -3385,13 +3385,13 @@ GC10074
 GC10051
 In a moment of sheer desperation, you found yourself perched at the edge of a table, armed with nothing but determination and a handful of dirt. As you delicately plucked dirt from the tabletop summit, you glanced around the room, your eyes wide with a blend of confusion and mischief. Your options lay before you like a perplexing choose-your-own-adventure novel: a broom, standing tall like a medieval lance; a colossal flight of stairs that seemed more fitting for giants than mere mortals; and, to your surprise, a dryer that could have been the fortress of laundry royalty. In that moment, you realized that you were either about to embark on the greatest quest of your life or simply engage in some top-tier home improvement.
 Use the damaged broom to help you climb the stairs
-Broom
+broom
 GC10075
 Try to climb the stairs 
-Stairs
+stairs
 GC10076
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3403,10 +3403,10 @@ GC10034
 GC10052
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10052
 Use the giant tape measure 
-Measure
+measure
 GC10077
 
 
@@ -3421,10 +3421,10 @@ GC10077
 GC10053
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10051
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10078
 
 
@@ -3439,10 +3439,10 @@ GC10078
 GC10054
 Picture this: There I was, standing at the entrance of a giant's castle, debating whether to challenge the towering behemoth to a fistfight. As I peered up at the giant, who seemed to have clouds for neighbors, I couldn't help but wonder if this was the most audacious idea I'd ever had or just a momentary lapse in judgment. The giant's pinky finger alone was the size of a tree trunk, and his voice rumbled like a malfunctioning earthquake machine. I was pretty sure I could use his nostrils as a jacuzzi, but then again, he could mistake me for an especially plump appetizer. I mean, how do you even trash talk a giant? "Hey, Jolly Green, your shoelaces are untied!" It was a debate for the ages, and I was pretty sure the odds weren't in my favor, but I had two secret weapons on my side: a heart full of chutzpah and a pocketful of breadcrumbs for distraction.
 Despite the fact the odds are REALLY not in my favor, I still feel like I can take him.
-I'm No Wuss!
+fight
 GC10079
 On Second thought... Nevermind!
-Back Down
+retreat
 GC10080
 
 
@@ -3457,10 +3457,10 @@ GC10080
 GC10055
 Picture this: You, a daring adventurer with a penchant for quirky decisions, find yourself hiding in a dryer within the confines of a colossal giant's castle. As you curl up inside the cramped metal drum, your mind races with the most absurd scenarios. In the background, the "Dumb Ways to Die" song starts playing, providing the perfect soundtrack for your misadventure. You can't help but chuckle at the irony of your situation. After all, what could be dumber than hiding in a dryer in a giant's castle while contemplating comically perilous possibilities?
 "Use a clothes dryer as a hiding place", after all it is cozy
-Hide
+hide
 GC10081
 Escape via the dryer vent
-Vent
+vent
 GC11800
 
 
@@ -3475,7 +3475,7 @@ GC11800
 GC10056
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Turn on the Giant Fan 
-Fan
+fan
 GC10063
 
 
@@ -3493,10 +3493,10 @@ GC10063
 GC10057
 As I strode into the giant's castle, feeling more like a minuscule intruder than ever, I spotted a massive, antiquated fan that looked like it could've been used to cool a prehistoric dinosaur rave. My heart pounded like a tiny drum as I tiptoed towards the switch, which seemed to be designed for a creature with fingers the size of tree trunks. With all the grace of a squirrel attempting ballet, I stretched, jumped, and eventually, on my third heroic attempt, slapped the switch. The fan, awakening with a groan that echoed through the castle like a tired giant's snore, began to spin with all the subtlety of a bull in a china shop. I couldn't help but wonder if this was a giant's idea of a prank – turning a simple fan into a whirlwind adventure for a pint-sized troublemaker like me.
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10082
 Use the giant tape measure 
-Measure
+measure
 GC10083
 
 
@@ -3511,7 +3511,7 @@ GC10083
 GC10058
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Turn on the Giant Fan 
-Fan
+fan
 GC10063
 
 
@@ -3529,10 +3529,10 @@ GC10063
 GC10059
 As I strode into the giant's castle, feeling more like a minuscule intruder than ever, I spotted a massive, antiquated fan that looked like it could've been used to cool a prehistoric dinosaur rave. My heart pounded like a tiny drum as I tiptoed towards the switch, which seemed to be designed for a creature with fingers the size of tree trunks. With all the grace of a squirrel attempting ballet, I stretched, jumped, and eventually, on my third heroic attempt, slapped the switch. The fan, awakening with a groan that echoed through the castle like a tired giant's snore, began to spin with all the subtlety of a bull in a china shop. I couldn't help but wonder if this was a giant's idea of a prank – turning a simple fan into a whirlwind adventure for a pint-sized troublemaker like me.
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10044
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10084
 
 
@@ -3547,10 +3547,10 @@ GC10084
 GC10060
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Use the giant tape measure 
-Measure
+measure
 GC10083
 Try to fly up to the table with a giant paper airplane and a gust of wind 
-Airplane
+airplane
 GC10082
 
 
@@ -3565,10 +3565,10 @@ GC10082
 GC10061
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10084
 Try to fly up to the table with a giant paper airplane and a gust of wind 
-Airplane
+airplane
 GC10044
 
 
@@ -3583,7 +3583,7 @@ GC10044
 GC10062
 Picture this: You, a brave soul with dreams as big as the giant's castle you find yourself in. Armed with determination and a colossal paper airplane that seems more suited for a pterodactyl than a mere human, you embark on a mission to conquer the skies. As you prepare for takeoff, you can't help but wonder if your choice of transportation was slightly ambitious. With a running start and arms flapping like a caffeinated seagull, you launch yourself off the ramp. The results, however, are less Wright Brothers and more "Wrong Human." Your giant paper airplane barely budges, and you find yourself in a perpetual loop of running, flapping, and absolutely zero liftoff. You might not be soaring through the skies, but at least you've earned the title of "Castle's Funniest Aviator."
 Turn on the Giant Fan 
-Fan
+fan
 GC10063
 
 
@@ -3601,7 +3601,7 @@ GC10063
 GC10063
 As I strode into the giant's castle, feeling more like a minuscule intruder than ever, I spotted a massive, antiquated fan that looked like it could've been used to cool a prehistoric dinosaur rave. My heart pounded like a tiny drum as I tiptoed towards the switch, which seemed to be designed for a creature with fingers the size of tree trunks. With all the grace of a squirrel attempting ballet, I stretched, jumped, and eventually, on my third heroic attempt, slapped the switch. The fan, awakening with a groan that echoed through the castle like a tired giant's snore, began to spin with all the subtlety of a bull in a china shop. I couldn't help but wonder if this was a giant's idea of a prank – turning a simple fan into a whirlwind adventure for a pint-sized troublemaker like me.
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10082
 
 
@@ -3619,7 +3619,7 @@ GC10082
 GC10064
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10082
 
 
@@ -3637,7 +3637,7 @@ GC10082
 GC10065
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10082
 
 
@@ -3655,13 +3655,13 @@ GC10082
 GC10067
 As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery - a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the pièce de résistance was a massive, leather-bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
-Back
+back
 GC10085
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10086
 Use the giant tape measure 
-Measure
+measure
 GC10087
 
 
@@ -3673,10 +3673,10 @@ GC10087
 GC10068
 In a moment of sheer desperation, you found yourself perched at the edge of a table, armed with nothing but determination and a handful of dirt. As you delicately plucked dirt from the tabletop summit, you glanced around the room, your eyes wide with a blend of confusion and mischief. Your options lay before you like a perplexing choose-your-own-adventure novel: a broom, standing tall like a medieval lance; a colossal flight of stairs that seemed more fitting for giants than mere mortals; and, to your surprise, a dryer that could have been the fortress of laundry royalty. In that moment, you realized that you were either about to embark on the greatest quest of your life or simply engage in some top-tier home improvement.
 Try to climb the stairs 
-Stairs
+stairs
 GC10088
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3691,10 +3691,10 @@ GC10034
 GC10069
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10068
 Use the giant tape measure 
-Measure
+measure
 GC10089
 
 
@@ -3709,10 +3709,10 @@ GC10089
 GC10070
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10068
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10090
 
 
