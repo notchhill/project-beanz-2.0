@@ -21,18 +21,33 @@
 @return void
 */
 void GameScreenLinkedList::display(GameScreenLinkedList* node) {
-	std::cout << node->screenText << std::endl;
-	std::cout << node->option1.optionTextBlurb << " -- [";
-	std::cout << node->option1.optionChoiceText << "]" << std::endl;
-	std::cout << node->option2.optionTextBlurb << " -- [";
-	std::cout << node->option2.optionChoiceText << "]" << std::endl;
-	std::cout << node->option3.optionTextBlurb << " -- [";
-	std::cout << node->option3.optionChoiceText << "]" << std::endl;
-	std::cout << node->option4.optionTextBlurb << " -- [";
-	std::cout << node->option4.optionChoiceText << "]" << std::endl;
-	std::cout << node->option5.optionTextBlurb << " -- [";
-   	std::cout << node->option5.optionChoiceText << "]" << std::endl;
-	std::cout << std::endl << std::endl << std::endl;
+	std::cout << node->screenText << std::endl << std::endl;
+	if (node->option1.optionTextBlurb == "")
+	{
+		std::cout << node->option1.optionTextBlurb << " -- [";
+		std::cout << node->option1.optionChoiceText << "]" << std::endl;
+	}
+	if (node->option1.optionTextBlurb == "")
+	{
+		std::cout << node->option2.optionTextBlurb << " -- [";
+		std::cout << node->option2.optionChoiceText << "]" << std::endl;
+	}
+	if (node->option1.optionTextBlurb == "")
+	{
+		std::cout << node->option3.optionTextBlurb << " -- [";
+		std::cout << node->option3.optionChoiceText << "]" << std::endl;
+	}
+	if (node->option1.optionTextBlurb == "")
+	{
+		std::cout << node->option4.optionTextBlurb << " -- [";
+		std::cout << node->option4.optionChoiceText << "]" << std::endl;
+	}
+	if (node->option1.optionTextBlurb == "")
+	{
+		std::cout << node->option5.optionTextBlurb << " -- [";
+		std::cout << node->option5.optionChoiceText << "]" << std::endl;
+	}
+	std::cout << std::endl << std::endl;
 }
 
 /*
