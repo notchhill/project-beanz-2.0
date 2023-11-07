@@ -128,15 +128,15 @@ BC00500
 As you approach the chef, a skilled artisan in the culinary world, you can't help but admire the organized chaos of the kitchen. Pots and pans clatter, and the delightful scents of simmering bean-based dishes waft through the air. With curiosity, you strike up a conversation with the chef, their face lighting up as they share the tales of last night's events in the village. Their account is filled with flavorful details, like the ingredients in a well-crafted dish, and as you listen, you become increasingly drawn into the mystery. The beans in the kitchen may hold the key to the secrets that unfolded, and you're eager to uncover the truth.
 What happened here last night?
 ask
-   
-   
-   
-   
-   
-   
-   
-   
-  
+BC00700
+
+
+
+
+
+
+
+
 
 
 
@@ -148,15 +148,15 @@ Go to the village square
 go
 BC00600
 
-   
-   
-   
-   
-   
-   
-   
-   
-  
+
+
+
+
+
+
+
+
+
 
 
 
