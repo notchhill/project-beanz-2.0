@@ -41,7 +41,7 @@ void GameScreenLinkedList::display(GameScreenLinkedList* node) {
 @param GameScreenLinkedList* head ; The head node of the list
 @return const GameScreenLinkedList* ; The found node
 */
-GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  GameScreenLinkedList* head) const {  
+GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID,  GameScreenLinkedList* head) {  
     /*for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
     {
         if(temp->screenID == screenID)
@@ -91,7 +91,7 @@ std::string GameScreenLinkedList::match(const std::string playerInput, const Gam
 @param: GameScreenLinkedList* head. The pointer to the head of the list. 
 @return void
 */
-void GameScreenLinkedList::clear(GameScreenLinkedList* &head) {
+void GameScreenLinkedList::clear(GameScreenLinkedList &&head) {
 	if(head == this){
 		head = head->next;
 	}

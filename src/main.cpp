@@ -43,18 +43,18 @@ int main()
 
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* current = &gameSequence;
-  gameSequence.load(input.txt, &gameSequence);
+  gameSequence.load("input.txt", &gameSequence);
   // We decided to just have Ctrl + c as killing the program for now.
   while (1) {
-    display(current);
+    gameSequence.display(current);
     std::string playerIn;
     std::cin >> playerIn;
-    std::string nextScreenID = gameSequence.match(playerInput, current);
-    if(nextScreenID != NULL){
-      current = gameSequence.search(nextScreenID, gameSequence);
+    std::string nextScreenID = gameSequence.match(playerIn, current);
+    if(nextScreenID != ""){
+      current = gameSequence.search(nextScreenID, &gameSequence);
     }
   }
-  gameSequence.clear(gameSequence);
+  gameSequence.clear(&gameSequence);
   
   return 0;
 }
