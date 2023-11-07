@@ -54,7 +54,7 @@ int main()
       current = gameSequence.search(nextScreenID, &gameSequence);
     }
   }
-  gameSequence.clear(&gameSequence);
+  gameSequence.clear(gameSequence);
   
   return 0;
 }
