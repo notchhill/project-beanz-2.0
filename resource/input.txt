@@ -12,8 +12,8 @@ Beanz 2.0: Refried Beanz (LOADING)
 
 
 
-Press Any Key To Continue
-
+Start the game!
+start
 LS00200
 
 LS00200
