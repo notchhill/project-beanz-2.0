@@ -3085,7 +3085,7 @@ Hide
 GC10055
 Climb into the Dryer vent 
 Vent
-GC20000
+GC11800
 
 
 
@@ -3460,7 +3460,7 @@ Hide
 GC10081
 Escape via the dryer vent
 Vent
-GC20000
+GC11800
 
 
 
@@ -3892,7 +3892,7 @@ Hide
 GC10055
 Climb into the Dryer vent 
 Vent
-GC20000
+GC11800
 
 
 
