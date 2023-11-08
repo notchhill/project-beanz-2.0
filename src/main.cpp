@@ -12,9 +12,6 @@
  *
  */
 
-#include <stdlib.h>
-
-
 
 #include "../include/gamescreenlinkedlist.h"
 
