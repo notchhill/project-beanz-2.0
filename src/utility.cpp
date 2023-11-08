@@ -32,3 +32,15 @@ std::string getPlayerIn()
   std::cout << std::endl;
   return fixedInput;
 }
+
+void nicePrint(std::string text)
+{
+  int numSpaces = 0;
+  int len = text.length();
+  for (int i = 0; i < len; i++)
+  {
+    if (text[i] == ' ') {numSpaces++;}
+    if (numSpaces == 10) {std::cout << std::endl; numSpaces = 0;}
+    std::cout << text[i];
+  }
+}
