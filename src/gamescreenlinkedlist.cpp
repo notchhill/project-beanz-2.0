@@ -80,7 +80,7 @@ GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, G
 */
 std::string GameScreenLinkedList::match(const std::string playerInput, const GameScreenLinkedList* currentNode){
 	if(currentNode == NULL || playerInput == ""){
-		return NULL;
+		return "";
 	}
 
 	if(playerInput == currentNode->option1.optionChoiceText){
@@ -98,7 +98,7 @@ std::string GameScreenLinkedList::match(const std::string playerInput, const Gam
 	if(playerInput == currentNode->option5.optionChoiceText){
 		return currentNode->option5.optionscreenID;
 	}
-	return NULL;
+	return "";
 }
 
 /*
