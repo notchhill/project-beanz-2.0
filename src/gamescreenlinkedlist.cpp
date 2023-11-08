@@ -22,27 +22,27 @@
 */
 void GameScreenLinkedList::display(GameScreenLinkedList* node) {
 	std::cout << node->screenText << std::endl << std::endl;
-	if (node->option1.optionTextBlurb != "")
+	if (node->option1.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
 	{
 		std::cout << node->option1.optionTextBlurb << " -- [";
 		std::cout << node->option1.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option2.optionTextBlurb != "")
+	if (node->option2.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
 	{
 		std::cout << node->option2.optionTextBlurb << " -- [";
 		std::cout << node->option2.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option3.optionTextBlurb != "")
+	if (node->option3.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
 	{
 		std::cout << node->option3.optionTextBlurb << " -- [";
 		std::cout << node->option3.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option4.optionTextBlurb != "")
+	if (node->option4.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
 	{
 		std::cout << node->option4.optionTextBlurb << " -- [";
 		std::cout << node->option4.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option5.optionTextBlurb != "")
+	if (node->option5.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
 	{
 		std::cout << node->option5.optionTextBlurb << " -- [";
 		std::cout << node->option5.optionChoiceText << "]" << std::endl;
