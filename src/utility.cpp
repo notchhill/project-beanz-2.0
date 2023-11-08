@@ -14,4 +14,21 @@
 
 #include "../include/utility.h"
 
-// function implementations go here
+std::string getPlayerIn()
+{
+  std::string playerIn;
+  std::cin >> playerIn;
+  int len = playerIn.length();
+  std::string fixedInput;
+  for (int i = 0; i < len; i++)
+  {
+    if (playerIn[i] < 'A' || playerIn[i] > 'z'){}      // symbol
+    else if (playerIn[i] > 'Z' && playerIn[i] < 'a'){} // symbol
+    else if (playerIn[i] >= 'A' && playerIn[i] <= 'Z') // uppercase
+      {fixedInput += playerIn[i]+32;}
+    else                                               // lowercase
+      {fixedInput += playerIn[i];}
+  }
+  std::cout << std::endl;
+  return fixedInput;
+}
