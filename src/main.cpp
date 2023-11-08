@@ -44,9 +44,7 @@ int main()
   // We decided to just have Ctrl + c as killing the program for now.
   while (1) {
     gameSequence.display(current);
-    std::string playerIn;
-    std::cin >> playerIn;
-    std::cout << std::endl;
+    std::string playerIn = getPlayerIn();
     std::string nextScreenID = gameSequence.match(playerIn, current);
     if(nextScreenID == ""){
         std::cout << "Invalid Input! Please Try Again.\n";
