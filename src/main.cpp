@@ -43,6 +43,7 @@ int main()
   gameSequence.load("resource/input.txt", &gameSequence);
   // We decided to just have Ctrl + c as killing the program for now.
   while (1) {
+    system("cls");
     gameSequence.display(current);
     std::string playerIn = getPlayerIn();
     std::string nextScreenID = gameSequence.match(playerIn, current);
