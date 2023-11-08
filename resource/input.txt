@@ -795,9 +795,9 @@ Having just climbed a towering beanstalk that seemed to stretch endlessly toward
 Should I dare enter the castle?
 enter
 GC00200
-
-
-
+Skip ahead to the basement
+skip
+GC10010
 
 
 
@@ -1238,7 +1238,7 @@ garbage
 GC05300
 Taking Lumos's words to heart, I decided to continue my adventure within the giant's castle, intrigued by the prospect of what I might discover amidst the unique combination of chaos and magic within these colossal walls.
 explore
-GC07500
+GC10010
 
 GC07300
 As I exerted my strength and pushed the colossal broom in the giant's kitchen, it teetered and then unexpectedly toppled, landing with a thud. I hadn't anticipated the broom's immense weight, and in the process of its fall, it landed squarely on top of me. Trapped beneath the giant broom, I realized that my actions had consequences, and this unforeseen mishap marked the end of my adventure within the giant's castle. The overwhelming weight of the broom left me with no way to continue, and I could do nothing but contemplate the series of choices that had led me to this fateful end.
