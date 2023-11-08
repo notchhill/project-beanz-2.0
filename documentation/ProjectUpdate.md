@@ -33,5 +33,10 @@ For this phase, that includes any changes to
 - Added make test, make testclean (it's supposed to be one word) to our Makefile
 - Removed references to 'root' and replaced it with references to 'head'; we are using a linked list, not a tree
 - Removed pushBack method and input function. pushBack's functionatlity has been incorporated into the load method, and input's functionality has been incorporated into the main routine
-- Edited section 3.0 of design.md to include a more fleshed out description of how our classes/functions will be implemented. Specifically, section 3.5 got a huge update, with 3.4 getting some minor touches.
-- The search method is now split into two methods called search (but a new version of search), and match.
+- Edited section 3.0 of design.md to include a more fleshed out description of how our classes/functions will be implemented. Specifically, section 3.5 got a huge update, with 3.4 getting some minor touches
+- The search method is now split into two methods called search (but a new version of search), and match
+- The official name of the game is now Project Beanz 2.0: Refried Beans. Note that the names of the files, directories, and executables will not change
+- The Display method now has various measures to ensure the text prints in a more legible format. Done by printing a newline every ten ' ' characters. Display also now ignores any strings that are only composed of spaces or tabs.
+- Match now returns an empty string instead of NULL
+- The load method now has support for both Windows and Linux (hopefully)
+- Added various shortcuts to the game sequence (detailed in the Miro Chart if you can find them) for demonstration purposes. The Miro Chart also now contains information on who authored which parts of the game
