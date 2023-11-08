@@ -36,7 +36,8 @@ For this phase, that includes any changes to
 - Edited section 3.0 of design.md to include a more fleshed out description of how our classes/functions will be implemented. Specifically, section 3.5 got a huge update, with 3.4 getting some minor touches
 - The search method is now split into two methods called search (but a new version of search), and match
 - The official name of the game is now Project Beanz 2.0: Refried Beans. Note that the names of the files, directories, and executables will not change
-- The Display method now has various measures to ensure the text prints in a more legible format. Done by printing a newline every ten ' ' characters. Display also now ignores any strings that are only composed of spaces or tabs.
+- Added getPlayerIn and nicePrint functions. The first converts a player's input into lowercase letters. The second prints a string with a newline added every ten ' ' characters.
+- The Display method now uses nicePrint to ensure the text prints in a more legible format. Display also now ignores any strings that are only composed of spaces or tabs.
 - Match now returns an empty string instead of NULL
 - The load method now has support for both Windows and Linux (hopefully)
 - Added various shortcuts to the game sequence (detailed in the Miro Chart if you can find them) for demonstration purposes. The Miro Chart also now contains information on who authored which parts of the game
