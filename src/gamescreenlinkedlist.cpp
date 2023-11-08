@@ -21,7 +21,8 @@
 @return void
 */
 void GameScreenLinkedList::display(GameScreenLinkedList* node) {
-	std::cout << node->screenText << std::endl << std::endl;
+	nicePrint(node->screenText); 
+	std::cout << std::endl << std::endl;
 	if (node->option1.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
 	{
 		std::cout << node->option1.optionTextBlurb << " -- [";
