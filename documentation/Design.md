@@ -92,15 +92,19 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         option5ChoiceText;
         option5screenID;
 
-    3.4 Classes and class methods. Including parameters and return value/type.
+    3.4 Classes and class methods. Including parameters and return value/type. Also functions.
                 CLASSES:
                     class: GameScreenLinkedList{};
                 METHODS: (For GameScreenLinkedList)
                     void display(GameScreenLinkedList* node);
-                    GameScreenLinkedList* search(const std::string screenID, const GameScreenLinkedList* head) const;
+                    GameScreenLinkedList* search(const std::string screenID, const GameScreenLinkedList* head);
                     std::string match(const std::string playerInput, const GameScreenLinkedList* currentNode);
                     void clear(GameScreenLinkedList* head);
                     void load(const std::string fileName, GameScreenLinkedList* head)
+                FUNCTIONS:
+                    int main();
+                    std::string getPlayerIn();
+                    void nicePrint(std::string text);
 
     3.5 Function and Class Implementations.
         3.5.1 GameScreenLinkedList class
@@ -124,15 +128,16 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     - Continue doing that until end of file, then exit. No return value.
                 Display Method
                     - Display the node's screenText, first option's blurb and text, second option's blurb and text, etc... until all of the options have been displayed.
-                    - Done using simple couts, endls. The screenText is displayed on one line, then each option and associated text are displayed a line down from the previous.
+                    - Before printing a given text variable, display checks for the first instance of a character that isn't a space or a tab. If this exists, it prints. Otherwise it will ignore it. Done with 'find_first_not_of' from string library
+                    - Done using simple couts, endls. The screenText is specially printed with the nicePrint function, then each option and associated text are displayed a line down from the previous.
                     - In other words, the player will see the screenText, and below that see option 1, then below that, option 2. Then below that, option 3, and so on.
                     - The text associated with each option will be displayed after the option, encased in square brackets, and separated from the option via two hyphens. ("option blurb" -- [text])
                     - All printed to the terminal
                 Match Method
                     - The main routine will grab input from the player, and pass it here, along with the current GameScreenLinkedList position the player is at.
-                    - Match will compare the player's input to each of the GameScreenLinkedList's option texts. If it finds a match, it returns that option's ID. Otherwise, it returns null.
+                    - Match will compare the player's input to each of the GameScreenLinkedList's option texts. If it finds a match, it returns that option's ID. Otherwise, it returns an empty string.
                     - Match accommodates the possibility of the player inputting an invalid string, but will recognize the option text even if it is obscured by typos as long as all the correct letters are present
-                    - Done with five if..else statements. e.g. "If the player's input matches the first option's text, return first option's ID", and so on for all five options. Returns null if no matches exist
+                    - Done with five if..else statements. e.g. "If the player's input matches the first option's text, return first option's ID", and so on for all five options. Returns an empty string if no matches exist
                 Search Method
                     - The search method is passed the head GameScreenLinkedList, and the ID returned from the match method
                     - Search checks if the ID it was passed, matches the head's ID (hopefully not, because that would take the player back to the beginning)
@@ -149,13 +154,29 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                 - It will define a GameScreenLinkedList, which will serve as the head of the linked list.
                 - Then, it will define a GameScreenLinkedList pointer, which points to the head
                 - The main routine then runs the load method on the head, passing input.txt and the head pointer.
-                - It then enters the main while loop. The while loop will loop until the player, at one point, returns to the main menu GameScreenLinkedList and chooses to quit.
-                - In the loop, it will call display on the current GameScreenLinkedList, then cin the player's input into a string.
+                - It then enters the main while loop. The while loop will loop until the player use ctrl+c to end the program.
+                - In the loop, it will call display on the current GameScreenLinkedList, then get the player's input using getPlayerIn.
                 - A new string will be defined, which will be set to the return value of match called on current. (it should return a valid GameScreenLinkedList ID.)
-                - If that string is null, we return to the beginning of the while loop to try again.
-                - If that string isn't null, it will be passed to search (called on current) in order to locate the associated GameScreenLinkedList.
+                - If that string is empty, we notify the player, and then return to the beginning of the while loop to try again. (The player entered something invalid)
+                - If that string isn't empty, it will be passed to search (called on current) in order to locate the associated GameScreenLinkedList.
                 - The current GameScreenLinkedList will be set to that newly found one, and that is the final execution within the while loop.
                 - Outside of the while loop, we will run the clear method on the GameScreenLinkedList head to free up memory, then return 0 to end the main routine.
+            getPlayerIn
+                - This function will define two strings. The first one will receive user input via cin, and the second will be left empty.
+                - An integer is then defined from the length of the first string. It will use the .length() method from the string library to do this.
+                - It will then enter a for loop, with i starting at 0, and going up by one until it reaches the length of the first string minus one.
+                - Then there are a series of if checks to determine what to do in the for loop.
+                - If the first string's ith character is a symbol, don't do anything.
+                - If the first string's ith character is an uppercase letter, add 32 to it and concatenate that onto the second string from before. Note that adding 32 to an uppercase letter transforms it into a lowercase letter.
+                - If the first string's ith character is anything else, we simply concatenate it to the second string.
+                - Once this is done, a newline is printed (for legibility purposes), and then we return the second string. This ensures that any symbols from the user's input are removed, and any uppercase letters are made into lowercase letters.
+            nicePrint
+                - This function assumes the string passed to it is a large, single-line string. This function will print it in a more legible way.
+                - It defines two integers. One being the length of the string passed, gotten using .length from the string library, and one called numSpaces, which is set to 0.
+                - It will enter a for loop, and iterate on i from 0 up to the length of the passed string minus one.
+                - First, it checks if the argument's ith character is a space. If so, numSpaces is incremented by one.
+                - Next, it checks if numSpaces is equal to 10. If so, print a newline and set numSpaces to 0.
+                - Finally, it will print the argument's ith character.
 
     3.6 Hierarchy of files, compilation, and the makefile
             3.6.1 Hierarchy of files
