@@ -72,7 +72,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
     3.3 Implementation method for each shared data store.
 
-        input.txt holds data in text form to be grabbed by the load() function. screenID identifies each screen. screenText is the text blurb describing the environment the player is in. The text blurb for each option describes that option. The optionChoiceText for each option is the actual word the player types in the terminal to select that option. The screenID for each option matches the screenID of the screen that the option leads to. 
+        input.txt holds data in text form to be grabbed by the load() function. screenID identifies each screen. screenText is the text blurb describing the environment the player is in. The text blurb for each option describes that option. The optionChoiceText for each option is the actual word the player types in the terminal to select that option. The screenID for each option matches the screenID of the screen that the option leads to. There is a blank line at the bottom to seperae screens. Any options not used on a screen are left as blank lines.
 
         screenID;
         screenText;
@@ -131,6 +131,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                 Match Method
                     - The main routine will grab input from the player, and pass it here, along with the current GameScreenLinkedList position the player is at.
                     - Match will compare the player's input to each of the GameScreenLinkedList's option texts. If it finds a match, it returns that option's ID. Otherwise, it returns null.
+                    - Match accommodates the possibility of the player inputting an invalid string, but will recognize the option text even if it is obscured by typos as long as all the correct letters are present
                     - Done with five if..else statements. e.g. "If the player's input matches the first option's text, return first option's ID", and so on for all five options. Returns null if no matches exist
                 Search Method
                     - The search method is passed the head GameScreenLinkedList, and the ID returned from the match method
