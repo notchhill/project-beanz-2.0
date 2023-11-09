@@ -2952,7 +2952,7 @@ GC10037
 
 GC10027
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
-Try to fly up to the table with a giant paper airplane (Type "Airplane")
+Try to fly up to the table with a giant paper airplane
 airplane
 GC10038
 Use the giant tape measure 
@@ -2970,7 +2970,7 @@ GC10040
 
 GC10028
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
-Try to fly up to the table with a giant paper airplane (Type "Airplane")
+Try to fly up to the table with a giant paper airplane 
 airplane
 GC10041
 Read "How To Put Together Ikea Furniture" 
@@ -3871,7 +3871,7 @@ GC10051
 GC10079
 As I stood at the entrance of the giant's castle, my heart pounding like a caffeinated woodpecker on a drum kit, I couldn't help but laugh at the absurdity of it all. Here I was, a pint-sized David in a world of Goliaths, about to face off in a fistfight that was as winnable as a penguin's attempt at synchronized swimming. I muttered to myself, "You've got this, champ! You're the Napoleon of determination, the Hulk Hogan of hope, and the Rocky Balboa of delusion!" With a deep breath, I cracked my knuckles (or rather, they cracked themselves), squared my shoulders, and strode into the giant's lair, ready to give him a piece of my not-so-giant mind and maybe a ticklish punch for good measure. After all, "size doesn't matter."
 Lets show the Giant who's boss!!
-FIGHT
+fight
 GC10099
 After thinking this over a bit more, this is a bad idea...
 surrender
@@ -3925,13 +3925,13 @@ LS00100
 GC10082
 Armed with nothing but a grin and a dash of audacity, you hopped aboard a colossal paper airplane that defied all reason, propelled by an industrial-sized fan that sounded like a herd of disgruntled elephants auditioning for a kazoo ensemble. You gracefully crash-landed on top of the giant table, perched triumphantly with all the elegance of a triumphant pelican on stilts. You found yourself perched at the edge of a table, armed with nothing but determination and a handful of dirt. As you delicately plucked dirt from the tabletop summit, your options lay before you like a perplexing choose-your-own-adventure novel: a broom, standing tall like a medieval lance; a colossal flight of stairs that seemed more fitting for giants than mere mortals; a storage box that looked like the kind of treasure chest adventurers dream of; and, to your surprise, a dryer that could have been the fortress of laundry royalty
 Try to climb the stairs 
-Stairs
+stairs
 GC10101
 Check the storage Box for something to use 
-Box
+box
 GC10102
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3943,7 +3943,7 @@ GC10034
 GC10083
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Try to fly up to the table with a giant paper airplane with a gust of wind
-Airplane
+airplane
 GC10082
 
 
@@ -3961,7 +3961,7 @@ GC10082
 GC10084
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Try to fly up to the table with a giant paper airplane and a gust of wind 
-Airplane
+airplane
 GC10082
 
 
@@ -3979,7 +3979,7 @@ GC10082
 GC10085
 Picture this: You, in the midst of a most peculiar adventure, finding yourself feeling like the route to your escape is about as clear as deciphering ancient hieroglyphs written by a dyslexic sloth. You're trapped in a giant's castle, and your attempts at navigating this labyrinthine fortress have left you feeling like a mouse in a maze of spaghetti. But here's the kicker: the elusive path to freedom apparently lies within a colossal dryer. Yes, a dryer big enough to make even your laundry basket look like a mere pebble. You stand there, scratching your head and contemplating the possibility that the giant's sock collection is the key to your salvation. With every twist and turn, you can't help but wonder if your grand escape plan will involve a sudden spin cycle, and if you'll emerge from this absurd adventure both dizzy and lint-free.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -3997,10 +3997,10 @@ GC10034
 GC10086
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10085
 Use the giant tape measure 
-Measure
+measure
 GC10103
 
 
@@ -4015,10 +4015,10 @@ GC10103
 GC10087
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10085
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10104
 
 
@@ -4033,7 +4033,7 @@ GC10104
 GC10088
 As I stood at the base of the colossal staircase in the giant's castle, I couldn't help but feel a tad optimistic – after all, I had tackled a flight of stairs or two in my time. With my hiking boots laced up and a steely determination in my eyes, I took a deep breath and boldly launched myself at the first step. Alas, the step was so vast that it felt like I was attempting to scale Mount Everest with a toothpick. After a few desperate attempts at hoisting myself up, I realized that my ambitious stair-climbing dreams were more far-fetched than a unicorn's vacation photos. Defeated and utterly perplexed, I contemplated my next move.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4051,7 +4051,7 @@ GC10034
 GC10089
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10068
 
 
@@ -4069,7 +4069,7 @@ GC10068
 GC10090
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10068
 
 
@@ -4087,7 +4087,7 @@ GC10068
 GC10091
 Picture this: You, in the midst of a most peculiar adventure, finding yourself feeling like the route to your escape is about as clear as deciphering ancient hieroglyphs written by a dyslexic sloth. You're trapped in a giant's castle, and your attempts at navigating this labyrinthine fortress have left you feeling like a mouse in a maze of spaghetti. But here's the kicker: the elusive path to freedom apparently lies within a colossal dryer. Yes, a dryer big enough to make even your laundry basket look like a mere pebble. You stand there, scratching your head and contemplating the possibility that the giant's sock collection is the key to your salvation. With every twist and turn, you can't help but wonder if your grand escape plan will involve a sudden spin cycle, and if you'll emerge from this absurd adventure both dizzy and lint-free.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4105,10 +4105,10 @@ GC10034
 GC10092
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10091
 Use the giant tape measure 
-Measure
+measure
 GC10093
 
 
@@ -4123,10 +4123,10 @@ GC10093
 GC10093
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10091
 Read "How To Put Together Ikea Furniture" 
-Read
+read
 GC10092
 
 
@@ -4141,7 +4141,7 @@ GC10092
 GC10094
 Picture this: You, the intrepid adventurer, armed with nothing but a broom and a head full of determination, stand at the foot of a colossal staircase inside a giant's castle. With unwavering confidence, you decide to conquer the monstrous ascent, your broom clenched like a knight's sword. However, as you take your first sweeping step, it becomes abundantly clear that this battle won't be easily won. With each jab and poke at the stairs, your broom rebels, bouncing you back like a trampoline on steroids. Soon, your broom is more like a pogo stick, propelling you in comical fits and starts, while the giant enjoys a front-row seat to the most entertaining show in the castle. Victory may be reserved for the giants, but you've certainly won the hearts of all with your valiant, if not quite successful, broomstick escapade.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4159,7 +4159,7 @@ GC10034
 GC10095
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10072
 
 
@@ -4177,7 +4177,7 @@ GC10072
 GC10096
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10072
 
 
@@ -4195,7 +4195,7 @@ GC10072
 GC10097
 As I stood at the base of the colossal staircase in the giant's castle, I couldn't help but feel a tad optimistic – after all, I had tackled a flight of stairs or two in my time. With my hiking boots laced up and a steely determination in my eyes, I took a deep breath and boldly launched myself at the first step. Alas, the step was so vast that it felt like I was attempting to scale Mount Everest with a toothpick. After a few desperate attempts at hoisting myself up, I realized that my ambitious stair-climbing dreams were more far-fetched than a unicorn's vacation photos. Defeated and utterly perplexed, I contemplated my next move.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4213,7 +4213,7 @@ GC10034
 GC10098
 Picture this: You, the intrepid adventurer, armed with nothing but a broom and a head full of determination, stand at the foot of a colossal staircase inside a giant's castle. With unwavering confidence, you decide to conquer the monstrous ascent, your broom clenched like a knight's sword. However, as you take your first sweeping step, it becomes abundantly clear that this battle won't be easily won. With each jab and poke at the stairs, your broom rebels, bouncing you back like a trampoline on steroids. Soon, your broom is more like a pogo stick, propelling you in comical fits and starts, while the giant enjoys a front-row seat to the most entertaining show in the castle. Victory may be reserved for the giants, but you've certainly won the hearts of all with your valiant, if not quite successful, broomstick escapade.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4231,7 +4231,7 @@ GC10034
 GC10099
 Once upon a time, in a world where size truly mattered, there was a hilarious clash of the titans. Our valiant hero, you, decided to engage in fisticuffs with a towering giant, whose biceps were bigger than small cars and whose nostrils could accommodate a family of squirrels. The fight began, and it looked more like a mosquito trying to box with a freight train. Your punches, though valiant, felt more like tickles on the giant's enormous, calloused toes. In a devastating turn of events, the giant decided to put an end to the tomfoolery by sitting down, which, unbeknownst to you, was essentially a reverse meteor strike. Your last words? "Hey, do you smell broccoli?"
 You Died!
-Restart
+restart
 LS00100
 
 
@@ -4249,10 +4249,10 @@ LS00100
 GC10101
 As I stood at the base of the colossal staircase in the giant's castle, I couldn't help but feel a tad optimistic – after all, I had tackled a flight of stairs or two in my time. With my hiking boots laced up and a steely determination in my eyes, I took a deep breath and boldly launched myself at the first step. Alas, the step was so vast that it felt like I was attempting to scale Mount Everest with a toothpick. After a few desperate attempts at hoisting myself up, I realized that my ambitious stair-climbing dreams were more far-fetched than a unicorn's vacation photos. Defeated and utterly perplexed, I contemplated my next move.
 Check the storage Box for something to use 
-Box
+box
 GC10105
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4267,13 +4267,13 @@ GC10034
 GC10102
 As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery - a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the pièce de résistance was a massive, leather-bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
-Back
+back
 GC10106
 Try to make sense of the IKEA instruction manual 
-IKEA
+ikea
 GC10107
 Read The Giants Diary
-Diary
+diary
 GC10108
 
 
@@ -4285,7 +4285,7 @@ GC10108
 GC10103
 As I ventured into the enormous castle of the giants, I couldn't help but feel like a puny ant in a world of colossal creatures. Determined to measure up, I bravely reached for the giant's tape measure conveniently propped against a wall. With a heroic tug, I unspooled the mammoth measuring tool. As I strained to look up, squinting against the towering digits, my heart sank – the enormous tape read, "You are 4 Giant Inches Tall." In a world of giants, I was more of a gnome than a giant, and I couldn't help but chuckle at the hilariously exaggerated perspective on my stature. It was a reminder that sometimes, it's not about the size of your measure, but the size of your laughter that truly counts.
 Go Back to the previous options
-Back
+back
 GC10085
 
 
@@ -4303,7 +4303,7 @@ GC10085
 GC10104
 Ah, the perplexing wonder of the "IKEA Enigma" instruction manual! This baffling masterpiece reads like a riddle wrapped in an enigma, hidden in a labyrinth, all with the grace of a Rubik's Cube playing the saxophone. Step one: Assemble something, maybe? Step two: Attach the doohickey to the whatchamacallit, or is it the thingamajig to the whosawhatsit? The manual helpfully features illustrations that are as clear as a foggy bathroom mirror, making you feel like you've stumbled into a parallel universe where Allen wrenches are sacred artifacts. It's an unparalleled exercise in existentialism, as you ponder life's mysteries, like whether you're building a bookshelf or just accidentally constructing an abstract art piece for an avant-garde gallery. The true IKEA experience: Where the journey is as uncertain as the destination!
 Go Back to the previous options
-Back
+back
 GC10085
 
 
@@ -4321,13 +4321,13 @@ GC10085
 GC10105
 As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery - a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the pièce de résistance was a massive, leather-bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
-Back
+back
 GC10109
 Try to make sense of the IKEA instruction manual 
-IKEA
+ikea
 GC10110
 Read The Giants Diary
-Diary
+diary
 GC10111
 
 
@@ -4339,10 +4339,10 @@ GC10111
 GC10106
 As you delicately plucked dirt from the tabletop summit, your options lay before you like a perplexing choose-your-own-adventure novel: a broom, standing tall like a medieval lance; a colossal flight of stairs that seemed more fitting for giants than mere mortals; and, to your surprise, a dryer that could have been the fortress of laundry royalty.
 Try to climb the stairs 
-Stairs
+stairs
 GC10112
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4357,10 +4357,10 @@ GC10034
 GC10107
 In the sprawling giant's castle, I found myself facing a colossal challenge - deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never-ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flürgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant-sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
 Go Back to the previous options
-Back
+back
 GC10106
 Read The Giants Diary
-Diary
+diary
 GC10113
 
 
@@ -4375,10 +4375,10 @@ GC10113
 GC10108
 As I tiptoed through the colossal hallway of the giant's castle, I couldn't resist the temptation to snoop around a box of their personal belongings. With each step, I felt like a sneaky squirrel infiltrating a peanut butter factory. I mean, who wouldn't be curious about a giant's secrets? As I opened the lid, I discovered an oversized diary, and the first entry read, "Today, I found a tiny human snooping through my stuff. They looked like a mischievous ant in a shoe store!" Oh boy, busted by a giant with a sense of humor! I quickly closed the box, realizing that even in the land of giants, my nosiness remained hilariously small.
 Go Back to the previous options
-Back
+back
 GC10106
 Try to make sense of the IKEA instruction manual 
-IKEA
+ikea
 GC10114
 
 
@@ -4393,7 +4393,7 @@ GC10114
 GC10109
 Picture this: You, in the midst of a most peculiar adventure, finding yourself feeling like the route to your escape is about as clear as deciphering ancient hieroglyphs written by a dyslexic sloth. You're trapped in a giant's castle, and your attempts at navigating this labyrinthine fortress have left you feeling like a mouse in a maze of spaghetti. But here's the kicker: the elusive path to freedom apparently lies within a colossal dryer. Yes, a dryer big enough to make even your laundry basket look like a mere pebble. You stand there, scratching your head and contemplating the possibility that the giant's sock collection is the key to your salvation. With every twist and turn, you can't help but wonder if your grand escape plan will involve a sudden spin cycle, and if you'll emerge from this absurd adventure both dizzy and lint-free.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4411,10 +4411,10 @@ GC10034
 GC10110
 In the sprawling giant's castle, I found myself facing a colossal challenge - deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never-ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flürgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant-sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
 Go Back to the previous options
-Back
+back
 GC10109
 Read The Giants Diary
-Diary
+diary
 GC10115
 
 
@@ -4429,10 +4429,10 @@ GC10115
 GC10111
 As I tiptoed through the colossal hallway of the giant's castle, I couldn't resist the temptation to snoop around a box of their personal belongings. With each step, I felt like a sneaky squirrel infiltrating a peanut butter factory. I mean, who wouldn't be curious about a giant's secrets? As I opened the lid, I discovered an oversized diary, and the first entry read, "Today, I found a tiny human snooping through my stuff. They looked like a mischievous ant in a shoe store!" Oh boy, busted by a giant with a sense of humor! I quickly closed the box, realizing that even in the land of giants, my nosiness remained hilariously small.
 Go Back to the previous options
-Back
+back
 GC10109
 Try to make sense of the IKEA instruction manual 
-IKEA
+ikea
 GC10116
 
 
@@ -4447,7 +4447,7 @@ GC10116
 GC10112
 As I stood at the base of the colossal staircase in the giant's castle, I couldn't help but feel a tad optimistic – after all, I had tackled a flight of stairs or two in my time. With my hiking boots laced up and a steely determination in my eyes, I took a deep breath and boldly launched myself at the first step. Alas, the step was so vast that it felt like I was attempting to scale Mount Everest with a toothpick. After a few desperate attempts at hoisting myself up, I realized that my ambitious stair-climbing dreams were more far-fetched than a unicorn's vacation photos. Defeated and utterly perplexed, I contemplated my next move.
 Try to escape via the dryer vent in the dryer 
-Dryer
+dryer
 GC10034
 
 
@@ -4465,7 +4465,7 @@ GC10034
 GC10113
 As I tiptoed through the colossal hallway of the giant's castle, I couldn't resist the temptation to snoop around a box of their personal belongings. With each step, I felt like a sneaky squirrel infiltrating a peanut butter factory. I mean, who wouldn't be curious about a giant's secrets? As I opened the lid, I discovered an oversized diary, and the first entry read, "Today, I found a tiny human snooping through my stuff. They looked like a mischievous ant in a shoe store!" Oh boy, busted by a giant with a sense of humor! I quickly closed the box, realizing that even in the land of giants, my nosiness remained hilariously small.
 Go Back to the previous options
-Back
+back
 GC10106
 
 
@@ -4483,7 +4483,7 @@ GC10106
 GC10114
 In the sprawling giant's castle, I found myself facing a colossal challenge - deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never-ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flürgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant-sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
 Go Back to the previous options
-Back
+back
 GC10106
 
 
@@ -4501,7 +4501,7 @@ GC10106
 GC10115
 As I tiptoed through the colossal hallway of the giant's castle, I couldn't resist the temptation to snoop around a box of their personal belongings. With each step, I felt like a sneaky squirrel infiltrating a peanut butter factory. I mean, who wouldn't be curious about a giant's secrets? As I opened the lid, I discovered an oversized diary, and the first entry read, "Today, I found a tiny human snooping through my stuff. They looked like a mischievous ant in a shoe store!" Oh boy, busted by a giant with a sense of humor! I quickly closed the box, realizing that even in the land of giants, my nosiness remained hilariously small.
 Go Back to the previous options
-Back
+back
 GC10109
 
 
@@ -4519,7 +4519,7 @@ GC10109
 GC10116
 In the sprawling giant's castle, I found myself facing a colossal challenge - deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never-ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flürgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant-sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
 Go Back to the previous options
-Back
+back
 GC10109
 
 
@@ -4537,7 +4537,7 @@ GC10109
 FF00100
 As I ventured deeper into the surreal forest, my jaw dropped in awe at the mesmerizing sight that surrounded me. The leaves on the towering trees above were not your typical foliage; they were intricate fractals, each one a stunning blend of mathematical precision and natural beauty. It felt as if I had stumbled into a mathematician's dream, where nature herself had mastered the art of geometry. The sunlight filtering through the fractal leaves cast a kaleidoscope of patterns on the forest floor, creating an otherworldly atmosphere. The very ground I walked on seemed to pulse with the harmonious rhythm of mathematical wonder. Continuing my exploration, I reached the forest's edge, where a vast, flowing river stretched out before me. As I gazed across, I noticed an enormous log serving as a bridge. This wasn't just any log; it was a colossal wooden behemoth, spanning the river like a titanic natural bridge. Its gnarled surface and enormous size made it appear as if it had been plucked from a fairy tale. As I approached, I marveled at the sheer scale of the log, and the sound of the river rushing below was a soothing symphony. I couldn't help but feel like a tiny explorer in a land where even the planet's shape was as peculiar as the fractal foliage above - a place where nature's oddities knew no bounds.
 Cross the river via the log
-Cross
+cross
 FF00200
 
 
@@ -4555,16 +4555,16 @@ FF00200
 FF00200
 Venturing deep into the mysterious forest, the leaves on the trees seemed like a surreal kaleidoscope of fractals, spinning my mind into a trippy trance. My curiosity led me to a clearing where a tribe of giant frogs, each one the size of a small car, stood guard around a massive hollow log. With wide, bulbous eyes, they croaked and chirped in a chorus that sounded like a bizarre symphony. As I cautiously approached, I couldn't help but feel like an insignificant speck in their world, lost among the forest's mesmerizing patterns. It was clear that these colossal amphibians took their log-guarding duties seriously, their vibrant colors and patterns mirroring the enchanting surroundings. What secrets lay within that hollow log, guarded by these larger-than-life frogs, remained a tantalizing mystery, and I couldn't help but wonder if my journey would lead me to a truly extraordinary discovery.
 Confront The Giant Frogs
-Confront
+confront
 FF00300
 Try to sneak around the frogs
-Quiet
+quiet
 FF00400
 Cause a distraction to disract the frogs then approach the log
-Distract
+distract
 FF00400
 Disguise yourself as a bush
-Bush
+bush
 FF00500
 
 
@@ -4573,13 +4573,13 @@ FF00500
 FF00300
 One day, while exploring a mystical forest where the leaves on the trees seemed to form intricate fractals, I found myself in a sticky situation. Out of nowhere, a tribe of colossal frogs leaped into action, capturing me in a web of giant lily pads. As I dangled in the air, surrounded by their amphibian warriors, I couldn't help but admire their teamwork and precision. They hopped me deeper into the forest, past trees adorned with mesmerizing, fractal-like foliage. Finally, I was presented before their froggy prince, a regal amphibian with a crown of lily petals. It seemed that my adventure had taken an unexpected turn, and I could only hope that my diplomacy skills were up to the challenge of negotiating with this enchanting yet formidable amphibian royalty.
 Tell the prince that you are on a journey to find the lost beans
-Quest
+quest
 FF00600
 Struggle against the guards that are holding you
-Struggle
+struggle
 FF00700
 Ribbit at the prince
-Ribbit
+ribbit
 FF00800
 
 
@@ -4591,13 +4591,13 @@ FF00800
 FF00400
 With a heart pounding like a drumbeat, I managed to outwit the tribe of frogs guarding the path to their main encampment deep in the fractal-covered forest. These amphibian sentinels, with their watchful eyes and webbed feet, were no match for my stealthy maneuvers. The forest's leaves were like a kaleidoscope of mathematical wonders, making it both enchanting and disorienting. I crept through the mesmerizing patterns, feeling like I'd stumbled into a fantastical realm where nature itself was an artist, painting the world with intricate designs. As I reached the heart of the froggy settlement, I couldn't help but marvel at the surreal beauty of the fractal leaves, while simultaneously patting myself on the back for being the forest's most unexpected forest-dweller.
 Continue down the main passage
-Continue
+continue
 FF00300
 Enter the door marked "Dungeon"
-Dungeon
+dungeon
 FF01000
 Hide in the nearby closet
-Hide
+hide
 FF01100
 
 
@@ -4609,13 +4609,13 @@ FF01100
 FF00500
 With the tribe of giant frogs croaking ominously in the distance, I decided it was time to employ my masterful skills in the art of amphibian camouflage. Armed with a few leafy branches, I expertly transformed myself into the most inconspicuous bush ever to grace the swamp. My disguise was so convincing that even the mosquitoes seemed baffled. As I nestled amidst the reeds, I couldn't help but chuckle at the absurdity of my situation. Here I was, a human topiary, playing hide-and-seek with colossal croakers. It was a leap of faith, but if I could outwit these gargantuan hopsters while looking like a shrub, I was convinced I could outsmart just about anything – or at least have a ribbiting good time trying!
 Continue down the main passage
-Continue
+continue
 FF01300
 Take the door marked dungeon
-Dungeon
+dungeon
 FF01500
 Hide in the closet
-Hide
+hide
 FF01600
 
 
@@ -4627,7 +4627,7 @@ FF01600
 FF00600
 After what felt like an eternity, I was finally set free from my bizarre imprisonment by a tribe of frogs deep within the fractal-covered forest. It turned out that my passion for collecting beans, a strange hobby even by human standards, had endeared me to the froggy locals. They appreciated my dedication to legumes and saw me as a fellow enthusiast. With a ceremonial hopping dance and a chorus of croaks, they released me from my bean-shaped cell. As I emerged from my leafy prison, I couldn't help but chuckle at the surreal nature of my predicament, thinking that I might be the only person on Earth who owed their freedom to an obsession with beans and a fascination with fractals.
 Thank them for releasing you and head on your way
-Thank
+thank
 FF00900
 
 
@@ -4645,13 +4645,13 @@ FF00900
 FF00700
 Trapped in the midst of a tribe of colossal frogs, I found myself in a truly amphibian conundrum. Their webbed toes were like iron shackles, and their booming croaks sounded like an otherworldly opera of imprisonment. Every escape attempt felt more futile than trying to teach a fish to ride a bicycle. These gargantuan amphibians regarded me with bemused expressions, their bulging eyes suggesting that my struggle was nothing more than a tadpole's rebellion. As I wriggled and squirmed, I couldn't help but envy their leaps and bounds. Perhaps, I thought, I could persuade them to let me go by offering a crash course in froggy acrobatics. But for now, I was just a miniature human in a colossal froggy predicament.
 Tell the prince that you are on a journey to find the lost beans
-Quest
+quest
 FF00600
 Struggle against the guards that are holding you
-Struggle
+struggle
 FF00700
 Ribbit at the prince
-Ribbit
+ribbit
 FF00800
 
 
@@ -4663,7 +4663,7 @@ FF00800
 FF00800
 In a bizarre twist of fate, I found myself at the mercy of a tribe of giant frogs, facing execution for committing the worst faux pas in frog society: I had ribbited at them. In hindsight, my ill-advised attempt at frog-like communication had escalated into an amphibian diplomatic crisis. As the frogs croaked their judgment in deep, echoing voices, I couldn't help but feel like a minnow in a piranha-infested pond. With a final ribbit, they carried out their unusual sentence, leaving me to ponder the ribbit that cost me my life, a lesson learned in the most peculiar way imaginable. Ribbit in peace, they said... or at least something that sounded like it.
 You croaked your last breath.
-Restart
+restart
 LS00200
 
 
@@ -4681,7 +4681,7 @@ LS00200
 FF01000
 With a brave heart and a flickering torch, I ventured into the ominous depths of the dungeon, my imagination filled with tales of hidden treasures and ancient mysteries. The cold, damp air clung to my skin like a shroud of uncertainty, and the eerie echoes of my footsteps amplified my anxiety. As I delved further into the darkness, hope and excitement swirled within me, only to be extinguished by the cruel revelation that awaited at the end of the corridor - a dead end! My adventurous spirit deflated like a balloon losing air, and I couldn't help but feel that I had just unwittingly auditioned for a one-act play titled "Adventurer vs. Brick Wall." Alas, no hidden treasures or secret passages here, just a rendezvous with a rather unimpressive end to my dungeon escapade.
 Continue Down the main passage
-Continue
+continue
 FF00300
 
 
@@ -4699,10 +4699,10 @@ FF00300
 FF01100
 In the peculiar world of the giant frog kingdom, I found myself crouched inside a cavernous closet, my heart pounding like a drum in an amphibian orchestra. The closet, the size of a small cottage, seemed like the perfect hiding spot, or so I thought. Just as I was beginning to contemplate my escape, I heard a rumble approaching, and to my astonishment, a servant frog appeared, wheeling an enormous laundry bin as if it were a miniature wheelbarrow. The laundry bin was so vast that I wondered if they were planning to launder a mountain of lily pads. As the servant frog passed my hiding spot, I tried to become as inconspicuous as a firefly in a fog, hoping they wouldn't spot me among the closet's colossal clutter.
 Continue down the main path and hope they dont notice you
-Continue
+continue
 FF00300
 Hide in the bin theyre pushing around
-Hide
+hide
 FF01200
 
 
@@ -4717,10 +4717,10 @@ FF01200
 FF01200
 I found myself in a rather unusual predicament as I crouched inside a laundry bin on wheels. The giant frog servant, who had a knack for eccentric chores, was inexplicably pushing me further and further into the heart of a dense forest. It was like a bizarre carnival ride orchestrated by a giant amphibian ringmaster. I clung to the sides of the bin for dear life, my heart racing as we bumped over tree roots and through underbrush. For reasons known only to this enigmatic amphibious butler, I had become an unwilling participant in the wackiest adventure of my life, careening through the woods while pondering the peculiar tales I would soon have to share about my day in the giant frog's laundry hamper on wheels.
 Escape out into the forest
-Run
+run
 FF00900
 Jump out of the laundry hamper and scare the poor servant
-Scare
+scare
 FF00300
 
 
@@ -4735,13 +4735,13 @@ FF00300
 FF01300
 Venturing deep into the tribe of giant frogs was like embarking on a quirky amphibian adventure. The croaking symphony of the colossal creatures filled the air, and their enormous lily pad huts resembled waterfront mansions. As I tip-toed through the giant reeds, marveling at the peculiar frog culture, I suddenly found myself face-to-face with a lone guard frog. Its bulbous eyes widened in surprise as it observed me, the miniature explorer in their kingdom. It croaked loudly, summoning the attention of its fellow frogs, who regarded me with a mixture of amusement and curiosity. I was now the center of attention in a world where I was the size of a tadpole, and my escapade had taken an unexpected leap into a giant froggy spectacle!
 Climb the guard tower in an attempt to escape
-Climb
+climb
 FF01400
 Surrender to the frogs and hope they be nice to you.
-Surrender
+surrender
 FF00300
 Distract one of the guards and attempt to steal his key
-Steal
+steal
 FF01700
 
 
@@ -4753,10 +4753,10 @@ FF01700
 FF01400
 Amidst the chaotic chase by those giant, slimy frogs, I miraculously scrambled to the top of the guard tower. My heart raced as I spotted a lifeline – a sturdy rope dangling tantalizingly from the tower's edge, leading to freedom outside. With no time to lose, I seized the rope like a modern-day Tarzan in distress. Swinging wildly through the air, I felt like a human pendulum on a mission. The frogs croaked in dismay below as I made my daring escape, whooping and hollering like an adventurer from the pages of a storybook. It was an escape I'd never forget – a mix of adrenaline, amphibians, and a dash of Tarzan-like flair!
 Let go of the rope and run for your life!
-Run
+run
 FF00900
 Remember you have a fear of heights and clench to the rope for dear life!
-Clench
+clench
 FF00300
 
 
@@ -4771,7 +4771,7 @@ FF00300
 FF01500
 With a brave heart and a flickering torch, I ventured into the ominous depths of the dungeon, my imagination filled with tales of hidden treasures and ancient mysteries. The cold, damp air clung to my skin like a shroud of uncertainty, and the eerie echoes of my footsteps amplified my anxiety. As I delved further into the darkness, hope and excitement swirled within me, only to be extinguished by the cruel revelation that awaited at the end of the corridor - a dead end! My adventurous spirit deflated like a balloon losing air, and I couldn't help but feel that I had just unwittingly auditioned for a one-act play titled "Adventurer vs. Brick Wall." Alas, no hidden treasures or secret passages here, just a rendezvous with a rather unimpressive end to my dungeon escapade.
 Continue Down the main passage
-Continue
+continue
 FF00300
 
 
@@ -4789,10 +4789,10 @@ FF00300
 FF01600
 Nestled amidst the vibrant and croaky community of frogs, I had somehow managed to disguise myself as a seemingly ordinary bush. The vibrant green foliage around me acted as my leafy cloak, and I held my breath, hoping not to rustle or betray my presence. Amidst the hopping and ribbiting, a curious servant frog wobbled over, scratching its head with webbed fingers, clearly puzzled by my sudden appearance. However, instead of voicing its bewilderment, it simply shrugged, as if accepting that in the ever-changing world of frogs, a random bush could pop up just about anywhere. It was a comically surreal moment as I, the human shrub, shared a silent, unspoken agreement with the frogs: "Sometimes, you just don't question the bush."
 Continue down the main path and hope no other frogs notice you
-Continue
+continue
 FF01300
 Hide in the bin of laundry that the servant is pushing around
-Hide
+hide
 FF01200
 
 
@@ -4807,10 +4807,10 @@ FF01200
 FF01700
 As the croaky footsteps of the frog guards closed in on me, my heart raced like a jackrabbit with caffeine. In my desperate attempt to escape, I grabbed the nearest thing within reach, which happened to be a massive, ornate chandelier. With a Herculean effort, I tugged it from the ceiling, sending crystals and glittering ornaments cascading down like a fireworks display. The frogs looked up in shock, their eyes wider than dinner plates. Seizing the opportunity, I slipped through the chaos, expertly snatching the key from the distracted guard's pocket. It was a "ribbit"-ting escape, and as I dashed away, I couldn't help but marvel at how a plummeting chandelier had become the unlikeliest hero in my great escape caper.
 Use the key to get out asap!
-Run!
+run!
 FF00900
 Stand back and praise yourself about how bad-ass that was!
-Boast
+boast
 FF00300
 
 
