@@ -16,31 +16,31 @@
 
 std::string getPlayerIn()
 {
-  std::string playerIn;
-  std::cin >> playerIn;
-  int len = playerIn.length();
-  std::string fixedInput;
-  for (int i = 0; i < len; i++)
-  {
-    if (playerIn[i] < 'A' || playerIn[i] > 'z'){}      // symbol
-    else if (playerIn[i] > 'Z' && playerIn[i] < 'a'){} // symbol
-    else if (playerIn[i] >= 'A' && playerIn[i] <= 'Z') // uppercase
-      {fixedInput += playerIn[i]+32;}
-    else                                               // lowercase
-      {fixedInput += playerIn[i];}
-  }
-  std::cout << std::endl;
-  return fixedInput;
+	std::string playerIn;
+	std::cin >> playerIn;
+	int len = playerIn.length();
+	std::string newPlayerIn;
+	for (int i = 0; i < len; i++)
+	{
+		if (playerIn[i] < 'A' || playerIn[i] > 'z'){}        // do nothing
+		else if (playerIn[i] > 'Z' && playerIn[i] < 'a'){}   // do nothing
+		else if (playerIn[i] >= 'A' && playerIn[i] <= 'Z')
+			{newPlayerIn += playerIn[i] + 32;}           // upper to lower
+		else
+			{newPlayerIn += playerIn[i];}                // no change
+	}
+	std::cout << std::endl;
+	return newPlayerIn;
 }
 
 void nicePrint(std::string text)
 {
-  int numSpaces = 0;
-  int len = text.length();
-  for (int i = 0; i < len; i++)
-  {
-    if (text[i] == ' ') {numSpaces++;}
-    if (numSpaces == 10) {std::cout << std::endl; numSpaces = 0;}
-    std::cout << text[i];
-  }
+	int numSpaces = 0;
+	int len = text.length();
+	for (int i = 0; i < len; i++)
+	{
+		if (text[i] == ' ') {numSpaces++;}
+		if (numSpaces == 10) {std::cout << std::endl; numSpaces = 0;}
+		std::cout << text[i];
+	}
 }
