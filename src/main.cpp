@@ -17,7 +17,7 @@
 
 int main()
 {
-  system("mode con: cols=120 lines=20");
+  system("mode con: cols=120 lines=30");
   system("cls");
   /*
   std::cout << "You find a quaint forest gnome's hut nestled in the heart of the enchanting forest. ";
