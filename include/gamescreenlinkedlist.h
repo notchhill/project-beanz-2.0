@@ -17,7 +17,7 @@
 #define __GAMESCREEN_LINKED_LIST_HEADER__
 
 
-#include <string>
+#include "../include/utility.h"
 
 
 /*
@@ -29,7 +29,7 @@ class GameScreenLinkedList {
 		GameScreenLinkedList* next;
 
 		std::string screenID;
-        std::string screenText;
+        	std::string screenText;
 
 		struct option {
 			std::string optionTextBlurb;
@@ -46,32 +46,34 @@ class GameScreenLinkedList {
 
 	public:
 
-		GameScreenLinkedList();// Default Constructor
+		GameScreenLinkedList(){}// Default Constructor
 		//Create an empty list with its front pointing to NULL.
 
 
-		~GameScreenLinkedList();// Destructor
+		~GameScreenLinkedList(){}// Destructor
 		//Remove all the nodes from the linked list and release memory from them.
 
-
-		void pushBack(const std::string screenID);
-		//Insert the 'screenID' at the end of the list.
 
 		void display(GameScreenLinkedList* node);
 		//Displays the screen text in node parameter, along with the option texts, and the text blurbs/descriptions for each option
 
-		const GameScreenLinkedList* const search(const std::string screenID);
+
+		GameScreenLinkedList* search(const std::string screenID, GameScreenLinkedList* head);
 		//Loop through the list and campare the screenID of each node with parameter 'screenID'
 		//If a node matches, return it.
 		//Otherwise, return NULL.
 
 
+		std::string match(const std::string playerInput, const GameScreenLinkedList* currentNode);
+		//Matches the input that the player has entered with the input for each option of currentNode.
+		//If it matches, return the associated screenID.
+		//Otherwise, return NULL.
 
-		void clear();
+		void clear(GameScreenLinkedList* &head);
 		//Remove all nodes from the list and release memory from all nodes.
 
 
-		void load(const std::string fileName);
+		void load(const std::string fileName, GameScreenLinkedList* head);
 		//Open the file named 'filename' in read only mode.
 		//Read the data from the file and insert them in the list.
 		//Close the file after all data have been inserted.

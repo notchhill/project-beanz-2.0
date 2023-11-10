@@ -1,0 +1,17 @@
+FF06700
+You find a quaint forest gnome's hut nestled in the heart of the enchanting forest. The trees have fractal-like leaves, and the hut, with its charming design, boasts a basement, a ladder to the roof, a well-tended garden out front, and a small storage shed behind it.
+Climb up the ladder
+ladder
+FF06800
+Check out the storage shed
+shed
+FF06900
+Explore the clearing behind the hut
+hut
+FF08700
+option4TextBlurb;
+option4ChoiceText;
+option4screenID;
+option5TextBlurb;
+option5ChoiceText;
+option5screenID;
