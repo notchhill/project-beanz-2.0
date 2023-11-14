@@ -1,5 +1,5 @@
 LS00100
-Beanz 2.0: Refried Beanz (LOADING)
+Beanz 2.0: Refried Beanz (LOADING).
 
 
 
@@ -17,7 +17,7 @@ start
 LS00200
 
 LS00200
-Main Menu
+Main Menu.
 Start Game
 start
 LS00300
@@ -35,7 +35,7 @@ LS00300
 
 
 LS00300
-{story intro text goes here}
+{story intro text goes here}.
 
 
 
@@ -48,7 +48,7 @@ LS00300
 
 
 
-Type start
+Type start.
 start
 BC00100
 

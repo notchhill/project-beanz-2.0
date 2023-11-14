@@ -59,25 +59,27 @@ void nicePrint(std::string text) {
 
 //read text into string
 for (int i = 0; i < len; i++) {
-	//print when space is reached
-	if (text[i] == ' ') {
+	screenText[j] = text[i];
+	j++;
+	count++;
+
+	//print when space is reached - no something else instead
+	if (text[i] == ' ' || text[i] == '.' || text[i] == '!') {
 		for(int a = 0; a < j; a++) {
 			std::cout << screenText[a];
 		}
-		//std::cout << " ";
+		screenText.clear();
 		j = 0;
 	}
 	//if string length + current line length > 120 print newline
 	if(j + count > 120) {
 		std::cout << std::endl;
-		screenText.clear();
-		j = 0;
+		//screenText.clear();
+
 		count = 0;
 	}
 
-	screenText[j] = text[i];
-	j++;
-	count++;
+
 
 	}
 
