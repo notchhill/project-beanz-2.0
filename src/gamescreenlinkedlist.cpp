@@ -15,39 +15,41 @@
 
 #include "../include/gamescreenlinkedlist.h"
 
-/*
-@brief Displays the contents of the node it is passed to the terminal
-@param GameScreenLinkedList* node ; The node to be displayed
-@return void
+/**	@brief Displays the contents of the node it is passed to the terminal
+*
+*	@param GameScreenLinkedList* node ; The node to be displayed
+*	@return Void.
 */
 void GameScreenLinkedList::display(GameScreenLinkedList* node) {
 	nicePrint(node->screenText); 
+
 	std::cout << std::endl << std::endl;
-	if (node->option1.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
-	{
+
+	if (node->option1.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
 		std::cout << node->option1.optionTextBlurb << " -- [";
 		std::cout << node->option1.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option2.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
-	{
+
+	if (node->option2.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
 		std::cout << node->option2.optionTextBlurb << " -- [";
 		std::cout << node->option2.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option3.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
-	{
+
+	if (node->option3.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
 		std::cout << node->option3.optionTextBlurb << " -- [";
 		std::cout << node->option3.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option4.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
-	{
+
+	if (node->option4.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
 		std::cout << node->option4.optionTextBlurb << " -- [";
 		std::cout << node->option4.optionChoiceText << "]" << std::endl;
 	}
-	if (node->option5.optionTextBlurb.find_first_not_of(" \t") != std::string::npos)
-	{
+
+	if (node->option5.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
 		std::cout << node->option5.optionTextBlurb << " -- [";
 		std::cout << node->option5.optionChoiceText << "]" << std::endl;
 	}
+	
 	std::cout << std::endl << std::endl;
 }
 
@@ -58,14 +60,6 @@ void GameScreenLinkedList::display(GameScreenLinkedList* node) {
 @return const GameScreenLinkedList* ; The found node
 */
 GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, GameScreenLinkedList* head) {  
-    /*for(GameScreenLinkedList* temp = root; temp->next != nullptr; temp = temp->next)
-    {
-        if(temp->screenID == screenID)
-        {
-            return temp;
-        }
-    }*/
-
     GameScreenLinkedList* search = head;
     
     while(search != NULL && search->screenID!=screenID) search = search->next;
@@ -73,11 +67,11 @@ GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, G
     return search;
 }
 
-/*
-@brief Matches player's inputted text with the appropriate optionChoiceText
-@param string playerInput ; the player's inputted text
-@param const GameScreenLinkedList* currentNode ; Node to have its options examined for a match with the player's input
-@return string GameScreenLinkedList ; ScreenID of matching option
+/**	@brief Matches player's inputted text with the appropriate optionChoiceText
+*
+*	@param string playerInput ; the player's inputted text
+*	@param const GameScreenLinkedList* currentNode ; Node to have its options examined for a match with the player's input
+*	@return string GameScreenLinkedList ; ScreenID of matching option
 */
 std::string GameScreenLinkedList::match(const std::string playerInput, const GameScreenLinkedList* currentNode){
 	if(currentNode == NULL || playerInput == ""){
@@ -155,107 +149,107 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 	file.open(fileName);
 	GameScreenLinkedList* tail = head;
 
-if(file.is_open()) {
-	while(!(file.eof())){
-		//Just for the first time around, if the memory address of object is passed through.
-		GameScreenLinkedList* ptr;
-		if(head != NULL && head->screenID == "\0"){
-			ptr = head;
-		}else{
-			ptr = new GameScreenLinkedList;
-		}
-
-		std::getline(file, ptr->screenID);
-		if (ptr->screenID.back() == '\r') 
-		{ptr->screenID.pop_back();}
-		if(!((ptr->screenID[0] == 'L' && ptr->screenID[1] == 'S') || (ptr->screenID[0] == 'B' && ptr->screenID[1] == 'C') || (ptr->screenID[0] == 'G' && ptr->screenID[1] == 'C') || 
-		     (ptr->screenID[0] == 'F' && ptr->screenID[1] == 'F') || (ptr->screenID[0] == 'D' && ptr->screenID[1] == 'D'))){
-			std::cout << " The input file is in an invalid format. Problem occurred around this text: " << ptr->screenID << std::endl;
-			tail->next = NULL;
-			if(ptr != this){
-				delete ptr;
+	if(file.is_open()) {
+		while(!(file.eof())){
+			//Just for the first time around, if the memory address of object is passed through.
+			GameScreenLinkedList* ptr;
+			if(head != NULL && head->screenID == "\0"){
+				ptr = head;
+			}else{
+				ptr = new GameScreenLinkedList;
 			}
-			return;
-		}
+
+			std::getline(file, ptr->screenID);
+			if (ptr->screenID.back() == '\r') 
+			{ptr->screenID.pop_back();}
+			if(!((ptr->screenID[0] == 'L' && ptr->screenID[1] == 'S') || (ptr->screenID[0] == 'B' && ptr->screenID[1] == 'C') || (ptr->screenID[0] == 'G' && ptr->screenID[1] == 'C') || 
+				(ptr->screenID[0] == 'F' && ptr->screenID[1] == 'F') || (ptr->screenID[0] == 'D' && ptr->screenID[1] == 'D'))){
+				std::cout << " The input file is in an invalid format. Problem occurred around this text: " << ptr->screenID << std::endl;
+				tail->next = NULL;
+				if(ptr != this){
+					delete ptr;
+				}
+				return;
+			}
+				
+			std::getline(file, ptr->screenText);
+			if (ptr->screenText.back() == '\r') 
+			{ptr->screenText.pop_back();}
 			
-		std::getline(file, ptr->screenText);
-		if (ptr->screenText.back() == '\r') 
-		{ptr->screenText.pop_back();}
-		
-		std::getline(file, ptr->option1.optionTextBlurb);
-		if (ptr->option1.optionTextBlurb.back() == '\r') 
-		{ptr->option1.optionTextBlurb.pop_back();}
-		
-		std::getline(file, ptr->option1.optionChoiceText);
-		if (ptr->option1.optionChoiceText.back() == '\r') 
-		{ptr->option1.optionChoiceText.pop_back();}
-		
-		std::getline(file, ptr->option1.optionscreenID);
-		if (ptr->option1.optionscreenID.back() == '\r') 
-		{ptr->option1.optionscreenID.pop_back();}
-		
-		std::getline(file, ptr->option2.optionTextBlurb);
-		if (ptr->option2.optionTextBlurb.back() == '\r') 
-		{ptr->option2.optionTextBlurb.pop_back();}
-		
-		std::getline(file, ptr->option2.optionChoiceText);
-		if (ptr->option2.optionChoiceText.back() == '\r') 
-		{ptr->option2.optionChoiceText.pop_back();}
-		
-		std::getline(file, ptr->option2.optionscreenID);
-		if (ptr->option2.optionscreenID.back() == '\r') 
-		{ptr->option2.optionscreenID.pop_back();}
-		
-		std::getline(file, ptr->option3.optionTextBlurb);
-		if (ptr->option3.optionTextBlurb.back() == '\r') 
-		{ptr->option3.optionTextBlurb.pop_back();}
-		
-		std::getline(file, ptr->option3.optionChoiceText);
-		if (ptr->option3.optionChoiceText.back() == '\r') 
-		{ptr->option3.optionChoiceText.pop_back();}
-		
-		std::getline(file, ptr->option3.optionscreenID);
-		if (ptr->option3.optionscreenID.back() == '\r') 
-		{ptr->option3.optionscreenID.pop_back();}
-		
-		std::getline(file, ptr->option4.optionTextBlurb);
-		if (ptr->option4.optionTextBlurb.back() == '\r') 
-		{ptr->option4.optionTextBlurb.pop_back();}
-		
-		std::getline(file, ptr->option4.optionChoiceText);
-		if (ptr->option4.optionChoiceText.back() == '\r') 
-		{ptr->option4.optionChoiceText.pop_back();}
-		
-		std::getline(file, ptr->option4.optionscreenID);
-		if (ptr->option4.optionscreenID.back() == '\r') 
-		{ptr->option4.optionscreenID.pop_back();}
-		
-		std::getline(file, ptr->option5.optionTextBlurb);
-		if (ptr->option5.optionTextBlurb.back() == '\r') 
-		{ptr->option5.optionTextBlurb.pop_back();}
-		
-		std::getline(file, ptr->option5.optionChoiceText);
-		if (ptr->option5.optionChoiceText.back() == '\r') 
-		{ptr->option5.optionChoiceText.pop_back();}
-		
-		std::getline(file, ptr->option5.optionscreenID);
-		if (ptr->option5.optionscreenID.back() == '\r') 
-		{ptr->option5.optionscreenID.pop_back();}
+			std::getline(file, ptr->option1.optionTextBlurb);
+			if (ptr->option1.optionTextBlurb.back() == '\r') 
+			{ptr->option1.optionTextBlurb.pop_back();}
+			
+			std::getline(file, ptr->option1.optionChoiceText);
+			if (ptr->option1.optionChoiceText.back() == '\r') 
+			{ptr->option1.optionChoiceText.pop_back();}
+			
+			std::getline(file, ptr->option1.optionscreenID);
+			if (ptr->option1.optionscreenID.back() == '\r') 
+			{ptr->option1.optionscreenID.pop_back();}
+			
+			std::getline(file, ptr->option2.optionTextBlurb);
+			if (ptr->option2.optionTextBlurb.back() == '\r') 
+			{ptr->option2.optionTextBlurb.pop_back();}
+			
+			std::getline(file, ptr->option2.optionChoiceText);
+			if (ptr->option2.optionChoiceText.back() == '\r') 
+			{ptr->option2.optionChoiceText.pop_back();}
+			
+			std::getline(file, ptr->option2.optionscreenID);
+			if (ptr->option2.optionscreenID.back() == '\r') 
+			{ptr->option2.optionscreenID.pop_back();}
+			
+			std::getline(file, ptr->option3.optionTextBlurb);
+			if (ptr->option3.optionTextBlurb.back() == '\r') 
+			{ptr->option3.optionTextBlurb.pop_back();}
+			
+			std::getline(file, ptr->option3.optionChoiceText);
+			if (ptr->option3.optionChoiceText.back() == '\r') 
+			{ptr->option3.optionChoiceText.pop_back();}
+			
+			std::getline(file, ptr->option3.optionscreenID);
+			if (ptr->option3.optionscreenID.back() == '\r') 
+			{ptr->option3.optionscreenID.pop_back();}
+			
+			std::getline(file, ptr->option4.optionTextBlurb);
+			if (ptr->option4.optionTextBlurb.back() == '\r') 
+			{ptr->option4.optionTextBlurb.pop_back();}
+			
+			std::getline(file, ptr->option4.optionChoiceText);
+			if (ptr->option4.optionChoiceText.back() == '\r') 
+			{ptr->option4.optionChoiceText.pop_back();}
+			
+			std::getline(file, ptr->option4.optionscreenID);
+			if (ptr->option4.optionscreenID.back() == '\r') 
+			{ptr->option4.optionscreenID.pop_back();}
+			
+			std::getline(file, ptr->option5.optionTextBlurb);
+			if (ptr->option5.optionTextBlurb.back() == '\r') 
+			{ptr->option5.optionTextBlurb.pop_back();}
+			
+			std::getline(file, ptr->option5.optionChoiceText);
+			if (ptr->option5.optionChoiceText.back() == '\r') 
+			{ptr->option5.optionChoiceText.pop_back();}
+			
+			std::getline(file, ptr->option5.optionscreenID);
+			if (ptr->option5.optionscreenID.back() == '\r') 
+			{ptr->option5.optionscreenID.pop_back();}
 
-		std::string garbage;
-		std::getline(file, garbage);
-		if (garbage.back() == '\r') {garbage.pop_back();}
+			std::string garbage;
+			std::getline(file, garbage);
+			if (garbage.back() == '\r') {garbage.pop_back();}
 
-		if(head == NULL){
-			head = ptr;
-			tail = head;
-		}else{
-			tail->next = ptr;
-			tail = ptr;
+			if(head == NULL){
+				head = ptr;
+				tail = head;
+			}else{
+				tail->next = ptr;
+				tail = ptr;
+			}
 		}
+		
+		file.close();
 	}
-	
-	file.close();
-}
-else{std::cout<<"didnt open"<< std::endl;}
+	else{std::cout<<"didnt open"<< std::endl;}
 }

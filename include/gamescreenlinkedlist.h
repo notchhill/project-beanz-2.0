@@ -69,6 +69,7 @@ class GameScreenLinkedList {
 		//If it matches, return the associated screenID.
 		//Otherwise, return NULL.
 
+
 		void clear(GameScreenLinkedList* &head);
 		//Remove all nodes from the list and release memory from all nodes.
 
