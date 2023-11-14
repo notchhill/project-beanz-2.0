@@ -58,6 +58,10 @@ class GameScreenLinkedList {
 		//Displays the screen text in node parameter, along with the option texts, and the text blurbs/descriptions for each option
 
 
+		GameScreenLinkedList* nextNode(GameScreenLinkedList* head);
+		//returns the next node
+		
+
 		GameScreenLinkedList* search(const std::string screenID, GameScreenLinkedList* head);
 		//Loop through the list and campare the screenID of each node with parameter 'screenID'
 		//If a node matches, return it.

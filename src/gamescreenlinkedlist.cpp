@@ -253,3 +253,8 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 	}
 	else{std::cout<<"didnt open"<< std::endl;}
 }
+
+
+GameScreenLinkedList* GameScreenLinkedList::nextNode(GameScreenLinkedList* head) {
+	return head->next;
+}

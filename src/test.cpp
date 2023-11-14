@@ -7,47 +7,32 @@ int main(){
 	system("mode con: cols=120 lines=20");
 	system("cls");
   
-	GameScreenLinkedList gameScreen;
-	GameScreenLinkedList* ptr = &gameScreen;
-	gameScreen.load("./resource/inputtext.txt", ptr);
 
-	gameScreen.display(ptr);
+/*
+* TEST 2
+*/
+	GameScreenLinkedList gameSequence;
+	GameScreenLinkedList* current = &gameSequence;
 
-	int a;
-	std::cin >> a;
+	gameSequence.load("resource/input.txt", &gameSequence);
 
-	/*while(ptr != NULL){
-	std::cout << ptr->screenID << '\n'
-		  << ptr->screenText << '\n'
-		  << ptr->option1.optionTextBlurb << '\n'
-		  << ptr->option1.optionChoiceText << '\n'
-		  << ptr->option1.optionscreenID << '\n'
-		  << ptr->option2.optionTextBlurb << '\n'
-		  << ptr->option2.optionChoiceText << '\n'
-		  << ptr->option2.optionscreenID << '\n'
-		  << ptr->option3.optionTextBlurb << '\n'
-		  << ptr->option3.optionChoiceText << '\n'
-		  << ptr->option3.optionscreenID << '\n'
-		  << ptr->option4.optionTextBlurb << '\n'
-		  << ptr->option4.optionChoiceText << '\n'
-		  << ptr->option4.optionscreenID << '\n'
-		  << ptr->option5.optionTextBlurb << '\n'
-		  << ptr->option5.optionChoiceText << '\n'
-		  << ptr->option5.optionscreenID << '\n';
-		if(ptr->next != NULL){
-			ptr = ptr->next;
-		}else{
-			break;
+//iterate through the whole list and output it to testoutput.txt
+	std::ofstream outputFile; 
+	outputFile.open("resource/test2output.txt");
+
+	if(outputFile.is_open()) {
+		while(current != NULL) {
+			//outputFile << current->screenID;
+			current = current->nextNode(current);
 		}
-	}
-	gameScreen.clear(ptr);
 
-	if(ptr == NULL){
-		std::cout << "Cleared";
-	}else{
-		// Still can be a mem leak if it goes to cleared, but there definately is one if this prints.
-		std::cout << "MEM LEAK";
-	}*/
+        //close the file
+        outputFile.close();
+    }
+/*
+* END TEST 2
+*/
+
 	return 0;	
 }
 
