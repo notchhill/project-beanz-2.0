@@ -1,13 +1,15 @@
 ## PROJECT BEANZ 2.0
 ## Technologies
 
-This application has been developed using C++ programming language. This application can be built and run on a system with a GCC compiler. This application has been tested on Debian 4.9 (Linux) with GCC 10.2.1. 
+This application has been developed using C++ programming language. This 
+application can be built and run on a system with a G++ compiler and makefile. 
+This application has been tested on Windows 11 with G++ 12.2.0. 
 
 
 ### DIRECTORY STRUCTURE
 
 >bin
-    Holds the executables
+    Holds the executable
 
 >build
     Holds the object(*.o) files
@@ -16,7 +18,7 @@ This application has been developed using C++ programming language. This applica
     Holds the header(*.h) files
 
 >resource
-    Holds the input files
+    Holds the input file
 
 >src
     Holds the source(*.cpp) files
@@ -27,15 +29,25 @@ This application has been developed using C++ programming language. This applica
 To compile the application use the following command while in the root
 directory of the app:
 
-    >
+    >make
+
+To clean the application use the following command while in the root
+directory of the app using a linux based terminal:
+
+    >make clean
+
+To clean the application use the following command while in the root
+directory of the app using a windows based terminal:
+
+    >make wclean
 
 
 ## Usage
 
 To run the application use the following command while in the root
-directory of the app:
+directory of the app using a windows based terminal:
 
-    >
+    >bin\beanz2.exe
 
 
 ## Contributors
