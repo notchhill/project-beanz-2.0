@@ -2,10 +2,14 @@
 #include "../include/gamescreenlinkedlist.h"
 #include "../include/utility.h"
 
+#include <sstream>
+#include <iostream>
+#include <string>
+
  // My test version of main. If it isnt here, it probs hasnt been tested
 int main(){
-	system("mode con: cols=120 lines=20");
-	system("cls");
+	/*system("mode con: cols=120 lines=20");
+	system("cls");*/
   
 
 /*
@@ -20,15 +24,40 @@ int main(){
 	std::ofstream outputFile; 
 	outputFile.open("resource/test2output.txt");
 
-	if(outputFile.is_open()) {
+
+
+
+	std::stringstream ss;
+
+	auto old_buf = std::cout.rdbuf(ss.rdbuf()); 
+
+	//all the std::cout goes to ss
+	while(current != NULL) {
+			current->display(current);
+			current = current->nextNode(current);
+		}
+
+    std::cout.rdbuf(old_buf); //reset
+
+    /*std::cout << "<redirected-output>\n" 
+              << ss.str() 
+              << "</redirected-output>" << std::endl;*/
+
+	outputFile << ss.str();
+	
+	
+	outputFile.close();
+	
+	/*if(outputFile.is_open()) {
 		while(current != NULL) {
 			//outputFile << current->screenID;
-			current = current->nextNode(current);
+			//outputFile << current->display(current);
+			//current = current->nextNode(current);
 		}
 
         //close the file
         outputFile.close();
-    }
+    }*/
 /*
 * END TEST 2
 */
