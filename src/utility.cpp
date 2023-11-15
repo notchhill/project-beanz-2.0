@@ -16,9 +16,6 @@
 #include "../include/utility.h"
 
 
-int screenWidth = 120;
-
-
 /**	@brief
 *
 *	@return String.
@@ -64,7 +61,7 @@ for (int i = 0; i < len; i++) {
 	count++;
 
 	//print when space is reached - no something else instead
-	if (text[i] == ' ' || text[i] == '.' || text[i] == '!') {
+	if (text[i] == ' ' || text[i] == '.' || text[i] == '!' || text[i] == '?') {
 		for(int a = 0; a < j; a++) {
 			std::cout << screenText[a];
 		}
@@ -72,30 +69,16 @@ for (int i = 0; i < len; i++) {
 		j = 0;
 	}
 	//if string length + current line length > 120 print newline
-	if(j + count > 120) {
+	if(j + count > screenWidth) {
 		std::cout << std::endl;
-		//screenText.clear();
-
 		count = 0;
 	}
 
 
 
 	}
-
-
-/*	int numSpaces = 0;
-
-	int len = text.length();
-
-	for (int i = 0; i < len; i++) {
-		if (text[i] == ' ') numSpaces++;
-
-		if (numSpaces == 10) {
-			std::cout << std::endl;
-			numSpaces = 0;
-		}
-
-		std::cout << text[i];
-	}*/
+	// catch any remaining text that doesn't end with punctuation
+	for(int a = 0; a < j; a++) {
+		std::cout << screenText[a];
+	}
 }
