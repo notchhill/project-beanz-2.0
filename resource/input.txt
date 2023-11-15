@@ -452,7 +452,7 @@ FF07900
 Your punch has a solid impact on the forest gnome, causing him to fall to the ground defeated and unconscious. The situation has taken a significant turn, and the gnome is now incapacitated. You have a moment to decide what to do next.
 Search the gnome's body
 search
-F08100
+FF08100
 
    
    
