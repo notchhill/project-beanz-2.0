@@ -19,6 +19,7 @@
 #include <fstream>
 #include <string>
 #include <stdlib.h>
+#include <iomanip>
 
 
 std::string getPlayerIn();
