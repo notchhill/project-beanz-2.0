@@ -2393,7 +2393,7 @@ DD04400
 
 
 DD04300
-Worker's Log 1: Our construction of the wonderous Glass Tunnel Network has finally completed! Our latest masterpiece of architecture easily rivals even our most beautiful Mirror Palace above! I hope the Fire God continues to bless us with his warmth, so that we may continue smelting glass for our buildings!
+Foreman's Log 1: Our construction of the wonderous Glass Tunnel Network has finally completed! Our latest masterpiece of architecture easily rivals even our most beautiful Mirror Palace above! I hope the Fire God continues to bless us with his warmth, so that we may continue smelting glass for our buildings!
 Go forwards
 forward
 DD04400
@@ -2429,7 +2429,7 @@ DD04200
 
 
 DD04500
-Worker's Log 2: Our bravest explorers discovered a supposedly "magic" bean. Apparently, the natives of a small, fledgling settlement to the east sold it to us in return for sharing our furnace technology. For some reason, our leaders have diverted their attention to this bean, and even wish to display it within the Glass Tunnel Network! I believe it would clash with the beauty of these tunnels. I can't say I trust a magic bean from far away lands.
+Foreman's Log 2: Our bravest explorers discovered a supposedly "magic" bean. Apparently, the natives of a small, fledgling settlement to the east sold it to us in return for sharing our furnace technology. For some reason, our leaders have diverted their attention to this bean, and even wish to display it within the Glass Tunnel Network! I believe it would clash with the beauty of these tunnels. I can't say I trust a magic bean from far away lands.
 Continue moving forwards
 forward
 DD04600
@@ -2465,7 +2465,7 @@ DD04400
 
 
 DD04700
-Worker's Log 3: We're being instructed to build more tunnels, and not just a little bit more. I'm convinced the inhabitants of that village have cursed us. I refuse to believe our explorers did what they are being accused of. The whole situation is just a little weird. Anyway, on another note, many of my best glassworkers have stopped working as productively as they used to. I'm not sure why. I think they've been distracted by the bean... I really wish they hadn't put it down here with us. I'm just... I'm just not sure what things are coming to right now. For the first time in my life, I feel pessimistic about the future. I'm finding it impossible to see the beauty I once saw in these Glass Tunnels.
+Foreman's Log 3: We're being instructed to build more tunnels, and not just a little bit more. I'm convinced the inhabitants of that village have cursed us. I refuse to believe our explorers did what they are being accused of. The whole situation is just a little weird. Anyway, on another note, many of my best glassworkers have stopped working as productively as they used to. I'm not sure why. I think they've been distracted by the bean... I really wish they hadn't put it down here with us. I'm just... I'm just not sure what things are coming to right now. For the first time in my life, I feel pessimistic about the future. I'm finding it impossible to see the beauty I once saw in these Glass Tunnels.
 Lift the display case, and grab the bean
 bean
 DD04800
