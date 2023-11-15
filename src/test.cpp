@@ -62,6 +62,18 @@ int main(){
 * END TEST 2
 */
 
+/*
+* TEST 3
+*/
+
+	//Taking only screenIDs from input.txt or else a master file of screenIDs
+	// and passing them all to search(). If search() finds a matching screen it's good, if it doesn't, it's not
+	// screenIDs should be passed to test.cpp via  a Bash script in a file called ba.sh (Beanz Actualization.sh)
+
+/*
+* END TEST 3
+*/
+
 	return 0;	
 }
 
