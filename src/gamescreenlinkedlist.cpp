@@ -21,36 +21,40 @@
 *	@return Void.
 */
 void GameScreenLinkedList::display(GameScreenLinkedList* node) {
-	nicePrint(node->screenText); 
-
-	std::cout << std::endl << std::endl;
+	nicePrint(node->screenText);
+	std::cout << std::endl;
+	std::string choiceText; // this will be set to each option's choice text (and the surrounding brakcets)
 
 	if (node->option1.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		std::cout << "[" << node->option1.optionChoiceText << "] -- ";
-		std::cout << node->option1.optionTextBlurb << std::endl;
+		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		std::cout << std::setw(align) << choiceText;
+		nicePrint(node->option1.optionTextBlurb, true);
 	}
 
 	if (node->option2.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		std::cout << "[" << node->option2.optionChoiceText << "] -- ";
-		std::cout << node->option2.optionTextBlurb << std::endl;
+		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		std::cout << std::setw(align) << choiceText;
+		nicePrint(node->option2.optionTextBlurb, true);
 	}
 
 	if (node->option3.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		std::cout << "[" << node->option3.optionChoiceText << "] -- ";
-		std::cout << node->option3.optionTextBlurb << std::endl;
+		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		std::cout << std::setw(align) << choiceText;
+		nicePrint(node->option3.optionTextBlurb, true);
 	}
 
 	if (node->option4.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		std::cout << "[" << node->option4.optionChoiceText << "] -- ";
-		std::cout << node->option4.optionTextBlurb << std::endl;
+		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		std::cout << std::setw(align) << choiceText;
+		nicePrint(node->option4.optionTextBlurb, true);
 	}
 
 	if (node->option5.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		std::cout << "[" << node->option5.optionChoiceText << "] -- ";
-		std::cout << node->option5.optionTextBlurb << std::endl;
+		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		std::cout << std::setw(align) << choiceText;
+		nicePrint(node->option5.optionTextBlurb, true);
 	}
-	
-	std::cout << std::endl << std::endl;
+	std::cout << std::endl;
 }
 
 /*
