@@ -48,7 +48,7 @@ std::string getPlayerIn() {
 *
 *	@return Void.
 */
-void nicePrint(std::string text) {
+void nicePrint(std::string text, bool isOption /*false*/) {
 	int len = text.length();
 	int count = 0;
 	int j = 0;
@@ -69,8 +69,9 @@ for (int i = 0; i < len; i++) {
 		j = 0;
 	}
 	//if string length + current line length > 120 print newline
-	if(j + count > screenWidth) {
+	if(j + count > screenWidth - isOption*align) {
 		std::cout << std::endl;
+		if (isOption) {std::cout << std::setw(align) << "";}
 		count = 0;
 	}
 
