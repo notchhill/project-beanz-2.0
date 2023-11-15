@@ -81,4 +81,5 @@ for (int i = 0; i < len; i++) {
 	for(int a = 0; a < j; a++) {
 		std::cout << screenText[a];
 	}
+	std::cout << std::endl;
 }
