@@ -28,7 +28,7 @@ std::string getPlayerIn();
 //    if the next character is an uppercase letter, it gets converted into a lowercase letter, and then concatenated onto the second string
 //    if the next character is a symbol, the character is not concatenated onto the second string
 
-void nicePrint(std::string text);
+void nicePrint(std::string text, bool isOption = false);
 // this function will be passed a string. It will print the string character-by-character, and insert a newline every 10th ' ' character.
 
 const int screenWidth = 120;  // width of the terminal
