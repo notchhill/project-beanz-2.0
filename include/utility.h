@@ -9,6 +9,7 @@
  * @date 2023/10/27
  *
  * Includes libraries and any functions not tied to a class (functions that should be usable by all files in the program)
+ * Also includes constants
  *
  */
 
@@ -26,6 +27,8 @@ std::string getPlayerIn();
 //    if the next character is an uppercase letter, it gets converted into a lowercase letter, and then concatenated onto the second string
 //    if the next character is a symbol, the character is not concatenated onto the second string
 
-
 void nicePrint(std::string text);
 // this function will be passed a string. It will print the string character-by-character, and insert a newline every 10th ' ' character.
+
+const int screenWidth = 120;  // width of the terminal
+const int align = 17          // number of spaces needed to align option blurbs
