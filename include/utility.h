@@ -21,15 +21,18 @@
 #include <stdlib.h>
 #include <iomanip>
 
+const int screenWidth = 120;  // width of the terminal
+const int align = 17          // number of spaces needed to align option blurbs
+
 
 std::string getPlayerIn();
-// gets a string from the user, and copies it into another string (initially empty), character-by-character, based on several conditions
+// gets a string from the user, and copies it into another string (initially empty), character-by-character, 
+    //based on several conditions
 //    if the next character is a lowercase letter, it gets concatenated onto the second string
-//    if the next character is an uppercase letter, it gets converted into a lowercase letter, and then concatenated onto the second string
+//    if the next character is an uppercase letter, it gets converted into a lowercase letter, 
+    //and then concatenated onto the second string
 //    if the next character is a symbol, the character is not concatenated onto the second string
 
 void nicePrint(std::string text, bool isOption = false);
-// this function will be passed a string. It will print the string character-by-character, and insert a newline every 10th ' ' character.
-
-const int screenWidth = 120;  // width of the terminal
-const int align = 17          // number of spaces needed to align option blurbs
+// this function will be passed a string. It will print the string character-by-character, 
+//and insert a newline every 10th ' ' character.
