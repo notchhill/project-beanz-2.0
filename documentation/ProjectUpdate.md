@@ -50,6 +50,6 @@ For this phase, that includes any changes to
 - modified nicePrint. It now has a bool argument as well, with a default value of false.
   - if it's false, it works the same as before
   - if it's true, it adds alignment to the text it's printing, treating it like an optionBlurb
-
 - Reworked the Mirror Palace and finished writing all of the screens it contains
 - Added back a puzzle to the Desert area with its appropriate puzzle class
+- The two above changes are now reflected in Design.md, and on the Miro chart
