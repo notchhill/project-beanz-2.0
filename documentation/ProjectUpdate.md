@@ -41,3 +41,12 @@ For this phase, that includes any changes to
 - Match now returns an empty string instead of NULL
 - The load method now has support for both Windows and Linux (hopefully)
 - Added various shortcuts to the game sequence (detailed in the Miro Chart if you can find them) for demonstration purposes. The Miro Chart also now contains information on who authored which parts of the game
+
+- ### CHANGES SINCE PHASE 4
+
+- added <iomanip> library
+- added two const ints in utility.h. One is the screenWidth, one is the fixed amount of space mentioned above
+- added a loop at the end of nicePrint that prints any remaining chars that don't end with punctuation
+- modified nicePrint. It now has a bool argument as well, with a default value of false.
+  - if it's false, it works the same as before
+  - if it's true, it adds alignment to the text it's printing, treating it like an optionBlurb
