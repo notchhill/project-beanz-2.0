@@ -14,6 +14,7 @@
 
 
 #include "../include/gamescreenlinkedlist.h"
+#include "../include/puzzle.h
 
 
 int main() {
@@ -22,6 +23,7 @@ int main() {
 
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* current = &gameSequence;
+  Puzzle p;
 
   gameSequence.load("resource/input.txt", &gameSequence);
 
@@ -39,6 +41,7 @@ int main() {
         //std::cout << "Invalid Input! Please Try Again.\n";
         continue;
     }else {
+      p.UpdateStatus(playerIn, nextScreenID);
       current = gameSequence.search(nextScreenID, &gameSequence);
     }
   }
