@@ -2574,8 +2574,8 @@ DD05500
 
 DD05150
 In a state of total mania, you bolt directly into the glass wall in front of you in hopes of something, anything. But nothing happens. The glass recoils with a subtle quiver as you fall backwards and let out a cry. You crawl towards the wall and slam your fists into it, begging for it to let you past. And, to your surprise, a hairline crack began to snake across its surface. With renewed hope, you stand up, and begin hurtling yourself against the wall as the cacophony of shattering glass grows louder and louder behind you -- just a few more tries... you think to yourself. You ram into the wall again and again, but the sound of collapsing glass grows closer and closer. Panic starts to swell in your mind once more. You start flailing yourself against the wall, but it remains impervious to your attempts to breach it. The cave-in gets louder, until it sounds like it's practically right behind you! With one final, all-or-nothing attempt, and with adrenaline coursing through your body, you throw yourself into the wall.
-
-
+continue to next page...
+next
 DD05200
 
 
@@ -2592,8 +2592,8 @@ DD05200
 
 DD05200
 Is the crisp shattering of glass you hear the cave-in finally catching up to you? No, it was you, FINALLY smashing right through the wall in your way! You're sent plummeting out of the hole and into the void. Everything whips past you in a blur, except a glass block below you, which only seems to be getting closer and closer. It seems like you're going to fall on top of it. But instead, you break right through the ceiling, and collapse to the floor.
-Make the journey back home
-home
+continue to next page...
+next
 DD05250
 
 
@@ -2610,8 +2610,8 @@ DD05250
 
 DD05250
 Dazed, you stagger to your feet. Your vision warbles as stars dance in your eyes. A familiar logbook morphs into view, confirming the impossible reality: You made it. You actually made it back to the entrance of the Glass Tunnels! You are overcome with elation, and can't help but dance fervently to celebrate your victory. But now is not the time to dwindle; you exit the Glass Tunnels for good, and begin the journey back home. Back to Beancouver.
-
-
+Make the journey back home
+home
 BC01200
 
 
