@@ -24,7 +24,7 @@ For this phase, that includes any changes to
 - Updated specifications.md to better reflect the information on the Miro flowchart
 - Removed makefile sections from specifications.md and design.md
 
-- ### CHANGES SINCE PHASE 3
+### CHANGES SINCE PHASE 3
 
 - Added a description of how the game's files will be organized in design.md
 - Detailed how the game will be compiled in design.md
@@ -42,7 +42,7 @@ For this phase, that includes any changes to
 - The load method now has support for both Windows and Linux (hopefully)
 - Added various shortcuts to the game sequence (detailed in the Miro Chart if you can find them) for demonstration purposes. The Miro Chart also now contains information on who authored which parts of the game
 
-- ### CHANGES SINCE PHASE 4
+### CHANGES SINCE PHASE 4
 
 - added <iomanip> library
 - added two const ints in utility.h. One is the screenWidth, one is the fixed amount of space mentioned above
