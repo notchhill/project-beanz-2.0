@@ -2680,24 +2680,6 @@ LS00200
 
 
 
-DD02700
-You walk into the Mirror Palace, the interior is a majestic palace hall filled with intricate structures made out of reflective materials. Most prominently featured is a reflective statue of a person resting their cheek on a bent index finger. The statue's gaze appears to fall on nothing in particular, but its brows are furrowed, and lips ever so slightly pursed.
-go back to main menu
-back
-LS00200
-return to main menu
-return
-LS00200
-backtrack to main menu
-backtrack
-LS00200
-Skip ahead to the Glass Tunnels
-skip
-DD04200
-
-
-
-
 GC10010
 In the grand castle of the clumsiest giant in all the land, the top of the stairs was a chaotic battleground of household items. First, there was the broom, a towering monstrosity that even the giant had trouble maneuvering. It had more bristles than a mad scientist's hairstyle and was rumored to double as a makeshift skyscraper for the miniature dust bunnies. Nearby, an enormous rug sprawled like an unruly magic carpet, more prone to tripping the giant than aiding his travels. And, perched majestically between them was a fire extinguisher, a bright red beacon of hope, undoubtedly the only thing preventing the castle from turning into a giant's fire-spewing barbecue pit. This trio, the giant's answer to an obstacle course, was the secret behind his graceful descents down the stairs – a slapstick comedy waiting to happen at any moment.
 Knock down the nearby broom and slide down it. 
