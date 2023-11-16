@@ -6729,3 +6729,273 @@ GC07100
 
 
 
+
+DD02700
+You walk into the Mirror Palace, the interior is a majestic palace hall filled with intricate structures made out of reflective materials. Everywhere you look, you see your reflection. It takes a while to adjust to this unusual design, but you eventually notice two paths of interest: A door labelled 'Entrance to the Glass Tunnels', and a door labelled 'Conference Room'
+Enter the door labelled Entrance to the Glass Tunnels
+enter
+DD02800
+Check out the Conference Room
+check
+DD03600
+
+
+
+
+
+
+
+
+
+
+DD02800
+You walk into the room labelled 'Entrance to the Glass Tunnels'. Stationed at the center of the room is a large, reflective statue. It depicts a person resting their cheek on their index finger. It stares off into the distance, with its brows furrowed, and lips ever so slightly pursed. Across the room, you notice five lights, each affixed to a pedestal. The far wall has three large, stained glass panes. They depict a triangle, a square, and a pentagon, respectively. Below them is a small door with an icon of a staircase going down painted on its face.
+Try the door
+door
+DD02900
+Check out the lights
+lights
+DD03000
+
+
+
+
+
+
+
+
+
+
+DD02900
+The door is locked
+Go back
+back
+DD02800
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD03000
+Upon closer inspection of the lights, you notice that the first light is actually on, and is pointed directly towards the stained glass window pain with the square. Stepping away from the first light, you notice that the lights and the stained glass window panes are centered relative to each other. There must be something to do here!
+Go to light #1
+one
+DD03100
+Go to light #2
+two
+DD03200
+Go to light #3
+three
+DD03300
+Go to light #4
+four
+DD03400
+Go to light #5
+five
+DD03500
+
+DD03100
+What would you like to do with light #1?
+Turn it on/off
+switch
+DD03100
+Point it at the triangle
+triangle
+DD03100
+Point it at the square
+square
+DD03100
+Point it at the pentagon
+pentagon
+DD03100
+Go back
+back
+DD02800
+
+DD03200
+What would you like to do with light #2?
+Turn it on/off
+switch
+DD03200
+Point it at the triangle
+triangle
+DD03200
+Point it at the square
+square
+DD03200
+Point it at the pentagon
+pentagon
+DD03200
+Go back
+back
+DD02800
+
+DD03300
+What would you like to do with light #3?
+Turn it on/off
+switch
+DD03300
+Point it at the triangle
+triangle
+DD03300
+Point it at the square
+square
+DD03300
+Point it at the pentagon
+pentagon
+DD03300
+Go back
+back
+DD02800
+
+DD03400
+What would you like to do with light #4?
+Turn it on/off
+switch
+DD03400
+Point it at the triangle
+triangle
+DD03400
+Point it at the square
+square
+DD03400
+Point it at the pentagon
+pentagon
+DD03400
+Go back
+back
+DD02800
+
+DD03500
+What would you like to do with light #5?
+Turn it on/off
+switch
+DD03500
+Point it at the triangle
+triangle
+DD03500
+Point it at the square
+square
+DD03500
+Point it at the pentagon
+pentagon
+DD03500
+Go back
+back
+DD02800
+
+DD03600
+You walk into the room labelled Conference Room. Even the conference room is constructed entirely from glass, mirrors, or reflective metals. A large, impossibly smooth round table sits at the center of the room. Tucked into the corner of the room is an unassuming filing cabinet. There are a few documents placed neatly inside of it.
+Read the document titled: Glass Tunnels Construction Progress Report
+report
+DD03700
+Read the document titled: Exploration Log #283
+exploration
+DD03800
+Read the document titled: Regarding The Magic Bean
+bean
+DD03900
+Read the document titled: Incident Report
+incident
+DD04000
+Go back to the entrance of the Mirror Palace
+back
+DD02700
+
+DD03700
+[Glass Tunnels Construction Progress Report] Shiff has finished his work on the expensive Glass Tunnels. They are a marvellous sight to behold, perhaps one day his legacy as an architect will rival even that of Fern. We believe the Glass Tunnels have merit not only as a work of art, but also practically as a means of storage.
+Read the next document
+next
+DD03800
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+
+
+
+DD03800
+[Exploration Log #283] Our bravest explorers reported finding a small settlement to the east. According to their reports, the people there are technologically primitive, and hostile to outsiders. Nonetheless, our explorer's report exchanging our knowledge of furnace technology in exchange for what they called a: "magic bean". We will inquire more about the details of this in the future, and record it in the next meeting.
+Read the next document
+next
+DD03900
+Read the previous document
+previous
+DD03700
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+DD03900
+[Regarding The Magic Bean] The magic bean brought home by the explorers has turned out to be a magnificent thing! Its beauty outshines all of our fancy architecture by a long shot. We are in disbelief. It's no wonder the explorers weren't keen on giving it to us. Perhaps the Glass Tunnels could finally be useful for something; we could store the magic bean within them. But as they are now, the Glass Tunnels aren't nearly sufficient to store such an artifact. We will instruct Shiff to construct more tunnels. Orders of magnitudes more, such that no intruder could ever manage to weave through the labrynth in order to get to the bean. And even if they do, we have a special security measure that will ENSURE that no one will take the magic bean from us. This is of utmost importance.
+Read the next document
+next
+DD04000
+Read the previous document
+previous
+DD03800
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+DD04000
+[Incident Report] It has become evident that the explorers who procured the magic bean intended to keep it for themselves. This is information is based on numerous internal reports. This is a crime against our people, and they must be punished. Following this, any attempts to move or touch the magic bean will be met with swift and decisive punishments. We have instructed the architect Shiff to construct even more tunnels, another order of magnitude more. Shiff may attempt to steal the magic bean from us, so he must be monitored.
+Read the previous document
+previous
+DD03900
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+
+
+
+DD04100
+The door opens with a click! Behind it is an absurdly long staircase heading downwards. From where you're standing, it appears to fade into darkness. Their construction is in stark contrast to the rest of the palace, as they are made with rough, brown rock. You breathe in deeply. There's only one way to go from here.
+Make your way down the staircase
+down
+DD04200
+
+
+
+
+
+
+
+
+
+
+
+
