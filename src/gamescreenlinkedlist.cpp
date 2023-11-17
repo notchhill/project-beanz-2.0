@@ -32,25 +32,25 @@ void GameScreenLinkedList::display(GameScreenLinkedList* node) {
 	}
 
 	if (node->option2.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		choiceText = "[" + node->option2.optionChoiceText + "] -- ";
 		std::cout << std::setw(align) << choiceText;
 		nicePrint(node->option2.optionTextBlurb, true);
 	}
 
 	if (node->option3.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		choiceText = "[" + node->option3.optionChoiceText + "] -- ";
 		std::cout << std::setw(align) << choiceText;
 		nicePrint(node->option3.optionTextBlurb, true);
 	}
 
 	if (node->option4.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		choiceText = "[" + node->option4.optionChoiceText + "] -- ";
 		std::cout << std::setw(align) << choiceText;
 		nicePrint(node->option4.optionTextBlurb, true);
 	}
 
 	if (node->option5.optionTextBlurb.find_first_not_of(" \t") != std::string::npos) {
-		choiceText = "[" + node->option1.optionChoiceText + "] -- ";
+		choiceText = "[" + node->option5.optionChoiceText + "] -- ";
 		std::cout << std::setw(align) << choiceText;
 		nicePrint(node->option5.optionTextBlurb, true);
 	}
