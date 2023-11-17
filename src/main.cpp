@@ -14,7 +14,7 @@
 
 
 #include "../include/gamescreenlinkedlist.h"
-#include "../include/puzzle.h
+#include "../include/puzzle.h"
 
 
 int main() {
