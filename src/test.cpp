@@ -17,6 +17,11 @@ int main(){
 	//load the game(create linked list)
 	gameSequence.load("resource/input.txt", &gameSequence);
 
+	/* Use this loop to skip screens to reach the desired block*/
+	/*for(int i = 0; i < 10; i++) {
+		current = current->nextNode(current);
+	}*/
+
 	//opens the output file
 	std::ofstream outputFile; 
 	outputFile.open("resource/actualTest2.txt");
