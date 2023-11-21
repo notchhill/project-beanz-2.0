@@ -1,0 +1,25 @@
+Command         Success     Failure
+Type "start"    
+Type "start"
+Type "start"
+Type "talk"
+ask
+restaurant
+talk
+ask
+go
+listen
+go
+enter
+talk
+bean
+explore
+chair
+push
+look
+lumos
+ask
+explore
+broom
+rug 
+broom
