@@ -6981,3 +6981,21 @@ DD04200
 
 
 
+
+FF04700
+Having made your choice you now have to decide where to start
+Make haste to the ramparts
+ramparts
+FF04800
+Take your position in the courtyard
+courtyard
+FF04900
+Defend the throne room
+throne
+FF05000
+
+
+
+
+
+
