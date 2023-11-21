@@ -8,34 +8,34 @@
 
  // My test version of main. If it isnt here, it probs hasnt been tested
 int main(){
-	/*system("mode con: cols=120 lines=20");
-	system("cls");*/
-  
-
 /*
 * TEST 2
 */
 	GameScreenLinkedList gameSequence;
 	GameScreenLinkedList* current = &gameSequence;
 
+	//load the game(create linked list)
 	gameSequence.load("resource/input.txt", &gameSequence);
 
-//iterate through the whole list and output it to testoutput.txt
+	//opens the output file
 	std::ofstream outputFile; 
-	outputFile.open("resource/test2output.txt");
-
-
-
+	outputFile.open("resource/actualTest2.txt");
 
 	std::stringstream ss;
-
-	auto old_buf = std::cout.rdbuf(ss.rdbuf()); 
-
+	auto old_buf = std::cout.rdbuf(ss.rdbuf());
+	
+	//iterate through the whole list and output it to testoutput.txt
 	//all the std::cout goes to ss
-	while(current != NULL) {
-			current->display(current);
-			current = current->nextNode(current);
-		}
+	/*while(current != NULL) {
+		current->display(current);
+		current = current->nextNode(current);
+	}*/
+
+	//iterate through the first 10 screens
+	for(int i = 0; i < 10; i++) {
+		current->display(current);
+		current = current->nextNode(current);
+	}
 
     std::cout.rdbuf(old_buf); //reset
 
@@ -44,7 +44,6 @@ int main(){
               << "</redirected-output>" << std::endl;*/
 
 	outputFile << ss.str();
-	
 	
 	outputFile.close();
 	
