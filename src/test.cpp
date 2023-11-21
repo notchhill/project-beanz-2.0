@@ -23,13 +23,6 @@ int main(){
 
 	std::stringstream ss;
 	auto old_buf = std::cout.rdbuf(ss.rdbuf());
-	
-	//iterate through the whole list and output it to testoutput.txt
-	//all the std::cout goes to ss
-	/*while(current != NULL) {
-		current->display(current);
-		current = current->nextNode(current);
-	}*/
 
 	//iterate through the first 10 screens
 	for(int i = 0; i < 10; i++) {
@@ -39,24 +32,9 @@ int main(){
 
     std::cout.rdbuf(old_buf); //reset
 
-    /*std::cout << "<redirected-output>\n" 
-              << ss.str() 
-              << "</redirected-output>" << std::endl;*/
-
 	outputFile << ss.str();
 	
 	outputFile.close();
-	
-	/*if(outputFile.is_open()) {
-		while(current != NULL) {
-			//outputFile << current->screenID;
-			//outputFile << current->display(current);
-			//current = current->nextNode(current);
-		}
-
-        //close the file
-        outputFile.close();
-    }*/
 /*
 * END TEST 2
 */
