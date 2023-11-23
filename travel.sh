@@ -9,7 +9,9 @@
 ##    entrance of the Giant's Castle (the kitchen).  ##
 ##    See the variables below and their comments to  ##
 ##    see which variable corresponds with which      ##
-##    location.                                      ##
+##    location. Type the name of the variable as the ##
+##    first argument to warp to the area which       ##
+##    correspoends with that variable.               ##
 #######################################################
 
 executable="./bin/beanz2"
