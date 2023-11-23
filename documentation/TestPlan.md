@@ -55,9 +55,9 @@ Note that the test cases/scenarios should cover both the handling of valid user 
 
 # Table of Test Cases
 
-Name               | Description                                    | Files
---------------------------------------------------------------------------------------------------------------------
-unique name        | (one-line) functionality that test case covers | names of the files containing the data/scripts
+Name               | Description                                    | Files |
+------------------ | ---------------------------------------------- | -------------------------------------------- |
+unique name        | (one-line) functionality that test case covers | names of the files containing the data/scripts |
 
 User Test          | checks if game works for users  | 
 Screen Output Test | checks if output is as expected | actualTest2.txt, expectedTest2.txt
