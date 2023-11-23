@@ -1531,7 +1531,7 @@ GC15400
 GC15400
 Standing at the top of the towering beanstalk, I felt a cool breeze and the comforting sense of open space that marked the surface of the giant's realm. Before me lay the path to the next adventure: the mystical Fractal Forest. Eager to uncover the secrets that this new environment held, I couldn't resist the pull of exploration and the allure of the unknown.
 With a heart filled with curiosity, I took my first steps towards the Fractal Forest, ready to embark on the next chapter of my journey within the extraordinary world.
-decend
+descend
 FF00100
 
 
