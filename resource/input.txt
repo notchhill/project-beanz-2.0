@@ -795,9 +795,9 @@ Having just climbed a towering beanstalk that seemed to stretch endlessly toward
 Should I dare enter the castle?
 enter
 GC00200
-Skip ahead to the basement
-skip
-GC10010
+
+
+
 
 
 
