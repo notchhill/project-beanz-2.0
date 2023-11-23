@@ -1,7 +1,7 @@
 #!bin/bash
 
 #######################################################
-##--------------------USER MANUAL--------------------##
+##                    USER MANUAL                    ##
 ##---------------------------------------------------##
 ## This script takes 1 argument. The argument given  ##
 ##    by the user corresponds to a location within   ##
