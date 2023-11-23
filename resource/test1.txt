@@ -1,25 +1,27 @@
+Robert's Attemp on Admin Windows Command Prompt
+
 Command         Success     Failure
-Type "start"    
-Type "start"
-Type "start"
-Type "talk"
+Type "start"        x
+Type "start"        x
+Type "start"        x
+Type "talk"         x
 ask
-restaurant
-talk
-ask
-go
-listen
-go
-enter
-talk
-bean
-explore
-chair
-push
-look
-lumos
-ask
-explore
-broom
-rug 
-broom
+restaurant                      x
+talk                            x
+ask                             x
+go                              x
+listen                          x
+go                  x  
+enter                           x
+talk                x
+bean                x
+explore             x
+chair               x
+push                x
+look                            x
+lumos                           x
+ask                 x
+explore                         x
+broom                           x
+rug                 x
+broom                           x
