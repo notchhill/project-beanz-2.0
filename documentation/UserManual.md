@@ -26,6 +26,8 @@ This application has been tested on Windows 11 with G++ 12.2.0.
 
 ## Build and Installation
 
+To install the application "Beanz 2.0: Refried Beanz," download the contents of the GitHub repository, entitled project-beanz-2.0, as a Zip folder. Extract the contents into a directory.
+
 To compile the application use the following command while in the root
 directory of the app:
 
