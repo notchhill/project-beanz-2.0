@@ -29,19 +29,25 @@ This application has been tested on Windows 11 with G++ 12.2.0.
 To install the application "Beanz 2.0: Refried Beanz," download the contents of the GitHub repository, entitled project-beanz-2.0, as a Zip folder. Extract the contents into a directory.
 
 To compile the application use the following command while in the root
-directory of the app:
+directory of the application:
 
     >make
 
 To clean the application use the following command while in the root
-directory of the app using a linux based terminal:
+directory of the app using a Linux-based terminal:
 
     >make clean
 
 To clean the application use the following command while in the root
-directory of the app using a windows based terminal:
+directory of the app using a Windows-based terminal:
 
     >make wclean
+
+To run the application on a Linux-based terminal, use the following command:
+    ./bin/beanz2
+
+To run the application on a Windows-based terminal, utilise the following command:
+    bin\beanz2.exe
 
 
 ## Usage
