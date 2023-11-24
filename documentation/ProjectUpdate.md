@@ -53,3 +53,9 @@ For this phase, that includes any changes to
 - Reworked the Mirror Palace and finished writing all of the screens it contains
 - Added back a puzzle to the Desert area with its appropriate puzzle class
 - The two above changes are now reflected in Design.md, and on the Miro chart
+-Added three tests, Test 1, a user script to follow, Test 2, checking expected vs actual output, and Test 3, checking that every screenId is associated with a valid screen
+
+### CHANGES SINCE PHASE 5
+
+- Added a player class to contain such attributes as the player's health points (HP)
+- Player class has member functions for modifying and viewing player health
