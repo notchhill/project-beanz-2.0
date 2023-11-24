@@ -8,21 +8,31 @@
  * @version 1.0.2
  * @date 2023/10/27
  *
- * includes libraries and any functions not tied to a class (functions that should be usable by all files in the program)
+ * Includes libraries and any functions not tied to a class (functions that should be usable by all files in the program)
+ * Also includes constants
  *
  */
+
 
 #pragma once
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <stdlib.h>
+#include <iomanip>
 
-// gets a string from the user, and copies it into another string (initially empty), character-by-character, based on several conditions
-//    if the next character is a lowercase letter, it gets concatenated onto the second string
-//    if the next character is an uppercase letter, it gets converted into a lowercase letter, and then concatenated onto the second string
-//    if the next character is a symbol, the character is not concatenated onto the second string
+const int screenWidth = 120;  // width of the terminal
+const int align = 17;         // number of spaces needed to align option blurbs
+
+
 std::string getPlayerIn();
+// gets a string from the user, and copies it into another string (initially empty), character-by-character, 
+    //based on several conditions
+//    if the next character is a lowercase letter, it gets concatenated onto the second string
+//    if the next character is an uppercase letter, it gets converted into a lowercase letter, 
+    //and then concatenated onto the second string
+//    if the next character is a symbol, the character is not concatenated onto the second string
 
-// this function will be passed a string. It will print the string character-by-character, and insert a newline every 10th ' ' character.
-void nicePrint(std::string text);
+void nicePrint(std::string text, bool isOption = false);
+// this function will be passed a string. It will print the string character-by-character, 
+//and insert a newline every 10th ' ' character.

@@ -12,16 +12,24 @@
  *
  */
 
+
 #include "../include/utility.h"
 
-std::string getPlayerIn()
-{
+
+/**	@brief
+*
+*	@return String.
+*/
+std::string getPlayerIn() {
 	std::string playerIn;
+
 	std::cin >> playerIn;
+
 	int len = playerIn.length();
+
 	std::string newPlayerIn;
-	for (int i = 0; i < len; i++)
-	{
+
+	for (int i = 0; i < len; i++) 	{
 		if (playerIn[i] < 'A' || playerIn[i] > 'z'){}        // do nothing
 		else if (playerIn[i] > 'Z' && playerIn[i] < 'a'){}   // do nothing
 		else if (playerIn[i] >= 'A' && playerIn[i] <= 'Z')
@@ -29,18 +37,50 @@ std::string getPlayerIn()
 		else
 			{newPlayerIn += playerIn[i];}                // no change
 	}
+
 	std::cout << std::endl;
+
 	return newPlayerIn;
 }
 
-void nicePrint(std::string text)
-{
-	int numSpaces = 0;
+
+/**	@brief
+*
+*	@return Void.
+*/
+void nicePrint(std::string text, bool isOption /*false*/) {
 	int len = text.length();
-	for (int i = 0; i < len; i++)
-	{
-		if (text[i] == ' ') {numSpaces++;}
-		if (numSpaces == 10) {std::cout << std::endl; numSpaces = 0;}
-		std::cout << text[i];
+	int count = 0;
+	int j = 0;
+	std::string screenText;
+
+//read text into string
+for (int i = 0; i < len; i++) {
+	screenText[j] = text[i];
+	j++;
+	count++;
+
+	//print when space is reached - no something else instead
+	if (text[i] == ' ' || text[i] == '.' || text[i] == '!' || text[i] == '?') {
+		for(int a = 0; a < j; a++) {
+			std::cout << screenText[a];
+		}
+		screenText.clear();
+		j = 0;
 	}
+	//if string length + current line length > 120 print newline
+	if(j + count > screenWidth - isOption*align) {
+		std::cout << std::endl;
+		if (isOption) {std::cout << std::setw(align) << "";}
+		count = 0;
+	}
+
+
+
+	}
+	// catch any remaining text that doesn't end with punctuation
+	for(int a = 0; a < j; a++) {
+		std::cout << screenText[a];
+	}
+	std::cout << std::endl;
 }

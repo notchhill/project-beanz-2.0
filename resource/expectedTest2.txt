@@ -1,0 +1,77 @@
+Beanz 2.0: Refried Beanz (LOADING).
+
+      [start] -- Start the game!
+
+Main Menu.
+
+      [start] -- Start Game
+       [quit] -- Quit Game
+
+{story intro text goes here}.
+
+      [start] -- Type start.
+
+Welcome to Beancouver, a picturesque village nestled amidst rolling hills. The air is filled with the inviting 
+aroma of fresh beans. On one side, a diligent bean farmer tends to vibrant bean plants in a sun-kissed field. On the 
+opposite side, you discover Chef Garbanzo's Lean Bean Cuisine, a quaint restaurant renowned for its delectable 
+bean-based dishes. Beancouver is a charming place that embraces the magic of beans in both its fields and its cuisine.
+
+       [talk] -- Talk to the farmer
+ [restaurant] -- Go to the restaurant
+
+As you approach the farmer in the midst of the verdant bean fields, his weathered hands and the warm, gentle sun 
+create a picturesque backdrop for your encounter. The farmer's gaze exudes kindness and inquisitiveness, and the 
+rustling of bean leaves in the breeze adds a soothing and melodic quality to the moment. You stand at the precipice of a 
+conversation with this guardian of the beans, ready to learn about the events of the previous night, as the vibrant 
+field sets the stage for this intriguing encounter.
+
+        [ask] -- Ask "What happened here last night?"
+
+The farmer begins to share his knowledge and insights with you, his words flowing like a gentle stream of wisdom. He 
+speaks of the history of the beans, the secrets of their cultivation, and the challenges faced by the bean fields. His 
+stories are filled with a deep connection to the land, and you can feel the passion he holds for his craft. As the 
+conversation unfolds, you find yourself drawn into a world of beans, both ordinary and extraordinary, and the 
+knowledge you gain from the farmer enriches your understanding of this unique village.
+
+ [restaurant] -- Go to the restaurant to talk to the chef
+
+As you step into the cozy restaurant, you're greeted by the delightful aroma of various bean dishes being 
+prepared in Chef Garbanzo's Lean Bean Cuisine. The chef, a friendly and talented culinary artist, stands behind the 
+counter, orchestrating a symphony of flavors. You strike up a conversation, and the chef's eyes light up as they share 
+their passion for beans and the art of creating mouthwatering bean-based dishes. You can't help but be captivated by the 
+stories of culinary experiments, secret recipes, and the magic of beans that Chef Garbanzo imparts. Talking to the chef 
+feels like a journey into the heart of Beancouver's culinary world, and you're eager to learn more.
+
+       [talk] -- Talk to the chef
+     [square] -- Go to the village square
+
+As you approach the chef, a skilled artisan in the culinary world, you can't help but admire the organized chaos of 
+the kitchen. Pots and pans clatter, and the delightful scents of simmering bean-based dishes waft through the air. With 
+curiosity, you strike up a conversation with the chef, their face lighting up as they share the tales of last 
+night's events in the village. Their account is filled with flavorful details, like the ingredients in a 
+well-crafted dish, and as you listen, you become increasingly drawn into the mystery. The beans in the kitchen may hold the key to 
+the secrets that unfolded, and you're eager to uncover the truth.
+
+        [ask] -- What happened here last night?
+
+As you converse with the chef, they reveal a series of intriguing stories and tidbits about recent events in 
+Beancouver. Their animated storytelling paints a vivid picture of the village square, where various mysteries unfolded. The 
+chef's tales are seasoned with details of lively gatherings, enigmatic occurrences, and the magical allure of the 
+square at night. With every word, your curiosity deepens, and it becomes clear that the village square holds the key to 
+understanding the events that transpired. The chef's narrative acts as an irresistible invitation to explore the 
+square and unravel the mysteries that await.
+
+         [go] -- Go to the village square
+
+In the heart of Beancouver, the village square bustles with life and activity. The square is a hub of community 
+interaction and commerce, where various intriguing characters play their roles. To your left, the friendly bean vendor 
+proudly displays an array of beans and offers a taste of Beancouver's bean delicacies. To your right, the diligent 
+blacksmith forges and repairs tools, the rhythmic clang of metal echoing in the air. Near the center, the cheerful 
+butcher showcases a selection of fresh meats, and further ahead, the town crier, with a commanding presence, delivers the 
+latest news and announcements to the attentive villagers.
+
+        [ask] -- Ask the bean vendor
+   [question] -- Ask the blacksmith
+[interrogate] -- Ask the butcher
+     [listen] -- Ask the town crier
+

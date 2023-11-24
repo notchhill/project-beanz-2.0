@@ -92,19 +92,27 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         option5ChoiceText;
         option5screenID;
 
-    3.4 Classes and class methods. Including parameters and return value/type. Also functions.
+    3.4 Class, class method, function, and global constant declarations.
                 CLASSES:
                     class: GameScreenLinkedList{};
+                    class: Puzzle{};
                 METHODS: (For GameScreenLinkedList)
                     void display(GameScreenLinkedList* node);
                     GameScreenLinkedList* search(const std::string screenID, const GameScreenLinkedList* head);
                     std::string match(const std::string playerInput, const GameScreenLinkedList* currentNode);
                     void clear(GameScreenLinkedList* head);
                     void load(const std::string fileName, GameScreenLinkedList* head)
+                METHODS: (for Puzzle)
+                    Puzzle();
+                    ~Puzzle();
+                    void UpdateStatus(std::string I, std::string ID);
+                    bool Check();
                 FUNCTIONS:
-                    int main();
                     std::string getPlayerIn();
                     void nicePrint(std::string text);
+                GLOBAL CONSTANTS:
+                    const int screenWidth = 120;
+                    const int align = 17;
 
     3.5 Function and Class Implementations.
         3.5.1 GameScreenLinkedList class
@@ -148,17 +156,68 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     - The clear method is passed the head of the GameScreenLinkedList.
                     - Clear will delete that GameScreenLinkedList (as it was dynamically allocated by the load function), and then move on to its next.
                     - It will repeat that procedure until it reaches the end of the list, then it will exit and return nothing.
-        3.5.2 Functions
+        3.5.2 Puzzle class
+            Variables
+                - Each puzzle object has four variables. One int, two arrays of ints, and one array of bools.
+                - The int is called current_light, and it denotes the current light the player is modifying (e.g. if current_light = 4, then the player is modifying light #4)
+                - The array of bools denotes the on/off state of each light. There are five lights, but the array is of size 6. This is so the index will match up with the light number
+                - Both arrays of ints are setup in a similar way, where the ith element in the array corresponds to the ith object, rather than the (i+1)th object
+                - The first int array counts how many lights are currently pointed at a shape. There are three shapes to point to. The only elements in this array that are considered are 3, 4, and 5
+                - The second int array denotes which light is pointing at which shape. The index represents the ith light, and the value at that index represents the shape it's pointing at.
+            Methods
+                Constructor & Destructor
+                    - The destructor doesn't do anything, as this class doesn't dynamically allocate any memory
+                    - The constructor first initializes all lights to be off (done by setting each bool in the bool array to false)
+                    - Then, it initializes all shapes to have zero lights pointing at them (done by setting each int in the first int array to zero)
+                    - Then, it initializes all the lights to be pointing at the square (done by setting each int in the second int array to four)
+                    - Note that 3 = triangle, 4 = square, and 5 = pentagon (this makes sense if you follow the Miro chart I think)
+                    - Finally, light#1 is set to on (bool array at index 1 is set to true), and the number of lights pointing at the square is set to 1 (first int array at index 4 is set to 1)
+                UpdateStatus method
+                    - This method takes two strings as parameters. These are obtained from main, and correspond to the player's input (I), and the next screen ID (ID) passed-by-reference
+                    - First, the method checks if the first character of the ID is a 'D'. If so, we are in the desert, which means we might be in the Mirror Palace, so the rest of the program is run
+                    - If the first character is not 'D', then everything is skipped over
+                    - The method then checks if the player's input is equal to any of: "one", "two", "three", "four", "five", "switch", "triangle", "square", "pentagon", and runs code based on this
+                    - If the player's input isn't any of these, everything will be skipped over except the ending
+                    - No areas in the desert have the player input any of those strings except in the puzzle area, so the method will only have to do stuff then (entering them elsewhere fails match)
+                    - If the player's input is "one"/"two"/"three"/"four"/"five", it will set current_light to be equal to one, two, three, four, or five. Nothing else happens, except the ending
+                    - If the input is "switch", the current light is set to the opposite of what it currently is, then the brightness of the light it's currently pointing at has 1 added or taken away
+                        - Done by setting the bool value at index of current_light in the bool array to be equal to NOT(itself)
+                        - Then defining an integer called delta, which is set to: the newly updated bool value at index of current_light, subtracted by the bool value of NOT(itself)
+                        - Finally, it takes the first int array at the following index: "the value of the second int array at index of the current light", and adds delta to that.
+                    - If the input is "triangle"/"square"/"pentagon", then an int variable called shape (initialized to 0) is set to either 3, 4, or 5
+                    - Next, if shape isn't 0, then the brightness of the light currently being pointed at is decreased by the bool value of whether or not it's on or off
+                        - Then, the brightness of the shape to be pointed to (denoted by the shape int) is increased by the bool value of whether or not the current light is on or off
+                        - Finally, the shape that the current light is pointing to is set to the shape
+                    - At the end of this method, the Check method is run on 'this'. If it returns true, the ID passed is changed to "DD04100" (ID for end of Mirror Palace), and all the lights are turned off
+                        - Done by, as you may have guessed, setting all the bools in the bool array to false
+                Check method
+                    - the Check method only returns a bool. It is passed no parameters.
+                    - first it declares a variable called lights_on, which will be set to the sum of all the bool values in the bool array (equivalent to the number of lights that are on)
+                    - Next, it checks to see if the player has solved the puzzle. The puzzle was designed by Austin, and there are 2 (or 4 depending on how you look at it) solutions
+                    - Solutions: 3 lights are pointing at the triangle (others are off), 4 lights are pointing at the square (others are off), 5 lights are pointing at the pentagon,
+                        - light #3 is pointing at the triangle + light #4 is pointing at the square + light #5 is pointing at the pentagon (others are off). Any of these should work
+                    - The first solution is checked by seeing if there are 3 lights pointing at the triangle AND if lights_on is 3. If this is true, return true
+                    - The second solution is checked by seeing if there are 4 lights pointing at the square AND if lights_on is 4. If this is true, return true
+                    - The third solution is checked by seeing if there are 5 lights pointing at the triangle AND if lights_on is 5. If this is true, return true
+                        - Each done by checking if the first int array at index 3/4/5 is equal to 3/4/5
+                    - The fourth solution is checked by first seeing if light#3 is pointing at the triangle AND light#4 is pointed at the square AND light#5 is pointed at the pentagon,
+                        - Next, it checks if light#3, light#4, and light#5 are on
+                        - And finally, it checks if light#1 and light#2 are turned off. If all that is true, return true
+                        - Done by: checking if the second int array at index 3/4/5 is equal to 3/4/5, then checking if the bool array at 3/4/5 are all true, and the ones at 1/2 are both false
+                    - If none of these checks check out, then false is returned
+        3.5.3 Functions
             Main Routine
-                - The main routine is the only function in our program.
                 - It will define a GameScreenLinkedList, which will serve as the head of the linked list.
                 - Then, it will define a GameScreenLinkedList pointer, which points to the head
+                - Next, it defines a Puzzle object
                 - The main routine then runs the load method on the head, passing input.txt and the head pointer.
                 - It then enters the main while loop. The while loop will loop until the player use ctrl+c to end the program.
                 - In the loop, it will call display on the current GameScreenLinkedList, then get the player's input using getPlayerIn.
                 - A new string will be defined, which will be set to the return value of match called on current. (it should return a valid GameScreenLinkedList ID.)
                 - If that string is empty, we notify the player, and then return to the beginning of the while loop to try again. (The player entered something invalid)
-                - If that string isn't empty, it will be passed to search (called on current) in order to locate the associated GameScreenLinkedList.
+                - If that string isn't empty:
+                    - Main first called UpdateStatus on the puzzle object. If the player has solved the puzzle, the string will be changed to "DD04100". Otherwise no changes are made
+                    - Then the string will be passed to search (called on current) in order to locate the associated GameScreenLinkedList.
                 - The current GameScreenLinkedList will be set to that newly found one, and that is the final execution within the while loop.
                 - Outside of the while loop, we will run the clear method on the GameScreenLinkedList head to free up memory, then return 0 to end the main routine.
             getPlayerIn
@@ -180,28 +239,29 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
     3.6 Hierarchy of files, compilation, and the makefile
             3.6.1 Hierarchy of files
-                    Our program will consist of 9 files, and there will also be a makefile, giving a total of 10 files.
+                    Our program will consist of 12 files, and there will also be a makefile, giving a total of 13 files.
                     Binary Executables: progx (we should probably rename this to ProjectBeans2.0 at some point). Directory: project-beans-2.0/bin
-                    Object Files: main.o, gamescreenlinkedlist.o, utility.o. Directory: project-beans-2.0/build
-                    Header files: gamescreenlinkedlist.h, utility.h. Directory: project-beans-2.0/include
-                    Source files: main.cpp, gamescreenlinkedlist.cpp, utility.cpp. Directory: project-beans-2.0/src
-                    utility.h will #include our libraries and general function definitions. It will also have #pragma once to avoid duplicate definitions
+                    Object Files: main.o, gamescreenlinkedlist.o, puzzle.o, utility.o. Directory: project-beans-2.0/build
+                    Header files: gamescreenlinkedlist.h, puzzle.h, utility.h. Directory: project-beans-2.0/include
+                    Source files: main.cpp, gamescreenlinkedlist.cpp, puzzle.cpp, utility.cpp. Directory: project-beans-2.0/src
+                    utility.h will #include our libraries, general function definitions, and global constants. It will also have #pragma once to avoid duplicate definitions
                     utility.cpp will #include utility.h and contain the implementation of the general functions
                     gamescreenlinkedlist.h will #include utility.h, and contain the GameScreenLinkedList class definition, and the definitions for its methods
-                    gamescreenlinkedlist.cpp will #include gamescreenlinkedlist.h (which entails including utility.h), and contain the implementations for GameScreenLinkedList's methods
-                    main.cpp will #include gamescreenlinkedlist.h (and by extension, utility.h), and contain the main routine
+                    gamescreenlinkedlist.cpp will #include gamescreenlinkedlist.h, and contain the implementations for GameScreenLinkedList's methods
+                    puzzle.h will #include utility.h, and contain the Puzzle class definition, and the definitions of its methods
+                    puzzle.cpp will #include puzzle.h, and contain implementations of Puzzle's methods
+                    main.cpp will #include gamescreenlinkedlist.h, puzzle.h, and contain the main routine
                     Visualization:
-                    [utility.h] children: [utility.cpp] & [gamescreenlinkedlist.h]. [utility.cpp] has no children.
-                    [gamescreenlinkedlist.h] children: [gamescreenlinkedlist.cpp] & [main.cpp]. Neither have children of their own.
-                    NOTE: The reader may notice that #pragma once is not required in this setup. The reason we have it there, is because we have future scalability options in mind.
-                            For example, if we needed another class, that class would almost certainly #include utility.h. and main.cpp would have to #include that class in addition to gamescreenlinkedlist.h
-                            In this case, #pragma once would be necessary to have in utility.h.
+                    [utility.h] children: [utility.cpp] & [gamescreenlinkedlist.h] & [puzzle.h]. [utility.cpp] has no children
+                    [gamescreenlinkedlist.h] children: [gamescreenlinkedlist.cpp] & [main.cpp]. Neither child has children of their own
+                    [puzzle.h] children: [puzzle.cpp] & [main.cpp]. Neither child has children of their own
             3.6.2 Compilation
-                    The three .cpp files and the two header files will be compiled into three object files. These object files will be compiled into the game executable
+                    The four .cpp files and the three header files will be compiled into four object files. These object files will be compiled into the game executable
                     First, main.cpp will be compiled into main.o
                     Second, gamescreenlinkedlist.h and gamescreenlinkedlist.cpp will be compiled into gamescreenlinkedlist.o
-                    Third, utility.h and utility.cpp will be compiled into utility.o
-                    Finally, main.o, gamescreenlinkedlist.o, and utility.o will be compiled into progx
+                    Third, puzzle.h and puzzle.cpp will be compiled into puzzle.o
+                    Fourth, utility.h and utility.cpp will be compiled into utility.o
+                    Finally, main.o, gamescreenlinkedlist.o, puzzle.o, and utility.o will be compiled into beanz2
                     All compilation will be done with g++
                     We will use -Wall, -Wextra, and -Wpedantic for our warning options
                     We will use -g to create an executable that can be easily debugged with gdb
@@ -210,14 +270,15 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
             3.6.3 Makefile
                     Our makefile will be located in project-beans-2.0/. It will be structured as follows:
                     It will declare two variables: general and objects. "general" will contain our compiler of choice, selected warning options, and -g. (g++ -Wall -Wextra -Wpedantic -g)
-                    "objects" will contain our three object files, and their directories. (build/main.o build/gamescreenlinkedlist.o build/utility.o)
+                    "objects" will contain our three object files, and their directories. (build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o)
                     The first listed target will be bin/progx. Its dependencies will be the object variable, so all three object files.
                         It will run: ${general} ${objects} -o $@. This will compile the exectutable into bin/progx.
                     The second target will be build/main.o. Its dependency will be src/main.cpp. 
                         It will run: ${general} -c $< -o $@. This will compile main.o into build/main.o
                     The third target will be gamescreenlinkedlist.o. Its dependencies will be src/gamescreenlinkedlist.cpp and include/gamescreenlinkedlist.h
                         It will run: ${general} -c $< -o $@. This will compile gamescreenlinkedlist.o into build/gamescreenlinkedlist.o
-                    The fourth target will be utility.o. Its dependencies will be src/utility.cpp and include/utility.h
+                    The fourth target will be puzzle.o. Its dependencies will be src/puzzle.cpp and include/puzzle.h
+                    The fifth target will be utility.o. Its dependencies will be src/utility.cpp and include/utility.h
                         It will run: ${general} -c $< -o $@. This will compile utility.o into build/utility.o
                     Running 'make' will default to the first target, which itself will go through the other three targets. Thus, to compile, we only need to run 'make'.
 

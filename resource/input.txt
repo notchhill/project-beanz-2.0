@@ -1,5 +1,5 @@
 LS00100
-Beanz 2.0: Refried Beanz (LOADING)
+Beanz 2.0: Refried Beanz (LOADING).
 
 
 
@@ -17,7 +17,7 @@ start
 LS00200
 
 LS00200
-Main Menu
+Main Menu.
 Start Game
 start
 LS00300
@@ -35,7 +35,7 @@ LS00300
 
 
 LS00300
-{story intro text goes here}
+{story intro text goes here}.
 
 
 
@@ -48,7 +48,7 @@ LS00300
 
 
 
-Type start
+Type start.
 start
 BC00100
 
@@ -795,9 +795,9 @@ Having just climbed a towering beanstalk that seemed to stretch endlessly toward
 Should I dare enter the castle?
 enter
 GC00200
-Skip ahead to the basement
-skip
-GC10010
+
+
+
 
 
 
@@ -1531,7 +1531,7 @@ GC15400
 GC15400
 Standing at the top of the towering beanstalk, I felt a cool breeze and the comforting sense of open space that marked the surface of the giant's realm. Before me lay the path to the next adventure: the mystical Fractal Forest. Eager to uncover the secrets that this new environment held, I couldn't resist the pull of exploration and the allure of the unknown.
 With a heart filled with curiosity, I took my first steps towards the Fractal Forest, ready to embark on the next chapter of my journey within the extraordinary world.
-decend
+descend
 FF00100
 
 
@@ -2393,7 +2393,7 @@ DD04400
 
 
 DD04300
-Worker's Log 1: Our construction of the wonderous Glass Tunnel Network has finally completed! Our latest masterpiece of architecture easily rivals even our most beautiful Mirror Palace above! I hope the Fire God continues to bless us with his warmth, so that we may continue smelting glass for our buildings!
+Foreman's Log 1: Our construction of the wonderous Glass Tunnel Network has finally completed! Our latest masterpiece of architecture easily rivals even our most beautiful Mirror Palace above! I hope the Fire God continues to bless us with his warmth, so that we may continue smelting glass for our buildings!
 Go forwards
 forward
 DD04400
@@ -2429,7 +2429,7 @@ DD04200
 
 
 DD04500
-Worker's Log 2: Our bravest explorers discovered a supposedly "magic" bean. Apparently, the natives of a small, fledgling settlement to the east sold it to us in return for sharing our furnace technology. For some reason, our leaders have diverted their attention to this bean, and even wish to display it within the Glass Tunnel Network! I believe it would clash with the beauty of these tunnels. I can't say I trust a magic bean from far away lands.
+Foreman's Log 2: Our bravest explorers discovered a supposedly "magic" bean. Apparently, the natives of a small, fledgling settlement to the east sold it to us in return for sharing our furnace technology. For some reason, our leaders have diverted their attention to this bean, and even wish to display it within the Glass Tunnel Network! I believe it would clash with the beauty of these tunnels. I can't say I trust a magic bean from far away lands.
 Continue moving forwards
 forward
 DD04600
@@ -2465,7 +2465,7 @@ DD04400
 
 
 DD04700
-Worker's Log 3: We're being instructed to build more tunnels, and not just a little bit more. I'm convined the inhabitants of that village have cursed us. I refuse to believe our explorers did what they are being accused of. Hm, the whole situation is just a little weird. Anyway, on another note, many of my best glassworkers have stopped working as productively as they used to. I'm not sure why. I think they've been distracted by the bean... for some reason. I really wish they hadn't put it down here with us. I'm just... I'm just not sure what things are coming to right now. For the first time in my life, I feel pessimistic about the future. I'm finding it impossible to see the beauty I once saw in these Glass Tunnels.
+Foreman's Log 3: We're being instructed to build more tunnels, and not just a little bit more. I'm convinced the inhabitants of that village have cursed us. I refuse to believe our explorers did what they are being accused of. The whole situation is just a little weird. Anyway, on another note, many of my best glassworkers have stopped working as productively as they used to. I'm not sure why. I think they've been distracted by the bean... I really wish they hadn't put it down here with us. I'm just... I'm just not sure what things are coming to right now. For the first time in my life, I feel pessimistic about the future. I'm finding it impossible to see the beauty I once saw in these Glass Tunnels.
 Lift the display case, and grab the bean
 bean
 DD04800
@@ -2574,8 +2574,8 @@ DD05500
 
 DD05150
 In a state of total mania, you bolt directly into the glass wall in front of you in hopes of something, anything. But nothing happens. The glass recoils with a subtle quiver as you fall backwards and let out a cry. You crawl towards the wall and slam your fists into it, begging for it to let you past. And, to your surprise, a hairline crack began to snake across its surface. With renewed hope, you stand up, and begin hurtling yourself against the wall as the cacophony of shattering glass grows louder and louder behind you -- just a few more tries... you think to yourself. You ram into the wall again and again, but the sound of collapsing glass grows closer and closer. Panic starts to swell in your mind once more. You start flailing yourself against the wall, but it remains impervious to your attempts to breach it. The cave-in gets louder, until it sounds like it's practically right behind you! With one final, all-or-nothing attempt, and with adrenaline coursing through your body, you throw yourself into the wall.
-
-
+continue to next page...
+next
 DD05200
 
 
@@ -2592,8 +2592,8 @@ DD05200
 
 DD05200
 Is the crisp shattering of glass you hear the cave-in finally catching up to you? No, it was you, FINALLY smashing right through the wall in your way! You're sent plummeting out of the hole and into the void. Everything whips past you in a blur, except a glass block below you, which only seems to be getting closer and closer. It seems like you're going to fall on top of it. But instead, you break right through the ceiling, and collapse to the floor.
-Make the journey back home
-home
+continue to next page...
+next
 DD05250
 
 
@@ -2610,8 +2610,8 @@ DD05250
 
 DD05250
 Dazed, you stagger to your feet. Your vision warbles as stars dance in your eyes. A familiar logbook morphs into view, confirming the impossible reality: You made it. You actually made it back to the entrance of the Glass Tunnels! You are overcome with elation, and can't help but dance fervently to celebrate your victory. But now is not the time to dwindle; you exit the Glass Tunnels for good, and begin the journey back home. Back to Beancouver.
-
-
+Make the journey back home
+home
 BC01200
 
 
@@ -2676,24 +2676,6 @@ LS00200
 
 
 
-
-
-
-
-DD02700
-You walk into the Mirror Palace, the interior is a majestic palace hall filled with intricate structures made out of reflective materials. Most prominently featured is a reflective statue of a person resting their cheek on a bent index finger. The statue's gaze appears to fall on nothing in particular, but its brows are furrowed, and lips ever so slightly pursed.
-go back to main menu
-back
-LS00200
-return to main menu
-return
-LS00200
-backtrack to main menu
-backtrack
-LS00200
-Skip ahead to the Glass Tunnels
-skip
-DD04200
 
 
 
@@ -6726,6 +6708,294 @@ GC06900
 Turning my gaze, I noticed Lumos, the magical dust bunny, trying to get my attention. Its twinkling eyes and gestures indicated that it had something to share or a message to convey, further intensifying my curiosity about the secrets this enchanting realm held.
 lumos
 GC07100
+
+
+
+
+DD02700
+You walk into the Mirror Palace, the interior is a majestic palace hall filled with intricate structures made out of reflective materials. Everywhere you look, you see your reflection. It takes a while to adjust to this unusual design, but you eventually notice two paths of interest: A door labelled 'Entrance to the Glass Tunnels', and a door labelled 'Conference Room'
+Enter the door labelled Entrance to the Glass Tunnels
+enter
+DD02800
+Check out the Conference Room
+check
+DD03600
+
+
+
+
+
+
+
+
+
+
+DD02800
+You walk into the room labelled 'Entrance to the Glass Tunnels'. Stationed at the center of the room is a large, reflective statue. It depicts a person resting their cheek on their index finger. It stares off into the distance, with its brows furrowed, and lips ever so slightly pursed. Across the room, you notice five lights, each affixed to a pedestal. The far wall has three large, stained glass panes. They depict a triangle, a square, and a pentagon, respectively. Below them is a small door with an icon of a staircase going down painted on its face.
+Try the door
+door
+DD02900
+Check out the lights
+lights
+DD03000
+Go back
+back
+DD02700
+
+
+
+
+
+
+
+DD02900
+The door is locked
+Go back
+back
+DD02800
+
+
+
+
+
+
+
+
+
+
+
+
+
+DD03000
+Upon closer inspection of the lights, you notice that the first light is actually on, and is pointed directly towards the stained glass window pain with the square. Stepping away from the first light, you notice that the lights and the stained glass window panes are centered relative to each other. There must be something to do here!
+Go to light #1
+one
+DD03100
+Go to light #2
+two
+DD03200
+Go to light #3
+three
+DD03300
+Go to light #4
+four
+DD03400
+Go to light #5
+five
+DD03500
+
+DD03100
+What would you like to do with light #1?
+Turn it on/off
+switch
+DD03100
+Point it at the triangle
+triangle
+DD03100
+Point it at the square
+square
+DD03100
+Point it at the pentagon
+pentagon
+DD03100
+Go back
+back
+DD02800
+
+DD03200
+What would you like to do with light #2?
+Turn it on/off
+switch
+DD03200
+Point it at the triangle
+triangle
+DD03200
+Point it at the square
+square
+DD03200
+Point it at the pentagon
+pentagon
+DD03200
+Go back
+back
+DD02800
+
+DD03300
+What would you like to do with light #3?
+Turn it on/off
+switch
+DD03300
+Point it at the triangle
+triangle
+DD03300
+Point it at the square
+square
+DD03300
+Point it at the pentagon
+pentagon
+DD03300
+Go back
+back
+DD02800
+
+DD03400
+What would you like to do with light #4?
+Turn it on/off
+switch
+DD03400
+Point it at the triangle
+triangle
+DD03400
+Point it at the square
+square
+DD03400
+Point it at the pentagon
+pentagon
+DD03400
+Go back
+back
+DD02800
+
+DD03500
+What would you like to do with light #5?
+Turn it on/off
+switch
+DD03500
+Point it at the triangle
+triangle
+DD03500
+Point it at the square
+square
+DD03500
+Point it at the pentagon
+pentagon
+DD03500
+Go back
+back
+DD02800
+
+DD03600
+You walk into the room labelled Conference Room. Even the conference room is constructed entirely from glass, mirrors, or reflective metals. A large, impossibly smooth round table sits at the center of the room. Tucked into the corner of the room is an unassuming filing cabinet. There are a few documents placed neatly inside of it.
+Read the document titled: Glass Tunnels Construction Progress Report
+report
+DD03700
+Read the document titled: Exploration Log #283
+exploration
+DD03800
+Read the document titled: Regarding The Magic Bean
+bean
+DD03900
+Read the document titled: Incident Report
+incident
+DD04000
+Go back to the entrance of the Mirror Palace
+back
+DD02700
+
+DD03700
+[Glass Tunnels Construction Progress Report] Shiff has finished his work on the expensive Glass Tunnels. They are a marvellous sight to behold, perhaps one day his legacy as an architect will rival even that of Fern. We believe the Glass Tunnels have merit not only as a work of art, but also practically as a means of storage.
+Read the next document
+next
+DD03800
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+
+
+
+DD03800
+[Exploration Log #283] Our bravest explorers reported finding a small settlement to the east. According to their reports, the people there are technologically primitive, and hostile to outsiders. Nonetheless, our explorer's report exchanging our knowledge of furnace technology in exchange for what they called a: "magic bean". We will inquire more about the details of this in the future, and record it in the next meeting.
+Read the next document
+next
+DD03900
+Read the previous document
+previous
+DD03700
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+DD03900
+[Regarding The Magic Bean] The magic bean brought home by the explorers has turned out to be a magnificent thing! Its beauty outshines all of our fancy architecture by a long shot. We are in disbelief. It's no wonder the explorers weren't keen on giving it to us. Perhaps the Glass Tunnels could finally be useful for something; we could store the magic bean within them. But as they are now, the Glass Tunnels aren't nearly sufficient to store such an artifact. We will instruct Shiff to construct more tunnels. Orders of magnitudes more, such that no intruder could ever manage to weave through the labrynth in order to get to the bean. And even if they do, we have a special security measure that will ENSURE that no one will take the magic bean from us. This is of utmost importance.
+Read the next document
+next
+DD04000
+Read the previous document
+previous
+DD03800
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+DD04000
+[Incident Report] It has become evident that the explorers who procured the magic bean intended to keep it for themselves. This is information is based on numerous internal reports. This is a crime against our people, and they must be punished. Following this, any attempts to move or touch the magic bean will be met with swift and decisive punishments. We have instructed the architect Shiff to construct even more tunnels, another order of magnitude more. Shiff may attempt to steal the magic bean from us, so he must be monitored.
+Read the previous document
+previous
+DD03900
+Go back
+back
+DD03600
+
+
+
+
+
+
+
+
+
+
+DD04100
+The door opens with a click! Behind it is an absurdly long staircase heading downwards. From where you're standing, it appears to fade into darkness. Their construction is in stark contrast to the rest of the palace, as they are made with rough, brown rock. You breathe in deeply. There's only one way to go from here.
+Make your way down the staircase
+down
+DD04200
+
+
+
+
+
+
+
+
+
+
+
+
+
+FF04700
+Having made your choice you now have to decide where to start
+Make haste to the ramparts
+ramparts
+FF04800
+Take your position in the courtyard
+courtyard
+FF04900
+Defend the throne room
+throne
+FF05000
+
+
+
 
 
 

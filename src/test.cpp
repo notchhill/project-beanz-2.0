@@ -4,50 +4,66 @@
 
  // My test version of main. If it isnt here, it probs hasnt been tested
 int main(){
-	system("mode con: cols=120 lines=20");
-	system("cls");
-  
-	GameScreenLinkedList gameScreen;
-	GameScreenLinkedList* ptr = &gameScreen;
-	gameScreen.load("./resource/inputtext.txt", ptr);
+/*
+* TEST 2
+*/
+	GameScreenLinkedList gameSequence;
+	GameScreenLinkedList* current = &gameSequence;
 
-	gameScreen.display(ptr);
+	//load the game(create linked list)
+	gameSequence.load("resource/input.txt", &gameSequence);
 
-	int a;
-	std::cin >> a;
+	/* Use this loop to skip screens to reach the desired block*/
+	/*for(int i = 0; i < 10; i++) {
+		current = current->nextNode(current);
+	}*/
 
-	/*while(ptr != NULL){
-	std::cout << ptr->screenID << '\n'
-		  << ptr->screenText << '\n'
-		  << ptr->option1.optionTextBlurb << '\n'
-		  << ptr->option1.optionChoiceText << '\n'
-		  << ptr->option1.optionscreenID << '\n'
-		  << ptr->option2.optionTextBlurb << '\n'
-		  << ptr->option2.optionChoiceText << '\n'
-		  << ptr->option2.optionscreenID << '\n'
-		  << ptr->option3.optionTextBlurb << '\n'
-		  << ptr->option3.optionChoiceText << '\n'
-		  << ptr->option3.optionscreenID << '\n'
-		  << ptr->option4.optionTextBlurb << '\n'
-		  << ptr->option4.optionChoiceText << '\n'
-		  << ptr->option4.optionscreenID << '\n'
-		  << ptr->option5.optionTextBlurb << '\n'
-		  << ptr->option5.optionChoiceText << '\n'
-		  << ptr->option5.optionscreenID << '\n';
-		if(ptr->next != NULL){
-			ptr = ptr->next;
-		}else{
-			break;
+	//opens the output file
+	/*std::ofstream outputFile; 
+	outputFile.open("resource/actualTest2.txt");
+
+	std::stringstream ss;
+	auto old_buf = std::cout.rdbuf(ss.rdbuf());
+
+	//iterate through the first 10 screens
+	for(int i = 0; i < 10; i++) {
+		current->display(current);
+		current = current->nextNode(current);
+	}
+
+    std::cout.rdbuf(old_buf); //reset
+
+	outputFile << ss.str();
+	
+	outputFile.close();*/
+/*
+* END TEST 2
+*/
+
+/*
+* TEST 3
+*/
+
+	//Taking only screenIDs from a master file of screenIDs
+	// and passing them all to search(). If search() finds a matching screen it's good, if it doesn't, it's not
+	// screenIDs should be passed to test.cpp via  a Bash script in a file called ba.sh (Beanz Actualization.sh)
+	std::string string_beans = "";
+	while(string_beans != "exit") {
+		std::cin >> string_beans;
+		//std::cout << "HEY HEY HEY";
+
+		current = gameSequence.search(string_beans, &gameSequence);
+
+		if(current == NULL) {
+			std::cout << "Error screen is " << string_beans;
 		}
 	}
-	gameScreen.clear(ptr);
+std::cout <<"IT WORKED" << std::endl;
+	
+/*
+* END TEST 3
+*/
 
-	if(ptr == NULL){
-		std::cout << "Cleared";
-	}else{
-		// Still can be a mem leak if it goes to cleared, but there definately is one if this prints.
-		std::cout << "MEM LEAK";
-	}*/
 	return 0;	
 }
 
