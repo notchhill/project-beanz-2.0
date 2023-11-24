@@ -27,7 +27,7 @@ hut="ask bow throne warrior wizard map"                                         
 desert="shed shovel stick search trowel marked desert"                                   # warps the player to Desert
 palace="west west palace"                                                                # warps the player to Mirror Palace
 tunnels="door lights two switch back lights three switch back lights four switch down"   # warps the player to Glass Tunnels
-end="forward move bean escape walk jump next slam next next return"                      # warps the player to Beancouver (end)
+end="forward forward bean escape walk jump next slam next next return"                   # warps the player to Beancouver (end)
 
 path+=" ${kitchen}"
 if [ $1 == "kitchen" ]; then
