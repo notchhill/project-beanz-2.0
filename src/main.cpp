@@ -23,8 +23,8 @@ int main() {
 
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* prev = &gameSequence;
+  GameScreenLinkedList* buffer = prev;
   GameScreenLinkedList* current = &gameSequence;
-  std::string userSave = "";
   Puzzle p;
   std::string playerIn;
   std::string saveFile = "resource/save.txt";
@@ -33,12 +33,13 @@ int main() {
 
   while (playerIn != "quit") {
     system("cls");
-    prev = current;
+    prev = buffer;
+    buffer = current;
     gameSequence.display(current);
 
     playerIn = getPlayerIn();
 
-    std::string nextScreenID = gameSequence.match(playerIn, userSave, current);
+    std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current);
 
     if(nextScreenID == "") {
         //std::cout << "Invalid Input! Please Try Again.\n";
@@ -50,9 +51,8 @@ int main() {
   }
 
   GameScreenLinkedList* ptr = &gameSequence;
-
  
-  gameSequence.save(prev, current, userSave, saveFile);
+  gameSequence.save(prev, current, &gameSequence, saveFile);
 
   gameSequence.clear(ptr);
   
