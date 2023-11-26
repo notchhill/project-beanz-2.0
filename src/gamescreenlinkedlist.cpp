@@ -302,6 +302,8 @@ void GameScreenLinkedList::save(GameScreenLinkedList* prev, GameScreenLinkedList
 			save << current->screenID;
 		 }
 
+		 	save << "\r\n";
+
 		 if(head->option3.optionscreenID != ""){
 			save << head->option3.optionscreenID;
 		 }
