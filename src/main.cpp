@@ -22,22 +22,23 @@ int main() {
   system("cls");
 
   GameScreenLinkedList gameSequence;
+  GameScreenLinkedList* prev = &gameSequence;
   GameScreenLinkedList* current = &gameSequence;
+  std::string userSave = "";
   Puzzle p;
   std::string playerIn;
   std::string saveFile = "resource/save.txt";
 
   gameSequence.load("resource/input.txt", saveFile, &gameSequence);
 
-  // We decided to just have Ctrl + c as killing the program for now.
   while (playerIn != "quit") {
     system("cls");
-
+    prev = current;
     gameSequence.display(current);
 
     playerIn = getPlayerIn();
 
-    std::string nextScreenID = gameSequence.match(playerIn, current);
+    std::string nextScreenID = gameSequence.match(playerIn, userSave, current);
 
     if(nextScreenID == "") {
         //std::cout << "Invalid Input! Please Try Again.\n";
@@ -49,7 +50,9 @@ int main() {
   }
 
   GameScreenLinkedList* ptr = &gameSequence;
-  gameSequence.save(current, saveFile);
+
+ 
+  gameSequence.save(prev, current, userSave, saveFile);
 
   gameSequence.clear(ptr);
   

@@ -68,9 +68,10 @@ class GameScreenLinkedList {
 		//Otherwise, return NULL.
 
 
-		std::string match(const std::string playerInput, const GameScreenLinkedList* currentNode);
+		std::string match(const std::string playerInput, std::string userSave, const GameScreenLinkedList* currentNode);
 		//Matches the input that the player has entered with the input for each option of currentNode.
 		//If it matches, return the associated screenID.
+		//If player input is 'save' save the screen ID in userSave
 		//Otherwise, return NULL.
 
 
@@ -85,9 +86,11 @@ class GameScreenLinkedList {
 		//Close the file after all data have been inserted.
 
 
-		void save(GameScreenLinkedList* current, std::string fileName);
+		void save(GameScreenLinkedList* prev, GameScreenLinkedList* current, std::string userSave, std::string fileName);
 		//Open the file named 'filename' in write only mode.
-		//Write the something into a file named 'filename' to save the game.
+		//Saves the screen ID of current screen in current to the file.
+		//If current is a death screen, writes prev instead.
+		//If userSave is not an empty string, saves it to the file as well.
 };
 
 

@@ -5096,7 +5096,7 @@ GC13200
 Your adventure takes an unfortunate turn as the giant discovers you, trapped within the toilet's porcelain confines.
 Restart the Game
 restart
-Option1ScreenID
+LS00100
 
 
 
@@ -5204,7 +5204,7 @@ GC13800
 Your predicament takes an unfortunate turn as the giant discovers you trapped within the bathtub.
 Restart the Game
 restart
-Option1ScreenID
+LS00100
 
 
 
