@@ -77,7 +77,7 @@ GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, G
 *	@param const GameScreenLinkedList* currentNode ; Node to have its options examined for a match with the player's input
 *	@return string GameScreenLinkedList ; ScreenID of matching option
 */
-std::string GameScreenLinkedList::match(const std::string playerInput, std::string userSave, const GameScreenLinkedList* currentNode){
+std::string GameScreenLinkedList::match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode){
 	if(currentNode == NULL || playerInput == ""){
 		return "";
 	}
@@ -103,7 +103,9 @@ std::string GameScreenLinkedList::match(const std::string playerInput, std::stri
 	}
 
 	if(playerInput == "save"){
-		userSave = currentNode->screenID;
+		head->option3.optionscreenID = currentNode->screenID;
+		head->option3.optionTextBlurb = "Load Previous Manual Save";
+		head->option3.optionChoiceText = "load";
 		std::cout << "\nSuccessfully Saved!\n";
 		return currentNode->screenID;
 	}
@@ -290,7 +292,7 @@ void GameScreenLinkedList::load(const std::string fileName, const std::string sa
 	else{std::cout<<"didnt open"<< std::endl;}
 }
 
-void GameScreenLinkedList::save(GameScreenLinkedList* prev, GameScreenLinkedList* current, std::string userSave, std::string saveFile){
+void GameScreenLinkedList::save(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, std::string saveFile){
 	if(current->screenID != "LS00400"){
     //trunc is to discard old file, and create a new one.
     	std::ofstream save (saveFile, std::ofstream::trunc);
@@ -300,8 +302,8 @@ void GameScreenLinkedList::save(GameScreenLinkedList* prev, GameScreenLinkedList
 			save << current->screenID;
 		 }
 
-		 if(userSave != ""){
-			save << userSave;
+		 if(head->option3.optionscreenID != ""){
+			save << head->option3.optionscreenID;
 		 }
     	save.close();
   }
