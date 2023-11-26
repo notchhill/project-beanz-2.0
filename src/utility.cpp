@@ -50,6 +50,7 @@ std::string getPlayerIn() {
 */
 void nicePrint(std::string text, bool isOption /*false*/) {
 	int len = text.length();
+	int actualLen = len;
 	int count = 0;
 	int j = 0;
 	std::string screenText;
@@ -57,6 +58,11 @@ void nicePrint(std::string text, bool isOption /*false*/) {
 //read text into string
 for (int i = 0; i < len; i++) {
 	screenText[j] = text[i];
+	//This is to fix the len variable sometimes getting assigned to a random value in the middle of a loop
+	if(actualLen != len){
+		len = text.length();
+		actualLen = len;
+	}
 	j++;
 	count++;
 
