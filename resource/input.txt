@@ -1118,7 +1118,7 @@ GC03400
 In the grand kitchen of the giant's castle, I encountered a colossal broom, its wooden handle as thick as a tree trunk and its bristles sturdy and vast. The broom leaned against the wall, a testament to the meticulous maintenance within the castle. Its sheer size suggested it was meant for more than just sweeping, possibly serving a purpose that was as extraordinary as the castle itself.
 Filled with curiosity, I couldn't resist the urge to try to knock over the giant broom, wondering if it concealed any secrets or clues about the castle's magical enchantments.
 broom
-GC07300
+GC07300D50
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC03300
@@ -1276,11 +1276,11 @@ Taking Lumos's words to heart, I decided to continue my adventure within the gia
 explore
 GC10010
 
-GC07300
-As I exerted my strength and pushed the colossal broom in the giant's kitchen, it teetered and then unexpectedly toppled, landing with a thud. I hadn't anticipated the broom's immense weight, and in the process of its fall, it landed squarely on top of me. Trapped beneath the giant broom, I realized that my actions had consequences, and this unforeseen mishap marked the end of my adventure within the giant's castle. The overwhelming weight of the broom left me with no way to continue, and I could do nothing but contemplate the series of choices that had led me to this fateful end.
-Restart
-restart
-LS00200
+GC07300D50
+As I exerted my strength and pushed the colossal broom in the giant's kitchen, it teetered and then unexpectedly toppled, landing with a thud. I hadn't anticipated the broom's immense weight, and in the process of its fall, it landed squarely on top of me. Trapped beneath the giant broom, I realized that my actions had consequences, and this unforeseen mishap meant I would be injured significantly. The overwhelming weight of the broom hurt me greatly, and I could do nothing but contemplate the series of choices that had led me to this painful end.
+Get out from under broom
+escape
+GC03400
 
 
 
@@ -1295,8 +1295,8 @@ LS00200
 
 
 GC07400
-With a sense of curiosity and a hint of daring, I decided to pull the conspicuous lever on the colossal garbage can in the giant's kitchen. However, my action had unforeseen consequences. With an unexpected jolt of force, the lever activated a mechanism that flung me into the air at a startling speed. I soon found myself hurtling towards an unforgiving drop, realizing that I had inadvertently triggered a treacherous trap within the castle. The realization came too late, and there was no turning back. This fateful moment marked the end of my adventure, as the fall led to my demise, and the enchanting world of the giant's castle disappeared from view, leaving me with a sense of the finality of my choices.
-Restart
+With a sense of curiosity and a hint of daring, I decided to pull the conspicuous lever on the colossal garbage can in the giant's kitchen. However, my action had unforeseen consequences. With an unexpected jolt of force, the lever activated a mechanism that flung me into the air at a startling speed. I soon found myself hurtling towards an unforgiving drop, realizing that I had inadvertently triggered a treacherous trap within the castle. The realization came too late, and there was no turning back. This fateful moment marked a moment of great pain in my adventure, as the fall led to my maiming, and the enchanting world of the giant's castle disappeared from view, leaving me with a sense of the concequences of my choices.
+Climb back up, gravely injured
 restart
 LS00200
 
@@ -6194,7 +6194,7 @@ GC04000
 In the grand kitchen of the giant's castle, I encountered a colossal broom, its wooden handle as thick as a tree trunk and its bristles sturdy and vast. The broom leaned against the wall, a testament to the meticulous maintenance within the castle. Its sheer size suggested it was meant for more than just sweeping, possibly serving a purpose that was as extraordinary as the castle itself.
 Filled with curiosity, I couldn't resist the urge to try to knock over the giant broom, wondering if it concealed any secrets or clues about the castle's magical enchantments.
 broom
-GC07300
+GC07300D50
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC03800
@@ -6212,7 +6212,7 @@ GC04600
 In the grand kitchen of the giant's castle, I encountered a colossal broom, its wooden handle as thick as a tree trunk and its bristles sturdy and vast. The broom leaned against the wall, a testament to the meticulous maintenance within the castle. Its sheer size suggested it was meant for more than just sweeping, possibly serving a purpose that was as extraordinary as the castle itself.
 Filled with curiosity, I couldn't resist the urge to try to knock over the giant broom, wondering if it concealed any secrets or clues about the castle's magical enchantments.
 broom
-GC07300
+GC07300D50
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC04400
@@ -6230,7 +6230,7 @@ GC05200
 In the grand kitchen of the giant's castle, I encountered a colossal broom, its wooden handle as thick as a tree trunk and its bristles sturdy and vast. The broom leaned against the wall, a testament to the meticulous maintenance within the castle. Its sheer size suggested it was meant for more than just sweeping, possibly serving a purpose that was as extraordinary as the castle itself.
 Filled with curiosity, I couldn't resist the urge to try to knock over the giant broom, wondering if it concealed any secrets or clues about the castle's magical enchantments.
 broom
-GC07300
+GC07300D50
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC05000
@@ -6248,11 +6248,11 @@ GC06100
 In the grand kitchen of the giant's castle, I encountered a colossal broom, its wooden handle as thick as a tree trunk and its bristles sturdy and vast. The broom leaned against the wall, a testament to the meticulous maintenance within the castle. Its sheer size suggested it was meant for more than just sweeping, possibly serving a purpose that was as extraordinary as the castle itself.
 Filled with curiosity, I couldn't resist the urge to try to knock over the giant broom, wondering if it concealed any secrets or clues about the castle's magical enchantments.
 broom
-GC07300
+GC07300D50
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC06800
-The gargantuan garbage can piqued my curiosity, and I approached it to see what remnants of the giant's meals could tell me about their culinary habits.
+The gargantuan garbage can piqued my curiosity, and I approached itGC06700 to see what remnants of the giant's meals could tell me about their culinary habits.
 garbage
 GC06900
 With a sense of anticipation, I decided to explore the colossal fridge, eager to uncover the mysterious contents hidden within and to potentially find clues about the giant's tastes and preferences.
@@ -6266,7 +6266,7 @@ GC06700
 In the grand kitchen of the giant's castle, I encountered a colossal broom, its wooden handle as thick as a tree trunk and its bristles sturdy and vast. The broom leaned against the wall, a testament to the meticulous maintenance within the castle. Its sheer size suggested it was meant for more than just sweeping, possibly serving a purpose that was as extraordinary as the castle itself.
 Filled with curiosity, I couldn't resist the urge to try to knock over the giant broom, wondering if it concealed any secrets or clues about the castle's magical enchantments.
 broom
-GC07300
+GC07300D50
 The gargantuan garbage can piqued my curiosity, and I approached it to see what remnants of the giant's meals could tell me about their culinary habits.
 garbage
 GC03300
