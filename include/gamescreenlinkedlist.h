@@ -78,13 +78,14 @@ class GameScreenLinkedList {
 		//Remove all nodes from the list and release memory from all nodes.
 
 
-		void load(const std::string fileName, GameScreenLinkedList* head);
+		void load(const std::string fileName, std::string saveFile, GameScreenLinkedList* head);
 		//Open the file named 'filename' in read only mode.
+		//Opens the file 'saveFile' in read only mode if it, and 'filename' exists, otherwise ignores it.
 		//Read the data from the file and insert them in the list.
 		//Close the file after all data have been inserted.
 
 
-		//void save(const char* fileName);
+		void save(GameScreenLinkedList* current, std::string fileName);
 		//Open the file named 'filename' in write only mode.
 		//Write the something into a file named 'filename' to save the game.
 };

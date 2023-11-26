@@ -1,38 +1,20 @@
 LS00100
 Beanz 2.0: Refried Beanz (LOADING).
-
-
-
-
-
-
-
-
-
-
-
-
 Start the game!
 start
-LS00200
-
-LS00200
-Main Menu.
-Start Game
-start
 LS00300
+
+
+
+
+
+
+
+
+
 Quit Game
 quit
 LS00300
-
-
-
-
-
-
-
-
-
 
 LS00300
 A long, long time ago (27 minutes) in a galaxy far, far away (27 minute drive, 11 if you go 140km/h on the highway shoulder), the earth is bean-shaped, and tidally locked with the sun (astronomy nerd term, you know, THOSE people upstairs in building 315). This causes the sun to shine on only one side of the planet at a time, so one side has a society adapted to live in perpetual light and warmth, and the other to reside in absolute dark and stark coldness. The town of Beancouver is located on the equator, in a moderate clime right in between the two extremes of cold and warmth.                                              i like beanz. bean
@@ -2352,8 +2334,8 @@ Congratulations, you won the game!! After receiving the magic beans, Chef Garbon
 
 
 
-Press Enter
-
+Type quit
+quit
 LS00200
 
 DD04200

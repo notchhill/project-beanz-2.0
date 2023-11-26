@@ -24,16 +24,18 @@ int main() {
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* current = &gameSequence;
   Puzzle p;
+  std::string playerIn;
+  std::string saveFile = "resource/save.txt";
 
-  gameSequence.load("resource/input.txt", &gameSequence);
+  gameSequence.load("resource/input.txt", saveFile, &gameSequence);
 
   // We decided to just have Ctrl + c as killing the program for now.
-  while (1) {
+  while (playerIn != "quit") {
     system("cls");
 
     gameSequence.display(current);
 
-    std::string playerIn = getPlayerIn();
+    playerIn = getPlayerIn();
 
     std::string nextScreenID = gameSequence.match(playerIn, current);
 
@@ -47,7 +49,8 @@ int main() {
   }
 
   GameScreenLinkedList* ptr = &gameSequence;
-  
+  gameSequence.save(current, saveFile);
+
   gameSequence.clear(ptr);
   
   return 0;

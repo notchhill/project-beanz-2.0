@@ -97,6 +97,11 @@ std::string GameScreenLinkedList::match(const std::string playerInput, const Gam
 	if(playerInput == currentNode->option5.optionChoiceText){
 		return currentNode->option5.optionscreenID;
 	}
+
+	if(playerInput == "quit"){
+		return currentNode->screenID;
+	}
+
 	return "";
 }
 
@@ -144,10 +149,11 @@ Option5 screen ID: The screen ID of the option the user selected.
 
 There should be one blank line in between every game screen.
 If you want fewer options, just leave that many lines blank, plus the one that should always be blank.
+@param std::string saveFile, the name of the output file
 @param GameScreenLinkedList* head, the first element of the linked list.
 @return void
 */  
-void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList* head) {
+void GameScreenLinkedList::load(const std::string fileName, const std::string saveFile, GameScreenLinkedList* head) {
 
 	std::ifstream file; 
 	file.open(fileName);
@@ -252,10 +258,31 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 				tail = ptr;
 			}
 		}
-		
+
+		std::ifstream save;
+		save.open(saveFile);
+		if(!save.fail()){
+			head->option2.optionTextBlurb = "Load Previous Save";
+			head->option2.optionChoiceText = "load";
+			std::getline(save, head->option2.optionscreenID);
+			if (head->option2.optionscreenID.back() == '\r') 
+			{head->option2.optionscreenID.pop_back();}
+		}
+
+		save.close();
 		file.close();
 	}
+	
 	else{std::cout<<"didnt open"<< std::endl;}
+}
+
+void GameScreenLinkedList::save(GameScreenLinkedList* current, std::string saveFile){
+	if(current->screenID != "LS00400"){
+    //trunc is to discard old file, and create a new one.
+    	std::ofstream save (saveFile, std::ofstream::trunc);
+    	save << current->screenID;
+    	save.close();
+  }
 }
 
 
