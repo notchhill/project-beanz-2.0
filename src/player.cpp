@@ -6,7 +6,7 @@
 @return N/A
 */
 Player::Player() {
-    hp = 0;
+    hp = 100;
 }
 
 /*
