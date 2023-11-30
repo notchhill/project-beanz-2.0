@@ -8,6 +8,8 @@ public:
     Player();
     ~Player();
 
+    int get_hp();
+
     void incr_hp(int amount);
     void decr_hp(int amount);
 

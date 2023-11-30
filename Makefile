@@ -1,5 +1,5 @@
 general= g++ -Wall -Wextra -Wpedantic -g
-objects= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o
+objects= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o 
 objectstest= build/test.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o
 # output= -c $< -o $@. Yes, we can also have this variable name in here. 
 # Each .o file would run ${general} ${output} instead of ${general} -c $< -o $@
@@ -26,6 +26,9 @@ build/gamescreenlinkedlist.o: src/gamescreenlinkedlist.cpp include/gamescreenlin
 build/puzzle.o: src/puzzle.cpp include/puzzle.h
 	${general} -c $< -o $@
 
+build/player.o: src/player.cpp include/player.h
+	${general} -c $< -o $@
+
 build/utility.o: src/utility.cpp include/utility.h
 	${general} -c $< -o $@
 
@@ -39,4 +42,4 @@ testclean:
 
 .PHONY: wclean
 wclean:
-	del build\main.o build\gamescreenlinkedlist.o build\puzzle.o build\utility.o bin\beanz2.exe
+	del build\main.o build\gamescreenlinkedlist.o build\puzzle.o build\player.o build\utility.o bin\beanz2.exe

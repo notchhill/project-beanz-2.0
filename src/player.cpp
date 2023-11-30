@@ -18,6 +18,10 @@ Player::~Player() {
 
 }
 
+int Player::get_hp() {
+    return hp;
+}
+
 /*
 @brief Increments player health (hp) by amount passed.
 @param int amount ; Amount to increment health of player by

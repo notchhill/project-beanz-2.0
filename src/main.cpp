@@ -5,7 +5,7 @@
  * @author Robert
  * @author Dustin
  * @author Lucas
- * @version 1.0.2
+ * @version 1.0.3
  * @date 2023/10/27
  *
  * The main routine. Contains the game loop.
@@ -15,6 +15,7 @@
 
 #include "../include/gamescreenlinkedlist.h"
 #include "../include/puzzle.h"
+#include "../include/player.h"
 
 
 int main() {
@@ -28,6 +29,7 @@ int main() {
   Puzzle p;
   std::string playerIn;
   std::string saveFile = "resource/save.txt";
+  Player beanzGuy;
 
   gameSequence.load("resource/input.txt", saveFile, &gameSequence);
 
@@ -46,6 +48,29 @@ int main() {
         continue;
     }else {
       p.UpdateStatus(playerIn, nextScreenID);
+
+      int nextLen = nextScreenID.length();
+      nextLen = abs(nextLen);
+      for(int i=2; i<nextLen; i++) {
+        if(nextScreenID[i] == 'D') {
+          int strAmountLen = 0;
+
+          if(nextLen == 9) {
+            strAmountLen = 2;
+          } else if(nextLen == 10) {
+            strAmountLen = 3;
+          }
+
+          std::string strAmount = nextScreenID.substr(8,strAmountLen);
+          int amount = std::stoi(strAmount,0,10);
+          beanzGuy.decr_hp(amount);
+
+          if(beanzGuy.get_hp() <= 0) {
+            //lead to a master death screen
+          }
+        }
+      }
+
       current = gameSequence.search(nextScreenID, &gameSequence);
     }
   }
