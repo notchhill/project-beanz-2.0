@@ -14,4 +14,6 @@ public:
     void decr_hp(int amount);
 
     void check_hp();
+
+    void u_died(std::string &ID);
 };
