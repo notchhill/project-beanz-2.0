@@ -6981,3 +6981,21 @@ FF05000
 
 
 
+
+LLLLLLL
+Your ran out of health points and died! Sounds like a skill issue to me ngl. Hit restart to give it another shot, and don't be stupid this time.
+Restart the game (do this or else)
+restart
+LS00100
+
+
+
+
+
+
+
+
+
+
+
+

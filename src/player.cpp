@@ -48,3 +48,12 @@ void Player::decr_hp(int amount) {
 void Player::check_hp() {
 
 }
+
+/*
+@brief Warps the player to a death scren if they are dead
+@param string &ID ; ID of next screen
+@return void ; 
+*/
+void Player::u_died(std::string &ID) {
+    ID = "LLLLLLL";
+}

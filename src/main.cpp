@@ -66,7 +66,7 @@ int main() {
           beanzGuy.decr_hp(amount);
 
           if(beanzGuy.get_hp() <= 0) {
-            //lead to a master death screen
+            beanzGuy.u_died(nextScreenID);
           }
         }
       }
