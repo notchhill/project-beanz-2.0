@@ -4598,7 +4598,7 @@ struggle
 FF00700
 Ribbit at the prince
 ribbit
-FF00800
+FF00800D90
 
 
 
@@ -4670,7 +4670,7 @@ struggle
 FF00700
 Ribbit at the prince
 ribbit
-FF00800
+FF00800D90
 
 
 
@@ -4678,7 +4678,7 @@ FF00800
 
 
 
-FF00800
+FF00800D90
 In a bizarre twist of fate, I found myself at the mercy of a tribe of giant frogs, facing execution for committing the worst faux pas in frog society: I had ribbited at them. In hindsight, my ill-advised attempt at frog-like communication had escalated into an amphibian diplomatic crisis. As the frogs croaked their judgment in deep, echoing voices, I couldn't help but feel like a minnow in a piranha-infested pond. With a final ribbit, they carried out their unusual sentence, leaving me to ponder the ribbit that cost me my life, a lesson learned in the most peculiar way imaginable. Ribbit in peace, they said... or at least something that sounded like it.
 You croaked your last breath.
 restart
