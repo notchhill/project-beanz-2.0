@@ -55,5 +55,5 @@ void Player::check_hp() {
 @return void ; 
 */
 void Player::u_died(std::string &ID) {
-    ID = "LLLLLLL";
+    ID = "LSLLLLL";
 }
