@@ -61,7 +61,7 @@ int main() {
             strAmountLen = 3;
           }
 
-          std::string strAmount = nextScreenID.substr(7,strAmountLen); 
+          std::string strAmount = nextScreenID.substr(8,strAmountLen); 
           int amount = stoi(strAmount,nullptr,10);
           beanzGuy.decr_hp(amount);
 
