@@ -14,7 +14,7 @@
 
 
 #include "../include/utility.h"
-
+#include <windows.h>
 
 /**	@brief
 *
@@ -68,6 +68,7 @@ for (int i = 0; i < len; i++) {
 
 	//print when space is reached - no something else instead
 	if (text[i] == ' ' || text[i] == '.' || text[i] == '!' || text[i] == '?') {
+		system("Color 0A");
 		for(int a = 0; a < j; a++) {
 			std::cout << screenText[a];
 		}
@@ -75,7 +76,7 @@ for (int i = 0; i < len; i++) {
 		j = 0;
 	}
 	//if string length + current line length > 120 print newline
-	if(j + count > screenWidth - isOption*align) {
+	if(j + count > 100/*screenWidth*/ - isOption*align) {
 		std::cout << std::endl;
 		if (isOption) {std::cout << std::setw(align) << "";}
 		count = 0;
