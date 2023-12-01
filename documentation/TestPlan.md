@@ -13,6 +13,10 @@
     2.1 Testing Technique
         This test will output 10 test screens and check to see if it matches the appropriate contents of expectedTest2.txt.
 
+        The 10 screens were chosen to avoid having to test all 7,000 lines of input.txt. Working with the expected output required manual copy-pasting, which would be difficult to do for the entirety of input.txt. The 10 screens chosen are the first 10 screens in the game. 
+
+        The 10 screens are produced through test.cpp, in the Test 2 section. The expected results were produced through manual copy-pasting of the expected text output from input.txt. This includes re-formatting to match against the actual expected appearance in the terminal window. Only 10 screens were chosen to make sure the output process functions properly in general, since if one output is correct it's most likely that all 7,000 work properly. 
+
         Currently this is set up so that whatever text (including square brackets around choice texts and such) would be outputted to the console for the player to see is outputted to actualTest2.txt for the purposes of this test.
 
         Any block of screens can be output and tested by looping through the list until the desired first screen, then outputting the desired block of screens, and comparing them against the prepared expectedTest2.txt.
@@ -44,5 +48,5 @@
 Name               | Description                     | Files |
 ------------------ | ------------------------------- | -------------------------------------------- |
 User Test          | checks if game works for users  | test1.txt |
-Screen Output Test | checks if output is as expected | actualTest2.txt, expectedTest2.txt |
+Screen Output Test | checks if output is as expected | actualTest2.txt, expectedTest2.txt, test.coo |
 Screen ID Test     | checks if every screenID loaded | ba.sh, screenIDs.txt |
