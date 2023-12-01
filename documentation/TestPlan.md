@@ -43,6 +43,14 @@
 
         where XX stands in for the screen ID (LS, BC, GC, FF, DD) and >> appends the file rather than overwrites. Note - this will have duplicated from the options.
 
+# Test 4 - Comparison of Input.txt Vs. Miro Chart
+
+    4.1 Technique
+        A human tester will compared the contents (in the screen blurb spot) for each screen in input.txt to the contents of the matching tile on our flowchart, hosted on Miro. 
+
+    4.2 Infrastructure
+        The Miro chart contains tiles that have all the screens in the game. This can easily be compared against input.txt which has all the screens actually written out in the correct format.
+
 # Table of Test Cases
 
 Name               | Description                     | Files |
