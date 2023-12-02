@@ -43,19 +43,14 @@ directory of the app using a Windows-based terminal:
 
     >make wclean
 
-To run the application on a Linux-based terminal, use the following command:
-    ./bin/beanz2
-
-To run the application on a Windows-based terminal, utilise the following command:
-    bin\beanz2.exe
-
 
 ## Usage
 
-To run the application use the following command while in the root
-directory of the app using a windows based terminal:
+To run the application on a Linux-based terminal, use the following command:
+    ./bin/beanz2
 
-    >bin\beanz2.exe
+To run the application on a Windows Command Prompt first run CMD in admin mode then utilise the following command:
+    bin\beanz2.exe
 
 
 ## Contributors

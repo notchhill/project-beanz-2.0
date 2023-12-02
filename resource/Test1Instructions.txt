@@ -1,0 +1,19 @@
+Follow UserManual.md to install and run the game. See "Results Template" below for an example test.
+
+Please fill in your test in test1results.txt in the resource directory. Add an x under the success or 
+failure column and add a comment if failure.
+
+
+Results Template
+-------------------
+
+Username's Attemp on Admin Windows 10 Command Prompt
+Command         Success     Failure         Comment
+Type "start"        x
+Type "start"        x
+Type "start"        x
+Type "talk"                     x           Text didn't wrap properly.
+.
+.
+.
+

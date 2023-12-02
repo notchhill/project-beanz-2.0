@@ -59,3 +59,4 @@ For this phase, that includes any changes to
 
 - Added a player class to contain such attributes as the player's health points (HP)
 - Player class has member functions for modifying and viewing player health
+- Updated the test plan, usermanual, test1.txt renamed to test1results.txt, created Test1Instructions.txt

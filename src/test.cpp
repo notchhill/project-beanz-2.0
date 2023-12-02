@@ -4,15 +4,14 @@
 
  // My test version of main. If it isnt here, it probs hasnt been tested
 int main() {
+	GameScreenLinkedList gameSequence;
+	GameScreenLinkedList* current = &gameSequence;
+	std::string saveFile = "resource/save.txt";
+	gameSequence.load("resource/input.txt", saveFile, &gameSequence);
+
 /*
 * TEST 2
 */
-	GameScreenLinkedList gameSequence;
-	GameScreenLinkedList* current = &gameSequence;
-
-	//load the game(create linked list)
-	gameSequence.load("resource/input.txt", &gameSequence);
-
 	/* Use this loop to skip screens to reach the desired block*/
 	/*for(int i = 0; i < 10; i++) {
 		current = current->nextNode(current);
