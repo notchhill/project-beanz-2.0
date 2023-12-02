@@ -68,7 +68,6 @@ for (int i = 0; i < len; i++) {
 
 	//print when space is reached - no something else instead
 	if (text[i] == ' ' || text[i] == '.' || text[i] == '!' || text[i] == '?') {
-		system("Color 0A");
 		for(int a = 0; a < j; a++) {
 			std::cout << screenText[a];
 		}

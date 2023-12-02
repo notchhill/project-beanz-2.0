@@ -21,6 +21,7 @@
 int main() {
   system("mode con: cols=120 lines=20");
   system("cls");
+  system("Color 0A");
 
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* prev = &gameSequence;
