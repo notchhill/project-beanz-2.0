@@ -49,29 +49,7 @@ int main() {
         continue;
     }else {
       p.UpdateStatus(playerIn, nextScreenID);
-
-      int nextLen = nextScreenID.length();
-      nextLen = abs(nextLen);
-      for(int i=2; i<nextLen; i++) {
-        if(nextScreenID[i] == 'D') {
-          int strAmountLen = 0;
-
-          if(nextLen == 9) {
-            strAmountLen = 2;
-          } else if(nextLen == 10) {
-            strAmountLen = 3;
-          }
-
-          std::string strAmount = nextScreenID.substr(8,strAmountLen); 
-          int amount = stoi(strAmount,nullptr,10);
-          beanzGuy.decr_hp(amount);
-
-          if(beanzGuy.get_hp() <= 0) {
-            beanzGuy.u_died(nextScreenID);
-          }
-        }
-      }
-
+      beanzGuy.UpdatePlayer(nextScreenID);
       current = gameSequence.search(nextScreenID, &gameSequence);
     }
   }
