@@ -8,6 +8,8 @@ public:
     Player();
     ~Player();
 
+    void UpdatePlayer(std::string &ID);
+
     int get_hp();
 
     void incr_hp(int amount);
