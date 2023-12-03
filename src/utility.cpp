@@ -14,7 +14,6 @@
 
 
 #include "../include/utility.h"
-#include <windows.h>
 
 /**	@brief
 *
@@ -75,7 +74,7 @@ for (int i = 0; i < len; i++) {
 		j = 0;
 	}
 	//if string length + current line length > 120 print newline
-	if(j + count > 100/*screenWidth*/ - isOption*align) {
+	if(j + count > screenWidth - isOption*align) {
 		std::cout << std::endl;
 		if (isOption) {std::cout << std::setw(align) << "";}
 		count = 0;
