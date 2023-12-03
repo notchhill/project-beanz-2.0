@@ -23,7 +23,7 @@
 #include <windows.h>
 
 const int screenWidth = 100;  // width of the terminal
-const int align = 17;         // number of spaces needed to align option blurbs
+const int align = 18;         // number of spaces needed to align option blurbs
 
 
 std::string getPlayerIn();
