@@ -20,8 +20,9 @@
 #include <string>
 #include <stdlib.h>
 #include <iomanip>
+#include <windows.h>
 
-const int screenWidth = 120;  // width of the terminal
+const int screenWidth = 100;  // width of the terminal
 const int align = 17;         // number of spaces needed to align option blurbs
 
 
