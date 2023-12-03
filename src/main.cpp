@@ -19,7 +19,7 @@
 
 
 int main() {
-  system("mode con: cols=120 lines=20");
+  system("mode con: cols=120 lines=40");
   system("cls");
   system("Color 0A");
 
