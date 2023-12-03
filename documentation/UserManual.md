@@ -47,10 +47,18 @@ directory of the app using a Windows-based terminal:
 ## Usage
 
 To run the application on a Linux-based terminal, use the following command:
-    ./bin/beanz2
+    >./bin/beanz2
 
 To run the application on a Windows Command Prompt first run CMD in admin mode then utilise the following command:
-    bin\beanz2.exe
+    >bin\beanz2.exe
+
+To save the game at any screen use the following word in-game:
+    >save
+
+followed with:
+    >quit
+
+to create a save file.
 
 
 ## Contributors
