@@ -130,13 +130,14 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
     3.2 Main Menu.
         +---------------------------------------------------------------------------------------------+
-        | Welcome to Beanz 2.0!                          [start] to start the game                    |
-        |                                                [quit] to exit the game                      |
+        | Welcome to Beanz 2.0!                                                                       |
         |                                                                                             |
         |                                                                                             |
         |                                                                                             |
         |                                                                                             |
         |                                                                                             |
+        |        [start] to start the game                                                            |
+        |        [quit] to exit the game                                                              |
         |                                                                                             |
         |                                                                                             |
         |                                                                                             |
@@ -179,12 +180,12 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
     
     3.5 Game Interface.
         +---------------------------------------------------------------------------------------------+
-        | You see a darkened room in front of you,       [chest] to open chest                        |
-        | with a chest lying on the ground               [door] to go through the door                |
+        | You see a darkened room in front of you,                                                    |
+        | with a chest lying on the ground                                                            |
         | and a door to the shed in the back.                                                         |
         |                                                                                             |
-        |                                                                                             |
-        |                                                                                             |
+        |          [door] -- to go through the door                                                   |
+        |          [chest] -- to open chest                                                           |
         |                                                                                             |
         |                                                                                             |
         |                                                                                             |
@@ -208,7 +209,8 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         |                                                                                             |
         |                                                                                             |
         |                                                                                             |
-        |                               Press any key to continue                                     |        +---------------------------------------------------------------------------------------------+
+        |                               Press any key to continue                                     |        
+        +---------------------------------------------------------------------------------------------+
 
     3.6 Victory Screen.
         +---------------------------------------------------------------------------------------------+
@@ -224,7 +226,8 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         |                                                                                             |
         |                                                                                             |
         |                                                                                             |
-        |                               Press any key to continue                                     |        +---------------------------------------------------------------------------------------------+
+        |                               Press any key to continue                                     |
+        +---------------------------------------------------------------------------------------------+
 
 4.0 Descriptions and Flowchart of the Levels.
 
