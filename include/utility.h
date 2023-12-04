@@ -22,6 +22,7 @@
 #include <iomanip>
 #include <windows.h>
 
+
 const int screenWidth = 100;  // width of the terminal
 const int align = 18;         // number of spaces needed to align option blurbs
 const int zones = 5;          // number of zones/main areas in the game

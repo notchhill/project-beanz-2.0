@@ -20,8 +20,8 @@ Player::~Player() {
 
 void Player::UpdatePlayer(std::string &ID)
 {
-    uint nextLen = ID.length();
-        for(uint i=2; i<nextLen; i++) {
+    unsigned int nextLen = ID.length();
+        for(unsigned int i=2; i<nextLen; i++) {
             if(ID[i] == 'D') {
                 int strAmountLen = 0;
                 if(nextLen == 9) {
@@ -48,7 +48,7 @@ int Player::get_hp() {
 /*
 @brief Increments player health (hp) by amount passed.
 @param int amount ; Amount to increment health of player by
-@return void ;
+@return void;
 */
 void Player::incr_hp(int amount) {
     hp = hp + amount;

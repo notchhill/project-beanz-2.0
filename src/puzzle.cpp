@@ -38,7 +38,7 @@ void Puzzle::UpdateStatus(std::string I, std::string &ID)
         }
 
         // check if the puzzle is solved, turn off all the lights if so
-        if (this->Check()) {
+        if (this->Check()) { 
             ID = "DD04100";
             for (int i = 0; i < 6; i++) state[i] = false;
         }

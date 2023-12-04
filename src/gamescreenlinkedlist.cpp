@@ -20,7 +20,7 @@
 *	@param GameScreenLinkedList* node ; The node to be displayed
 *	@return Void.
 */
-void GameScreenLinkedList::display(GameScreenLinkedList* node) {
+void GameScreenLinkedList::display(GameScreenLinkedList* node, int hp) {
 	std::cout << "HP: " << hp << std::endl << std::endl;
 	nicePrint(node->screenText);
 	std::cout << std::endl;
