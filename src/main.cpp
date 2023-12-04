@@ -38,7 +38,7 @@ int main() {
     system("cls");
     prev = buffer;
     buffer = current;
-    gameSequence.display(current);
+    gameSequence.display(current, beanzGuy.get_hp());
 
     playerIn = getPlayerIn();
 
