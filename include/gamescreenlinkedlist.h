@@ -54,7 +54,7 @@ class GameScreenLinkedList {
 		//Remove all the nodes from the linked list and release memory from them.
 
 
-		void display(GameScreenLinkedList* node);
+		void display(GameScreenLinkedList* node, int hp);
 		//Displays the screen text in node parameter, along with the option texts, and the text blurbs/descriptions for each option
 
 
