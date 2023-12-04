@@ -21,6 +21,7 @@
 *	@return Void.
 */
 void GameScreenLinkedList::display(GameScreenLinkedList* node) {
+	std::cout << "HP: " << hp << std::endl << std::endl;
 	nicePrint(node->screenText);
 	std::cout << std::endl;
 	std::string choiceText; // this will be set to each option's choice text (and the surrounding brakcets)
