@@ -1,5 +1,5 @@
 general= g++ -Wall -Wextra -Wpedantic -g 
-objects= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o build/icon.res
+objects= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o #build/icon.res
 objectsLinux= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o
 objectstest= build/test.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o
 # output= -c $< -o $@. Yes, we can also have this variable name in here. 
@@ -36,8 +36,8 @@ build/player.o: src/player.cpp include/player.h
 build/utility.o: src/utility.cpp include/utility.h
 	${general} -c $< -o $@
 
-build/icon.res: resource/resources.rc
-	windres $< -O coff -o $@
+#build/icon.res: resource/resources.rc
+#windres $< -O coff -o $@
 
 .PHONY: clean
 clean:
