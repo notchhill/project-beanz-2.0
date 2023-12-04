@@ -3,23 +3,22 @@
 #include "../include/utility.h"
 
  // My test version of main. If it isnt here, it probs hasnt been tested
-int main(){
+int main() {
+	GameScreenLinkedList gameSequence;
+	GameScreenLinkedList* current = &gameSequence;
+	std::string saveFile = "resource/save.txt";
+	gameSequence.load("resource/input.txt", saveFile, &gameSequence);
+
 /*
 * TEST 2
 */
-	GameScreenLinkedList gameSequence;
-	GameScreenLinkedList* current = &gameSequence;
-
-	//load the game(create linked list)
-	gameSequence.load("resource/input.txt", &gameSequence);
-
 	/* Use this loop to skip screens to reach the desired block*/
 	/*for(int i = 0; i < 10; i++) {
 		current = current->nextNode(current);
 	}*/
 
 	//opens the output file
-	/*std::ofstream outputFile; 
+	std::ofstream outputFile; 
 	outputFile.open("resource/actualTest2.txt");
 
 	std::stringstream ss;
@@ -35,7 +34,7 @@ int main(){
 
 	outputFile << ss.str();
 	
-	outputFile.close();*/
+	outputFile.close();
 /*
 * END TEST 2
 */
@@ -43,23 +42,18 @@ int main(){
 /*
 * TEST 3
 */
-
 	//Taking only screenIDs from a master file of screenIDs
 	// and passing them all to search(). If search() finds a matching screen it's good, if it doesn't, it's not
 	// screenIDs should be passed to test.cpp via  a Bash script in a file called ba.sh (Beanz Actualization.sh)
 	std::string string_beans = "";
+
 	while(string_beans != "exit") {
 		std::cin >> string_beans;
-		//std::cout << "HEY HEY HEY";
 
 		current = gameSequence.search(string_beans, &gameSequence);
 
-		if(current == NULL) {
-			std::cout << "Error screen is " << string_beans;
-		}
+		if(current == NULL) std::cout << "Error screen is " << string_beans;
 	}
-std::cout <<"IT WORKED" << std::endl;
-	
 /*
 * END TEST 3
 */

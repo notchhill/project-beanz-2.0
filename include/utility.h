@@ -20,10 +20,13 @@
 #include <string>
 #include <stdlib.h>
 #include <iomanip>
+#include <windows.h>
 
-const int screenWidth = 120;  // width of the terminal
-const int align = 17;         // number of spaces needed to align option blurbs
 
+const int screenWidth = 100;  // width of the terminal
+const int align = 18;         // number of spaces needed to align option blurbs
+const int zones = 5;          // number of zones/main areas in the game
+const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD"};  // start of ID of each of the main zones
 
 std::string getPlayerIn();
 // gets a string from the user, and copies it into another string (initially empty), character-by-character, 

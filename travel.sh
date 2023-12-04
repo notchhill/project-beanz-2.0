@@ -18,7 +18,7 @@ executable="./bin/beanz2"
 path=""
 
 kitchen="start start start restaurant square ask go"                                     # warps the player to Kitchen Part 1
-basement="enter talk bean explore chair push look lumos explore"                         # warps the player to Basement
+basement="enter talk bean explore chair push look lumos ask explore"                         # warps the player to Basement
 bathroom="broom rug broom dryer vent"                                                    # warps the player to Bathroom
 kitchen2="crawl sink climb climb"                                                        # warps the player to Kitchen Part 2
 log="plant dirt water plant climb beanstalk descend"                                     # warps the player to Hollowed-Out Log
