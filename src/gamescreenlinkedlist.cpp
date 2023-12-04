@@ -180,14 +180,17 @@ void GameScreenLinkedList::load(const std::string fileName, const std::string sa
 			std::getline(file, ptr->screenID);
 			if (ptr->screenID.back() == '\r') 
 			{ptr->screenID.pop_back();}
-			if(!((ptr->screenID[0] == 'L' && ptr->screenID[1] == 'S') || (ptr->screenID[0] == 'B' && ptr->screenID[1] == 'C') || (ptr->screenID[0] == 'G' && ptr->screenID[1] == 'C') || 
-				(ptr->screenID[0] == 'F' && ptr->screenID[1] == 'F') || (ptr->screenID[0] == 'D' && ptr->screenID[1] == 'D'))){
-				std::cout << " The input file is in an invalid format. Problem occurred around this text: " << ptr->screenID << std::endl;
-				tail->next = NULL;
-				if(ptr != this){
-					delete ptr;
+			
+			for (int i = 0; i < zones; i++) {
+				if (ptr->screenID.substr(0,2) == ID_MARKERS[i]) break;
+				else if (i == zones-1) {
+					std::cout << " The input file is in an invalid format.";
+					std::cout << " Problem occurred around this text: ";
+					std::cout << ptr->screenID << std::endl;
+					tail->next = NULL;
+					if (ptr != this) delete ptr;
+					return;
 				}
-				return;
 			}
 				
 			std::getline(file, ptr->screenText);
