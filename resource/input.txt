@@ -398,7 +398,7 @@ FF07200
 In a sudden and unexpected turn of events, an angry forest gnome charges out of the trees, catching you off guard. The gnome appears to be quite upset and confrontational, leaving you with limited options to defuse the situation or protect yourself.
 Try to talk to him
 talk
-FF08000
+FF08000D60
 Pick up a potato and throw it at him
 potato
 FF07500
@@ -416,7 +416,7 @@ FF07500
 After the potato hit, the forest gnome is temporarily knocked over but quickly regains his footing and resumes his charge. It's a critical moment, and you have to act swiftly to defend yourself or attempt to defuse the situation.
 Kick the gnome in the spleen
 kick
-FF08000
+FF08000D60
 Punch the gnome in the solar plexus
 punch
 FF07900
@@ -574,7 +574,7 @@ DD00100
 
 
 
-FF08000
+FF08000D60
 Your attempt to engage with the gnome through non violence didn't go as planned. He responded by fiercely striking you with his walking stick, gravely injuring you   (SKILL ISSUE L L L L  L L L L L LL)
 Retreat!!
 retreat
