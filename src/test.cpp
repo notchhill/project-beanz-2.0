@@ -26,7 +26,7 @@ int main() {
 
 	//iterate through the first 10 screens
 	for(int i = 0; i < 10; i++) {
-		current->display(current);
+		current->display(current, 100);
 		current = current->nextNode(current);
 	}
 
