@@ -40,7 +40,7 @@
 
         Can create list of screenIDs using:
 
-            >grep '^ *XX' input.txt >>screenIDs.txt
+            >grep '^ *XX' input.txt >> screenIDs.txt
 
         where XX stands in for the screen ID (LS, BC, GC, FF, DD) and >> appends the file rather than overwrites. Note - this will have duplicated from the options.
 
