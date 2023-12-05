@@ -6,11 +6,11 @@ Type "start"        x
 Type "start"        x
 Type "talk"         x
 ask
-restaurant                      x
-talk                            x
-ask                             x
-go                              x
-listen                          x
+restaurant                      x           Text wrap
+talk                            x           Text wrap
+ask                             x           Text wrap
+go                              x           Text wrap
+listen                          x           Text wrap
 go                  x  
 enter                           x
 talk                x
