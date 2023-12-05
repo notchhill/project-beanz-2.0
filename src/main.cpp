@@ -51,6 +51,9 @@ int main() {
       p.UpdateStatus(playerIn, nextScreenID);
       beanzGuy.UpdatePlayer(nextScreenID);
       current = gameSequence.search(nextScreenID, &gameSequence);
+      if(nextScreenID == "LS00100"){
+        beanzGuy.set_hp(100);
+      }
     }
   }
 

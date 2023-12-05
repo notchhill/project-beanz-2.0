@@ -63,13 +63,8 @@ void Player::decr_hp(int amount) {
     hp = hp - amount;
 }
 
-/*
-@brief Allows player to check their health by displaying current health to them.
-@param N/A
-@return void ;
-*/
-void Player::check_hp() {
-
+void Player::set_hp(int amount){
+    hp = amount;
 }
 
 /*
