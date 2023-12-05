@@ -14,6 +14,7 @@ public:
 
     void incr_hp(int amount);
     void decr_hp(int amount);
+    void set_hp(int amount);
 
     void check_hp();
 
