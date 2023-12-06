@@ -6800,7 +6800,7 @@ pentagon
 DD03100
 Go back
 back
-DD02800
+DD02850
 
 DD03200
 What would you like to do with light #2?
@@ -6818,7 +6818,7 @@ pentagon
 DD03200
 Go back
 back
-DD02800
+DD02850
 
 DD03300
 What would you like to do with light #3?
@@ -6836,7 +6836,7 @@ pentagon
 DD03300
 Go back
 back
-DD02800
+DD02850
 
 DD03400
 What would you like to do with light #4?
@@ -6854,7 +6854,7 @@ pentagon
 DD03400
 Go back
 back
-DD02800
+DD02850
 
 DD03500
 What would you like to do with light #5?
@@ -6872,7 +6872,7 @@ pentagon
 DD03500
 Go back
 back
-DD02800
+DD02850
 
 DD03600
 You walk into the room labelled Conference Room. Even the conference room is constructed entirely from glass, mirrors, or reflective metals. A large, impossibly smooth round table sits at the center of the room. Tucked into the corner of the room is an unassuming filing cabinet. There are a few documents placed neatly inside of it.
