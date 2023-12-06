@@ -6730,6 +6730,24 @@ DD02700
 
 
 
+DD02850
+What would you like to do?
+Check the status of the lights
+check
+DD02850
+Go to the lights
+lights
+DD03000
+Go back
+back
+DD02700
+
+
+
+
+
+
+
 DD02900
 The door is locked
 Go back
