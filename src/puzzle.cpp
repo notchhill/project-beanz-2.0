@@ -67,8 +67,8 @@ bool Puzzle::Check()
 
 void Puzzle::PrintLights()
 {
-    std::string state;
     std::string OnOff;
+    std::string shape;
     std::cout << "The status of the lights are as follows:" << std::endl;
     for (int i = 1; i < 6; i++) {
         if (state[i] == true) OnOff = "on";
@@ -76,6 +76,6 @@ void Puzzle::PrintLights()
         if (pointing[i] == 3) shape = "triangle";
         if (pointing[i] == 4) shape = "square";
         if (pointing[i] == 5) shape = "pentagon";
-        std::cout << "Light #" << i << " is " << state << " and is pointing at the " << OnOff << std::endl;
+        std::cout << "Light #" << i << " is " << OnOff << " and is pointing at the " << shape << std::endl;
     }
 }
