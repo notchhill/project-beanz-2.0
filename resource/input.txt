@@ -2117,7 +2117,7 @@ north
 DD01200
 Go west
 west
-DD01500
+DD00400
 Enter the palace
 enter
 DD02700
