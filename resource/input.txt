@@ -1997,16 +1997,34 @@ DD01000
 
 
 DD01000
-You continue your trek through the desert. To the north, the desert gives way to a towering, rocky cliff face, and if you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert. To the west is a lifeless hellscape of unstable rocks and sulfuric acid. To the north, the desert gives way to a towering, rocky cliff face. You notice some peculiar-looking iconography etched into the face of the cliff.
 Go east
 east
 DD00900
 Go south
 south
 DD01400
+Go west into the Acid Pits
+west
+RE20100
+Read the glyphs etched onto the cliff face
+read
+DD01050
 
 
 
+
+DD01050
+Etched into the cliff face are two drawing. The first depicts a person's face and what appears to be boiling water. The person appears to be facing towards the boiling water. The second image depicts what must be some sort of code. In order, it depicts: 4 horizontal sticks, and then 1 vertical stick, and then two horizontal sticks, and then 3 vertical sticks, and finally, 1 more horizontal stick.
+Go east
+east
+DD00900
+Go south
+south
+DD01400
+Go west into the Acid Pits
+west
+RE20100
 
 
 
@@ -2069,7 +2087,7 @@ DD01200
 
 
 DD01400
-You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert; sand stretches to the horizon in all directions. To the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go east
 east
 DD01300
@@ -2079,9 +2097,9 @@ DD01000
 Go south
 south
 DD01700
-
-
-
+Go west into the Acid Pits
+west
+RE20200
 
 
 
@@ -2123,7 +2141,7 @@ DD01500
 
 
 DD01700
-You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert; sand stretches to the horizon in all directions. To the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go north
 north
 DD01400
@@ -2133,9 +2151,9 @@ DD01600
 Go south
 south
 DD02100
-
-
-
+Go west into the Acid Pits
+west
+RE20300
 
 
 
@@ -2195,7 +2213,7 @@ DD02500H90
 
 
 DD02100
-You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun. If you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun. To the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go south
 south
 DD02600
@@ -2205,9 +2223,9 @@ DD02000
 Go north
 north
 DD01700
-
-
-
+Go west into the Acid Pits
+west
+RE20400
 
 
 
@@ -2285,16 +2303,16 @@ DD02600
 
 
 DD02600
-You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south, and if you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south, and to the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go north
 north
 DD02100
 Go east
 east
 DD02500H90
-
-
-
+Go west into the Acid Pits
+west
+RE20500
 
 
 
