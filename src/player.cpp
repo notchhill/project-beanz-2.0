@@ -21,24 +21,22 @@ Player::~Player() {
 void Player::UpdatePlayer(std::string &ID)
 {
     unsigned int nextLen = ID.length();
-        for(unsigned int i=2; i<nextLen; i++) {
-            if(ID[i] == 'D') {
-                int strAmountLen = 0;
-                if(nextLen == 9) {
-                    strAmountLen = 2;
-                } else if(nextLen == 10) {
-                    strAmountLen = 3;
-                }
-
-                std::string strAmount = ID.substr(8,strAmountLen);
-                int amount = stoi(strAmount,nullptr,10);
-                this->decr_hp(amount);
-
-                if(this->get_hp() <= 0) {
-                    this->u_died(ID);
-                }
-            }
+    if(ID[7] == 'D' || ID[7] == 'H') {
+        int strAmountLen = 0;
+        if(nextLen == 9) {
+            strAmountLen = 2;
+        } else if(nextLen == 10) {
+            strAmountLen = 3;
         }
+        std::string strAmount = ID.substr(8,strAmountLen);
+        int amount = stoi(strAmount,nullptr,10);
+
+        if (ID[7] == 'D') this->decr_hp(amount);
+        if (ID[7] == 'H') this->incr_hp(amount);
+
+        if (this->get_hp() > 100) this->set_hp(100);
+        if (this->get_hp() <= 0) this->u_died(ID);
+    }
 }
 
 int Player::get_hp() {
