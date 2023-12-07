@@ -7018,6 +7018,726 @@ FF05000
 
 
 
+RE20100
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north is a rocky cliff face. You feel sick in this place. Maybe you should head back to the desert?
+
+
+Go west
+west
+RE20600
+Go back to the desert
+desert
+DD01000
+Go south
+south
+RE20200
+
+
+
+
+
+RE20200
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. You feel sick in this place. Maybe you should head back to the desert?
+Go north
+north
+RE20100
+Go west
+west
+RE20700D30
+Go back to the desert
+desert
+DD01400
+Go south
+south
+RE20300
+
+
+
+
+RE20300
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. You feel sick in this place. Maybe you should head back to the desert?
+Go north
+north
+RE20200
+Go west
+west
+RE20800
+Go back to the desert
+desert
+DD01700
+Go south
+south
+RE20400
+
+
+
+
+RE20400
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. You feel sick in this place. Maybe you should head back to the desert?
+Go north
+north
+RE20300
+Go west
+west
+RE20900D30
+Go back to the desert
+desert
+DD02100
+Go south
+south
+RE20500
+
+
+
+
+RE20500
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south lies a barren, gray expanse of rock. You feel sick in this place. Maybe you should head back to the desert?
+Go north
+north
+RE20400
+Go west
+west
+RE21000D30
+Go back to the desert
+desert
+DD02600
+
+
+
+
+
+
+
+RE20600
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north is a rocky cliff face.
+
+
+Go west
+west
+RE21100
+Go East
+east
+RE20100
+Go south
+south
+RE20700D30
+
+
+
+
+
+RE20700D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE20600
+Go west
+west
+RE21200D30
+Go East
+east
+RE20200
+Go south
+south
+RE20800
+
+
+
+
+RE20800
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE20700D30
+Go west
+west
+RE21300
+Go East
+east
+RE20300
+Go south
+south
+RE20900D30
+
+
+
+
+RE20900D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE20800
+Go west
+west
+RE20400
+Go East
+east
+RE21400
+Go south
+south
+RE21000D30
+
+
+
+
+RE21000D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE20900D30
+Go west
+west
+RE21500
+Go East
+east
+RE20500
+
+
+
+
+
+
+
+RE21100
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north is a rocky cliff face.
+
+
+Go west
+west
+RE21600
+Go East
+east
+RE20600
+Go south
+south
+RE21200D30
+
+
+
+
+
+RE21200D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE21100
+Go west
+west
+RE21700D30
+Go East
+east
+RE20700D30
+Go south
+south
+RE21300
+
+
+
+
+RE21300
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE21200D30
+Go west
+west
+RE21800D30
+Go East
+east
+RE20800
+Go south
+south
+RE21400
+
+
+
+
+RE21400
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE21300
+Go west
+west
+RE21900D30
+Go East
+east
+RE20900D30
+Go south
+south
+RE21500
+
+
+
+
+RE21500
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south lies a barren, gray expanse of rock.
+Go north
+north
+RE21400
+Go west
+west
+RE22000
+Go East
+east
+RE21000D30
+
+
+
+
+
+
+
+RE21600
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north small passage between two large mountains.
+
+
+Go west
+west
+RE22100
+Go East
+east
+RE21100
+Go south
+south
+RE21700D30
+
+
+
+
+
+RE21700D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE21600
+Go west
+west
+RE22200
+Go East
+east
+RE21200D30
+Go south
+south
+RE21800D30
+
+
+
+
+RE21800D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE21700D30
+Go west
+west
+RE22300
+Go East
+east
+RE21300
+Go south
+south
+RE21900D30
+
+
+
+
+RE21900D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE21800D30
+Go west
+west
+RE22400
+Go East
+east
+RE21400
+Go south
+south
+RE22000
+
+
+
+
+RE22000
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south lies a barren, gray expanse of rock.
+Go north
+north
+RE21900D30
+Go west
+west
+RE22500D30
+Go East
+east
+RE21500
+
+
+
+
+
+
+
+RE22100
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north small passage between two large mountains.
+
+
+Go west
+west
+RE22600D30
+Go East
+east
+RE21600
+Go south
+south
+RE22200
+
+
+
+
+
+RE22200
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22100
+Go west
+west
+RE22700
+Go East
+east
+RE21700D30
+Go south
+south
+RE22300
+
+
+
+
+RE22300
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22200
+Go west
+west
+RE22800D30
+Go East
+east
+RE21800D30
+Go south
+south
+RE22400
+
+
+
+
+RE22400
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22300
+Go west
+west
+RE22900D30
+Go East
+east
+RE21900D30
+Go south
+south
+RE22500D30
+
+
+
+
+RE22500D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE22400
+Go west
+west
+RE23000D30
+Go East
+east
+RE22000
+
+
+
+
+
+
+
+RE22600D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+
+
+Go west
+west
+RE23100D30
+Go East
+east
+RE22100
+Go south
+south
+RE22700
+
+
+
+
+
+RE22700
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22600D30
+Go west
+west
+RE23200
+Go East
+east
+RE22200
+Go south
+south
+RE22800D30
+
+
+
+
+RE22800D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE22700
+Go west
+west
+RE23300
+Go East
+east
+RE22300
+Go south
+south
+RE22900D30
+
+
+
+
+RE22900D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE22800D30
+Go west
+west
+RE23400
+Go East
+east
+RE22400
+Go south
+south
+RE23000D30
+
+
+
+
+RE23000D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE22900D30
+Go west
+west
+RE23500
+Go East
+east
+RE22500D30
+
+
+
+
+
+
+
+RE23100D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+
+
+Go west
+west
+RE23600D30
+Go East
+east
+RE22600D30
+Go south
+south
+RE23200
+
+
+
+
+
+RE23200
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE23100D30
+Go west
+west
+RE23700D30
+Go East
+east
+RE22700
+Go south
+south
+RE23300
+
+
+
+
+RE23300
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE23200
+Go west
+west
+RE23800D30
+Go East
+east
+RE22800D30
+Go south
+south
+RE23400
+
+
+
+
+RE23400
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE23300
+Go west
+west
+RE23900D30
+Go East
+east
+RE22900D30
+Go south
+south
+RE23500
+
+
+
+
+RE23500
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south is a massive, boiling tar pit.
+Go north
+north
+RE23400
+Go west
+west
+RE24000
+Go East
+east
+RE23000D30
+
+
+
+
+
+
+
+RE23600D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+
+
+
+
+Go East
+east
+RE23100D30
+Go south
+south
+RE23700D30
+
+
+
+
+
+
+RE23700D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE23600D30
+Go East
+east
+RE23200
+Go south
+south
+RE23800D30
+
+
+
+
+
+
+
+RE23800D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE23700D30
+Go East
+east
+RE23300
+Go south
+south
+RE23900D30
+
+
+
+
+
+
+
+RE23900D30
+"NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
+Go north
+north
+RE23800D30
+Go East
+east
+RE23400
+Go south
+south
+RE24000
+
+
+
+
+
+
+
+RE24000
+Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your west and to your south is a massive, boiling tar pit.
+Go north
+north
+RE23900D30
+Go East
+east
+RE23500
+
+
+
+
+
+
+
+
+
+
 LSLLLLL
 Your ran out of health points and died! Sounds like a skill issue to me ngl. Hit restart to give it another shot, and don't be stupid this time.
 Restart the game (do this or else)
