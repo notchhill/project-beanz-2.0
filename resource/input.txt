@@ -2060,10 +2060,10 @@ north
 DD00800
 Go south
 south
-DD01300
+DD01500
 Go west
 west
-DD01500
+DD01300
 
 
 
