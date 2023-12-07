@@ -25,8 +25,10 @@
 
 const int screenWidth = 100;  // width of the terminal
 const int align = 18;         // number of spaces needed to align option blurbs
-const int zones = 5;          // number of zones/main areas in the game
-const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD"};  // start of ID of each of the main zones
+const int zones = 6;          // number of zones/main areas in the game
+
+const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE"};
+// array of the starts of each main zones' ID
 
 std::string getPlayerIn();
 // gets a string from the user, and copies it into another string (initially empty), character-by-character, 
