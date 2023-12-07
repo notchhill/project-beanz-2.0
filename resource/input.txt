@@ -7043,7 +7043,7 @@ north
 RE20100
 Go west
 west
-RE20700D30
+RE20700D17
 Go back to the desert
 desert
 DD01400
@@ -7079,7 +7079,7 @@ north
 RE20300
 Go west
 west
-RE20900D30
+RE20900D17
 Go back to the desert
 desert
 DD02100
@@ -7097,7 +7097,7 @@ north
 RE20400
 Go west
 west
-RE21000D30
+RE21000D17
 Go back to the desert
 desert
 DD02600
@@ -7120,20 +7120,20 @@ east
 RE20100
 Go south
 south
-RE20700D30
+RE20700D17
 
 
 
 
 
-RE20700D30
+RE20700D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
 RE20600
 Go west
 west
-RE21200D30
+RE21200D17
 Go East
 east
 RE20200
@@ -7148,7 +7148,7 @@ RE20800
 Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
 Go north
 north
-RE20700D30
+RE20700D17
 Go west
 west
 RE21300
@@ -7157,12 +7157,12 @@ east
 RE20300
 Go south
 south
-RE20900D30
+RE20900D17
 
 
 
 
-RE20900D30
+RE20900D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
@@ -7175,16 +7175,16 @@ east
 RE21400
 Go south
 south
-RE21000D30
+RE21000D17
 
 
 
 
-RE21000D30
+RE21000D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE20900D30
+RE20900D17
 Go west
 west
 RE21500
@@ -7210,23 +7210,23 @@ east
 RE20600
 Go south
 south
-RE21200D30
+RE21200D17
 
 
 
 
 
-RE21200D30
+RE21200D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
 RE21100
 Go west
 west
-RE21700D30
+RE21700D17
 Go East
 east
-RE20700D30
+RE20700D17
 Go south
 south
 RE21300
@@ -7238,10 +7238,10 @@ RE21300
 Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
 Go north
 north
-RE21200D30
+RE21200D17
 Go west
 west
-RE21800D30
+RE21800D17
 Go East
 east
 RE20800
@@ -7259,10 +7259,10 @@ north
 RE21300
 Go west
 west
-RE21900D30
+RE21900D17
 Go East
 east
-RE20900D30
+RE20900D17
 Go south
 south
 RE21500
@@ -7280,7 +7280,7 @@ west
 RE22000
 Go East
 east
-RE21000D30
+RE21000D17
 
 
 
@@ -7300,13 +7300,13 @@ east
 RE21100
 Go south
 south
-RE21700D30
+RE21700D17
 
 
 
 
 
-RE21700D30
+RE21700D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
@@ -7316,19 +7316,19 @@ west
 RE22200
 Go East
 east
-RE21200D30
+RE21200D17
 Go south
 south
-RE21800D30
+RE21800D17
 
 
 
 
-RE21800D30
+RE21800D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE21700D30
+RE21700D17
 Go west
 west
 RE22300
@@ -7337,16 +7337,16 @@ east
 RE21300
 Go south
 south
-RE21900D30
+RE21900D17
 
 
 
 
-RE21900D30
+RE21900D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE21800D30
+RE21800D17
 Go west
 west
 RE22400
@@ -7364,10 +7364,10 @@ RE22000
 Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south lies a barren, gray expanse of rock.
 Go north
 north
-RE21900D30
+RE21900D17
 Go west
 west
-RE22500D30
+RE22500D17
 Go East
 east
 RE21500
@@ -7384,7 +7384,7 @@ Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to oo
 
 Go west
 west
-RE22600D30
+RE22600D17
 Go East
 east
 RE21600
@@ -7406,7 +7406,7 @@ west
 RE22700
 Go East
 east
-RE21700D30
+RE21700D17
 Go south
 south
 RE22300
@@ -7421,10 +7421,10 @@ north
 RE22200
 Go west
 west
-RE22800D30
+RE22800D17
 Go East
 east
-RE21800D30
+RE21800D17
 Go south
 south
 RE22400
@@ -7439,25 +7439,25 @@ north
 RE22300
 Go west
 west
-RE22900D30
+RE22900D17
 Go East
 east
-RE21900D30
+RE21900D17
 Go south
 south
-RE22500D30
+RE22500D17
 
 
 
 
-RE22500D30
+RE22500D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
 RE22400
 Go west
 west
-RE23000D30
+RE23000D17
 Go East
 east
 RE22000
@@ -7468,13 +7468,13 @@ RE22000
 
 
 
-RE22600D30
+RE22600D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 
 
 Go west
 west
-RE23100D30
+RE23100D17
 Go East
 east
 RE22100
@@ -7490,7 +7490,7 @@ RE22700
 Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
 Go north
 north
-RE22600D30
+RE22600D17
 Go west
 west
 RE23200
@@ -7499,12 +7499,12 @@ east
 RE22200
 Go south
 south
-RE22800D30
+RE22800D17
 
 
 
 
-RE22800D30
+RE22800D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
@@ -7517,16 +7517,16 @@ east
 RE22300
 Go south
 south
-RE22900D30
+RE22900D17
 
 
 
 
-RE22900D30
+RE22900D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE22800D30
+RE22800D17
 Go west
 west
 RE23400
@@ -7535,22 +7535,22 @@ east
 RE22400
 Go south
 south
-RE23000D30
+RE23000D17
 
 
 
 
-RE23000D30
+RE23000D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE22900D30
+RE22900D17
 Go west
 west
 RE23500
 Go East
 east
-RE22500D30
+RE22500D17
 
 
 
@@ -7558,16 +7558,16 @@ RE22500D30
 
 
 
-RE23100D30
+RE23100D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 
 
 Go west
 west
-RE23600D30
+RE23600D17
 Go East
 east
-RE22600D30
+RE22600D17
 Go south
 south
 RE23200
@@ -7580,10 +7580,10 @@ RE23200
 Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
 Go north
 north
-RE23100D30
+RE23100D17
 Go west
 west
-RE23700D30
+RE23700D17
 Go East
 east
 RE22700
@@ -7601,10 +7601,10 @@ north
 RE23200
 Go west
 west
-RE23800D30
+RE23800D17
 Go East
 east
-RE22800D30
+RE22800D17
 Go south
 south
 RE23400
@@ -7619,10 +7619,10 @@ north
 RE23300
 Go west
 west
-RE23900D30
+RE23900D17
 Go East
 east
-RE22900D30
+RE22900D17
 Go south
 south
 RE23500
@@ -7640,7 +7640,7 @@ west
 RE24000
 Go East
 east
-RE23000D30
+RE23000D17
 
 
 
@@ -7648,7 +7648,7 @@ RE23000D30
 
 
 
-RE23600D30
+RE23600D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 
 
@@ -7656,27 +7656,27 @@ RE23600D30
 
 Go East
 east
-RE23100D30
+RE23100D17
 Go south
 south
-RE23700D30
+RE23700D17
 
 
 
 
 
 
-RE23700D30
+RE23700D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE23600D30
+RE23600D17
 Go East
 east
 RE23200
 Go south
 south
-RE23800D30
+RE23800D17
 
 
 
@@ -7684,17 +7684,17 @@ RE23800D30
 
 
 
-RE23800D30
+RE23800D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE23700D30
+RE23700D17
 Go East
 east
 RE23300
 Go south
 south
-RE23900D30
+RE23900D17
 
 
 
@@ -7702,11 +7702,11 @@ RE23900D30
 
 
 
-RE23900D30
+RE23900D17
 "NOO!" You shout, as the rocks underfoot crumble away into the sizzling acid below. You react as quickly as you can, just barely managing to hop away before you're melted into nothingness like the rocks below you. But you weren't fast enough. Your foot burns, and appears to have been partially dissolved.
 Go north
 north
-RE23800D30
+RE23800D17
 Go East
 east
 RE23400
@@ -7724,7 +7724,7 @@ RE24000
 Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your west and to your south is a massive, boiling tar pit.
 Go north
 north
-RE23900D30
+RE23900D17
 Go East
 east
 RE23500
