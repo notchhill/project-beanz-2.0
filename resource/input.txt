@@ -7022,6 +7022,7 @@ RE20100
 Pools of sulfuric acid bubble and churn in craggy pits. As the acid begins to ooze out of cracks in the lifeless ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north is a rocky cliff face. You feel sick in this place. Maybe you should head back to the desert?
 
 
+
 Go west
 west
 RE20600
@@ -7031,7 +7032,6 @@ DD01000
 Go south
 south
 RE20200
-
 
 
 
