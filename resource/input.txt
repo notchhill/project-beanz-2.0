@@ -2015,7 +2015,7 @@ DD01050
 
 
 DD01050
-Etched into the cliff face are two drawing. The first depicts a person's face and what appears to be boiling water. The person appears to be facing towards the boiling water. The second image depicts what must be some sort of code. In order, it depicts: 4 horizontal sticks, and then 1 vertical stick, and then two horizontal sticks, and then 3 vertical sticks, and finally, 1 more horizontal stick.
+Etched into the cliff face are two drawings. The first depicts a person's face, and what appears to be boiling water. The person appears to be facing towards the boiling water. The second image depicts what must be some sort of code. In order, it depicts: 4 horizontal sticks, and then 1 vertical stick, and then two horizontal sticks, and then 3 vertical sticks, and finally, 1 more horizontal stick.
 Go east
 east
 DD00900
