@@ -2189,7 +2189,7 @@ east
 DD01900
 Go south
 south
-DD02500
+DD02500H90
 
 
 
@@ -2255,7 +2255,7 @@ north
 DD01900
 Go west
 west
-DD02500
+DD02500H90
 Go east
 east
 DD02300
@@ -2266,7 +2266,7 @@ DD02300
 
 
 
-DD02500
+DD02500H90
 Amidst the unforgiving desert, your weary steps lead you to a serene oasis, a verdant refuge against the scorching sands. Surrounded by lush palm trees and the shimmering waters of a cool pool, the oasis provides a much needed respite from the harsh desert terrain, offering both refreshment and a moment of peace on your journey.
 Go north
 north
@@ -2291,7 +2291,7 @@ north
 DD02100
 Go east
 east
-DD02500
+DD02500H90
 
 
 
