@@ -107,12 +107,15 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     ~Puzzle();
                     void UpdateStatus(std::string I, std::string ID);
                     bool Check();
+                    void PrintLights();
                 FUNCTIONS:
                     std::string getPlayerIn();
                     void nicePrint(std::string text);
                 GLOBAL CONSTANTS:
                     const int screenWidth = 120;
                     const int align = 17;
+                    const int zones = 6;
+                    const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE"};
 
     3.5 Function and Class Implementations.
         3.5.1 GameScreenLinkedList class
@@ -205,6 +208,11 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                         - And finally, it checks if light#1 and light#2 are turned off. If all that is true, return true
                         - Done by: checking if the second int array at index 3/4/5 is equal to 3/4/5, then checking if the bool array at 3/4/5 are all true, and the ones at 1/2 are both false
                     - If none of these checks check out, then false is returned
+                PrintLights method
+                    - We define two strings. One to represent the on/off state of each light, and one to represent the shape a given light is pointing at
+                    - We go through a loop, which increments a counter. The counter represents the nth light, so it will incrememnt from 1 to 5
+                    - The first string will be made equal to "on" or "off" based on the value in the counter-th number in state[] array
+                    - It will print "Light #" 'counter' "
         3.5.3 Player Class
             - This class will include the libraries, functions, and constants defined in utility.h
             - Player contains one private variable called hp, which denotes how much health the user has. Set to 100
