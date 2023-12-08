@@ -24,7 +24,15 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                 Match Method
                 Search Method
                 Clear Method
-        3.5.2 Functions
+        3.5.2 Puzzle class
+            Variables
+            Methods
+                UpdateStatus method
+                Check method
+                PrintLights method
+        3.5.3 Player class
+            Update Player method
+        3.5.4 Functions
             Main Routine
     3.6 File hierarchy, compilation, makefile
         3.6.1 File hierarchy
@@ -212,7 +220,8 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     - We define two strings. One to represent the on/off state of each light, and one to represent the shape a given light is pointing at
                     - We go through a loop, which increments a counter. The counter represents the nth light, so it will incrememnt from 1 to 5
                     - The first string will be made equal to "on" or "off" based on the value in the counter-th number in state[] array
-                    - It will print "Light #" 'counter' "
+                    - The second string will be made equal to "triangle", "square", or "pentagon" based on the value of the counter-th number in pointing[]. 3 = triangle, 4 = square, 5 = pentagon
+                    - It will print "Light #" (counter) "is" (on or off), "and pointing at the following shape: " (trangle/square/pentagon)
         3.5.3 Player Class
             - This class will include the libraries, functions, and constants defined in utility.h
             - Player contains one private variable called hp, which denotes how much health the user has. Set to 100
