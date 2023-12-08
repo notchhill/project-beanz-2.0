@@ -52,7 +52,7 @@ void Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head
 void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy){
 	if(current != NULL && current->screenID != "LS00400"){
         GameScreenLinkedList* ptr;
-        if(current->option1.optionChoiceText == "restart" && prev != NULL){
+        if((current->option1.optionChoiceText == "restart" && prev != NULL) || beanzGuy->get_hp() <= 0){
             ptr = prev;
         }else{
             ptr = current;

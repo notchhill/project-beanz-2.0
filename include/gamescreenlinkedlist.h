@@ -18,6 +18,7 @@
 
 
 #include "../include/utility.h"
+#include "../include/saves.h"
 
 
 /*
@@ -27,6 +28,8 @@ class GameScreenLinkedList {
 	private:
 		
 		GameScreenLinkedList* next;
+
+	protected:
 
 		std::string screenID;
         std::string screenText;
@@ -45,6 +48,8 @@ class GameScreenLinkedList {
 		
 
 	public:
+
+		friend class Saves;
 
 		GameScreenLinkedList(){}// Default Constructor
 		//Create an empty list with its front pointing to NULL.
@@ -68,7 +73,7 @@ class GameScreenLinkedList {
 		//Otherwise, return NULL.
 
 
-		std::string match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode);
+		std::string match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy);
 		//Matches the input that the player has entered with the input for each option of currentNode.
 		//If it matches, return the associated screenID.
 		//If player input is 'save' then save the screen ID in option 3 in head
@@ -79,18 +84,12 @@ class GameScreenLinkedList {
 		//Remove all nodes from the list and release memory from all nodes.
 
 
-		void load(const std::string fileName, std::string saveFile, GameScreenLinkedList* head);
+		void load(const std::string fileName, std::string saveFile, GameScreenLinkedList* head, Saves* saves);
 		//Open the file named 'filename' in read only mode.
 		//Opens the file 'saveFile' in read only mode if it, and 'filename' exists, otherwise ignores it.
 		//Read the data from the file and insert them in the list.
 		//Close the file after all data have been inserted.
 
-
-		void save(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, std::string fileName);
-		//Open the file named 'filename' in write only mode.
-		//Saves the screen ID of current screen in current to the file.
-		//If current is a death screen, writes prev instead.
-		//If head->option3.screenID is not an empty string, saves it to the file as well.
 };
 
 
