@@ -1118,7 +1118,7 @@ GC03500
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC03300
@@ -1276,17 +1276,17 @@ GC03400
 
 
 
-GC07400
+GC07400D70
 With a sense of curiosity and a hint of daring, I decided to pull the conspicuous lever on the colossal garbage can in the giant's kitchen. However, my action had unforeseen consequences. With an unexpected jolt of force, the lever activated a mechanism that flung me into the air at a startling speed. I soon found myself hurtling towards an unforgiving drop, realizing that I had inadvertently triggered a treacherous trap within the castle. The realization came too late, and there was no turning back. This fateful moment marked a moment of great pain in my adventure, as the fall led to my maiming, and the enchanting world of the giant's castle disappeared from view, leaving me with a sense of the concequences of my choices.
-Climb back up, gravely injured
-restart
-LS00100
-
-
-
-
-
-
+Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
+chair
+GC03300
+I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
+broom
+GC03400
+With a sense of anticipation, I decided to explore the colossal fridge, eager to uncover the mysterious contents hidden within and to potentially find clues about the giant's tastes and preferences.
+fridge
+GC03600
 
 
 
@@ -6284,7 +6284,7 @@ GC04100
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC03800
@@ -6302,7 +6302,7 @@ GC04700
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC04400
@@ -6320,7 +6320,7 @@ GC05300
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC05000
@@ -6338,7 +6338,7 @@ GC06200
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC05900
@@ -6356,7 +6356,7 @@ GC06800
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC06700
