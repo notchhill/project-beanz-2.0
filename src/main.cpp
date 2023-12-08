@@ -23,20 +23,24 @@ int main() {
   system("Color 0A");
 
   GameScreenLinkedList gameSequence;
+  GameScreenLinkedList* ptr = &gameSequence;
   GameScreenLinkedList* prev = &gameSequence;
   GameScreenLinkedList* buffer = prev;
   GameScreenLinkedList* current = &gameSequence;
-  Saves currentSave("../resource/save.txt");
+  Saves currentSave("resource/save.txt");
   Puzzle p;
   std::string playerIn;
   Player beanzGuy;
 
-  gameSequence.load("../resource/input.txt", &gameSequence, &currentSave);
+ gameSequence.load("resource/input.txt", &gameSequence, &currentSave);
+
 
   while (playerIn != "quit") {
     system("cls");
-    prev = buffer;
-    buffer = current;
+    if(buffer != current){
+      prev = buffer;
+      buffer = current;
+    }
     gameSequence.display(current, beanzGuy.get_hp());
 
     playerIn = getPlayerIn();
@@ -55,8 +59,6 @@ int main() {
       }
     }
   }
-
-  GameScreenLinkedList* ptr = &gameSequence;
  
   currentSave.autosave(prev, current, ptr, &beanzGuy);
 

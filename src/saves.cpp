@@ -52,12 +52,15 @@ void Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head
 void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy){
 	if(current != NULL && current->screenID != "LS00400"){
         GameScreenLinkedList* ptr;
-        if((current->option1.optionChoiceText == "restart" && prev != NULL) || beanzGuy->get_hp() <= 0){
+        if(current->option1.optionChoiceText == "restart" && prev != NULL){
             ptr = prev;
         }else{
             ptr = current;
         }
-
+        if(beanzGuy->get_hp() <= 0){
+            beanzGuy->u_died(current->screenID);
+        }
+        
         this->autosaveScreenID = ptr->screenID;
         this->autosaveHP = beanzGuy->get_hp();
         head->option3.optionscreenID = current->screenID;
@@ -90,4 +93,8 @@ int Saves::getUserSaveHP(){
 //Returns the directory of the savefile
 std::string Saves::getSaveFile(){
     return this->saveFile;
+}
+
+void Saves::changeSaveFile(std::string newSaveFile){
+    this->saveFile = newSaveFile;
 }

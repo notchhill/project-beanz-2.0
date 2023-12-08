@@ -1,6 +1,5 @@
 #pragma once
 
-#include "utility.h"
 #include "player.h"
 #include "gamescreenlinkedlist.h"
 
@@ -44,6 +43,9 @@ class Saves {
 
         std::string getSaveFile();
         //Returns the directory of the savefile
+
+        void changeSaveFile(std::string newSaveFile);
+        //change the save file to directory in newSaveFile
 
         void save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy);
         //Open the file named 'filename' in write only mode.
