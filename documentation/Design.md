@@ -24,7 +24,15 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                 Match Method
                 Search Method
                 Clear Method
-        3.5.2 Functions
+        3.5.2 Puzzle class
+            Variables
+            Methods
+                UpdateStatus method
+                Check method
+                PrintLights method
+        3.5.3 Player class
+            Update Player method
+        3.5.4 Functions
             Main Routine
     3.6 File hierarchy, compilation, makefile
         3.6.1 File hierarchy
@@ -107,12 +115,15 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     ~Puzzle();
                     void UpdateStatus(std::string I, std::string ID);
                     bool Check();
+                    void PrintLights();
                 FUNCTIONS:
                     std::string getPlayerIn();
                     void nicePrint(std::string text);
                 GLOBAL CONSTANTS:
                     const int screenWidth = 120;
                     const int align = 17;
+                    const int zones = 6;
+                    const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE"};
 
     3.5 Function and Class Implementations.
         3.5.1 GameScreenLinkedList class
@@ -205,7 +216,31 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                         - And finally, it checks if light#1 and light#2 are turned off. If all that is true, return true
                         - Done by: checking if the second int array at index 3/4/5 is equal to 3/4/5, then checking if the bool array at 3/4/5 are all true, and the ones at 1/2 are both false
                     - If none of these checks check out, then false is returned
-        3.5.3 Functions
+                PrintLights method
+                    - We define two strings. One to represent the on/off state of each light, and one to represent the shape a given light is pointing at
+                    - We go through a loop, which increments a counter. The counter represents the nth light, so it will incrememnt from 1 to 5
+                    - The first string will be made equal to "on" or "off" based on the value in the counter-th number in state[] array
+                    - The second string will be made equal to "triangle", "square", or "pentagon" based on the value of the counter-th number in pointing[]. 3 = triangle, 4 = square, 5 = pentagon
+                    - It will print "Light #" (counter) "is" (on or off), "and pointing at the following shape: " (trangle/square/pentagon)
+        3.5.3 Player Class
+            - This class will include the libraries, functions, and constants defined in utility.h
+            - Player contains one private variable called hp, which denotes how much health the user has. Set to 100
+            - It uses the default constructor and destructor methods
+            - It has methods that: increase hp, decrease hp, set hp, and return player hp
+                - methods that increase, decrease, and set hp take an integer as a parameter. The player's hp is increased/decreased by/set to the passed integer
+            - It has a method that warps to a generic death screen. This method takes a string, which should be the next screen ID passed-by-reference
+                - This method will modify the string it was passed, converting it to the ID of a generic death screen. In main, the player will then be sent to this ID
+            UpdatePlayer method
+                - It will take the next screen ID (obtained when match is called in main) passed-by-reference
+                - If the seventh character in the ID is 'D' or 'H', it enters an if statement, otherwise it exits the method
+                - The method then grabs the characters after the 'D' or 'H' in the ID (using substr). They should form a valid integer
+                - Using stoi, it converts that substring into an integer
+                - If the seventh character was 'D', it will pass that integer to the method that decreases hp
+                - If the seventh character was 'H', it will pass the integer to the method that increases hp
+                - It uses the method that returns the player's current hp. 
+                    - If it is greater than 100, it passes 100 to the method that sets hp
+                    - If it is less than 0, the method that warps you to a death screen is called
+        3.5.4 Functions
             Main Routine
                 - It will define a GameScreenLinkedList, which will serve as the head of the linked list.
                 - Then, it will define a GameScreenLinkedList pointer, which points to the head
@@ -256,21 +291,24 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     [gamescreenlinkedlist.h] children: [gamescreenlinkedlist.cpp] & [main.cpp]. Neither child has children of their own
                     [puzzle.h] children: [puzzle.cpp] & [main.cpp]. Neither child has children of their own
             3.6.2 Compilation
-                    The four .cpp files and the three header files will be compiled into four object files. These object files will be compiled into the game executable
+                    The six .cpp files and the four header files will be compiled into six object files. These object files will be compiled into the game executable
                     First, main.cpp will be compiled into main.o
                     Second, gamescreenlinkedlist.h and gamescreenlinkedlist.cpp will be compiled into gamescreenlinkedlist.o
                     Third, puzzle.h and puzzle.cpp will be compiled into puzzle.o
-                    Fourth, utility.h and utility.cpp will be compiled into utility.o
+                    Fourth, player.h and player.cpp will be compiled into player.o
+                    Fifth, saves.h and saves.cpp will be compiled into saves.o
+                    Sixth, utility.h and utility.cpp will be compiled into utility.o
                     Finally, main.o, gamescreenlinkedlist.o, puzzle.o, and utility.o will be compiled into beanz2
                     All compilation will be done with g++
                     We will use -Wall, -Wextra, and -Wpedantic for our warning options
+                    We will use -static to include necessary dependencies inside the executable
                     We will use -g to create an executable that can be easily debugged with gdb
                     We will use a makefile to mostly automate the process of compilation
                     Compilation will be done from the root directory (project-beans-2.0/)
             3.6.3 Makefile
                     Our makefile will be located in project-beans-2.0/. It will be structured as follows:
-                    It will declare two variables: general and objects. "general" will contain our compiler of choice, selected warning options, and -g. (g++ -Wall -Wextra -Wpedantic -g)
-                    "objects" will contain our three object files, and their directories. (build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o)
+                    It will declare two variables: general and objects. "general" will contain our compiler of choice, selected warning options, a static flag, and -g. (g++ -Wall -Wextra -Wpedantic -static -g)
+                    "objects" will contain our five object files, and their directories. (build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/saves.o build/utility.o)
                     The first listed target will be bin/progx. Its dependencies will be the object variable, so all three object files.
                         It will run: ${general} ${objects} -o $@. This will compile the exectutable into bin/progx.
                     The second target will be build/main.o. Its dependency will be src/main.cpp. 
@@ -278,7 +316,12 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     The third target will be gamescreenlinkedlist.o. Its dependencies will be src/gamescreenlinkedlist.cpp and include/gamescreenlinkedlist.h
                         It will run: ${general} -c $< -o $@. This will compile gamescreenlinkedlist.o into build/gamescreenlinkedlist.o
                     The fourth target will be puzzle.o. Its dependencies will be src/puzzle.cpp and include/puzzle.h
-                    The fifth target will be utility.o. Its dependencies will be src/utility.cpp and include/utility.h
+                        It will run: ${general} -c $< -o $@. This will compile puzzle.o into build/puzzle.o
+                    The fifth target will be player.o. Its dependences will be src/player.cpp and include/player.h
+                        It will run: ${general} -c $< -o $@. This will compile player.o into build/player.o
+                    The sixth target will be saves.o. Its dependencies will be src/saves.cpp and include/saves.h
+                        It will run: ${general} -c $< -o $@. This will compile saves.o into build/saves.o
+                    The seventh target will be utility.o. Its dependencies will be src/utility.cpp and include/utility.h
                         It will run: ${general} -c $< -o $@. This will compile utility.o into build/utility.o
                     Running 'make' will default to the first target, which itself will go through the other three targets. Thus, to compile, we only need to run 'make'.
 

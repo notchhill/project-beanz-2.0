@@ -15,7 +15,6 @@
 
 #include "../include/gamescreenlinkedlist.h"
 #include "../include/puzzle.h"
-#include "../include/player.h"
 
 
 int main() {
@@ -24,39 +23,53 @@ int main() {
   system("Color 0A");
 
   GameScreenLinkedList gameSequence;
+  GameScreenLinkedList* ptr = &gameSequence;
   GameScreenLinkedList* prev = &gameSequence;
   GameScreenLinkedList* buffer = prev;
   GameScreenLinkedList* current = &gameSequence;
+  Saves currentSave("resource/save.txt");
   Puzzle p;
   std::string playerIn;
-  std::string saveFile = "resource/save.txt";
   Player beanzGuy;
 
-  gameSequence.load("resource/input.txt", saveFile, &gameSequence);
+ gameSequence.load("resource/input.txt", &gameSequence, &currentSave);
+
 
   while (playerIn != "quit") {
     system("cls");
-    prev = buffer;
-    buffer = current;
+
     gameSequence.display(current, beanzGuy.get_hp());
 
     playerIn = getPlayerIn();
 
-    std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current);
+    if(playerIn == "quit"){
+      break;
+    }
+
+    std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy);
 
     if(nextScreenID == "") {
         //std::cout << "Invalid Input! Please Try Again.\n";
         continue;
     }else {
       p.UpdateStatus(playerIn, nextScreenID);
+      std::string temp = nextScreenID;
+      buffer = gameSequence.search(nextScreenID, &gameSequence);
       beanzGuy.UpdatePlayer(nextScreenID);
-      current = gameSequence.search(nextScreenID, &gameSequence);
+      if(nextScreenID == temp){
+        prev = current;
+        current = buffer;
+      }else{
+        current = gameSequence.search(nextScreenID, &gameSequence);
+        prev = buffer;
+      }
+      if(nextScreenID == "LS00100"){
+        beanzGuy.set_hp(100);
+      }
     }
   }
-
-  GameScreenLinkedList* ptr = &gameSequence;
  
-  gameSequence.save(prev, current, &gameSequence, saveFile);
+  currentSave.autosave(prev, current, ptr, &beanzGuy);
 
   gameSequence.clear(ptr);
   

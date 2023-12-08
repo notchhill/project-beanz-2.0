@@ -78,9 +78,37 @@ GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, G
 *	@param const GameScreenLinkedList* currentNode ; Node to have its options examined for a match with the player's input
 *	@return string GameScreenLinkedList ; ScreenID of matching option
 */
-std::string GameScreenLinkedList::match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode){
+std::string GameScreenLinkedList::match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy){
 	if(currentNode == NULL || playerInput == ""){
 		return "";
+	}
+
+	if(currentNode->screenID == head->screenID){
+		if(playerInput == "load"){
+			beanzGuy->set_hp(saves->userSaveHP);
+			if(saves->userSaveScreenID[7] == 'D'){
+				std::string strAmount = saves->userSaveScreenID.substr(8,saves->userSaveScreenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->incr_hp(amount);
+			}
+			else if(saves->userSaveScreenID[7] == 'H'){
+				std::string strAmount = saves->userSaveScreenID.substr(8,saves->userSaveScreenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->decr_hp(amount);
+			}
+		}else if(playerInput == "autosave"){
+			beanzGuy->set_hp(saves->autosaveHP);
+				if(saves->autosaveScreenID[7] == 'D'){
+				std::string strAmount = saves->autosaveScreenID.substr(8,saves->autosaveScreenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->incr_hp(amount);
+			}else if(saves->autosaveScreenID[7] == 'H'){
+				std::string strAmount = saves->autosaveScreenID.substr(8,saves->autosaveScreenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->decr_hp(amount);
+			}
+
+		}
 	}
 
 	if(playerInput == currentNode->option1.optionChoiceText){
@@ -104,11 +132,9 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 	}
 
 	if(playerInput == "save"){
-		head->option3.optionscreenID = currentNode->screenID;
-		head->option3.optionTextBlurb = "Load Previous Manual Save";
-		head->option3.optionChoiceText = "load";
+		saves->save(currentNode, head, beanzGuy);
 		std::cout << "\nSuccessfully Saved!\n";
-		return currentNode->screenID;
+		return "";
 	}
 
 	return "";
@@ -162,7 +188,7 @@ If you want fewer options, just leave that many lines blank, plus the one that s
 @param GameScreenLinkedList* head, the first element of the linked list.
 @return void
 */  
-void GameScreenLinkedList::load(const std::string fileName, const std::string saveFile, GameScreenLinkedList* head) {
+void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList* head, Saves* saves) {
 
 	std::ifstream file; 
 	file.open(fileName);
@@ -271,50 +297,30 @@ void GameScreenLinkedList::load(const std::string fileName, const std::string sa
 			}
 		}
 
-		std::ifstream save;
-		save.open(saveFile);
-		if(!save.fail()){
-			head->option2.optionTextBlurb = "Load Previous Autosave";
-			head->option2.optionChoiceText = "autosave";
-			std::getline(save, head->option2.optionscreenID);
-			if (head->option2.optionscreenID.back() == '\r') 
-			{head->option2.optionscreenID.pop_back();}
-
-			if(!save.eof()){
-			head->option3.optionTextBlurb = "Load Previous Manual Save";
-			head->option3.optionChoiceText = "load";
-			std::getline(save, head->option3.optionscreenID);
-			if (head->option3.optionscreenID.back() == '\r') 
-			{head->option3.optionscreenID.pop_back();}
+			if(saves->autosaveScreenID != ""){
+				head->option2.optionTextBlurb = "Load Previous Autosave";
+				head->option2.optionChoiceText = "autosave";
+				head->option2.optionscreenID = saves->autosaveScreenID;
 			}
-		}
 
-		save.close();
+
+
+			if(saves->userSaveScreenID != ""){
+				head->option3.optionTextBlurb = "Load Previous Manual Save";
+				head->option3.optionChoiceText = "load";
+				head->option3.optionscreenID = saves->userSaveScreenID;
+			}
+
 		file.close();
+		return;
 	}
 	
-	else{std::cout<<"didnt open"<< std::endl;}
+	else{
+		std::cout<<"didnt open"<< std::endl;
+		return;
+	}
+	return;
 }
-
-void GameScreenLinkedList::save(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, std::string saveFile){
-	if(current->screenID != "LS00400"){
-    //trunc is to discard old file, and create a new one.
-    	std::ofstream save (saveFile, std::ofstream::trunc);
-		 if(current->option1.optionChoiceText == "restart" && prev != NULL){
-    		save << prev->screenID;
-		 }else{
-			save << current->screenID;
-		 }
-
-		 	save << "\r\n";
-
-		 if(head->option3.optionscreenID != ""){
-			save << head->option3.optionscreenID;
-		 }
-    	save.close();
-  }
-}
-
 
 GameScreenLinkedList* GameScreenLinkedList::nextNode(GameScreenLinkedList* head) {
 	return head->next;

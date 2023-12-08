@@ -14,4 +14,5 @@ public:
     ~Puzzle();
     void UpdateStatus(std::string I, std::string &ID);
     bool Check();
+    void PrintLights();
 };

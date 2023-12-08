@@ -62,3 +62,5 @@ For this phase, that includes any changes to
 - Updated the test plan, usermanual, test1.txt renamed to test1results.txt, created Test1Instructions.txt
 - Player class has method to check if their health should be incremented/decremented (based on what's happening in-game)
 - Made a minor update to specifications doc. The menues specified look like what they actually do in-game now
+- Added Acid Pits, an area to the east of the desert. Currently contains no incentives to go there
+- Added Player class design to design.md

@@ -13,6 +13,7 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         1.2.2 Giant's Castle.
         1.2.3 Fractal Forest.
         1.2.4 Desert.
+        1.2.5 Rocky Expanse (collection of rocky biomes)
     1.3 Goals.
     1.4 Target Audience.
 
@@ -87,6 +88,9 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
 
         1.2.4 Desert.
               The Desert area features dunes, oasis, a palace, and glass tunnels in a desert environment.
+
+        1.2.5 Rocky Expanse
+              The Rocky Expanse contains four distinct biomes within itself. They are: Acid Pits, Tar Pits, Volcano, and Wasteland.
 
     1.3 Goals.
         A linear adventure game running in the terminal using text/ASCII to present the story, visuals, and possible decisions that the user can make. User can influence the story based on their decisions, taking different paths to the success or failure.
@@ -245,6 +249,9 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         4.1.4 Desert.
               This level is mysteriously uninhabited. It features dunes, oasis, cactuses, a palace, and glass tunnels.
 
+        1.2.5 Rocky Expanse
+              The Rocky Expanse contains four distinct biomes within itself. They are: Acid Pits, Tar Pits, Volcano, and Wasteland.
+
     4.2 The Layout.
         All of the information regarding how these levels are mechanically interlinked is displayed in our Miro chart: https://miro.com/app/board/uXjVNf2YUow=/?share_link_id=426117059493
         
@@ -266,6 +273,9 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
         4.1.4 Desert.
               This area features exploration and a puzzle.
 
+        4.1.5 Rocky Expanse
+              This area features very dangerous environments
+
     4.4 Characters.
 
         4.1.1 Beancouver.
@@ -278,6 +288,9 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
               Giant Frogs, Forest Gnomes.
         
         4.1.4 Desert.
+              Uninhabited.
+
+        4.1.5 Rocky Expanse
               Uninhabited.
 
     4.5 Sequence of Actions/Puzzles/Steps Associated with the Level.

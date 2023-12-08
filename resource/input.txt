@@ -1118,7 +1118,7 @@ GC03500
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC03300
@@ -1276,17 +1276,17 @@ GC03400
 
 
 
-GC07400
+GC07400D70
 With a sense of curiosity and a hint of daring, I decided to pull the conspicuous lever on the colossal garbage can in the giant's kitchen. However, my action had unforeseen consequences. With an unexpected jolt of force, the lever activated a mechanism that flung me into the air at a startling speed. I soon found myself hurtling towards an unforgiving drop, realizing that I had inadvertently triggered a treacherous trap within the castle. The realization came too late, and there was no turning back. This fateful moment marked a moment of great pain in my adventure, as the fall led to my maiming, and the enchanting world of the giant's castle disappeared from view, leaving me with a sense of the concequences of my choices.
-Climb back up, gravely injured
-restart
-LS00100
-
-
-
-
-
-
+Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
+chair
+GC03300
+I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
+broom
+GC03400
+With a sense of anticipation, I decided to explore the colossal fridge, eager to uncover the mysterious contents hidden within and to potentially find clues about the giant's tastes and preferences.
+fridge
+GC03600
 
 
 
@@ -1997,16 +1997,34 @@ DD01000
 
 
 DD01000
-You continue your trek through the desert. To the north, the desert gives way to a towering, rocky cliff face, and if you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert. To the west is a lifeless hellscape of unstable rocks and sulfuric acid. To the north, the desert gives way to a towering, rocky cliff face. You notice some peculiar-looking iconography etched into the face of the cliff.
 Go east
 east
 DD00900
 Go south
 south
 DD01400
+Go west into the Acid Pits
+west
+RE20100
+Read the glyphs etched onto the cliff face
+read
+DD01050
 
 
 
+
+DD01050
+Etched into the cliff face are two drawings. The first depicts a person's face, and what appears to be boiling water. The person appears to be facing towards the boiling water. The second image depicts what must be some sort of code. In order, it depicts: 4 horizontal sticks, and then 1 vertical stick, and then two horizontal sticks, and then 3 vertical sticks, and finally, 1 more horizontal stick.
+Go east
+east
+DD00900
+Go south
+south
+DD01400
+Go west into the Acid Pits
+west
+RE20100
 
 
 
@@ -2042,10 +2060,10 @@ north
 DD00800
 Go south
 south
-DD01300
+DD01500
 Go west
 west
-DD01500
+DD01300
 
 
 
@@ -2069,7 +2087,7 @@ DD01200
 
 
 DD01400
-You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert; sand stretches to the horizon in all directions. To the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go east
 east
 DD01300
@@ -2079,9 +2097,9 @@ DD01000
 Go south
 south
 DD01700
-
-
-
+Go west into the Acid Pits
+west
+RE20200
 
 
 
@@ -2099,7 +2117,7 @@ north
 DD01200
 Go west
 west
-DD01500
+DD00400
 Enter the palace
 enter
 DD02700
@@ -2123,7 +2141,7 @@ DD01500
 
 
 DD01700
-You continue your trek through the desert; sand stretches to the horizon in all directions. If you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert; sand stretches to the horizon in all directions. To the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go north
 north
 DD01400
@@ -2133,9 +2151,9 @@ DD01600
 Go south
 south
 DD02100
-
-
-
+Go west into the Acid Pits
+west
+RE20300
 
 
 
@@ -2189,13 +2207,13 @@ east
 DD01900
 Go south
 south
-DD02500
+DD02500H90
 
 
 
 
 DD02100
-You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun. If you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert; sand stretches to the horizon in all directions. You notice some brave cactuses growing in spite of the harsh desert sun. To the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go south
 south
 DD02600
@@ -2205,9 +2223,9 @@ DD02000
 Go north
 north
 DD01700
-
-
-
+Go west into the Acid Pits
+west
+RE20400
 
 
 
@@ -2255,7 +2273,7 @@ north
 DD01900
 Go west
 west
-DD02500
+DD02500H90
 Go east
 east
 DD02300
@@ -2266,7 +2284,7 @@ DD02300
 
 
 
-DD02500
+DD02500H90
 Amidst the unforgiving desert, your weary steps lead you to a serene oasis, a verdant refuge against the scorching sands. Surrounded by lush palm trees and the shimmering waters of a cool pool, the oasis provides a much needed respite from the harsh desert terrain, offering both refreshment and a moment of peace on your journey.
 Go north
 north
@@ -2285,16 +2303,16 @@ DD02600
 
 
 DD02600
-You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south, and if you head any farther west, you'll end up getting lost in the endless sand.
+You continue your trek through the desert. You notice some brave cactuses growing in spite of the harsh desert sun. The desert gives way to a savanna to the south, and to the west is a lifeless hellscape of unstable rocks and sulfuric acid.
 Go north
 north
 DD02100
 Go east
 east
-DD02500
-
-
-
+DD02500H90
+Go west into the Acid Pits
+west
+RE20500
 
 
 
@@ -6266,7 +6284,7 @@ GC04100
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC03800
@@ -6284,7 +6302,7 @@ GC04700
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC04400
@@ -6302,7 +6320,7 @@ GC05300
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC05000
@@ -6320,7 +6338,7 @@ GC06200
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 Intrigued by the enormous chair, I decided to examine it more closely, wondering about its craftsmanship and the stories it might hold.
 chair
 GC05900
@@ -6338,7 +6356,7 @@ GC06800
 In a corner of the expansive kitchen in the giant's castle, I discovered a monumental garbage can. This wasn't an ordinary receptacle but a massive metal bin, adorned with intricate patterns and a conspicuous lever on the side. The lever was adorned with intricate etchings that hinted at its importance. Its colossal size hinted at the scale of the giant's waste disposal needs and sparked my curiosity about its function.
 Tempted by the enigmatic lever, I pondered whether I should take a daring leap and jump on it to see what hidden mechanism it might trigger, potentially unlocking more secrets of the castle's enchanting world.
 jump
-GC07400
+GC07400D70
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC06700
@@ -6730,6 +6748,24 @@ DD02700
 
 
 
+DD02850
+What would you like to do?
+Check the status of the lights
+check
+DD02850
+Go to the lights
+lights
+DD03000
+Go back
+back
+DD02700
+
+
+
+
+
+
+
 DD02900
 The door is locked
 Go back
@@ -6782,7 +6818,7 @@ pentagon
 DD03100
 Go back
 back
-DD02800
+DD02850
 
 DD03200
 What would you like to do with light #2?
@@ -6800,7 +6836,7 @@ pentagon
 DD03200
 Go back
 back
-DD02800
+DD02850
 
 DD03300
 What would you like to do with light #3?
@@ -6818,7 +6854,7 @@ pentagon
 DD03300
 Go back
 back
-DD02800
+DD02850
 
 DD03400
 What would you like to do with light #4?
@@ -6836,7 +6872,7 @@ pentagon
 DD03400
 Go back
 back
-DD02800
+DD02850
 
 DD03500
 What would you like to do with light #5?
@@ -6854,7 +6890,7 @@ pentagon
 DD03500
 Go back
 back
-DD02800
+DD02850
 
 DD03600
 You walk into the room labelled Conference Room. Even the conference room is constructed entirely from glass, mirrors, or reflective metals. A large, impossibly smooth round table sits at the center of the room. Tucked into the corner of the room is an unassuming filing cabinet. There are a few documents placed neatly inside of it.
@@ -6975,6 +7011,726 @@ FF04900
 Defend the throne room
 throne
 FF05000
+
+
+
+
+
+
+
+RE20100
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north is a rocky cliff face. You feel sick in this place, and the overpowering stench of sulfur is too much to bear. Maybe you should head back to the desert?
+
+
+
+Go west
+west
+RE20600
+Go back to the desert
+desert
+DD01000
+Go south
+south
+RE20200
+
+
+
+
+RE20200
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. You feel sick in this place, and the overpowering stench of sulfur is too much to bear. Maybe you should head back to the desert?
+Go north
+north
+RE20100
+Go west
+west
+RE20700D17
+Go back to the desert
+desert
+DD01400
+Go south
+south
+RE20300
+
+
+
+
+RE20300
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. You feel sick in this place, and the overpowering stench of sulfur is too much to bear. Maybe you should head back to the desert?
+Go north
+north
+RE20200
+Go west
+west
+RE20800
+Go back to the desert
+desert
+DD01700
+Go south
+south
+RE20400
+
+
+
+
+RE20400
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. You feel sick in this place, and the overpowering stench of sulfur is too much to bear. Maybe you should head back to the desert?
+Go north
+north
+RE20300
+Go west
+west
+RE20900D17
+Go back to the desert
+desert
+DD02100
+Go south
+south
+RE20500
+
+
+
+
+RE20500
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south lies a barren, gray expanse of rock. You feel sick in this place, and the overpowering stench of sulfur is too much to bear. Maybe you should head back to the desert?
+Go north
+north
+RE20400
+Go west
+west
+RE21000D17
+Go back to the desert
+desert
+DD02600
+
+
+
+
+
+
+
+RE20600
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north is a rocky cliff face.
+
+
+Go west
+west
+RE21100
+Go East
+east
+RE20100
+Go south
+south
+RE20700D17
+
+
+
+
+
+RE20700D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE20600
+Go west
+west
+RE21200D17
+Go East
+east
+RE20200
+Go south
+south
+RE20800
+
+
+
+
+RE20800
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE20700D17
+Go west
+west
+RE21300
+Go East
+east
+RE20300
+Go south
+south
+RE20900D17
+
+
+
+
+RE20900D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE20800
+Go west
+west
+RE20400
+Go East
+east
+RE21400
+Go south
+south
+RE21000D17
+
+
+
+
+RE21000D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE20900D17
+Go west
+west
+RE21500
+Go East
+east
+RE20500
+
+
+
+
+
+
+
+RE21100
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north is a rocky cliff face.
+
+
+Go west
+west
+RE21600
+Go East
+east
+RE20600
+Go south
+south
+RE21200D17
+
+
+
+
+
+RE21200D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE21100
+Go west
+west
+RE21700D17
+Go East
+east
+RE20700D17
+Go south
+south
+RE21300
+
+
+
+
+RE21300
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE21200D17
+Go west
+west
+RE21800D17
+Go East
+east
+RE20800
+Go south
+south
+RE21400
+
+
+
+
+RE21400
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE21300
+Go west
+west
+RE21900D17
+Go East
+east
+RE20900D17
+Go south
+south
+RE21500
+
+
+
+
+RE21500
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south lies a barren, gray expanse of rock.
+Go north
+north
+RE21400
+Go west
+west
+RE22000
+Go East
+east
+RE21000D17
+
+
+
+
+
+
+
+RE21600
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north small passage between two large mountains.
+
+
+Go west
+west
+RE22100
+Go East
+east
+RE21100
+Go south
+south
+RE21700D17
+
+
+
+
+
+RE21700D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE21600
+Go west
+west
+RE22200
+Go East
+east
+RE21200D17
+Go south
+south
+RE21800D17
+
+
+
+
+RE21800D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE21700D17
+Go west
+west
+RE22300
+Go East
+east
+RE21300
+Go south
+south
+RE21900D17
+
+
+
+
+RE21900D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE21800D17
+Go west
+west
+RE22400
+Go East
+east
+RE21400
+Go south
+south
+RE22000
+
+
+
+
+RE22000
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south lies a barren, gray expanse of rock.
+Go north
+north
+RE21900D17
+Go west
+west
+RE22500D17
+Go East
+east
+RE21500
+
+
+
+
+
+
+
+RE22100
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To the north small passage between two large mountains.
+
+
+Go west
+west
+RE22600D17
+Go East
+east
+RE21600
+Go south
+south
+RE22200
+
+
+
+
+
+RE22200
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22100
+Go west
+west
+RE22700
+Go East
+east
+RE21700D17
+Go south
+south
+RE22300
+
+
+
+
+RE22300
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22200
+Go west
+west
+RE22800D17
+Go East
+east
+RE21800D17
+Go south
+south
+RE22400
+
+
+
+
+RE22400
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22300
+Go west
+west
+RE22900D17
+Go East
+east
+RE21900D17
+Go south
+south
+RE22500D17
+
+
+
+
+RE22500D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE22400
+Go west
+west
+RE23000D17
+Go East
+east
+RE22000
+
+
+
+
+
+
+
+RE22600D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+
+
+Go west
+west
+RE23100D17
+Go East
+east
+RE22100
+Go south
+south
+RE22700
+
+
+
+
+
+RE22700
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE22600D17
+Go west
+west
+RE23200
+Go East
+east
+RE22200
+Go south
+south
+RE22800D17
+
+
+
+
+RE22800D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE22700
+Go west
+west
+RE23300
+Go East
+east
+RE22300
+Go south
+south
+RE22900D17
+
+
+
+
+RE22900D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE22800D17
+Go west
+west
+RE23400
+Go East
+east
+RE22400
+Go south
+south
+RE23000D17
+
+
+
+
+RE23000D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE22900D17
+Go west
+west
+RE23500
+Go East
+east
+RE22500D17
+
+
+
+
+
+
+
+RE23100D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+
+
+Go west
+west
+RE23600D17
+Go East
+east
+RE22600D17
+Go south
+south
+RE23200
+
+
+
+
+
+RE23200
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE23100D17
+Go west
+west
+RE23700D17
+Go East
+east
+RE22700
+Go south
+south
+RE23300
+
+
+
+
+RE23300
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE23200
+Go west
+west
+RE23800D17
+Go East
+east
+RE22800D17
+Go south
+south
+RE23400
+
+
+
+
+RE23400
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon.
+Go north
+north
+RE23300
+Go west
+west
+RE23900D17
+Go East
+east
+RE22900D17
+Go south
+south
+RE23500
+
+
+
+
+RE23500
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your south is a massive, boiling tar pit.
+Go north
+north
+RE23400
+Go west
+west
+RE24000
+Go East
+east
+RE23000D17
+
+
+
+
+
+
+
+RE23600D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+
+
+
+
+Go East
+east
+RE23100D17
+Go south
+south
+RE23700D17
+
+
+
+
+
+
+RE23700D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE23600D17
+Go East
+east
+RE23200
+Go south
+south
+RE23800D17
+
+
+
+
+
+
+
+RE23800D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE23700D17
+Go East
+east
+RE23300
+Go south
+south
+RE23900D17
+
+
+
+
+
+
+
+RE23900D17
+As you're walking across the jagged rocks, you hear an ominous crumbling noise. You notice just a few moments too late that the rock underfoot had started to dissolve into the sizzling acid below. Unfortunately, you fell quicker than you could react, causing you to splash into the acid below. You feel your feet being dissolved in burning acid as you clench your teeth to leap out of the hole. You land on firmer ground, and breathe a sigh of relief.
+Go north
+north
+RE23800D17
+Go East
+east
+RE23400
+Go south
+south
+RE24000
+
+
+
+
+
+
+
+RE24000
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your west and to your south is a massive, boiling tar pit. CONGRATULATIONS YOU WON THE ACID PITS!! I promise there will be a better reward in the future!!!!
+Go north
+north
+RE23900D17
+Go East
+east
+RE23500
+
+
+
 
 
 

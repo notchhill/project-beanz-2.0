@@ -14,6 +14,9 @@ Puzzle::~Puzzle() {}
 void Puzzle::UpdateStatus(std::string I, std::string &ID)
 {
     if (ID[0] == 'D') {
+        // should be in DD02850, no need to check if puzzle is solved
+        if (I == "check") {this->PrintLights(); return;}
+        
         // should be in DD03000
         if (I == "one") current_light = 1;
         if (I == "two") current_light = 2;
@@ -60,4 +63,19 @@ bool Puzzle::Check()
         }
     }
     return false;
+}
+
+void Puzzle::PrintLights()
+{
+    std::string OnOff;
+    std::string shape;
+    std::cout << "The status of the lights are as follows:" << std::endl;
+    for (int i = 1; i < 6; i++) {
+        if (state[i] == true) OnOff = "on";
+        if (state[i] == false) OnOff = "off";
+        if (pointing[i] == 3) shape = "triangle";
+        if (pointing[i] == 4) shape = "square";
+        if (pointing[i] == 5) shape = "pentagon";
+        std::cout << "Light #" << i << " is " << OnOff << " and is pointing at the " << shape << std::endl;
+    }
 }
