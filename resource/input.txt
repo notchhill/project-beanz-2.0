@@ -2555,7 +2555,7 @@ DD05100
 
 
 DD05100
-At this point, you should be close to the way you came in, but to your disbelief, you find yourself at a dead end! You freeze    this can't be happening!    Panic surges through your veins as you frantically look around but there are no exits other than the way back! Is it over? Are you doomed to be buried in glass, never to be found again? Have you failed to bring the magic beans back to your people?
+At this point, you should be close to the way you came in, but to your disbelief, you find yourself at a dead end! You freeze-this can't be happening! Panic surges through your veins as you frantically look around but there are no exits other than the way back! Is it over? Are you doomed to be buried in glass, never to be found again? Have you failed to bring the magic beans back to your people?
 Make a desperate attempt to smash through the glass wall with your body
 smash
 DD05150
