@@ -205,7 +205,25 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                         - And finally, it checks if light#1 and light#2 are turned off. If all that is true, return true
                         - Done by: checking if the second int array at index 3/4/5 is equal to 3/4/5, then checking if the bool array at 3/4/5 are all true, and the ones at 1/2 are both false
                     - If none of these checks check out, then false is returned
-        3.5.3 Functions
+        3.5.3 Player Class
+            - This class will include the libraries, functions, and constants defined in utility.h
+            - Player contains one private variable called hp, which denotes how much health the user has. Set to 100
+            - It uses the default constructor and destructor methods
+            - It has methods that: increase hp, decrease hp, set hp, and return player hp
+                - methods that increase, decrease, and set hp take an integer as a parameter. The player's hp is increased/decreased by/set to the passed integer
+            - It has a method that warps to a generic death screen. This method takes a string, which should be the next screen ID passed-by-reference
+                - This method will modify the string it was passed, converting it to the ID of a generic death screen. In main, the player will then be sent to this ID
+            UpdatePlayer method
+                - It will take the next screen ID (obtained when match is called in main) passed-by-reference
+                - If the seventh character in the ID is 'D' or 'H', it enters an if statement, otherwise it exits the method
+                - The method then grabs the characters after the 'D' or 'H' in the ID (using substr). They should form a valid integer
+                - Using stoi, it converts that substring into an integer
+                - If the seventh character was 'D', it will pass that integer to the method that decreases hp
+                - If the seventh character was 'H', it will pass the integer to the method that increases hp
+                - It uses the method that returns the player's current hp. 
+                    - If it is greater than 100, it passes 100 to the method that sets hp
+                    - If it is less than 0, the method that warps you to a death screen is called
+        3.5.4 Functions
             Main Routine
                 - It will define a GameScreenLinkedList, which will serve as the head of the linked list.
                 - Then, it will define a GameScreenLinkedList pointer, which points to the head
