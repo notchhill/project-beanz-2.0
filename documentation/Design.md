@@ -120,8 +120,8 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                     std::string getPlayerIn();
                     void nicePrint(std::string text);
                 GLOBAL CONSTANTS:
-                    const int screenWidth = 120;
-                    const int align = 17;
+                    const int screenWidth = 100;
+                    const int align = 18;
                     const int zones = 6;
                     const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE"};
 
