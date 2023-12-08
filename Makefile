@@ -1,4 +1,4 @@
-general= g++ -Wall -Wextra -Wpedantic -g 
+general= g++ -Wall -Wextra -Wpedantic -static -g 
 objects= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o build/saves.o #build/icon.res
 objectsLinux= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o build/saves.o
 objectstest= build/test.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o build/saves.o
