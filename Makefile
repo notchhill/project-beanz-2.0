@@ -1,7 +1,7 @@
 general= g++ -Wall -Wextra -Wpedantic -g 
-objects= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o #build/icon.res
-objectsLinux= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o
-objectstest= build/test.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o
+objects= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o build/saves.o #build/icon.res
+objectsLinux= build/main.o build/gamescreenlinkedlist.o build/puzzle.o build/player.o build/utility.o build/saves.o
+objectstest= build/test.o build/gamescreenlinkedlist.o build/puzzle.o build/utility.o build/saves.o
 # output= -c $< -o $@. Yes, we can also have this variable name in here. 
 # Each .o file would run ${general} ${output} instead of ${general} -c $< -o $@
 # This is not much different, but I tested it in VS Code and it worked
@@ -34,6 +34,9 @@ build/player.o: src/player.cpp include/player.h
 	${general} -c $< -o $@
 
 build/utility.o: src/utility.cpp include/utility.h
+	${general} -c $< -o $@
+
+build/saves.o: src/saves.cpp include/saves.h
 	${general} -c $< -o $@
 
 #build/icon.res: resource/resources.rc

@@ -15,7 +15,6 @@
 
 #include "../include/gamescreenlinkedlist.h"
 #include "../include/puzzle.h"
-#include "../include/player.h"
 
 
 int main() {
@@ -27,12 +26,12 @@ int main() {
   GameScreenLinkedList* prev = &gameSequence;
   GameScreenLinkedList* buffer = prev;
   GameScreenLinkedList* current = &gameSequence;
+  Saves currentSave("../resource/save.txt");
   Puzzle p;
   std::string playerIn;
-  std::string saveFile = "resource/save.txt";
   Player beanzGuy;
 
-  gameSequence.load("resource/input.txt", saveFile, &gameSequence);
+  gameSequence.load("../resource/input.txt", &gameSequence, &currentSave);
 
   while (playerIn != "quit") {
     system("cls");
@@ -42,7 +41,7 @@ int main() {
 
     playerIn = getPlayerIn();
 
-    std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current);
+    std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy);
 
     if(nextScreenID == "") {
         //std::cout << "Invalid Input! Please Try Again.\n";
@@ -59,7 +58,7 @@ int main() {
 
   GameScreenLinkedList* ptr = &gameSequence;
  
-  gameSequence.save(prev, current, &gameSequence, saveFile);
+  currentSave.autosave(prev, current, ptr, &beanzGuy);
 
   gameSequence.clear(ptr);
   

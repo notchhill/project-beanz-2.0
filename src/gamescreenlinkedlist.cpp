@@ -168,7 +168,7 @@ If you want fewer options, just leave that many lines blank, plus the one that s
 @param GameScreenLinkedList* head, the first element of the linked list.
 @return void
 */  
-void GameScreenLinkedList::load(const std::string fileName, const std::string saveFile, GameScreenLinkedList* head, Saves* saves) {
+void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList* head, Saves* saves) {
 
 	std::ifstream file; 
 	file.open(fileName);

@@ -16,9 +16,11 @@
 #ifndef __GAMESCREEN_LINKED_LIST_HEADER__
 #define __GAMESCREEN_LINKED_LIST_HEADER__
 
+class Saves;
 
 #include "../include/utility.h"
 #include "../include/saves.h"
+
 
 
 /*
@@ -84,7 +86,7 @@ class GameScreenLinkedList {
 		//Remove all nodes from the list and release memory from all nodes.
 
 
-		void load(const std::string fileName, std::string saveFile, GameScreenLinkedList* head, Saves* saves);
+		void load(const std::string fileName, GameScreenLinkedList* head, Saves* saves);
 		//Open the file named 'filename' in read only mode.
 		//Opens the file 'saveFile' in read only mode if it, and 'filename' exists, otherwise ignores it.
 		//Read the data from the file and insert them in the list.
