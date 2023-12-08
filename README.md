@@ -2,4 +2,4 @@
 beans garbanzo beans canned beans beans
 
 
-READ PlayerManual.md
+READ UserManual.md   OR ELSE
