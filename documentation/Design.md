@@ -240,6 +240,17 @@ Contact info: Dustin, dustin.gabriel777@gmail.com
                 - It uses the method that returns the player's current hp. 
                     - If it is greater than 100, it passes 100 to the method that sets hp
                     - If it is less than 0, the method that warps you to a death screen is called
+            3.5.4 Saves Class
+                Save Method
+                    - Allows player to save manually and load a previous manual save
+
+                Autosave Method
+                    - Automatically creates a save if an option on the screen being loaded involves restarting the game
+                    - Accounts for "damage flags," where a flag on the screen ID of a screen indicates the player will receieve damage on that screen
+
+                - Getter methods grab screenID for autosaves and manual saves
+                - ScreenIDs to be loaded when loading a save are stored in a save file
+                - Another method records to the file the player's HP, so that player HP is restored upon loading a save
         3.5.4 Functions
             Main Routine
                 - It will define a GameScreenLinkedList, which will serve as the head of the linked list.
