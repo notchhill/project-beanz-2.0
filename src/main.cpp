@@ -37,13 +37,14 @@ int main() {
 
   while (playerIn != "quit") {
     system("cls");
-    if(buffer != current){
-      prev = buffer;
-      buffer = current;
-    }
+
     gameSequence.display(current, beanzGuy.get_hp());
 
     playerIn = getPlayerIn();
+
+    if(playerIn == "quit"){
+      break;
+    }
 
     std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy);
 
@@ -52,8 +53,16 @@ int main() {
         continue;
     }else {
       p.UpdateStatus(playerIn, nextScreenID);
+      std::string temp = nextScreenID;
+      buffer = gameSequence.search(nextScreenID, &gameSequence);
       beanzGuy.UpdatePlayer(nextScreenID);
-      current = gameSequence.search(nextScreenID, &gameSequence);
+      if(nextScreenID == temp){
+        prev = current;
+        current = buffer;
+      }else{
+        current = gameSequence.search(nextScreenID, &gameSequence);
+        prev = buffer;
+      }
       if(nextScreenID == "LS00100"){
         beanzGuy.set_hp(100);
       }

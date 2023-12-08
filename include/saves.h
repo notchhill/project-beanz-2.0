@@ -56,4 +56,5 @@ class Saves {
 		//Saves the screen ID of current screen in current to the file.
 		//If current is a death screen, writes prev instead.
 
+        void fixAutosaveHealth(Player* beanzGuy, GameScreenLinkedList* prev);
 };

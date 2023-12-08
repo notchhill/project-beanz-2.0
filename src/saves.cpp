@@ -54,13 +54,22 @@ void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, 
         GameScreenLinkedList* ptr;
         if(current->option1.optionChoiceText == "restart" && prev != NULL){
             ptr = prev;
+            if(prev->screenID[7] == 'D'){
+				std::string strAmount = prev->screenID.substr(8,prev->screenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->incr_hp(amount);
+			}else if(prev->screenID[7] == 'H'){
+				std::string strAmount = prev->screenID.substr(8,prev->screenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->decr_hp(amount);
+            }
         }else{
             ptr = current;
         }
         if(beanzGuy->get_hp() <= 0){
             beanzGuy->u_died(current->screenID);
         }
-        
+
         this->autosaveScreenID = ptr->screenID;
         this->autosaveHP = beanzGuy->get_hp();
         head->option3.optionscreenID = current->screenID;
