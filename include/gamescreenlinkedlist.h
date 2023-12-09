@@ -92,6 +92,9 @@ class GameScreenLinkedList {
 		//Read the data from the file and insert them in the list.
 		//Close the file after all data have been inserted.
 
+		std::string getScreenID();
+		//Returns this->screenID
+
 };
 
 

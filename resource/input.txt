@@ -9,9 +9,9 @@ LS00300
 
 
 
-
-
-
+Get a list of potentially useful commands
+help
+LS00200
 Quit Game
 quit
 LS00300
@@ -7746,6 +7746,42 @@ LS00100
 
 
 
+
+
+
+
+
+
+
+
+
+
+LS00200
+The following commands can be used at any time during the game: (Pg 1/2)
+Brings you to this screen
+help
+LS00200
+Saves the game, allowing you to return at any time to the screen you used this on via typing "load" on title screen
+save
+LS00200
+Quits the game and saves your current position into an autosave by typing "autosave" on title screen
+quit
+LS00100
+Close this screen (Help Screens Only)
+close
+Previous
+Go to next page: (This Screen Only)
+next
+LS00201
+
+LS00201
+The following commands can be used at any time during the game: (Pg 2/2)
+Return to the title screen
+title
+LS00100
+Go to the previous page: (This Screen Only)
+previous
+LS00200
 
 
 

@@ -109,14 +109,18 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 		return currentNode->option5.optionscreenID;
 	}
 
-	if(playerInput == "quit"){
-		return currentNode->screenID;
-	}
-
 	if(playerInput == "save"){
 		saves->save(currentNode, head, beanzGuy);
 		std::cout << "\nSuccessfully Saved!\n";
 		return "";
+	}
+
+	if(playerInput == "help"){
+		return "LS00200";
+	}
+
+	if(playerInput == "title"){
+		return "LS00100";
 	}
 
 	return "";
@@ -306,4 +310,8 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 
 GameScreenLinkedList* GameScreenLinkedList::nextNode(GameScreenLinkedList* head) {
 	return head->next;
+}
+
+std::string GameScreenLinkedList::getScreenID(){
+	return this->screenID;
 }

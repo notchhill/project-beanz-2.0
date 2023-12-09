@@ -48,15 +48,24 @@ int main() {
 
     std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy);
 
+    //Maybe could do something with this in the future
+    if(nextScreenID == "Previous"){
+      current = prev;
+      continue;
+    }
+
     if(nextScreenID == "") {
-        //std::cout << "Invalid Input! Please Try Again.\n";
         continue;
     }else {
       p.UpdateStatus(playerIn, nextScreenID);
       std::string temp = nextScreenID;
       buffer = gameSequence.search(nextScreenID, &gameSequence);
       beanzGuy.UpdatePlayer(nextScreenID);
+
       if(nextScreenID == temp){
+        if(buffer == current){
+          continue;
+        }
         prev = current;
         current = buffer;
       }else{
