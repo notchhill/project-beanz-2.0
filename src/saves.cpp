@@ -107,3 +107,29 @@ std::string Saves::getSaveFile(){
 void Saves::changeSaveFile(std::string newSaveFile){
     this->saveFile = newSaveFile;
 }
+
+void Saves::fixAutosaveHealth(Player* beanzGuy){
+    if(this->autosaveScreenID[7] == 'D'){
+	   	std::string strAmount = this->autosaveScreenID.substr(8,this->autosaveScreenID.length()-7);
+	  	int amount = stoi(strAmount,nullptr,10);
+	 	beanzGuy->incr_hp(amount);
+	}
+    else if(this->autosaveScreenID[7] == 'H'){
+       std::string strAmount = this->autosaveScreenID.substr(8,this->autosaveScreenID.length()-7);
+ 	    int amount = stoi(strAmount,nullptr,10);
+	    beanzGuy->decr_hp(amount);
+    }
+}
+
+void Saves::fixUserSaveHealth(Player* beanzGuy){
+    if(this->userSaveScreenID[7] == 'D'){
+	   	std::string strAmount = this->userSaveScreenID.substr(8,this->userSaveScreenID.length()-7);
+	  	int amount = stoi(strAmount,nullptr,10);
+	 	beanzGuy->incr_hp(amount);
+	}
+    else if(this->userSaveScreenID[7] == 'H'){
+       std::string strAmount = this->userSaveScreenID.substr(8,this->userSaveScreenID.length()-7);
+ 	    int amount = stoi(strAmount,nullptr,10);
+	    beanzGuy->decr_hp(amount);
+    }
+}

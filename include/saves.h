@@ -56,5 +56,15 @@ class Saves {
 		//Saves the screen ID of current screen in current to the file.
 		//If current is a death screen, writes prev instead.
 
-        void fixAutosaveHealth(Player* beanzGuy, GameScreenLinkedList* prev);
+        void fixUserSaveHealth(Player* beanzGuy);
+        //updates the health of the SAVE specified in the UserSaveHP based on UserSaveScreenID
+        //This function is used to undo any extra damage you take by loading into the screen
+        //if after the screen ID there is a D, deals damage equal to number after it
+        //if after the screenID is H, heals for the amount specified after it
+
+        void fixAutosaveHealth(Player* beanzGuy);
+        //updates the health of the SAVE specified in the autosaveHP based on autosaveScreenID
+        //This function is used to undo any extra damage you take from loading into the screen
+        //if after the screen ID there is a D, deals damage equal to number after it
+        //if after the screenID is H, heals for the amount specified after it
 };

@@ -86,28 +86,10 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 	if(currentNode->screenID == head->screenID){
 		if(playerInput == "load"){
 			beanzGuy->set_hp(saves->userSaveHP);
-			if(saves->userSaveScreenID[7] == 'D'){
-				std::string strAmount = saves->userSaveScreenID.substr(8,saves->userSaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->incr_hp(amount);
-			}
-			else if(saves->userSaveScreenID[7] == 'H'){
-				std::string strAmount = saves->userSaveScreenID.substr(8,saves->userSaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->decr_hp(amount);
-			}
+			saves->fixUserSaveHealth(beanzGuy);
 		}else if(playerInput == "autosave"){
 			beanzGuy->set_hp(saves->autosaveHP);
-				if(saves->autosaveScreenID[7] == 'D'){
-				std::string strAmount = saves->autosaveScreenID.substr(8,saves->autosaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->incr_hp(amount);
-			}else if(saves->autosaveScreenID[7] == 'H'){
-				std::string strAmount = saves->autosaveScreenID.substr(8,saves->autosaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->decr_hp(amount);
-			}
-
+			saves->fixAutosaveHealth(beanzGuy);
 		}
 	}
 
