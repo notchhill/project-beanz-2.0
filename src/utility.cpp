@@ -89,3 +89,17 @@ for (int i = 0; i < len; i++) {
 	}
 	std::cout << std::endl;
 }
+
+//@brief: Increments the points variable if the correct screen was chosen indicated by ScreenID
+//@param: std::string ScreenID, The screenID of the option the player chose, if screenID[7] == 'C' the player chose correctly
+//@param: int count, The number of times the player chose correctly
+//@return: Void
+void updateIkeaPuzzle(std::string screenID, int& count){
+	if(screenID.length() != 8){
+		return;
+	}
+
+	if(screenID[7] == 'C'){
+		++count;
+	}
+}

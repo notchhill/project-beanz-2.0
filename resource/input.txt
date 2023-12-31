@@ -2687,7 +2687,7 @@ broom
 GC10011
 Tobaggan down the stairs on the nearby rug.
 rug
-GC10012
+GC10012D10
 Attempt to use the fire extinguisher as a jetpack.
 extinguisher
 GC10013
@@ -2705,7 +2705,7 @@ extinguish
 GC10015
 Tobaggan down the stairs on the nearby rug.
 rug
-GC10016
+GC10016D10
 Jump down the giant stairs, What could go wrong? 
 jump
 GC10017
@@ -2716,8 +2716,8 @@ GC10017
 
 
 
-GC10012
-Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (safely, I might add), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
+GC10012D10
+Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (sustaining only minor injuries), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
 Try to climb up the leg of the table
 climb
 GC10018
@@ -2744,7 +2744,7 @@ snoop
 GC10019
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguisher
-GC10021
+GC10021D40
 
 
 
@@ -2759,7 +2759,7 @@ broom
 GC10011
 Tobaggan down the stairs on the nearby rug. 
 rug
-GC10012
+GC10012D10
 Attempt to use the fire extinguisher as a jetpack. 
 extinguish
 GC10013
@@ -2783,13 +2783,13 @@ broom
 GC10024
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguisher
-GC10025
+GC10025D40
 
 
 
 
-GC10016
-Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (safely, I might add), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
+GC10016D10
+Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (sustaining only minor injuries), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
 Try to climb up the leg of the table
 climb
 GC10018
@@ -2810,7 +2810,7 @@ GC10017
 Jumping down a giant staircase in a giant's castle might sound like a thrilling idea, but let me tell you, it's a colossal mistake! Once you take that leap of faith, you'll find yourself plummeting through a never ending abyss of stone steps, each step big enough to host a small family picnic. If the sheer size of the staircase doesn't give you vertigo, the giant dust bunnies lurking in the corners will! Not to mention, when you finally reach the bottom, the giant himself might mistake you for a snack sized hors d'oeuvre. So, next time you're feeling adventurous, stick to the kiddie slide at the local playground and leave the giant's stairs to the pros   or at least those who fancy a squished, snack sized life adventure!
 Tobaggan down the stairs on the nearby rug. 
 rug
-GC10016
+GC10016D10
 Attempt to use the fire extinguisher as a jetpack. 
 extinguish
 GC10015
@@ -2867,7 +2867,7 @@ snoop
 GC10019
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguish
-GC10030
+GC10030D40
 
 
 
@@ -2878,7 +2878,7 @@ GC10030
 
 
 
-GC10021
+GC10021D40
 Picture this: As you desperately searched for an escape plan, your eyes locked onto the fire extinguisher. With the elegance of a caffeinated penguin trying to waltz, you strapped it to your back and ignited the nozzle. What followed was an unforgettable performance: part rocket scientist, part misguided superhero, you roared through the castle with the grace of a fire breathing dragon on a sugar rush, all while the giant looked on in amusement, probably thinking, "Who invited this lunatic to my castle?" As you embarked on an epic adventure, the fire extinguisher decided that this was the perfect moment to sputter and quit, only for you to find yourself hurtling towards a towering wall in a hilariously heroic fashion. 
 Try to climb up the leg of the table 
 climb
@@ -2924,7 +2924,7 @@ broom
 GC10024
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguish
-GC10025
+GC10025D40
 
 
 
@@ -2950,7 +2950,7 @@ GC10034
 
 
 
-GC10025
+GC10025D40
 Picture this: As you desperately searched for an escape plan, your eyes locked onto the fire extinguisher. With the elegance of a caffeinated penguin trying to waltz, you strapped it to your back and ignited the nozzle. What followed was an unforgettable performance: part rocket scientist, part misguided superhero, you roared through the castle with the grace of a fire breathing dragon on a sugar rush, all while the giant looked on in amusement, probably thinking, "Who invited this lunatic to my castle?" As you embarked on an epic adventure, the fire extinguisher decided that this was the perfect moment to sputter and quit, only for you to find yourself hurtling towards a towering wall in a hilariously heroic fashion. 
 Try to climb up the leg of the table 
 climb
@@ -3040,7 +3040,7 @@ GC10046
 
 
 
-GC10030
+GC10030D40
 Picture this: As you desperately searched for an escape plan, your eyes locked onto the fire extinguisher. With the elegance of a caffeinated penguin trying to waltz, you strapped it to your back and ignited the nozzle. What followed was an unforgettable performance: part rocket scientist, part misguided superhero, you roared through the castle with the grace of a fire breathing dragon on a sugar rush, all while the giant looked on in amusement, probably thinking, "Who invited this lunatic to my castle?" As you embarked on an epic adventure, the fire extinguisher decided that this was the perfect moment to sputter and quit, only for you to find yourself hurtling towards a towering wall in a hilariously heroic fashion. 
 Snoop around in the Giants box of goodies 
 snoop
@@ -7767,21 +7767,39 @@ LS00200
 Quits the game and saves your current position into an autosave by typing "autosave" on title screen
 quit
 LS00100
+Return to the Title Screen
+title
+LS00100
 Close this screen (Help Screens Only)
 close
 Previous
-Go to next page: (This Screen Only)
-next
-LS00201
 
 LS00201
 The following commands can be used at any time during the game: (Pg 2/2)
-Return to the title screen
-title
-LS00100
 Go to the previous page: (This Screen Only)
 previous
 LS00200
+
+
+
+
+
+
+
+
+
+
+
+
+
+IK10000
+
+
+
+
+
+
+
 
 
 

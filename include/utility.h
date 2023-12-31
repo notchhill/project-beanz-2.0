@@ -25,9 +25,9 @@
 
 const int screenWidth = 100;  // width of the terminal
 const int align = 18;         // number of spaces needed to align option blurbs
-const int zones = 6;          // number of zones/main areas in the game
+const int zones = 7;          // number of zones/main areas in the game
 
-const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE"};
+const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE","IK"};
 // array of the starts of each main zones' ID
 
 std::string getPlayerIn();
@@ -41,3 +41,8 @@ std::string getPlayerIn();
 void nicePrint(std::string text, bool isOption = false);
 // this function will be passed a string. It will print the string character-by-character, 
 //and insert a newline every 10th ' ' character.
+
+void updateIkeaPuzzle(std::string screenID, int& points);
+//This function takes the screenID of the players choice, and increments points if the correct screen was chosen
+//if screenID[7] is 'C' (for correct answer) then increment the points by one.
+//otherwise do nothing
