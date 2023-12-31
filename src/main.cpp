@@ -32,6 +32,7 @@ int main() {
   std::string playerIn;
   Player beanzGuy;
   int points = 0;
+  int snake = 0;
 
  gameSequence.load("resource/input.txt", &gameSequence, &currentSave);
 
@@ -73,7 +74,7 @@ int main() {
         current = gameSequence.search(nextScreenID, &gameSequence);
         prev = buffer;
         if(nextScreenID[0] == 'I' && nextScreenID[1] == 'K'){
-          updateIkeaPuzzle(nextScreenID, points);
+          updateIkeaPuzzle(nextScreenID, points, snake);
         }
       }
       if(nextScreenID == "LS00100"){

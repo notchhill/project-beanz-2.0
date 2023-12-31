@@ -7793,6 +7793,13 @@ LS00200
 
 
 IK10000
+In the quirky world of "Ikea Labyrinth Challenge," players are thrust into the baffling realm of assembling furniture with instructions that make hieroglyphics seem like bedtime stories. Armed with an Allen wrench and a dictionary of Swedish words that sound suspiciously like furniture parts, players decipher cryptic commands like "Attach the flibberflabber to the wobblejig, but beware the wrath of the snogglewhack if you tighten too much!" It's a game where understanding the manual is as elusive as finding matching socks in the laundry. It's a race against logic and linguistics, and if you manage to create something resembling a chair, you're practically a flat-pack wizard. Welcome to the wild and wobbly world of "Ikea Labyrinth Challenge" - where furniture assembly is an enigma wrapped in a mystery and sealed with an Allen wrench. Good luck, and may the Swedish meatballs be ever in your favor!
+Start the Minigame!
+start
+IK10001
+Return to the giants castle
+return
+GC10109
 
 
 
@@ -7803,9 +7810,78 @@ IK10000
 
 
 
+IK10001
+Begin the journey into the whimsical world of minimalist spatial absurdity by caressing the ethereal packaging, whispering sweet nothings to the unassuming wooden planks. Arrange the pieces in a formation that reflects your innermost thoughts on existential angst - extra points for creating a design that raises eyebrows among passing philosophers. Take the enigmatic "Zörmal Allen Wrench" and, with the solemnity of an ancient ritual, tighten the screws in a sequence known only to the ghosts of Swedish furniture designers past. Remember, the box must be three-sided to honor the elusive trinity of simplicity, confusion, and occasional frustration. Stand back and behold your creation, questioning whether you've birthed a profound statement on the transitory nature of materialism or just a really confusing place to store your socks. Marvel at the unanswered question: "Is it a box, or is it a metaphor?" Then, celebrate your triumph with a cup of tea, because coffee is too mainstream for a box this avant-garde.
+Arrage The 3 sides in a straight line
+straight
+IK10002S
+Arrange the 3 sides like a Z
+z
+IK10002
+Arrange the 3 sides like a C
+c
+IK10002C
+Arrange the 3 sides like a L
+l
+IK10002
+
+
+
+IK10002
+Prepare yourself for the mind-bending sequel in the IKEA saga – the TriTrunk 3000 Expansion Pack: Two More Pieces of Wood Edition! First, locate the enigmatic wooden appendages, cleverly disguised as "Plank Delta" and "Plank Gamma." Ensure they haven't developed a rebellious streak and opted for a game of hide-and-seek. Now, the real brain gymnastics begin – synchronize the cosmic alignment of the existing three-sided wonder with the new planks, making sure the gravitational pull isn't disrupted in the process. Engage in a riveting debate with the bolts, convincing them to form alliances without triggering an existential crisis. Ignore any skepticism from bystander furniture; they're just jealous of your groundbreaking collaboration skills. As the pieces click into place, revel in the triumph of your enhanced three-and-a-half-sided marvel, a testament to your prowess in assembling furniture that transcends the boundaries of logic and coherence. If all else fails, blame the furniture gnomes residing in the fractal forest - they're known troublemakers in the world of flat-pack enigmas.
+Arrange the 5 sheets of wood lengthwise like a snake
+snek
+IK10003S
+Arrange the 5 sheets like an open box
+box
+IK10003C
+Arrange the 5 sheets like a 2d box with a diagonal line inside of it
+diagonal
+IK10003
+Arrange the 5 sheets like a giant U
+u
+IK10003
 
 
 
 
+IK10002C
+Prepare yourself for the mind-bending sequel in the IKEA saga – the TriTrunk 3000 Expansion Pack: Two More Pieces of Wood Edition! First, locate the enigmatic wooden appendages, cleverly disguised as "Plank Delta" and "Plank Gamma." Ensure they haven't developed a rebellious streak and opted for a game of hide-and-seek. Now, the real brain gymnastics begin – synchronize the cosmic alignment of the existing three-sided wonder with the new planks, making sure the gravitational pull isn't disrupted in the process. Engage in a riveting debate with the bolts, convincing them to form alliances without triggering an existential crisis. Ignore any skepticism from bystander furniture; they're just jealous of your groundbreaking collaboration skills. As the pieces click into place, revel in the triumph of your enhanced three-and-a-half-sided marvel, a testament to your prowess in assembling furniture that transcends the boundaries of logic and coherence. If all else fails, blame the furniture gnomes residing in the fractal forest - they're known troublemakers in the world of flat-pack enigmas.
+Arrange the 5 sheets of wood lengthwise like a snake
+snek
+IK10003S
+Arrange the 5 sheets like an open box
+box
+IK10003C
+Arrange the 5 sheets like a 2d box with a diagonal line inside of it
+diagonal
+IK10003
+Arrange the 5 sheets like a giant U
+u
+IK10003
 
 
+
+
+IK10002S
+Prepare yourself for the mind-bending sequel in the IKEA saga – the TriTrunk 3000 Expansion Pack: Two More Pieces of Wood Edition! First, locate the enigmatic wooden appendages, cleverly disguised as "Plank Delta" and "Plank Gamma." Ensure they haven't developed a rebellious streak and opted for a game of hide-and-seek. Now, the real brain gymnastics begin – synchronize the cosmic alignment of the existing three-sided wonder with the new planks, making sure the gravitational pull isn't disrupted in the process. Engage in a riveting debate with the bolts, convincing them to form alliances without triggering an existential crisis. Ignore any skepticism from bystander furniture; they're just jealous of your groundbreaking collaboration skills. As the pieces click into place, revel in the triumph of your enhanced three-and-a-half-sided marvel, a testament to your prowess in assembling furniture that transcends the boundaries of logic and coherence. If all else fails, blame the furniture gnomes residing in the fractal forest - they're known troublemakers in the world of flat-pack enigmas.
+Arrange the 5 sheets of wood lengthwise like a snake
+snek
+IK10003S
+Arrange the 5 sheets like an open box
+box
+IK10003C
+Arrange the 5 sheets like a 2d box with a diagonal line inside of it
+diagonal
+IK10003
+Arrange the 5 sheets like a giant U
+u
+IK10003
+
+
+
+
+IK10003
+Embark on a journey into the labyrinthine abyss of absurdity with the Quadrilateral Quagmire, the IKEA challenge that defies both logic and Euclidean geometry! Begin by identifying the four planks – Alpha, Beta, Gamma, and the elusive Zeta, rumored to have existential doubts about its role in this cosmic puzzle. Arrange the planks in a formation that mirrors the chaos theory of butterfly wings or the doodles on a caffeine-fueled barista's napkin. Engage in a riveting dance with the screws, coaxing them into a synchronized ballet without triggering a philosophical debate among the planks. Amidst the chaos, remember to maintain eye contact with Plank Zeta to avoid any identity crises. As the wooden chaos edges toward box-shaped enlightenment, celebrate your success with a victory dance, preferably in the style of a perplexed penguin trying to waltz. If the result looks more like a modern art installation than a wooden box, rest assured – you have just unlocked the avant-garde dimension of IKEA craftsmanship.
+Make a EVEN LONGER SNAKE
+snek

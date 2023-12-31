@@ -93,13 +93,17 @@ for (int i = 0; i < len; i++) {
 //@brief: Increments the points variable if the correct screen was chosen indicated by ScreenID
 //@param: std::string ScreenID, The screenID of the option the player chose, if screenID[7] == 'C' the player chose correctly
 //@param: int count, The number of times the player chose correctly
+//@param: snakeCount, The amount of times the user defies instructions and contributes to the snek
 //@return: Void
-void updateIkeaPuzzle(std::string screenID, int& count){
+void updateIkeaPuzzle(std::string screenID, int& count, int& snakeCount){
 	if(screenID.length() != 8){
 		return;
 	}
 
 	if(screenID[7] == 'C'){
 		++count;
+	}
+	if(screenID[7] == 'S'){
+		++snakeCount;
 	}
 }
