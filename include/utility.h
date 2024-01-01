@@ -41,9 +41,3 @@ std::string getPlayerIn();
 void nicePrint(std::string text, bool isOption = false);
 // this function will be passed a string. It will print the string character-by-character, 
 //and insert a newline every 10th ' ' character.
-
-void updateIkeaPuzzle(std::string screenID, int& points, int& snek);
-//This function takes the screenID of the players choice, and increments points if the correct screen was chosen
-//if screenID[7] is 'C' (for correct answer) then increment the points by one.
-//if screenID[7] is 'S' (for snek) then increment snek by one.
-//otherwise do nothing
