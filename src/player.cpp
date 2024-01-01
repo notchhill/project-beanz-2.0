@@ -1,7 +1,7 @@
 #include "../include/player.h"
 
 /*
-@brief Default constructor for Player class.
+@brief Default constructor for Player class. Sets player health to 100 by default.
 @param N/A
 @return N/A
 */
