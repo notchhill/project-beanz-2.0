@@ -41,3 +41,6 @@ std::string getPlayerIn();
 void nicePrint(std::string text, bool isOption = false);
 // this function will be passed a string. It will print the string character-by-character, 
 //and insert a newline every 10th ' ' character.
+
+bool isHelpScreen(std::string screenID);
+//This function takes in the screenID and returns 1 if it is a help screen, and 0 if not.

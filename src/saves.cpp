@@ -52,7 +52,7 @@ void Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head
 void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy){
 	if(current != NULL && current->screenID != "LS00400"){
         GameScreenLinkedList* ptr;
-        if(current->option1.optionChoiceText == "restart" && prev != NULL){
+        if((current->option1.optionChoiceText == "restart" || isHelpScreen(current->screenID)) && prev != NULL){
             ptr = prev;
             if(prev->screenID[7] == 'D'){
 				std::string strAmount = prev->screenID.substr(8,prev->screenID.length()-7);
@@ -72,7 +72,7 @@ void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, 
 
         this->autosaveScreenID = ptr->screenID;
         this->autosaveHP = beanzGuy->get_hp();
-        head->option3.optionscreenID = current->screenID;
+        head->option2.optionscreenID = ptr->screenID;
         head->option2.optionTextBlurb = "Load Previous Auto Save";
 	    head->option2.optionChoiceText = "autosave";
     }

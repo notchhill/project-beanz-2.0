@@ -123,12 +123,17 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 		return "LS00100";
 	}
 
+	if(playerInput == "close"){
+		if(isHelpScreen(currentNode->screenID)){
+			return "Previous";
+		}
+	}
 	return "";
 }
 
 /*
 @brief Deletes all elements from the list, and frees their memory, if necessary.
-@param: GameScreenLinkedList* head. The pointer to the head of the list. 
+@param GameScreenLinkedList* head. The pointer to the head of the list. 
 @return void
 */
 void GameScreenLinkedList::clear(GameScreenLinkedList* &head) {

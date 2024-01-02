@@ -89,3 +89,18 @@ for (int i = 0; i < len; i++) {
 	}
 	std::cout << std::endl;
 }
+
+/*
+@brief: Determnines if the inputted string is a help screen or not
+@param: std::string screenID, The screen ID that you want to check if its a help screen.
+@return: 1 if true, 0 if false
+*/
+bool isHelpScreen(std::string screenID){
+	if(screenID.length() != 7){
+		return 0;
+	}
+	if(screenID.substr(0, 6) == "LS0020"){
+		return 1;
+	}
+	return 0;
+}

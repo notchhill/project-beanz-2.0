@@ -48,7 +48,7 @@ int main() {
 
     std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy);
 
-    //Maybe could do something with this in the future
+    //Maybe could do something with this in the future (Used only for exiting help screen right now)
     if(nextScreenID == "Previous"){
       current = prev;
       continue;
@@ -66,15 +66,22 @@ int main() {
         if(buffer == current){
           continue;
         }
-        prev = current;
+        if(!(isHelpScreen(current->getScreenID()))){
+          prev = current;
+        }
+
+        if(nextScreenID == "LS00100"){
+         currentSave.autosave(prev, current, ptr, &beanzGuy);
+         beanzGuy.set_hp(100);
+        }
+
         current = buffer;
+
       }else{
         current = gameSequence.search(nextScreenID, &gameSequence);
         prev = buffer;
       }
-      if(nextScreenID == "LS00100"){
-        beanzGuy.set_hp(100);
-      }
+
     }
   }
  
