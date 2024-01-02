@@ -7757,7 +7757,7 @@ LS00100
 
 
 LS00200
-The following commands can be used at any time during the game: (Pg 1/2)
+The following commands can be used at any time during the game: (Pg 1/1)
 Brings you to this screen
 help
 LS00200
