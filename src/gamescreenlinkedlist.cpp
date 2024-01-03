@@ -93,6 +93,15 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 		}
 	}
 
+	if(playerInput == "close"){
+		if(isHelpScreen(currentNode->screenID)){
+			if(beanzGuy->get_hp() != 0){
+				return "Previous";
+			}
+			return "LSLLLLL";
+		}
+	}
+
 	if(playerInput == currentNode->option1.optionChoiceText){
 		return currentNode->option1.optionscreenID;
 	}
@@ -123,11 +132,6 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 		return "LS00100";
 	}
 
-	if(playerInput == "close"){
-		if(isHelpScreen(currentNode->screenID)){
-			return "Previous";
-		}
-	}
 	return "";
 }
 

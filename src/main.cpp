@@ -27,6 +27,7 @@ int main() {
   GameScreenLinkedList* prev = &gameSequence;
   GameScreenLinkedList* buffer = prev;
   GameScreenLinkedList* current = &gameSequence;
+  GameScreenLinkedList* expectedScreen = NULL;
   Saves currentSave("resource/save.txt");
   Puzzle p;
   std::string playerIn;
@@ -66,27 +67,44 @@ int main() {
         if(buffer == current){
           continue;
         }
-        if(!(isHelpScreen(current->getScreenID()))){
-          prev = current;
-        }
 
         if(nextScreenID == "LS00100"){
-         currentSave.autosave(prev, current, ptr, &beanzGuy);
-         beanzGuy.set_hp(100);
+          if(expectedScreen != NULL){
+            currentSave.autosave(prev, current, ptr, expectedScreen, &beanzGuy);
+            expectedScreen = NULL;
+          }else{
+            currentSave.autosave(prev, current, ptr, &beanzGuy);
+          }
+          beanzGuy.set_hp(100);
+        }
+
+        if(!( isHelpScreen(buffer->getScreenID()) || isHelpScreen(current->getScreenID()) )){
+          prev = current;
         }
 
         current = buffer;
 
       }else{
+        if(!( isHelpScreen(buffer->getScreenID()) || isHelpScreen(current->getScreenID()) )){
+          prev = current;
+          expectedScreen = buffer;
+
+        }else{
+          prev = buffer; 
+        }
+
         current = gameSequence.search(nextScreenID, &gameSequence);
-        prev = buffer;
       }
 
     }
   }
  
-  currentSave.autosave(prev, current, ptr, &beanzGuy);
-
+  if(expectedScreen != NULL){
+    currentSave.autosave(prev, current, ptr, expectedScreen, &beanzGuy);
+  }else{
+    currentSave.autosave(prev, current, ptr, &beanzGuy);
+  }
+  
   gameSequence.clear(ptr);
   
   return 0;

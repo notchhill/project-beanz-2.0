@@ -54,14 +54,63 @@ void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, 
         GameScreenLinkedList* ptr;
         if((current->option1.optionChoiceText == "restart" || isHelpScreen(current->screenID)) && prev != NULL){
             ptr = prev;
+
             if(prev->screenID[7] == 'D'){
 				std::string strAmount = prev->screenID.substr(8,prev->screenID.length()-7);
        			int amount = stoi(strAmount,nullptr,10);
 				beanzGuy->incr_hp(amount);
+
 			}else if(prev->screenID[7] == 'H'){
 				std::string strAmount = prev->screenID.substr(8,prev->screenID.length()-7);
        			int amount = stoi(strAmount,nullptr,10);
 				beanzGuy->decr_hp(amount);
+
+            }else if(isHelpScreen(current->screenID) && beanzGuy->get_hp() <= 0){
+                int minimumDamage = 999;
+
+                if(prev->option1.optionscreenID.length() >= 8 && prev->option1.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option1.optionscreenID.substr(8,prev->option1.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option2.optionscreenID.length() >= 8 && prev->option2.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option2.optionscreenID.substr(8,prev->option2.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option3.optionscreenID.length() >= 8 && prev->option3.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option3.optionscreenID.substr(8,prev->option3.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option4.optionscreenID.length() >= 8 && prev->option4.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option4.optionscreenID.substr(8,prev->option4.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option5.optionscreenID.length() >= 8 && prev->option5.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option5.optionscreenID.substr(8,prev->option5.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+                
+                if(minimumDamage != 999){
+                    beanzGuy->incr_hp(minimumDamage);
+                }
             }
         }else{
             ptr = current;
@@ -78,6 +127,31 @@ void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, 
     }
 }
 
+void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head,  GameScreenLinkedList* expectedNode, Player* beanzGuy){
+	if(current != NULL && current->screenID != "LS00400"){
+        if((current->option1.optionChoiceText == "restart" || isHelpScreen(current->screenID)) && expectedNode != NULL){
+
+            if(expectedNode->screenID[7] == 'D'){
+				std::string strAmount = expectedNode->screenID.substr(8,expectedNode->screenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->incr_hp(amount);
+
+			}else if(expectedNode->screenID[7] == 'H'){
+				std::string strAmount = expectedNode->screenID.substr(8,expectedNode->screenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->decr_hp(amount);
+
+            }
+
+        }
+
+        this->autosaveScreenID = prev->screenID;
+        this->autosaveHP = beanzGuy->get_hp();
+        head->option2.optionscreenID = prev->screenID;
+        head->option2.optionTextBlurb = "Load Previous Auto Save";
+	    head->option2.optionChoiceText = "autosave";
+    }
+}
 
  //Returns autosaveScreenID
 std::string Saves::getAutosaveScreenID(){

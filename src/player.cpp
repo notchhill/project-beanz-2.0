@@ -20,6 +20,7 @@ Player::~Player() {
 
 void Player::UpdatePlayer(std::string &ID)
 {
+    
     unsigned int nextLen = ID.length();
     if(ID[7] == 'D' || ID[7] == 'H') {
         int strAmountLen = 0;
