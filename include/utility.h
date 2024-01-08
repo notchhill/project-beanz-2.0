@@ -21,6 +21,7 @@
 #include <stdlib.h>
 #include <iomanip>
 #include <windows.h>
+#include <list>
 
 
 const int screenWidth = 100;  // width of the terminal

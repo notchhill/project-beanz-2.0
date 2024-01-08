@@ -1,5 +1,4 @@
 #include "../include/utility.h"
-#include <list>
 
 class Inventory {
 private:
