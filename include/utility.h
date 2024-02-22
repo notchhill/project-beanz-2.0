@@ -22,7 +22,10 @@
 #include <iomanip>
 #include <windows.h>
 #include <list>
+#include <sstream>
 
+#define PLAYER_MAX_HP 150
+#define ITEM_FILE_NAME "../resource/items.txt"
 
 const int screenWidth = 100;  // width of the terminal
 const int align = 18;         // number of spaces needed to align option blurbs

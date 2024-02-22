@@ -51,6 +51,9 @@ int Player::get_hp() {
 */
 void Player::incr_hp(int amount) {
     hp = hp + amount;
+    if(hp > PLAYER_MAX_HP){
+        set_hp(PLAYER_MAX_HP);
+    }
 }
 
 /*

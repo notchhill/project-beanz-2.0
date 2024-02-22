@@ -3,6 +3,7 @@
 class Player {
 private:
     int hp;
+    int maxHP = PLAYER_MAX_HP;
 
 public:
     Player();
