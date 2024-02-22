@@ -1,6 +1,8 @@
-
-#include "../include/utility.h"
+#pragma once
 #include "../include/items.h"
+#include "../include/utility.h"
+
+class Items;
 
 class Inventory {
 private:

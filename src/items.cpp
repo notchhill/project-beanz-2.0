@@ -45,7 +45,7 @@ bool Items::use(Items* item, int numberUsed, Player* beanzGuy, Inventory* invent
     }
     beanzGuy->incr_hp(item->restoreAmount*numberUsed);
 
-    rem_item(item, numberUsed);
+    inventory->rem_item(item, numberUsed);
 
 
     return true;

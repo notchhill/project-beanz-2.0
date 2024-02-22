@@ -15,7 +15,7 @@
 
 #include "../include/gamescreenlinkedlist.h"
 #include "../include/puzzle.h"
-
+#include "../include/items.h"
 
 int main() {
   system("mode con: cols=120 lines=40");
@@ -32,6 +32,8 @@ int main() {
   Puzzle p;
   std::string playerIn;
   Player beanzGuy;
+  Items items;
+  Inventory inventory;
 
  gameSequence.load("resource/input.txt", &gameSequence, &currentSave);
 

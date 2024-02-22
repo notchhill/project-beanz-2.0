@@ -58,4 +58,4 @@ testclean:
 
 .PHONY: wclean
 wclean:
-	del build\main.o build\gamescreenlinkedlist.o build\puzzle.o build\player.o build\utility.o build\inventory.o bin\beanz2.exe
+	del build\main.o build\gamescreenlinkedlist.o build\puzzle.o build\player.o build\utility.o build\inventory.o build\items.o bin\beanz2.exe

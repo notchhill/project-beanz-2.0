@@ -2,7 +2,9 @@
 #include "../include/inventory.h"
 #include "../include/player.h"
 
-class Items : public Inventory {
+class Inventory;
+
+class Items{
     protected:
         std::string itemName;
         std::string itemClass;

@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/utility.h"
 
 class Player {
