@@ -78,7 +78,7 @@ GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, G
 *	@param const GameScreenLinkedList* currentNode ; Node to have its options examined for a match with the player's input
 *	@return string GameScreenLinkedList ; ScreenID of matching option
 */
-std::string GameScreenLinkedList::match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy){
+std::string GameScreenLinkedList::match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy, Inventory* inventory){
 	if(currentNode == NULL || playerInput == ""){
 		return "";
 	}
@@ -87,9 +87,11 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 		if(playerInput == "load"){
 			beanzGuy->set_hp(saves->userSaveHP);
 			saves->fixUserSaveHealth(beanzGuy);
+			inventory->resetInventory(saves->saveFile);
 		}else if(playerInput == "autosave"){
 			beanzGuy->set_hp(saves->autosaveHP);
 			saves->fixAutosaveHealth(beanzGuy);
+			inventory->resetInventory(saves->autosaveFile);
 		}
 	}
 
@@ -119,7 +121,7 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 	}
 
 	if(playerInput == "save"){
-		saves->save(currentNode, head, beanzGuy);
+		saves->save(currentNode, head, beanzGuy, inventory);
 		std::cout << "\nSuccessfully Saved!\n";
 		return "";
 	}
@@ -130,6 +132,10 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 
 	if(playerInput == "title"){
 		return "LS00100";
+	}
+
+	if(playerInput == "inventory"){
+		inventory->displayInventory();
 	}
 
 	return "";

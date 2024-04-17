@@ -8,48 +8,58 @@ Saves::Saves(){
     this->saveFile = "";
 }
 
-Saves::Saves(std::string fileName){
+Saves::Saves(std::string fileName, std::string autosaveFileName){
         std::ifstream file;
         file.open(fileName);
 
         if(!file.fail()){
-            std::getline(file, this->autosaveScreenID);
-            if (this->autosaveScreenID.back() == '\r') 
-			{this->autosaveScreenID.pop_back();}
-
             std::getline(file, this->userSaveScreenID);
             if (this->userSaveScreenID.back() == '\r') 
 			{this->userSaveScreenID.pop_back();}
 
-            file >> this->autosaveHP;
             file >> this->userSaveHP;
-            std::string garbage;
-            std::getline(file, garbage);
         }
-			this->saveFile = fileName;
+		this->saveFile = fileName;
 
-    		file.close();
+    	file.close();
+
+        std::ifstream autosaveFile;
+        autosaveFile.open(autosaveFileName);
+
+        if(!autosaveFile.fail()){
+            std::getline(autosaveFile, this->autosaveScreenID);
+            if (this->autosaveScreenID.back() == '\r') 
+			{this->autosaveScreenID.pop_back();}
+
+            autosaveFile >> this->autosaveHP;
+        } 
+        this->autosaveFile = autosaveFileName;
+        autosaveFile.close();
 }
 
 Saves::~Saves(){
-    //trunc is to discard old file, and create a new one.
-    std::ofstream file (this->saveFile, std::ofstream::trunc);
-    file << this->autosaveScreenID << "\n";
-    file << this->userSaveScreenID << "\n";
-    file << this->autosaveHP << "\n";
-    file << this->userSaveHP;
-    file.close();
 }
 
-void Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy){
+void Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory){
     this->userSaveScreenID = current->screenID;
     this->userSaveHP = beanzGuy->get_hp();
     head->option3.optionscreenID = current->screenID;
     head->option3.optionTextBlurb = "Load Previous Manual Save";
 	head->option3.optionChoiceText = "load";
+    std::ofstream file(this->saveFile);
+    if(file.is_open()){
+        file << current->screenID << "\n";
+        file << this->userSaveHP << "\n";
+        inventory->dumpInventory(&file);
+        file.close();
+    } else{
+        std::cout << "Couldnt Open File\n";
+    }
+
+
 }
 
-void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy){
+void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory){
 	if(current != NULL && current->screenID != "LS00400"){
         GameScreenLinkedList* ptr;
         if((current->option1.optionChoiceText == "restart" || isHelpScreen(current->screenID)) && prev != NULL){
@@ -124,10 +134,19 @@ void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, 
         head->option2.optionscreenID = ptr->screenID;
         head->option2.optionTextBlurb = "Load Previous Auto Save";
 	    head->option2.optionChoiceText = "autosave";
+        std::ofstream autoSavefile(this->autosaveFile, std::ofstream::trunc);
+        if(autoSavefile.is_open()){
+            autoSavefile << this->autosaveScreenID << "\n";
+            autoSavefile << this->autosaveHP << "\n";
+            inventory->dumpInventory(&autoSavefile);
+            autoSavefile.close();
+        } else{
+            std::cout << "Couldnt Open File\n";
+        }
     }
 }
 
-void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head,  GameScreenLinkedList* expectedNode, Player* beanzGuy){
+void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head,  GameScreenLinkedList* expectedNode, Player* beanzGuy, Inventory* inventory){
 	if(current != NULL && current->screenID != "LS00400"){
         if((current->option1.optionChoiceText == "restart" || isHelpScreen(current->screenID)) && expectedNode != NULL){
 
@@ -150,6 +169,15 @@ void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, 
         head->option2.optionscreenID = prev->screenID;
         head->option2.optionTextBlurb = "Load Previous Auto Save";
 	    head->option2.optionChoiceText = "autosave";
+        std::ofstream autoSaveFile(this->autosaveFile, std::ofstream::trunc);
+        if(autoSaveFile.is_open()){
+            autoSaveFile << this->autosaveScreenID << "\n";
+            autoSaveFile << this->autosaveHP << "\n";
+            inventory->dumpInventory(&autoSaveFile);
+            autoSaveFile.close();
+        } else{
+            std::cout << "Couldnt Open File\n";
+        }
     }
 }
 

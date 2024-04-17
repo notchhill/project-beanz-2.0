@@ -28,12 +28,12 @@ int main() {
   GameScreenLinkedList* buffer = prev;
   GameScreenLinkedList* current = &gameSequence;
   GameScreenLinkedList* expectedScreen = NULL;
-  Saves currentSave("resource/save.txt");
+  Inventory inventory;
+  Saves currentSave("resource/save.txt", "resource/autosave.txt");
   Puzzle p;
   std::string playerIn;
   Player beanzGuy;
   Items items;
-  Inventory inventory;
 
  gameSequence.load("resource/input.txt", &gameSequence, &currentSave);
 
@@ -49,7 +49,7 @@ int main() {
       break;
     }
 
-    std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy);
+    std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy, &inventory);
 
     //Maybe could do something with this in the future (Used only for exiting help screen right now)
     if(nextScreenID == "Previous"){
@@ -72,10 +72,10 @@ int main() {
 
         if(nextScreenID == "LS00100"){
           if(expectedScreen != NULL){
-            currentSave.autosave(prev, current, ptr, expectedScreen, &beanzGuy);
+            currentSave.autosave(prev, current, ptr, expectedScreen, &beanzGuy, &inventory);
             expectedScreen = NULL;
           }else{
-            currentSave.autosave(prev, current, ptr, &beanzGuy);
+            currentSave.autosave(prev, current, ptr, &beanzGuy, &inventory);
           }
           beanzGuy.set_hp(100);
         }
@@ -102,9 +102,9 @@ int main() {
   }
  
   if(expectedScreen != NULL){
-    currentSave.autosave(prev, current, ptr, expectedScreen, &beanzGuy);
+    currentSave.autosave(prev, current, ptr, expectedScreen, &beanzGuy, &inventory);
   }else{
-    currentSave.autosave(prev, current, ptr, &beanzGuy);
+    currentSave.autosave(prev, current, ptr, &beanzGuy, &inventory);
   }
   
   gameSequence.clear(ptr);

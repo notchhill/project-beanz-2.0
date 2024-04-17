@@ -69,7 +69,7 @@ Items* Inventory::checkInventory(std::string name){
 }
 
 void Inventory::displayInventory(){
-    std::cout << "\n";
+    system("cls");
     for(auto& it : this->inventory){
         std::cout << it->itemName << ": " << it->itemClass << " item. ";
         if(it->itemClass == "Restoritive"){
@@ -84,28 +84,49 @@ void Inventory::displayInventory(){
         }
         std::cout << it->description << "\n\n";
     }
+
+    std::cout << "Type Help for a list of commands, or exit to go back to the game: ";
+    std::string playerInput = getPlayerIn();
+    if(playerInput == "help"){
+        std::cout << "\n\nUse <item_name> <item_quantity>   |  Uses an item.\n"
+                  << "Remove <item_name> <item_quantity> |  Removes an item.\n"
+                  << "Exit                               | Exits this screen.\n"
+                  << "Help                               | Shows this screen.\n";
+    }
 }
 
 
 void Inventory::add_item(std::string name)
 {
     std::ifstream file;
-    file.open(ITEM_FILE_NAME);
+    file.open("resource/items.txt");
     std::string fileOutput;
-    while(!file.eof() && fileOutput != name){
+    int loops = 0;
+    while(!file.eof()){
         std::getline(file, fileOutput);
+        if(loops++ % 10 == 0){
+            if (fileOutput.back() == '\r') 
+		    {fileOutput.pop_back();}
+            if(fileOutput == name){
+                break;
+            }
+        }
     }
     if(file.eof()){
+        file.close();
         return;
     }
 
     std::string itemType;
     std::getline(file, itemType);
+    if (itemType.back() == '\r') 
+		{itemType.pop_back();}
     Items* item = checkInventory(name);
     if(item != NULL){
         int count;
         file >> count;
         item->numberOfUsages += count;
+        file.close();
         return;
     }else{
         Items* item = new Items;
@@ -115,18 +136,88 @@ void Inventory::add_item(std::string name)
         file >> count;
         item->numberOfUsages = count;
         std::getline(file, itemType);
+        if (itemType.back() == '\r') 
+		    {itemType.pop_back();}
         item->description = itemType;
         bool boolean;
         file >> count;
         boolean = (count != 0);
         item->canBeRemoved = boolean;
 
-        if(item->itemClass == "Restoritive"){
-            file >> count;
-            item->restoreAmount = count;
-        }else{
-            //Future Use
+        file >> count;
+        item->restoreAmount = count;
+
+        //Future Use
+
+        insertIntoInventory(item);
+        file.close();
+    }
+}
+
+
+
+void Inventory::resetInventory(std::string fileName){
+    std::ifstream inputFile;
+    inputFile.open(fileName);
+
+
+    while(!inventory.empty()){
+        delete inventory.back();
+        inventory.pop_back();
+    }
+
+
+    std::string garbage;
+    std::getline(inputFile, garbage);
+
+    std::getline(inputFile, garbage);
+
+
+    while(!(inputFile.eof())){
+
+        Items* it = new Items;
+        std::getline(inputFile, it->itemName);  
+        if (it->itemName.back() == '\r') 
+		    {it->itemName.pop_back();}
+        if(it->itemName == ""){
+            break;
         }
 
+        std::getline(inputFile, it->itemClass);
+        if (it->itemClass.back() == '\r') 
+		    {it->itemClass.pop_back();} 
+
+        inputFile >> it->numberOfUsages;
+
+
+        std::getline(inputFile, it->description);
+        if (it->description.back() == '\r') 
+		    {it->description.pop_back();} 
+
+        int x;
+        inputFile >> x;
+        it->canBeRemoved = (x != 0);
+        inputFile >> it->restoreAmount;
+        std::getline(inputFile, garbage);
+        std::getline(inputFile, garbage);
+        std::getline(inputFile, garbage);
+        std::getline(inputFile, garbage);
+        this->inventory.push_back(it);
+    }
+    inputFile.close();
+}
+
+void Inventory::dumpInventory(std::ofstream* outputFile){
+    for(auto& it : this->inventory){
+        *outputFile << it->itemName << "\n";
+        *outputFile << it->itemClass << "\n";
+        *outputFile << it->numberOfUsages << "\n";
+        *outputFile << it->description << "\n";
+        *outputFile << it->canBeRemoved << "\n";
+        *outputFile << it->restoreAmount << "\n";
+        *outputFile << "\n"; //Future Use
+        *outputFile << "\n";
+        *outputFile << "\n";
+        *outputFile << "\n";
     }
 }

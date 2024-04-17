@@ -20,6 +20,7 @@ class Saves;
 
 #include "../include/utility.h"
 #include "../include/saves.h"
+#include "../include/inventory.h"
 
 
 
@@ -75,7 +76,7 @@ class GameScreenLinkedList {
 		//Otherwise, return NULL.
 
 
-		std::string match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy);
+		std::string match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy, Inventory* inventory);
 		//Matches the input that the player has entered with the input for each option of currentNode.
 		//If it matches, return the associated screenID.
 		//If player input is 'save' then save the screen ID in option 3 in head

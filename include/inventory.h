@@ -24,4 +24,8 @@ public:
     void insertIntoInventory(Items* ptr);
     //Displays the name, quantity and description of all items in the inventory
     void displayInventory();
+    //Removes everything in the current inventory, and replaces it with the saved inventory.
+    void resetInventory(std::string saveFile);
+    //Dumps the contents of the inventory into a file
+    void dumpInventory(std::ofstream* file);
 };

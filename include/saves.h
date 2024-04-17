@@ -2,6 +2,7 @@
 
 #include "player.h"
 #include "gamescreenlinkedlist.h"
+#include "inventory.h"
 
 class GameScreenLinkedList;
 
@@ -12,6 +13,7 @@ class Saves {
         std::string userSaveScreenID;
         int userSaveHP;
         std::string saveFile;
+        std::string autosaveFile;
 
         public:
 
@@ -21,7 +23,7 @@ class Saves {
         //Default Constructor
         //Automatically loads values from saves.txt
 
-        Saves(std::string fileName);
+        Saves(std::string savefileName, std::string autosaveFileName);
         //Constructor
         //Gets parameters from fileName
 
@@ -47,16 +49,16 @@ class Saves {
         void changeSaveFile(std::string newSaveFile);
         //change the save file to directory in newSaveFile
 
-        void save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy);
+        void save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory);
         //Open the file named 'filename' in write only mode.
 		//Saves the screen ID of current screen in current to the file.
 
-		void autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy);
+		void autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory);
 		//Open the file named 'filename' in write only mode.
 		//Saves the screen ID of current screen in current to the file.
 		//If current is a death screen, writes prev instead.
 
-        void autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, GameScreenLinkedList* expectedScreen, Player* beanzGuy);
+        void autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, GameScreenLinkedList* expectedScreen, Player* beanzGuy, Inventory* inventory);
 		//Open the file named 'filename' in write only mode.
 		//Saves the screen ID of current screen in current to the file.
         //Saves the current health of the player in the file.
