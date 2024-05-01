@@ -42,6 +42,7 @@ int main() {
     system("cls");
 
     gameSequence.display(current, beanzGuy.get_hp());
+    inventory.updateInventory(current->getScreenID());
 
     playerIn = getPlayerIn();
 

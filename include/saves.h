@@ -76,4 +76,11 @@ class Saves {
         //This function is used to undo any extra damage you take from loading into the screen
         //if after the screen ID there is a D, deals damage equal to number after it
         //if after the screenID is H, heals for the amount specified after it
+
+        void fixUserSaveInventory(Inventory* inventory, Player* beanzGuy);
+        //Prevents the player from using their savefile and endlessly obtaining items
+
+        void fixAutoSaveInventory(Inventory* inventory, Player* beanzGuy);
+        //Prevents the player from using their savefile and endlessly obtaining items
+
 };

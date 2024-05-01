@@ -21,9 +21,9 @@ Items::Items(std::string name, std::string itemClass, std::string description, i
 Items::~Items(){}
 
 
-bool Items::use(Items* item, int numberUsed, Player* beanzGuy, Inventory* inventory)
+bool Items::use(int numberUsed, Player* beanzGuy, Inventory* inventory)
 {
-    if(item == NULL || item->numberOfUsages == 0){
+    if(this->numberOfUsages == 0){
         return false;
     }
 
@@ -31,24 +31,30 @@ bool Items::use(Items* item, int numberUsed, Player* beanzGuy, Inventory* invent
         return false;
     }
 
-    if(item->numberOfUsages < numberUsed){
-        numberUsed = item->numberOfUsages;
+    if(this->numberOfUsages < numberUsed){
+        numberUsed = this->numberOfUsages;
     }
 
     //Checking to see if any items dont need to be used, and prevents the player from wasting them
     int temp = PLAYER_MAX_HP - beanzGuy->get_hp();
-    while (temp <= numberUsed--*item->restoreAmount){
+    while (temp <= numberUsed--*this->restoreAmount){
     }
     ++numberUsed;
     if(numberUsed <= 0){
         return false;
     }
-    beanzGuy->incr_hp(item->restoreAmount*numberUsed);
+    beanzGuy->incr_hp(this->restoreAmount*numberUsed);
 
-    inventory->rem_item(item, numberUsed);
+    inventory->rem_item(this, numberUsed);
 
 
     return true;
 }
 
+int Items::getRestoreAmount(){
+    return this->restoreAmount;
+}
 
+int Items::getUsages(){
+    return this->numberOfUsages;
+}

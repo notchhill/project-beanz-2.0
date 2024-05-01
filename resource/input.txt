@@ -110,7 +110,7 @@ BC00500
 As you approach the chef, a skilled artisan in the culinary world, you can't help but admire the organized chaos of the kitchen. Pots and pans clatter, and the delightful scents of simmering bean based dishes waft through the air. With curiosity, you strike up a conversation with the chef, their face lighting up as they share the tales of last night's events in the village. Their account is filled with flavorful details, like the ingredients in a well crafted dish, and as you listen, you become increasingly drawn into the mystery. The beans in the kitchen may hold the key to the secrets that unfolded, and you're eager to uncover the truth.
 What happened here last night?
 ask
-BC00700
+BC00700Acanofbeanz
 
 
 
@@ -124,8 +124,8 @@ BC00700
 
 
 
-BC00700
-As you converse with the chef, they reveal a series of intriguing stories and tidbits about recent events in Beancouver. Their animated storytelling paints a vivid picture of the village square, where various mysteries unfolded. The chef's tales are seasoned with details of lively gatherings, enigmatic occurrences, and the magical allure of the square at night. With every word, your curiosity deepens, and it becomes clear that the village square holds the key to understanding the events that transpired. The chef's narrative acts as an irresistible invitation to explore the square and unravel the mysteries that await.
+BC00700Acanofbeanz
+As you converse with the chef, they reveal a series of intriguing stories and tidbits about recent events in Beancouver. Their animated storytelling paints a vivid picture of the village square, where various mysteries unfolded. The chef's tales are seasoned with details of lively gatherings, enigmatic occurrences, and the magical allure of the square at night. With every word, your curiosity deepens, and it becomes clear that the village square holds the key to understanding the events that transpired. The chef's narrative acts as an irresistible invitation to explore the square and unravel the mysteries that await. The chef gave you a can of beanz as a thank you for listening to his story.
 Go to the village square
 go
 BC00600
@@ -7779,12 +7779,12 @@ The following commands can be used at any time during the game: (Pg 2/2)
 Close this screen (Help Screens Only)
 close
 Previous
+View and manage your inventory (works on all screens but this particular one)
+inventory
+LS00201
 Go to the previous page: (This Screen Only)
 previous
 LS00200
-
-
-
 
 
 

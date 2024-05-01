@@ -235,3 +235,63 @@ void Saves::fixUserSaveHealth(Player* beanzGuy){
 	    beanzGuy->decr_hp(amount);
     }
 }
+
+void Saves::fixAutoSaveInventory(Inventory* inventory, Player* beanzGuy){
+    if(this->autosaveScreenID[7] == 'A'){
+        Items* item = inventory->checkInventory(this->autosaveScreenID.substr(8));
+        if(item == NULL){
+            inventory->add_item(this->autosaveScreenID.substr(8));
+            item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+            beanzGuy->decr_hp(item->getRestoreAmount());
+            inventory->rem_item(item, item->getUsages());
+        }else{
+            int temp = item->getUsages();
+            inventory->add_item(this->autosaveScreenID.substr(8));
+            int temp2 = item->getUsages();
+            int difference = temp2 - temp;
+            if((2*difference) > temp){
+                difference = (2*difference) - temp;
+                beanzGuy->decr_hp(difference * item->getRestoreAmount());
+            }
+            inventory->rem_item(item, 2*difference);
+        }
+    }else{
+        if(this->autosaveScreenID[7] == 'R'){
+            Items* item = inventory->checkInventory(this->autosaveScreenID.substr(8));
+            if(item == NULL){
+                return;
+            }
+            inventory->add_item(this->autosaveScreenID.substr(8));
+        }
+    }
+}
+
+void Saves::fixUserSaveInventory(Inventory* inventory, Player* beanzGuy){
+    if(this->userSaveScreenID[7] == 'A'){
+        Items* item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+        if(item == NULL){
+            inventory->add_item(this->userSaveScreenID.substr(8));
+            item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+            beanzGuy->decr_hp(item->getRestoreAmount());
+            inventory->rem_item(item, item->getUsages());
+        }else{
+            int temp = item->getUsages();
+            inventory->add_item(this->userSaveScreenID.substr(8));
+            int temp2 = item->getUsages();
+            int difference = temp2 - temp;
+            if((2*difference) > temp){
+                difference = (2*difference) - temp;
+                beanzGuy->decr_hp(difference * item->getRestoreAmount());
+            }
+            inventory->rem_item(item, 2*difference);
+        }
+    }else{
+        if(this->userSaveScreenID[7] == 'R'){
+            Items* item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+            if(item == NULL){
+                return;
+            }
+            inventory->add_item(this->userSaveScreenID.substr(8));
+        }
+    }
+}

@@ -17,9 +17,12 @@ class Items{
         Items();
         Items(std::string name, std::string itemClass, std::string description, int numberOfUsages);
         ~Items();
+
         friend class Inventory;
 
-        bool use(Items* item, int quantityUsed, Player* beanzGuy, Inventory* inventory);
+        int getRestoreAmount();
+        int getUsages();
+        bool use(int quantityUsed, Player* beanzGuy, Inventory* inventory);
         // If the item is able to be used, use and increment the HP of beanzGuy by restoreAmount
         // Decrease the amount of useages by quantity used
         // if the player uses too much, use only what is needed

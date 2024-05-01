@@ -25,6 +25,7 @@
 #include <sstream>
 
 #define PLAYER_MAX_HP 150
+#define NUMBER_OF_HELP_COMMANDS 5
 
 const int screenWidth = 100;  // width of the terminal
 const int align = 18;         // number of spaces needed to align option blurbs

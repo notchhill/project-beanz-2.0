@@ -60,6 +60,9 @@ void Inventory::insertIntoInventory(Items* item){
 @return Items* ; The pointer to the item if it exists, otherwise NULL
 */
 Items* Inventory::checkInventory(std::string name){
+    if(this->inventory.empty()){
+        return NULL;
+    }
     for(auto& it : this->inventory){
         if(it->itemName == name){
             return it;
@@ -68,9 +71,11 @@ Items* Inventory::checkInventory(std::string name){
     return NULL;
 }
 
-void Inventory::displayInventory(){
+void Inventory::displayInventory(Player* beanzGuy){
     system("cls");
+    bool empty = true;
     for(auto& it : this->inventory){
+        empty = false;
         std::cout << it->itemName << ": " << it->itemClass << " item. ";
         if(it->itemClass == "Restoritive"){
             std::cout << "Restores " << it->restoreAmount << " HP. ";
@@ -85,14 +90,98 @@ void Inventory::displayInventory(){
         std::cout << it->description << "\n\n";
     }
 
-    std::cout << "Type Help for a list of commands, or exit to go back to the game: ";
-    std::string playerInput = getPlayerIn();
-    if(playerInput == "help"){
-        std::cout << "\n\nUse <item_name> <item_quantity>   |  Uses an item.\n"
-                  << "Remove <item_name> <item_quantity> |  Removes an item.\n"
-                  << "Exit                               | Exits this screen.\n"
-                  << "Help                               | Shows this screen.\n";
+    if(empty){
+        std::cout << "No Items to Display!\n";
     }
+
+    std::string playerInput = "";
+    while(playerInput != "exit" && playerInput != "quit"){
+        std::cout << "Type Help for a list of commands, or exit to go back to the game: ";
+        playerInput = getPlayerIn();
+        playerInput = processCommand(playerInput, beanzGuy);
+    }
+
+}
+
+std::string Inventory::processCommand(std::string playerInput, Player* beanzGuy){
+    std::string commands[NUMBER_OF_HELP_COMMANDS] = {"use", "remove", "exit", "help", "quit"};
+    bool isValidCommand = false;
+    int i;
+    for(i = 0; i < NUMBER_OF_HELP_COMMANDS; ++i){
+        if(playerInput == commands[i]){
+            isValidCommand = true;
+            break;
+        }
+    }
+    if(!isValidCommand){
+        return "";
+    }
+
+    switch(i){
+        case 3:
+        {
+            std::cout << "\n\nUse <item_name> <item_quantity>    |  Uses an item.\n"
+                      << "Remove <item_name> <item_quantity> |  Removes an item.\n"
+                      << "Exit                               | Exits this screen.\n"
+                      << "Help                               | Shows this screen.";
+            return "";
+            break;
+        }
+        case 2:
+        case 4:
+        {
+            return playerInput;
+            break;
+        }
+        default:
+            break;
+    }
+
+    playerInput = getPlayerIn();
+
+    std::string intWannabe;
+    std::cin >> intWannabe;
+    auto it = intWannabe.begin();
+    for(; it != intWannabe.end() && (*it >= '0' && *it <= '9'); ++it){
+    }
+    if(it != intWannabe.end()){
+        std::cout << "Invalid Amount!\n";
+        return "";
+    }
+    
+    if(intWannabe == ""){
+        std::cout << "The Provided Command requires an Amount!\n";
+        return intWannabe;
+    }
+
+    int number = std::stoi(intWannabe);
+    Items* item = checkInventory(playerInput);
+    if(item == NULL){
+        std::cout << "Invalid Item! Please try again!\n";
+        return "";
+    }
+
+    switch(i){
+        case 0:
+        {
+            bool success = item->use(number, beanzGuy, this);
+            if(success){
+                std::cout << "Item Sucessfully Used!\n";
+            }else{
+                std::cout << "Couldn't Use the specified Item\n";
+            }
+            break;
+        }
+        case 1:
+        {
+            rem_item(item, number);
+            break;
+        }
+        default:
+            std::cout << "Invalid Command!\n";
+            break;
+    }
+    return "";
 }
 
 
@@ -103,7 +192,7 @@ void Inventory::add_item(std::string name)
     std::string fileOutput;
     int loops = 0;
     while(!file.eof()){
-        std::getline(file, fileOutput);
+        std::getline(file >> std::ws, fileOutput);
         if(loops++ % 10 == 0){
             if (fileOutput.back() == '\r') 
 		    {fileOutput.pop_back();}
@@ -118,7 +207,7 @@ void Inventory::add_item(std::string name)
     }
 
     std::string itemType;
-    std::getline(file, itemType);
+    std::getline(file >> std::ws, itemType);
     if (itemType.back() == '\r') 
 		{itemType.pop_back();}
     Items* item = checkInventory(name);
@@ -135,7 +224,7 @@ void Inventory::add_item(std::string name)
         int count;
         file >> count;
         item->numberOfUsages = count;
-        std::getline(file, itemType);
+        std::getline(file >> std::ws, itemType);
         if (itemType.back() == '\r') 
 		    {itemType.pop_back();}
         item->description = itemType;
@@ -168,29 +257,29 @@ void Inventory::resetInventory(std::string fileName){
 
 
     std::string garbage;
-    std::getline(inputFile, garbage);
+    std::getline(inputFile >> std::ws, garbage);
 
-    std::getline(inputFile, garbage);
+    std::getline(inputFile >> std::ws, garbage);
 
 
     while(!(inputFile.eof())){
 
         Items* it = new Items;
-        std::getline(inputFile, it->itemName);  
+        std::getline(inputFile >> std::ws, it->itemName);  
         if (it->itemName.back() == '\r') 
 		    {it->itemName.pop_back();}
         if(it->itemName == ""){
             break;
         }
 
-        std::getline(inputFile, it->itemClass);
+        std::getline(inputFile >> std::ws, it->itemClass);
         if (it->itemClass.back() == '\r') 
 		    {it->itemClass.pop_back();} 
 
         inputFile >> it->numberOfUsages;
 
 
-        std::getline(inputFile, it->description);
+        std::getline(inputFile >> std::ws, it->description);
         if (it->description.back() == '\r') 
 		    {it->description.pop_back();} 
 
@@ -198,10 +287,10 @@ void Inventory::resetInventory(std::string fileName){
         inputFile >> x;
         it->canBeRemoved = (x != 0);
         inputFile >> it->restoreAmount;
-        std::getline(inputFile, garbage);
-        std::getline(inputFile, garbage);
-        std::getline(inputFile, garbage);
-        std::getline(inputFile, garbage);
+        std::getline(inputFile >> std::ws, garbage);
+        std::getline(inputFile >> std::ws, garbage);
+        std::getline(inputFile >> std::ws, garbage);
+        std::getline(inputFile >> std::ws, garbage);
         this->inventory.push_back(it);
     }
     inputFile.close();
@@ -220,4 +309,15 @@ void Inventory::dumpInventory(std::ofstream* outputFile){
         *outputFile << "\n";
         *outputFile << "\n";
     }
+}
+
+void Inventory::updateInventory(std::string screenID){
+	if(screenID[7] == 'A'){
+		this->add_item(screenID.substr(8));
+	}
+
+	if(screenID[7] == 'R'){
+		Items* item = this->checkInventory(screenID.substr(8));
+		this->rem_item(item, 1);
+	}
 }
