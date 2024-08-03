@@ -52,6 +52,19 @@ int main() {
 
     std::string nextScreenID = gameSequence.match(playerIn, &gameSequence, current, &currentSave, &beanzGuy, &inventory);
 
+    //Determines what ending you get
+    if(nextScreenID == "BC01203Rdesertbean"){
+      if(inventory.checkInventory("ikeabean") != NULL){
+        if(inventory.checkInventory("acidicbean") != NULL){            
+          nextScreenID = "BC01206Rdesertbean";
+        }else{
+         nextScreenID = "BC01209Rdesertbean";
+        }
+      }else if(inventory.checkInventory("acidicbean") != NULL){
+         nextScreenID = "BC01204Rdesertbean";
+       }
+    }
+
     //Maybe could do something with this in the future (Used only for exiting help screen right now)
     if(nextScreenID == "Previous"){
       current = prev;

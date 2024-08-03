@@ -506,7 +506,7 @@ FF08300
 As you inspect the garden bed, you notice an old, marked garden bed with a symbol that matches the one on the trowel you obtained. The alignment of these symbols suggests a connection, and you must decide how to proceed.
 Dig in the marked spot
 marked
-FF08600
+FF08600Afractalbean
 Dig somewhere else
 elsewhere
 FF08400
@@ -536,7 +536,7 @@ compost
 FF08500
 Dig in the marked spot
 marked
-FF08600
+FF08600Afractalbean
 
 FF08500
 You've dug diligently, but this time, you've found nothing in the selected spot. Undeterred, you can try your luck again in one of the following places:
@@ -554,9 +554,9 @@ compost
 FF08500
 Dig in the marked spot
 marked
-FF08600
+FF08600Afractalbean
 
-FF08600
+FF08600Afractalbean
 You've unearthed a second magical bean, and to your surprise, it came with a map. The map appears to lead to a mysterious desert. It seems like a new adventure awaits.
 Go to the desert
 desert
@@ -1193,7 +1193,7 @@ climb
 GC06000
 With curiosity piqued by this mysterious development, I bent down to look inside the hole, eager to uncover the nature of the obstacle and any potential clues it might hold about the giant's castle.
 look
-GC05100
+GC05100Abeanstalkbean
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC04600
@@ -1204,7 +1204,7 @@ With a sense of anticipation, I decided to explore the colossal fridge, eager to
 fridge
 GC04800
 
-GC05100
+GC05100Abeanstalkbean
 Beneath the chair and within the concealed hole, I uncovered a hidden treasure that filled me with awe and excitement. Nestled within the darkness of the chamber, I discovered a single, iridescent beanstalk bean. It glimmered with an otherworldly radiance, clearly of the same mystical nature as the legendary bean I had been seeking. Its presence confirmed that this giant's castle held many more secrets than I had initially imagined. As I reached out to grasp the bean, a subtle movement to my side caught my attention.
 Feeling an adventurous spirit, I decided to test my mettle and attempted to climb the chair, eager to see the kitchen from a new vantage point and perhaps gain insight into the location of the legendary bean.
 climb
@@ -1319,7 +1319,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1337,7 +1337,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1355,7 +1355,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1370,7 +1370,7 @@ GC14600
 Lumos conveyed that the giant was still occupied with a colossal load of laundry, a task that was often an ongoing process within the castle. It seemed that the giant's laundry needs were as immense as the rest of the castle, and the ever continuing cycle of washing and drying added an element of constant movement and activity to this enchanting realm. With this newfound information, I contemplated what opportunities or challenges might arise from the giant's ongoing chores as I continued my quest within the castle.
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1384,7 +1384,7 @@ GC14700
 
 
 
-GC14700
+GC14700Rbeanstalkbean
 Driven by the desire to reach the magical bean on the kitchen counter, I decided to take action and plant the beanstalk bean I had discovered. The allure of this mystical growth process was too tantalizing to resist, and I held the beanstalk bean with anticipation, ready to initiate the enchanting transformation.
 I gently placed the beanstalk bean on the ground, curious to see what magical changes it might undergo and how it would grant me access to the counter.
 bean
@@ -1478,7 +1478,7 @@ GC15200
 Before my eyes, the bean's growth was nothing short of extraordinary. It began to shoot upward with an almost audible flourish, twisting and curling as it reached for the kitchen counter, where the magical bean awaited. The stalk expanded at a breathtaking pace, weaving a tapestry of green and magic, until it finally reached the counter's edge, where the coveted magical bean sat.
 With the beanstalk having grown miraculously to reach the counter, I wasted no time in seizing the opportunity. I decided to climb the beanstalk and carefully reach out to grab the magical bean, eager to uncover the secrets it held and continue my adventure within the giant's castle.
 climb
-GC15300
+GC15300Agiantbean
 
 
 
@@ -1492,7 +1492,7 @@ GC15300
 
 
 
-GC15300
+GC15300Agiantbean
 With the magical bean safely in my grasp, I gazed around the colossal kitchen, feeling a profound sense of accomplishment and wonder. The giant's castle had proven to be a realm of enchanting surprises and challenges, and I had navigated its secrets to secure the first of the magical beans. It was now time to make my descent back to the ground via the beanstalk, ready to continue my adventure in search of the remaining treasures hidden within this extraordinary realm. The beanstalk had become a symbol of my journey, a bridge between the ordinary and the magical, and as I prepared to descend, I couldn't help but feel that the castle had more secrets yet to reveal.
 With the first magical bean in my possession, I decided to leave the enchanting castle behind. I made my way back to the beanstalk, ready to climb up and return to the surface, bringing with me the wonder and secrets of the giant's realm.
 beanstalk
@@ -2322,9 +2322,225 @@ RE20500
 
 BC01200
 As you return to Beancouver, your home, a warm sense of accomplishment washes over you. The townspeople cheerfully welcome you back from your epic journey, having heard tales of your quest to collect the fabled magic beans. Their gratitude and admiration shine in their eyes as they gather to celebrate your triumphant return. You make your way to Chef Garbanzo's Lean Bean Cuisine. His warm smile and hearty congratulations fill you with pride as he expresses his gratitude for your efforts. With a sense of anticipation, you present Chef Garbanzo with the precious magic beans you've collected throughout your adventure. Chef Garbanzo holds a hand to his heart, "Those are just the ingredients I need to create my magnum opus! Thank you! Thank you, from the bottom of my heart." Chef Garbanzo holds out his hands, ready to accept the magic beans.
-Give the beans to the chef
+Give the Giant bean to the chef
 give
+BC01201Rgiantbean
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01201Rgiantbean
+You reach into your inventory and proudly present the chef with a bean six times the size of a football. The chef's eyes widen in disbelief as they wonder if they should cook it, display it, or start a new reality show called "Giant Bean MasterChef"!
+Give the fractal bean to the chef
+give
+BC01202Rfractalbean
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01202Rfractalbean
+You hand the chef a fractal bean, its intricate patterns spiraling into infinity. The chef stares, bewildered, wondering if they need a math degree to cook it. Meanwhile, you can't help but chuckle, imagining the menu: "Bean à la Mandelbrot"! 
+Give the desert bean to the chef
+give
+BC01203Rdesertbean
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01203Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Join in on the celebratory feast
+feast
 LS00400
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01204Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Give the acidic bean to the chef
+give
+BC01205Racidicbean
+Keep the beanz for yourself
+keep
+LS00400
+
+
+
+
+
+
+
+
+
+
+BC01205Racidicbean
+You hand the chef a bean that's half-melted and looks like it survived a sci-fi movie. The chef examines it, puzzled, wondering if they should cook it or call a hazmat team. 
+Join in on the celebratory feast
+feast
+LS00401
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01206Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Give the acidic bean to the chef
+acidic
+BC01207Racidicbean
+Give the ikea bean to the chef
+ikea
+BC01208Rikeabean
+Keep the beanz for yourself
+keep
+LS00400
+
+
+
+
+
+
+
+BC01207Racidicbean
+You hand the chef a bean that's half-melted and looks like it survived a sci-fi movie. The chef examines it, puzzled, wondering if they should cook it or call a hazmat team. 
+Give the ikea bean to the chef
+give
+BC01210Rikeabean
+Keep the ikea bean for yourself
+keep
+LS00401
+
+
+
+
+
+
+
+
+
+
+BC01208Rikeabean
+You hand the chef a bean with an IKEA label still attached, complete with tiny assembly instructions. The chef looks at it, bewildered, wondering if they need an Allen wrench to cook it. You chuckle, imagining the menu: "Bean à la Flatpack"!
+Give the acidic bean to the chef
+give
+BC01211Racidicbean
+Keep the acidic bean for yourself
+keep
+LS00402
+
+
+
+
+
+
+
+
+
+
+BC01209Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Give the ikea bean to the chef
+give
+BC01212Rikeabean
+Keep the beanz for yourself
+keep
+LS00400
+
+
+
+
+
+
+
+
+
+
+BC01210Rikeabean
+You hand the chef a bean with an IKEA label still attached, complete with tiny assembly instructions. The chef looks at it, bewildered, wondering if they need an Allen wrench to cook it. You chuckle, imagining the menu: "Bean à la Flatpack"!
+Join in on the celebratory feast
+feast
+LS00403
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01211Racidicbean
+You hand the chef a bean that's half-melted and looks like it survived a sci-fi movie. The chef examines it, puzzled, wondering if they should cook it or call a hazmat team. 
+Join in on the celebratory feast
+feast
+LS00403
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01212Rikeabean
+You hand the chef a bean with an IKEA label still attached, complete with tiny assembly instructions. The chef looks at it, bewildered, wondering if they need an Allen wrench to cook it. You chuckle, imagining the menu: "Bean à la Flatpack"!
+Join in on the celebratory feast
+feast
+LS00402
 
 
 
@@ -2340,6 +2556,78 @@ LS00400
 
 LS00400
 Congratulations, you won the game!! After receiving the magic beans, Chef Garbanzo went on to create his magnum opus, a dish which would surely be remembered for years to come in Beancouver. Whatever happens next is a tale for another time. Until then, we hope you'll continue to explore new worlds, and listen to new stories. Thank you so much for playing our game. I guess you could say, it *beans* the world to us :)
+
+
+
+
+
+
+
+
+
+
+
+
+Type quit
+quit
+LS00100
+
+LS00401
+Imagine you bravely diving into a bowl of beans that taste like they took a bath in lemon juice, only to realize they were marinated in something far more sinister. As you savor each tangy bite, your stomach starts plotting its revenge. Fast forward an hour, and you're sprinting to the bathroom like you're in an Olympic race, clutching your belly and cursing the day you met those beans. Lesson learned: sometimes, the beans bite back!
+
+
+
+
+
+
+
+
+
+
+
+
+Go to the next page
+next
+LS00404
+
+LS00402
+Imagine you're eagerly devouring a bean dish that tastes like it was seasoned with a splash of battery acid. Suddenly, you feel an overwhelming urge to assemble flat-pack furniture, envisioning yourself as a master builder. But just as you start hunting for an Allen wrench, your stomach stages a rebellion, sending you sprinting to the bathroom. Lesson learned: IKEA's beans might inspire creativity, but they come with a side of unexpected urgency!
+
+
+
+
+
+
+
+
+
+
+
+
+Go to the next page
+next
+LS00404
+
+LS00403
+Picture yourself savoring the most delicious bean dish you've ever tasted, with flavors so perfect they could be straight out of a gourmet kitchen. As you relish each bite, you suddenly feel an irresistible urge to assemble flat-pack furniture, envisioning yourself as the ultimate DIY master. Energized and inspired, you grab an Allen wrench and start building with newfound enthusiasm. Lesson learned: IKEA's beans might just be the secret ingredient to unlocking your inner furniture builder!
+
+
+
+
+
+
+
+
+
+
+
+
+Go to the next page
+next
+LS00404
+
+LS00404
+Congratulations, you won the game!! After receiving the magic beans, Chef Garbanzo went on to create his magnum opus, a dish which would surely be remembered for years to come in Beancouver, not just because of the taste, but also beacuse of what happened to everyone afterwards. Whatever happens next is a tale for another time. Until then, we hope you'll continue to explore new worlds, and listen to new stories. Thank you so much for playing our game. I guess you could say, it *beans* the world to us :)
 
 
 
@@ -2453,7 +2741,7 @@ read
 DD04700
 Lift the display case, and grab the bean
 bean
-DD04800
+DD04800Adesertbean
 Go back
 back
 DD04400
@@ -2468,7 +2756,7 @@ DD04700
 Foreman's Log 3: We're being instructed to build more tunnels, and not just a little bit more. I'm convinced the inhabitants of that village have cursed us. I refuse to believe our explorers did what they are being accused of. The whole situation is just a little weird. Anyway, on another note, many of my best glassworkers have stopped working as productively as they used to. I'm not sure why. I think they've been distracted by the bean... I really wish they hadn't put it down here with us. I'm just... I'm just not sure what things are coming to right now. For the first time in my life, I feel pessimistic about the future. I'm finding it impossible to see the beauty I once saw in these Glass Tunnels.
 Lift the display case, and grab the bean
 bean
-DD04800
+DD04800Adesertbean
 Go back
 back
 DD04400
@@ -2482,7 +2770,7 @@ DD04400
 
 
 
-DD04800
+DD04800Adesertbean
 You lift the display case, and upon grabbing the magic bean, everything starts to shake! The deafening rumble of shattering glass and colliding pipes echoes throughout the Glass Tunnels. Panicking, you turn around to find the way back blocked by a cave in of shattered glass! You must act quickly and escape through one of the side paths! It's your only chance!
 Escape through a side path!
 escape
@@ -2843,7 +3131,7 @@ GC10019
 
 
 GC10019
-As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery   a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). Next to it, a paper airplane was unfolding its aspirations for adventure, as if the giant had been practicing for an upcoming paper airplane throwing competition. But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture" And to top it all off, there was a colossal fan, which I assume the giant used to keep cool while trying to understand the book's perplexing instructions.
+As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery, a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). Next to it, a paper airplane was unfolding its aspirations for adventure, as if the giant had been practicing for an upcoming paper airplane throwing competition. But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture" And to top it all off, there was a colossal fan, which I assume the giant used to keep cool while trying to understand the book's perplexing instructions.
 Try to fly up to the table with a giant paper airplane 
 airplane
 GC10026
@@ -6593,7 +6881,7 @@ climb
 GC06000
 With curiosity piqued by this mysterious development, I bent down to look inside the hole, eager to uncover the nature of the obstacle and any potential clues it might hold about the giant's castle.
 look
-GC05100
+GC05100Abeanstalkbean
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC04600
@@ -7637,7 +7925,7 @@ north
 RE23400
 Go west
 west
-RE24000
+RE24000Aacidicbean
 Go East
 east
 RE23000D17
@@ -7712,7 +8000,7 @@ east
 RE23400
 Go south
 south
-RE24000
+RE24000Aacidicbean
 
 
 
@@ -7720,8 +8008,8 @@ RE24000
 
 
 
-RE24000
-Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your west and to your south is a massive, boiling tar pit. CONGRATULATIONS YOU WON THE ACID PITS!! I promise there will be a better reward in the future!!!!
+RE24000Aacidicbean
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your west and to your south is a massive, boiling tar pit. Right in front of you, on the ground there is a half dissloved bean! Chef Garbanzo might want it. CONGRATULATIONS YOU WON THE ACID PITS!! The real question is... How do you get out? 
 Go north
 north
 RE23900D17
@@ -8318,7 +8606,7 @@ IK10009C
 In a feat that could only be described as a triumph over the IKEA gods and giants alike, I successfully constructed a bookshelf with cabinets using instructions that seemed to have been translated from ancient hieroglyphics by a mischievous giant with a penchant for riddles. Each step was a cryptic dance of bolts, planks, and a mysterious tool that resembled a wand more than an Allen key. As I navigated through the labyrinth of enigmatic diagrams, I couldn't help but feel like a scholarly wizard deciphering the arcane secrets of flat-pack sorcery. Despite the perplexity, the bookshelf emerged victorious, standing tall as a testament to my resilience and a shrine to the cosmic art of assembling furniture in the face of confusion - a victory celebrated with a triumphant cheer and a nod of approval from the neighboring giants.
 Go to the next screen
 next
-IK10010
+IK10010Aikeabean
 
 
 
@@ -8332,9 +8620,9 @@ IK10010
 
 
 
-IK10010
+IK10010Aikeabean
 In a twist of colossal proportions, the giant whose castle I had unwittingly invaded approached me with a booming yet surprisingly polite voice. With a grateful twinkle in his eye, he thanked me profusely for successfully deciphering the confounding IKEA instructions and assembling a bookshelf that had eluded his comprehension. In appreciation, he bestowed upon me a mystical bean, assuring me that it held the ability to navigate perplexing furniture manuals. The giant also told me how to get out of the basement. As the giant lumbered away, I couldn't help but marvel at the bizarre turn of events - who knew that furniture assembly skills could earn you a magical legume in the realm of giants?
-Accept the giants kind offering (IKEABEAN)
+Accept the giants kind offering
 accept
 GC11800
 
@@ -8370,9 +8658,9 @@ IK10011
 
 IK10011
 In the colossal arena of chaos, a titanic giant squared off against an improbable adversary - a gargantuan wooden snake of mythical proportions. The clash echoed with the resounding thuds of the giant's thunderous footsteps and the creaks and groans of the serpentine behemoth. With each mighty swing, the giant attempted to outmaneuver the wooden coils, but the snake, with its uncanny agility and perplexing flexibility, countered every move. The battle reached a crescendo as the giant, caught in the enigmatic embrace of the serpent, grappled with the wooden coils in a dance of destruction. Alas, the colossal contest concluded in an unexpected twist. The giant, seemingly overwhelmed by the bewilderment of battling a creature crafted from lumber, succumbed to the wooden serpent's strategic maneuvers. With a final constricting embrace, the giant was subdued, leaving the wooden snake victorious in this epic, surreal skirmish. As the defeated giant slumped to the ground, the enigmatic wooden serpent, having accomplished its mystifying mission, slithered off into the annals of myth, leaving the arena forever changed and the spectators scratching their heads in disbelief.
-Loot the Giants pockets (IKEABEAN)
+Loot the Giants pockets
 loot
-IK10012
+IK10012Aikeabean
 Escape! You dont know if the snake will return!
 escape
 GC10080
@@ -8386,7 +8674,7 @@ GC10080
 
 
 
-IK10012
+IK10012Aikeabean
 In the daring escapade of pocket-looting a giant, I stumbled upon a treasure beyond my wildest dreams - a magic bean! As I clutched the bean with a mix of awe and confusion, I couldn't help but notice the peculiar inscription: "Instant IKEA Mastery." Intrigued, I planted the bean in a pot of Allen wrenches and watched in amazement as a flourishing beanstalk spiraled skyward, carrying with it the promise of unparalleled furniture assembly skills. Now equipped with the magical prowess to decipher IKEA hieroglyphics and tame the wildest of hex keys, I felt like the hero of a whimsical home improvement saga. The giant's pockets, once a realm of uncertainty, had bestowed upon me not only the secret to seamless furniture assembly but also the unexpected magic of turning mundane tasks into fairy tale adventures.
 Escape! You dont know if the snake will return!
 escape

@@ -335,3 +335,4 @@ GameScreenLinkedList* GameScreenLinkedList::nextNode(GameScreenLinkedList* head)
 std::string GameScreenLinkedList::getScreenID(){
 	return this->screenID;
 }
+

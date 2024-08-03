@@ -19,6 +19,8 @@ public:
     void add_item(std::string name);
     //Removes an item from the inventory
     void rem_item(Items* item, int quantity);
+    //Forcefully removes an item from the inventory.
+    void force_rem_item(Items* item, int quantity);
     //Checks the inventory to see if you have an item with the name that is in 'name', if so returns the item pointer if not returns null
     Items* checkInventory(std::string name);
     //inserts ptr into the inventory of the player

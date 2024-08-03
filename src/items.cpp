@@ -24,10 +24,12 @@ Items::~Items(){}
 bool Items::use(int numberUsed, Player* beanzGuy, Inventory* inventory)
 {
     if(this->numberOfUsages == 0){
+        std::cout << "No Usages Reamining\n";
         return false;
     }
 
     if(numberUsed <= 0){
+        std::cout << "You cannot use a non-positive amount. Type \"Exit\" to leave this screen\n";
         return false;
     }
 
@@ -41,6 +43,7 @@ bool Items::use(int numberUsed, Player* beanzGuy, Inventory* inventory)
     }
     ++numberUsed;
     if(numberUsed <= 0){
+        std::cout << "You have hit the HP Cap! Any items used and had no effect have been returned to you.\n";
         return false;
     }
     beanzGuy->incr_hp(this->restoreAmount*numberUsed);

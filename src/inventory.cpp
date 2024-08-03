@@ -40,9 +40,22 @@ void Inventory::rem_item(Items* item, int quantity) {
         item->numberOfUsages -= quantity;
     }
 
-    this->inventory.remove(item);
-    delete item;
-    item = NULL;
+    if(item->numberOfUsages <= 0){
+        this->inventory.remove(item);
+        delete item;
+        item = NULL;
+    }
+}
+
+/*
+@brief Forcefully removes the passed item from the player inventory. Used for removing key items.
+@param Items* item ; Item to be removed
+@param int quantity ; the amount of items to be removed
+@return void
+*/
+void Inventory::force_rem_item(Items* item, int quantity){
+    item->canBeRemoved = 1;
+    rem_item(item, quantity);
 }
 
 /*
@@ -99,6 +112,7 @@ void Inventory::displayInventory(Player* beanzGuy){
         std::cout << "Type Help for a list of commands, or exit to go back to the game: ";
         playerInput = getPlayerIn();
         playerInput = processCommand(playerInput, beanzGuy);
+        system("cls");
     }
 
 }
@@ -120,8 +134,8 @@ std::string Inventory::processCommand(std::string playerInput, Player* beanzGuy)
     switch(i){
         case 3:
         {
-            std::cout << "\n\nUse <item_name> <item_quantity>    |  Uses an item.\n"
-                      << "Remove <item_name> <item_quantity> |  Removes an item.\n"
+            std::cout << "\n\nUse <item_name> <item_quantity>    | Uses an item.\n"
+                      << "Remove <item_name> <item_quantity> | Removes an item.\n"
                       << "Exit                               | Exits this screen.\n"
                       << "Help                               | Shows this screen.";
             return "";
@@ -166,9 +180,7 @@ std::string Inventory::processCommand(std::string playerInput, Player* beanzGuy)
         {
             bool success = item->use(number, beanzGuy, this);
             if(success){
-                std::cout << "Item Sucessfully Used!\n";
-            }else{
-                std::cout << "Couldn't Use the specified Item\n";
+                std::cout << "Item(s) Sucessfully Used!\n";
             }
             break;
         }
@@ -192,7 +204,7 @@ void Inventory::add_item(std::string name)
     std::string fileOutput;
     int loops = 0;
     while(!file.eof()){
-        std::getline(file >> std::ws, fileOutput);
+        std::getline(file, fileOutput);
         if(loops++ % 10 == 0){
             if (fileOutput.back() == '\r') 
 		    {fileOutput.pop_back();}
@@ -287,10 +299,10 @@ void Inventory::resetInventory(std::string fileName){
         inputFile >> x;
         it->canBeRemoved = (x != 0);
         inputFile >> it->restoreAmount;
-        std::getline(inputFile >> std::ws, garbage);
-        std::getline(inputFile >> std::ws, garbage);
-        std::getline(inputFile >> std::ws, garbage);
-        std::getline(inputFile >> std::ws, garbage);
+        std::getline(inputFile, garbage);       
+        std::getline(inputFile, garbage);       
+        std::getline(inputFile, garbage);
+        std::getline(inputFile, garbage);
         this->inventory.push_back(it);
     }
     inputFile.close();
@@ -318,6 +330,6 @@ void Inventory::updateInventory(std::string screenID){
 
 	if(screenID[7] == 'R'){
 		Items* item = this->checkInventory(screenID.substr(8));
-		this->rem_item(item, 1);
+		this->force_rem_item(item, 1);
 	}
 }
