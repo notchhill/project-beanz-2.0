@@ -35,3 +35,7 @@ npm start
 ```
 
 The bridge listens on port `4174` by default. Set `BEANZ_WEB_PORT` to change it; `PORT` is also accepted when deploying. The C++ process uses `BEANZ_WEB_HOST` and `BEANZ_WEB_PORT` for its HTTP connection. `BEANZ_OUTPUT_MODE=web` enables web output; any other value leaves normal terminal output enabled.
+
+## Deploying on Render
+
+Create a Render Web Service for this repository and use the Docker runtime with the root `Dockerfile`. The image builds the C++ game and frontend, then starts the HTTP bridge, which listens on Render's `PORT`. Local `.env` files and save files are excluded from the image. Manual web saves are kept in each browser's cookie; Render's filesystem is ephemeral, so autosaves in `resource/autosave.txt` do not persist across instance replacement.
