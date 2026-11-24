@@ -85,7 +85,7 @@ Items* Inventory::checkInventory(std::string name){
 }
 
 void Inventory::displayInventory(Player* beanzGuy){
-    system("cls");
+    clearScreen();
     bool empty = true;
     for(auto& it : this->inventory){
         empty = false;
@@ -112,7 +112,7 @@ void Inventory::displayInventory(Player* beanzGuy){
         std::cout << "Type Help for a list of commands, or exit to go back to the game: ";
         playerInput = getPlayerIn();
         playerInput = processCommand(playerInput, beanzGuy);
-        system("cls");
+        clearScreen();
     }
 
 }

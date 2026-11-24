@@ -20,7 +20,6 @@
 #include <string>
 #include <stdlib.h>
 #include <iomanip>
-#include <windows.h>
 #include <list>
 #include <sstream>
 
@@ -43,8 +42,12 @@ std::string getPlayerIn();
 //    if the next character is a symbol, the character is not concatenated onto the second string
 
 void nicePrint(std::string text, bool isOption = false);
-// this function will be passed a string. It will print the string character-by-character, 
-//and insert a newline every 10th ' ' character.
+// Prints text with line wrapping for terminal output.
+
+void configureOutput();
+bool isWebOutputEnabled();
+void outputText(const std::string& text);
+void clearScreen();
 
 bool isHelpScreen(std::string screenID);
 //This function takes in the screenID and returns 1 if it is a help screen, and 0 if not.

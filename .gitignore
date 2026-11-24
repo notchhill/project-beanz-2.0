@@ -3,3 +3,6 @@
 *.exe
 *.o
 resource/save.txt
+/bin/beanz2
+/web/node_modules/
+/web/dist/

@@ -18,9 +18,13 @@
 #include "../include/items.h"
 
 int main() {
-  system("mode con: cols=120 lines=40");
-  system("cls");
-  system("Color 0A");
+  configureOutput();
+#ifdef _WIN32
+  if (!isWebOutputEnabled()) {
+    system("mode con: cols=120 lines=40");
+    system("Color 0A");
+  }
+#endif
 
   GameScreenLinkedList gameSequence;
   GameScreenLinkedList* ptr = &gameSequence;
@@ -39,7 +43,7 @@ int main() {
 
 
   while (playerIn != "quit") {
-    system("cls");
+    clearScreen();
 
     gameSequence.display(current, beanzGuy.get_hp());
     inventory.updateInventory(current->getScreenID());

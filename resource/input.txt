@@ -1301,7 +1301,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
