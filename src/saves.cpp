@@ -8,60 +8,145 @@ Saves::Saves(){
     this->saveFile = "";
 }
 
-Saves::Saves(std::string fileName){
+Saves::Saves(std::string fileName, std::string autosaveFileName){
+    this->userSaveHP = 100;
+    this->autosaveHP = 100;
+    this->saveFile = fileName;
+    if(isWebOutputEnabled()){
+        this->userSaveData = loadWebSaveData();
+        if(!this->userSaveData.empty()){
+            std::istringstream file(this->userSaveData);
+            std::getline(file, this->userSaveScreenID);
+            if (!this->userSaveScreenID.empty() && this->userSaveScreenID.back() == '\r'){
+                this->userSaveScreenID.pop_back();
+            }
+            file >> this->userSaveHP;
+        }
+    }else{
         std::ifstream file;
         file.open(fileName);
 
         if(!file.fail()){
-            std::getline(file, this->autosaveScreenID);
-            if (this->autosaveScreenID.back() == '\r') 
-			{this->autosaveScreenID.pop_back();}
-
             std::getline(file, this->userSaveScreenID);
-            if (this->userSaveScreenID.back() == '\r') 
-			{this->userSaveScreenID.pop_back();}
-
-            file >> this->autosaveHP;
+            if (!this->userSaveScreenID.empty() && this->userSaveScreenID.back() == '\r'){
+                this->userSaveScreenID.pop_back();
+            }
             file >> this->userSaveHP;
-            std::string garbage;
-            std::getline(file, garbage);
         }
-			this->saveFile = fileName;
+    }
 
-    		file.close();
+    std::ifstream autosaveFile;
+    autosaveFile.open(autosaveFileName);
+
+    if(!autosaveFile.fail()){
+        std::getline(autosaveFile, this->autosaveScreenID);
+        if (!this->autosaveScreenID.empty() && this->autosaveScreenID.back() == '\r'){
+            this->autosaveScreenID.pop_back();
+        }
+        autosaveFile >> this->autosaveHP;
+    }
+    this->autosaveFile = autosaveFileName;
 }
 
 Saves::~Saves(){
-    //trunc is to discard old file, and create a new one.
-    std::ofstream file (this->saveFile, std::ofstream::trunc);
-    file << this->autosaveScreenID << "\n";
-    file << this->userSaveScreenID << "\n";
-    file << this->autosaveHP << "\n";
-    file << this->userSaveHP;
-    file.close();
 }
 
-void Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy){
+bool Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory){
+    if(isWebOutputEnabled()){
+        std::ostringstream file;
+        file << current->screenID << "\n";
+        file << beanzGuy->get_hp() << "\n";
+        inventory->dumpInventory(&file);
+        const std::string saveData = file.str();
+        if(!storeWebSaveData(saveData)){
+            return false;
+        }
+        this->userSaveData = saveData;
+    }
+
     this->userSaveScreenID = current->screenID;
     this->userSaveHP = beanzGuy->get_hp();
     head->option3.optionscreenID = current->screenID;
     head->option3.optionTextBlurb = "Load Previous Manual Save";
 	head->option3.optionChoiceText = "load";
+    if(!isWebOutputEnabled()){
+        std::ofstream file(this->saveFile);
+        if(file.is_open()){
+            file << current->screenID << "\n";
+            file << this->userSaveHP << "\n";
+            inventory->dumpInventory(&file);
+            file.close();
+        } else{
+            std::cout << "Couldnt Open File\n";
+            return false;
+        }
+    }
+
+    return true;
 }
 
-void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy){
+void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory){
 	if(current != NULL && current->screenID != "LS00400"){
         GameScreenLinkedList* ptr;
-        if(current->option1.optionChoiceText == "restart" && prev != NULL){
+        if((current->option1.optionChoiceText == "restart" || isHelpScreen(current->screenID)) && prev != NULL){
             ptr = prev;
+
             if(prev->screenID[7] == 'D'){
 				std::string strAmount = prev->screenID.substr(8,prev->screenID.length()-7);
        			int amount = stoi(strAmount,nullptr,10);
 				beanzGuy->incr_hp(amount);
+
 			}else if(prev->screenID[7] == 'H'){
 				std::string strAmount = prev->screenID.substr(8,prev->screenID.length()-7);
        			int amount = stoi(strAmount,nullptr,10);
 				beanzGuy->decr_hp(amount);
+
+            }else if(isHelpScreen(current->screenID) && beanzGuy->get_hp() <= 0){
+                int minimumDamage = 999;
+
+                if(prev->option1.optionscreenID.length() >= 8 && prev->option1.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option1.optionscreenID.substr(8,prev->option1.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option2.optionscreenID.length() >= 8 && prev->option2.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option2.optionscreenID.substr(8,prev->option2.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option3.optionscreenID.length() >= 8 && prev->option3.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option3.optionscreenID.substr(8,prev->option3.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option4.optionscreenID.length() >= 8 && prev->option4.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option4.optionscreenID.substr(8,prev->option4.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+
+                if(prev->option5.optionscreenID.length() >= 8 && prev->option5.optionscreenID[7] == 'D'){
+                    std::string strAmount = prev->option5.optionscreenID.substr(8,prev->option5.optionscreenID.length()-7);
+       			    int amount = stoi(strAmount,nullptr,10);
+                    if(amount < minimumDamage){
+                        minimumDamage = amount;
+                    }
+                }
+                
+                if(minimumDamage != 999){
+                    beanzGuy->incr_hp(minimumDamage);
+                }
             }
         }else{
             ptr = current;
@@ -72,12 +157,55 @@ void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, 
 
         this->autosaveScreenID = ptr->screenID;
         this->autosaveHP = beanzGuy->get_hp();
-        head->option3.optionscreenID = current->screenID;
+        head->option2.optionscreenID = ptr->screenID;
         head->option2.optionTextBlurb = "Load Previous Auto Save";
 	    head->option2.optionChoiceText = "autosave";
+        std::ofstream autoSavefile(this->autosaveFile, std::ofstream::trunc);
+        if(autoSavefile.is_open()){
+            autoSavefile << this->autosaveScreenID << "\n";
+            autoSavefile << this->autosaveHP << "\n";
+            inventory->dumpInventory(&autoSavefile);
+            autoSavefile.close();
+        } else{
+            std::cout << "Couldnt Open File\n";
+        }
     }
 }
 
+void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head,  GameScreenLinkedList* expectedNode, Player* beanzGuy, Inventory* inventory){
+	if(current != NULL && current->screenID != "LS00400"){
+        if((current->option1.optionChoiceText == "restart" || isHelpScreen(current->screenID)) && expectedNode != NULL){
+
+            if(expectedNode->screenID[7] == 'D'){
+				std::string strAmount = expectedNode->screenID.substr(8,expectedNode->screenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->incr_hp(amount);
+
+			}else if(expectedNode->screenID[7] == 'H'){
+				std::string strAmount = expectedNode->screenID.substr(8,expectedNode->screenID.length()-7);
+       			int amount = stoi(strAmount,nullptr,10);
+				beanzGuy->decr_hp(amount);
+
+            }
+
+        }
+
+        this->autosaveScreenID = prev->screenID;
+        this->autosaveHP = beanzGuy->get_hp();
+        head->option2.optionscreenID = prev->screenID;
+        head->option2.optionTextBlurb = "Load Previous Auto Save";
+	    head->option2.optionChoiceText = "autosave";
+        std::ofstream autoSaveFile(this->autosaveFile, std::ofstream::trunc);
+        if(autoSaveFile.is_open()){
+            autoSaveFile << this->autosaveScreenID << "\n";
+            autoSaveFile << this->autosaveHP << "\n";
+            inventory->dumpInventory(&autoSaveFile);
+            autoSaveFile.close();
+        } else{
+            std::cout << "Couldnt Open File\n";
+        }
+    }
+}
 
  //Returns autosaveScreenID
 std::string Saves::getAutosaveScreenID(){
@@ -104,6 +232,96 @@ std::string Saves::getSaveFile(){
     return this->saveFile;
 }
 
+std::string Saves::getUserSaveData(){
+    return this->userSaveData;
+}
+
 void Saves::changeSaveFile(std::string newSaveFile){
     this->saveFile = newSaveFile;
+}
+
+void Saves::fixAutosaveHealth(Player* beanzGuy){
+    if(this->autosaveScreenID[7] == 'D'){
+	   	std::string strAmount = this->autosaveScreenID.substr(8,this->autosaveScreenID.length()-7);
+	  	int amount = stoi(strAmount,nullptr,10);
+	 	beanzGuy->incr_hp(amount);
+	}
+    else if(this->autosaveScreenID[7] == 'H'){
+       std::string strAmount = this->autosaveScreenID.substr(8,this->autosaveScreenID.length()-7);
+ 	    int amount = stoi(strAmount,nullptr,10);
+	    beanzGuy->decr_hp(amount);
+    }
+}
+
+void Saves::fixUserSaveHealth(Player* beanzGuy){
+    if(this->userSaveScreenID[7] == 'D'){
+	   	std::string strAmount = this->userSaveScreenID.substr(8,this->userSaveScreenID.length()-7);
+	  	int amount = stoi(strAmount,nullptr,10);
+	 	beanzGuy->incr_hp(amount);
+	}
+    else if(this->userSaveScreenID[7] == 'H'){
+       std::string strAmount = this->userSaveScreenID.substr(8,this->userSaveScreenID.length()-7);
+ 	    int amount = stoi(strAmount,nullptr,10);
+	    beanzGuy->decr_hp(amount);
+    }
+}
+
+void Saves::fixAutoSaveInventory(Inventory* inventory, Player* beanzGuy){
+    if(this->autosaveScreenID[7] == 'A'){
+        Items* item = inventory->checkInventory(this->autosaveScreenID.substr(8));
+        if(item == NULL){
+            inventory->add_item(this->autosaveScreenID.substr(8));
+            item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+            beanzGuy->decr_hp(item->getRestoreAmount());
+            inventory->rem_item(item, item->getUsages());
+        }else{
+            int temp = item->getUsages();
+            inventory->add_item(this->autosaveScreenID.substr(8));
+            int temp2 = item->getUsages();
+            int difference = temp2 - temp;
+            if((2*difference) > temp){
+                difference = (2*difference) - temp;
+                beanzGuy->decr_hp(difference * item->getRestoreAmount());
+            }
+            inventory->rem_item(item, 2*difference);
+        }
+    }else{
+        if(this->autosaveScreenID[7] == 'R'){
+            Items* item = inventory->checkInventory(this->autosaveScreenID.substr(8));
+            if(item == NULL){
+                return;
+            }
+            inventory->add_item(this->autosaveScreenID.substr(8));
+        }
+    }
+}
+
+void Saves::fixUserSaveInventory(Inventory* inventory, Player* beanzGuy){
+    if(this->userSaveScreenID[7] == 'A'){
+        Items* item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+        if(item == NULL){
+            inventory->add_item(this->userSaveScreenID.substr(8));
+            item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+            beanzGuy->decr_hp(item->getRestoreAmount());
+            inventory->rem_item(item, item->getUsages());
+        }else{
+            int temp = item->getUsages();
+            inventory->add_item(this->userSaveScreenID.substr(8));
+            int temp2 = item->getUsages();
+            int difference = temp2 - temp;
+            if((2*difference) > temp){
+                difference = (2*difference) - temp;
+                beanzGuy->decr_hp(difference * item->getRestoreAmount());
+            }
+            inventory->rem_item(item, 2*difference);
+        }
+    }else{
+        if(this->userSaveScreenID[7] == 'R'){
+            Items* item = inventory->checkInventory(this->userSaveScreenID.substr(8));
+            if(item == NULL){
+                return;
+            }
+            inventory->add_item(this->userSaveScreenID.substr(8));
+        }
+    }
 }

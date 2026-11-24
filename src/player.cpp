@@ -1,7 +1,7 @@
 #include "../include/player.h"
 
 /*
-@brief Default constructor for Player class.
+@brief Default constructor for Player class. Sets player health to 100 by default.
 @param N/A
 @return N/A
 */
@@ -20,6 +20,7 @@ Player::~Player() {
 
 void Player::UpdatePlayer(std::string &ID)
 {
+    
     unsigned int nextLen = ID.length();
     if(ID[7] == 'D' || ID[7] == 'H') {
         int strAmountLen = 0;
@@ -50,6 +51,9 @@ int Player::get_hp() {
 */
 void Player::incr_hp(int amount) {
     hp = hp + amount;
+    if(hp > PLAYER_MAX_HP){
+        set_hp(PLAYER_MAX_HP);
+    }
 }
 
 /*

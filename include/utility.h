@@ -20,14 +20,17 @@
 #include <string>
 #include <stdlib.h>
 #include <iomanip>
-#include <windows.h>
+#include <list>
+#include <sstream>
 
+#define PLAYER_MAX_HP 150
+#define NUMBER_OF_HELP_COMMANDS 5
 
 const int screenWidth = 100;  // width of the terminal
 const int align = 18;         // number of spaces needed to align option blurbs
-const int zones = 6;          // number of zones/main areas in the game
+const int zones = 8;          // number of zones/main areas in the game
 
-const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE"};
+const std::string ID_MARKERS[zones] = {"LS","BC","GC","FF","DD","RE","IK","CU"};
 // array of the starts of each main zones' ID
 
 std::string getPlayerIn();
@@ -39,5 +42,14 @@ std::string getPlayerIn();
 //    if the next character is a symbol, the character is not concatenated onto the second string
 
 void nicePrint(std::string text, bool isOption = false);
-// this function will be passed a string. It will print the string character-by-character, 
-//and insert a newline every 10th ' ' character.
+// Prints text with line wrapping for terminal output.
+
+void configureOutput();
+bool isWebOutputEnabled();
+void outputText(const std::string& text);
+std::string loadWebSaveData();
+bool storeWebSaveData(const std::string& data);
+void clearScreen();
+
+bool isHelpScreen(std::string screenID);
+//This function takes in the screenID and returns 1 if it is a help screen, and 0 if not.

@@ -78,7 +78,7 @@ GameScreenLinkedList* GameScreenLinkedList::search(const std::string screenID, G
 *	@param const GameScreenLinkedList* currentNode ; Node to have its options examined for a match with the player's input
 *	@return string GameScreenLinkedList ; ScreenID of matching option
 */
-std::string GameScreenLinkedList::match(const std::string playerInput, GameScreenLinkedList* head, const GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy){
+std::string GameScreenLinkedList::match(const std::string playerInput, GameScreenLinkedList* head, GameScreenLinkedList* currentNode, Saves* saves, Player* beanzGuy, Inventory* inventory){
 	if(currentNode == NULL || playerInput == ""){
 		return "";
 	}
@@ -86,28 +86,27 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 	if(currentNode->screenID == head->screenID){
 		if(playerInput == "load"){
 			beanzGuy->set_hp(saves->userSaveHP);
-			if(saves->userSaveScreenID[7] == 'D'){
-				std::string strAmount = saves->userSaveScreenID.substr(8,saves->userSaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->incr_hp(amount);
+			saves->fixUserSaveHealth(beanzGuy);
+			if(isWebOutputEnabled()){
+				inventory->resetInventoryFromData(saves->getUserSaveData());
+			}else{
+				inventory->resetInventory(saves->saveFile);
 			}
-			else if(saves->userSaveScreenID[7] == 'H'){
-				std::string strAmount = saves->userSaveScreenID.substr(8,saves->userSaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->decr_hp(amount);
-			}
+			saves->fixUserSaveInventory(inventory, beanzGuy);
 		}else if(playerInput == "autosave"){
 			beanzGuy->set_hp(saves->autosaveHP);
-				if(saves->autosaveScreenID[7] == 'D'){
-				std::string strAmount = saves->autosaveScreenID.substr(8,saves->autosaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->incr_hp(amount);
-			}else if(saves->autosaveScreenID[7] == 'H'){
-				std::string strAmount = saves->autosaveScreenID.substr(8,saves->autosaveScreenID.length()-7);
-       			int amount = stoi(strAmount,nullptr,10);
-				beanzGuy->decr_hp(amount);
-			}
+			saves->fixAutosaveHealth(beanzGuy);
+			inventory->resetInventory(saves->autosaveFile);
+			saves->fixAutoSaveInventory(inventory, beanzGuy);
+		}
+	}
 
+	if(playerInput == "close"){
+		if(isHelpScreen(currentNode->screenID)){
+			if(beanzGuy->get_hp() != 0){
+				return "Previous";
+			}
+			return "LSLLLLL";
 		}
 	}
 
@@ -127,14 +126,31 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 		return currentNode->option5.optionscreenID;
 	}
 
-	if(playerInput == "quit"){
-		return currentNode->screenID;
+	if(playerInput == "save"){
+		if(!isWebOutputEnabled()){
+			saves->save(currentNode, head, beanzGuy, inventory);
+			std::cout << "\nSuccessfully Saved!\n";
+		}else if(saves->save(currentNode, head, beanzGuy, inventory)){
+			std::cout << "\nSuccessfully Saved!\n";
+		}else{
+			std::cout << "\nCould not save your game. Browser cookies have limited storage.\n";
+		}
+		return "";
 	}
 
-	if(playerInput == "save"){
-		saves->save(currentNode, head, beanzGuy);
-		std::cout << "\nSuccessfully Saved!\n";
-		return "";
+	if(playerInput == "help"){
+		return "LS00200";
+	}
+
+	if(playerInput == "title"){
+		return "LS00100";
+	}
+
+	if(playerInput == "inventory"){
+		inventory->displayInventory(beanzGuy);
+		display(currentNode, beanzGuy->get_hp());
+		std::string input = getPlayerIn();
+		return match(input, head, currentNode, saves, beanzGuy, inventory);
 	}
 
 	return "";
@@ -142,7 +158,7 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 
 /*
 @brief Deletes all elements from the list, and frees their memory, if necessary.
-@param: GameScreenLinkedList* head. The pointer to the head of the list. 
+@param GameScreenLinkedList* head. The pointer to the head of the list. 
 @return void
 */
 void GameScreenLinkedList::clear(GameScreenLinkedList* &head) {
@@ -325,3 +341,8 @@ void GameScreenLinkedList::load(const std::string fileName, GameScreenLinkedList
 GameScreenLinkedList* GameScreenLinkedList::nextNode(GameScreenLinkedList* head) {
 	return head->next;
 }
+
+std::string GameScreenLinkedList::getScreenID(){
+	return this->screenID;
+}
+

@@ -9,9 +9,9 @@ LS00300
 
 
 
-
-
-
+Get a list of potentially useful commands
+help
+LS00200
 Quit Game
 quit
 LS00300
@@ -110,7 +110,7 @@ BC00500
 As you approach the chef, a skilled artisan in the culinary world, you can't help but admire the organized chaos of the kitchen. Pots and pans clatter, and the delightful scents of simmering bean based dishes waft through the air. With curiosity, you strike up a conversation with the chef, their face lighting up as they share the tales of last night's events in the village. Their account is filled with flavorful details, like the ingredients in a well crafted dish, and as you listen, you become increasingly drawn into the mystery. The beans in the kitchen may hold the key to the secrets that unfolded, and you're eager to uncover the truth.
 What happened here last night?
 ask
-BC00700
+BC00700Acanofbeanz
 
 
 
@@ -124,8 +124,8 @@ BC00700
 
 
 
-BC00700
-As you converse with the chef, they reveal a series of intriguing stories and tidbits about recent events in Beancouver. Their animated storytelling paints a vivid picture of the village square, where various mysteries unfolded. The chef's tales are seasoned with details of lively gatherings, enigmatic occurrences, and the magical allure of the square at night. With every word, your curiosity deepens, and it becomes clear that the village square holds the key to understanding the events that transpired. The chef's narrative acts as an irresistible invitation to explore the square and unravel the mysteries that await.
+BC00700Acanofbeanz
+As you converse with the chef, they reveal a series of intriguing stories and tidbits about recent events in Beancouver. Their animated storytelling paints a vivid picture of the village square, where various mysteries unfolded. The chef's tales are seasoned with details of lively gatherings, enigmatic occurrences, and the magical allure of the square at night. With every word, your curiosity deepens, and it becomes clear that the village square holds the key to understanding the events that transpired. The chef's narrative acts as an irresistible invitation to explore the square and unravel the mysteries that await. The chef gave you a can of beanz as a thank you for listening to his story.
 Go to the village square
 go
 BC00600
@@ -506,7 +506,7 @@ FF08300
 As you inspect the garden bed, you notice an old, marked garden bed with a symbol that matches the one on the trowel you obtained. The alignment of these symbols suggests a connection, and you must decide how to proceed.
 Dig in the marked spot
 marked
-FF08600
+FF08600Afractalbean
 Dig somewhere else
 elsewhere
 FF08400
@@ -536,7 +536,7 @@ compost
 FF08500
 Dig in the marked spot
 marked
-FF08600
+FF08600Afractalbean
 
 FF08500
 You've dug diligently, but this time, you've found nothing in the selected spot. Undeterred, you can try your luck again in one of the following places:
@@ -554,9 +554,9 @@ compost
 FF08500
 Dig in the marked spot
 marked
-FF08600
+FF08600Afractalbean
 
-FF08600
+FF08600Afractalbean
 You've unearthed a second magical bean, and to your surprise, it came with a map. The map appears to lead to a mysterious desert. It seems like a new adventure awaits.
 Go to the desert
 desert
@@ -1193,7 +1193,7 @@ climb
 GC06000
 With curiosity piqued by this mysterious development, I bent down to look inside the hole, eager to uncover the nature of the obstacle and any potential clues it might hold about the giant's castle.
 look
-GC05100
+GC05100Abeanstalkbean
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC04600
@@ -1204,7 +1204,7 @@ With a sense of anticipation, I decided to explore the colossal fridge, eager to
 fridge
 GC04800
 
-GC05100
+GC05100Abeanstalkbean
 Beneath the chair and within the concealed hole, I uncovered a hidden treasure that filled me with awe and excitement. Nestled within the darkness of the chamber, I discovered a single, iridescent beanstalk bean. It glimmered with an otherworldly radiance, clearly of the same mystical nature as the legendary bean I had been seeking. Its presence confirmed that this giant's castle held many more secrets than I had initially imagined. As I reached out to grasp the bean, a subtle movement to my side caught my attention.
 Feeling an adventurous spirit, I decided to test my mettle and attempted to climb the chair, eager to see the kitchen from a new vantage point and perhaps gain insight into the location of the legendary bean.
 climb
@@ -1301,7 +1301,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1319,7 +1319,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1337,7 +1337,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1355,7 +1355,7 @@ lumos
 GC14600
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1370,7 +1370,7 @@ GC14600
 Lumos conveyed that the giant was still occupied with a colossal load of laundry, a task that was often an ongoing process within the castle. It seemed that the giant's laundry needs were as immense as the rest of the castle, and the ever continuing cycle of washing and drying added an element of constant movement and activity to this enchanting realm. With this newfound information, I contemplated what opportunities or challenges might arise from the giant's ongoing chores as I continued my quest within the castle.
 Armed with the beanstalk bean I had discovered earlier, I contemplated planting it in the kitchen, as a means to further unlock the enchanting secrets of the giant's castle, and to see if it would indeed grow as Lumos had hinted.
 plant
-GC14700
+GC14700Rbeanstalkbean
 
 
 
@@ -1384,7 +1384,7 @@ GC14700
 
 
 
-GC14700
+GC14700Rbeanstalkbean
 Driven by the desire to reach the magical bean on the kitchen counter, I decided to take action and plant the beanstalk bean I had discovered. The allure of this mystical growth process was too tantalizing to resist, and I held the beanstalk bean with anticipation, ready to initiate the enchanting transformation.
 I gently placed the beanstalk bean on the ground, curious to see what magical changes it might undergo and how it would grant me access to the counter.
 bean
@@ -1478,7 +1478,7 @@ GC15200
 Before my eyes, the bean's growth was nothing short of extraordinary. It began to shoot upward with an almost audible flourish, twisting and curling as it reached for the kitchen counter, where the magical bean awaited. The stalk expanded at a breathtaking pace, weaving a tapestry of green and magic, until it finally reached the counter's edge, where the coveted magical bean sat.
 With the beanstalk having grown miraculously to reach the counter, I wasted no time in seizing the opportunity. I decided to climb the beanstalk and carefully reach out to grab the magical bean, eager to uncover the secrets it held and continue my adventure within the giant's castle.
 climb
-GC15300
+GC15300Agiantbean
 
 
 
@@ -1492,7 +1492,7 @@ GC15300
 
 
 
-GC15300
+GC15300Agiantbean
 With the magical bean safely in my grasp, I gazed around the colossal kitchen, feeling a profound sense of accomplishment and wonder. The giant's castle had proven to be a realm of enchanting surprises and challenges, and I had navigated its secrets to secure the first of the magical beans. It was now time to make my descent back to the ground via the beanstalk, ready to continue my adventure in search of the remaining treasures hidden within this extraordinary realm. The beanstalk had become a symbol of my journey, a bridge between the ordinary and the magical, and as I prepared to descend, I couldn't help but feel that the castle had more secrets yet to reveal.
 With the first magical bean in my possession, I decided to leave the enchanting castle behind. I made my way back to the beanstalk, ready to climb up and return to the surface, bringing with me the wonder and secrets of the giant's realm.
 beanstalk
@@ -2322,9 +2322,225 @@ RE20500
 
 BC01200
 As you return to Beancouver, your home, a warm sense of accomplishment washes over you. The townspeople cheerfully welcome you back from your epic journey, having heard tales of your quest to collect the fabled magic beans. Their gratitude and admiration shine in their eyes as they gather to celebrate your triumphant return. You make your way to Chef Garbanzo's Lean Bean Cuisine. His warm smile and hearty congratulations fill you with pride as he expresses his gratitude for your efforts. With a sense of anticipation, you present Chef Garbanzo with the precious magic beans you've collected throughout your adventure. Chef Garbanzo holds a hand to his heart, "Those are just the ingredients I need to create my magnum opus! Thank you! Thank you, from the bottom of my heart." Chef Garbanzo holds out his hands, ready to accept the magic beans.
-Give the beans to the chef
+Give the Giant bean to the chef
 give
+BC01201Rgiantbean
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01201Rgiantbean
+You reach into your inventory and proudly present the chef with a bean six times the size of a football. The chef's eyes widen in disbelief as they wonder if they should cook it, display it, or start a new reality show called "Giant Bean MasterChef"!
+Give the fractal bean to the chef
+give
+BC01202Rfractalbean
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01202Rfractalbean
+You hand the chef a fractal bean, its intricate patterns spiraling into infinity. The chef stares, bewildered, wondering if they need a math degree to cook it. Meanwhile, you can't help but chuckle, imagining the menu: "Bean à la Mandelbrot"! 
+Give the desert bean to the chef
+give
+BC01203Rdesertbean
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01203Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Join in on the celebratory feast
+feast
 LS00400
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01204Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Give the acidic bean to the chef
+give
+BC01205Racidicbean
+Keep the beanz for yourself
+keep
+LS00400
+
+
+
+
+
+
+
+
+
+
+BC01205Racidicbean
+You hand the chef a bean that's half-melted and looks like it survived a sci-fi movie. The chef examines it, puzzled, wondering if they should cook it or call a hazmat team. 
+Join in on the celebratory feast
+feast
+LS00401
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01206Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Give the acidic bean to the chef
+acidic
+BC01207Racidicbean
+Give the ikea bean to the chef
+ikea
+BC01208Rikeabean
+Keep the beanz for yourself
+keep
+LS00400
+
+
+
+
+
+
+
+BC01207Racidicbean
+You hand the chef a bean that's half-melted and looks like it survived a sci-fi movie. The chef examines it, puzzled, wondering if they should cook it or call a hazmat team. 
+Give the ikea bean to the chef
+give
+BC01210Rikeabean
+Keep the ikea bean for yourself
+keep
+LS00401
+
+
+
+
+
+
+
+
+
+
+BC01208Rikeabean
+You hand the chef a bean with an IKEA label still attached, complete with tiny assembly instructions. The chef looks at it, bewildered, wondering if they need an Allen wrench to cook it. You chuckle, imagining the menu: "Bean à la Flatpack"!
+Give the acidic bean to the chef
+give
+BC01211Racidicbean
+Keep the acidic bean for yourself
+keep
+LS00402
+
+
+
+
+
+
+
+
+
+
+BC01209Rdesertbean
+You hand the chef a bean so dried out it looks like it could crumble into dust at any moment. The chef squints at it, wondering if they should cook it or use it as a paperweight. You can't help but laugh, imagining the menu: "Bean Jerky"!
+Give the ikea bean to the chef
+give
+BC01212Rikeabean
+Keep the beanz for yourself
+keep
+LS00400
+
+
+
+
+
+
+
+
+
+
+BC01210Rikeabean
+You hand the chef a bean with an IKEA label still attached, complete with tiny assembly instructions. The chef looks at it, bewildered, wondering if they need an Allen wrench to cook it. You chuckle, imagining the menu: "Bean à la Flatpack"!
+Join in on the celebratory feast
+feast
+LS00403
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01211Racidicbean
+You hand the chef a bean that's half-melted and looks like it survived a sci-fi movie. The chef examines it, puzzled, wondering if they should cook it or call a hazmat team. 
+Join in on the celebratory feast
+feast
+LS00403
+
+
+
+
+
+
+
+
+
+
+
+
+
+BC01212Rikeabean
+You hand the chef a bean with an IKEA label still attached, complete with tiny assembly instructions. The chef looks at it, bewildered, wondering if they need an Allen wrench to cook it. You chuckle, imagining the menu: "Bean à la Flatpack"!
+Join in on the celebratory feast
+feast
+LS00402
 
 
 
@@ -2340,6 +2556,78 @@ LS00400
 
 LS00400
 Congratulations, you won the game!! After receiving the magic beans, Chef Garbanzo went on to create his magnum opus, a dish which would surely be remembered for years to come in Beancouver. Whatever happens next is a tale for another time. Until then, we hope you'll continue to explore new worlds, and listen to new stories. Thank you so much for playing our game. I guess you could say, it *beans* the world to us :)
+
+
+
+
+
+
+
+
+
+
+
+
+Type quit
+quit
+LS00100
+
+LS00401
+Imagine you bravely diving into a bowl of beans that taste like they took a bath in lemon juice, only to realize they were marinated in something far more sinister. As you savor each tangy bite, your stomach starts plotting its revenge. Fast forward an hour, and you're sprinting to the bathroom like you're in an Olympic race, clutching your belly and cursing the day you met those beans. Lesson learned: sometimes, the beans bite back!
+
+
+
+
+
+
+
+
+
+
+
+
+Go to the next page
+next
+LS00404
+
+LS00402
+Imagine you're eagerly devouring a bean dish that tastes like it was seasoned with a splash of battery acid. Suddenly, you feel an overwhelming urge to assemble flat-pack furniture, envisioning yourself as a master builder. But just as you start hunting for an Allen wrench, your stomach stages a rebellion, sending you sprinting to the bathroom. Lesson learned: IKEA's beans might inspire creativity, but they come with a side of unexpected urgency!
+
+
+
+
+
+
+
+
+
+
+
+
+Go to the next page
+next
+LS00404
+
+LS00403
+Picture yourself savoring the most delicious bean dish you've ever tasted, with flavors so perfect they could be straight out of a gourmet kitchen. As you relish each bite, you suddenly feel an irresistible urge to assemble flat-pack furniture, envisioning yourself as the ultimate DIY master. Energized and inspired, you grab an Allen wrench and start building with newfound enthusiasm. Lesson learned: IKEA's beans might just be the secret ingredient to unlocking your inner furniture builder!
+
+
+
+
+
+
+
+
+
+
+
+
+Go to the next page
+next
+LS00404
+
+LS00404
+Congratulations, you won the game!! After receiving the magic beans, Chef Garbanzo went on to create his magnum opus, a dish which would surely be remembered for years to come in Beancouver, not just because of the taste, but also beacuse of what happened to everyone afterwards. Whatever happens next is a tale for another time. Until then, we hope you'll continue to explore new worlds, and listen to new stories. Thank you so much for playing our game. I guess you could say, it *beans* the world to us :)
 
 
 
@@ -2453,7 +2741,7 @@ read
 DD04700
 Lift the display case, and grab the bean
 bean
-DD04800
+DD04800Adesertbean
 Go back
 back
 DD04400
@@ -2468,7 +2756,7 @@ DD04700
 Foreman's Log 3: We're being instructed to build more tunnels, and not just a little bit more. I'm convinced the inhabitants of that village have cursed us. I refuse to believe our explorers did what they are being accused of. The whole situation is just a little weird. Anyway, on another note, many of my best glassworkers have stopped working as productively as they used to. I'm not sure why. I think they've been distracted by the bean... I really wish they hadn't put it down here with us. I'm just... I'm just not sure what things are coming to right now. For the first time in my life, I feel pessimistic about the future. I'm finding it impossible to see the beauty I once saw in these Glass Tunnels.
 Lift the display case, and grab the bean
 bean
-DD04800
+DD04800Adesertbean
 Go back
 back
 DD04400
@@ -2482,7 +2770,7 @@ DD04400
 
 
 
-DD04800
+DD04800Adesertbean
 You lift the display case, and upon grabbing the magic bean, everything starts to shake! The deafening rumble of shattering glass and colliding pipes echoes throughout the Glass Tunnels. Panicking, you turn around to find the way back blocked by a cave in of shattered glass! You must act quickly and escape through one of the side paths! It's your only chance!
 Escape through a side path!
 escape
@@ -2687,7 +2975,7 @@ broom
 GC10011
 Tobaggan down the stairs on the nearby rug.
 rug
-GC10012
+GC10012D10
 Attempt to use the fire extinguisher as a jetpack.
 extinguisher
 GC10013
@@ -2705,7 +2993,7 @@ extinguish
 GC10015
 Tobaggan down the stairs on the nearby rug.
 rug
-GC10016
+GC10016D10
 Jump down the giant stairs, What could go wrong? 
 jump
 GC10017
@@ -2716,8 +3004,8 @@ GC10017
 
 
 
-GC10012
-Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (safely, I might add), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
+GC10012D10
+Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (sustaining only minor injuries), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
 Try to climb up the leg of the table
 climb
 GC10018
@@ -2744,7 +3032,7 @@ snoop
 GC10019
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguisher
-GC10021
+GC10021D40
 
 
 
@@ -2759,7 +3047,7 @@ broom
 GC10011
 Tobaggan down the stairs on the nearby rug. 
 rug
-GC10012
+GC10012D10
 Attempt to use the fire extinguisher as a jetpack. 
 extinguish
 GC10013
@@ -2783,13 +3071,13 @@ broom
 GC10024
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguisher
-GC10025
+GC10025D40
 
 
 
 
-GC10016
-Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (safely, I might add), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
+GC10016D10
+Picture this: A daring adventurer, armed with nothing but a rug and a heart full of reckless bravery, embarking on the most peculiar quest of their life. As they hurtle down the giant staircase, their face is a delightful mix of terror and exhilaration, like a rollercoaster ride at a theme park they never knew existed. It's the kind of absurd adventure that fairy tales would be jealous of, where rug meets gravity, and giant meets hilarity. Upon crashing to the bottom (sustaining only minor injuries), they find themselves in a peculiar room. The centerpiece? A table, where a bag of soil sits like the world's most unassuming centerpiece. Next to it, a box filled with a motley assortment of goodies that would make even a magician's top hat seem ordinary.
 Try to climb up the leg of the table
 climb
 GC10018
@@ -2810,7 +3098,7 @@ GC10017
 Jumping down a giant staircase in a giant's castle might sound like a thrilling idea, but let me tell you, it's a colossal mistake! Once you take that leap of faith, you'll find yourself plummeting through a never ending abyss of stone steps, each step big enough to host a small family picnic. If the sheer size of the staircase doesn't give you vertigo, the giant dust bunnies lurking in the corners will! Not to mention, when you finally reach the bottom, the giant himself might mistake you for a snack sized hors d'oeuvre. So, next time you're feeling adventurous, stick to the kiddie slide at the local playground and leave the giant's stairs to the pros   or at least those who fancy a squished, snack sized life adventure!
 Tobaggan down the stairs on the nearby rug. 
 rug
-GC10016
+GC10016D10
 Attempt to use the fire extinguisher as a jetpack. 
 extinguish
 GC10015
@@ -2843,7 +3131,7 @@ GC10019
 
 
 GC10019
-As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery   a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). Next to it, a paper airplane was unfolding its aspirations for adventure, as if the giant had been practicing for an upcoming paper airplane throwing competition. But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture" And to top it all off, there was a colossal fan, which I assume the giant used to keep cool while trying to understand the book's perplexing instructions.
+As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery, a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). Next to it, a paper airplane was unfolding its aspirations for adventure, as if the giant had been practicing for an upcoming paper airplane throwing competition. But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture" And to top it all off, there was a colossal fan, which I assume the giant used to keep cool while trying to understand the book's perplexing instructions.
 Try to fly up to the table with a giant paper airplane 
 airplane
 GC10026
@@ -2867,7 +3155,7 @@ snoop
 GC10019
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguish
-GC10030
+GC10030D40
 
 
 
@@ -2878,7 +3166,7 @@ GC10030
 
 
 
-GC10021
+GC10021D40
 Picture this: As you desperately searched for an escape plan, your eyes locked onto the fire extinguisher. With the elegance of a caffeinated penguin trying to waltz, you strapped it to your back and ignited the nozzle. What followed was an unforgettable performance: part rocket scientist, part misguided superhero, you roared through the castle with the grace of a fire breathing dragon on a sugar rush, all while the giant looked on in amusement, probably thinking, "Who invited this lunatic to my castle?" As you embarked on an epic adventure, the fire extinguisher decided that this was the perfect moment to sputter and quit, only for you to find yourself hurtling towards a towering wall in a hilariously heroic fashion. 
 Try to climb up the leg of the table 
 climb
@@ -2924,7 +3212,7 @@ broom
 GC10024
 Try to use the fire extinguisher to get up to the top of the table. 
 extinguish
-GC10025
+GC10025D40
 
 
 
@@ -2950,7 +3238,7 @@ GC10034
 
 
 
-GC10025
+GC10025D40
 Picture this: As you desperately searched for an escape plan, your eyes locked onto the fire extinguisher. With the elegance of a caffeinated penguin trying to waltz, you strapped it to your back and ignited the nozzle. What followed was an unforgettable performance: part rocket scientist, part misguided superhero, you roared through the castle with the grace of a fire breathing dragon on a sugar rush, all while the giant looked on in amusement, probably thinking, "Who invited this lunatic to my castle?" As you embarked on an epic adventure, the fire extinguisher decided that this was the perfect moment to sputter and quit, only for you to find yourself hurtling towards a towering wall in a hilariously heroic fashion. 
 Try to climb up the leg of the table 
 climb
@@ -3040,7 +3328,7 @@ GC10046
 
 
 
-GC10030
+GC10030D40
 Picture this: As you desperately searched for an escape plan, your eyes locked onto the fire extinguisher. With the elegance of a caffeinated penguin trying to waltz, you strapped it to your back and ignited the nozzle. What followed was an unforgettable performance: part rocket scientist, part misguided superhero, you roared through the castle with the grace of a fire breathing dragon on a sugar rush, all while the giant looked on in amusement, probably thinking, "Who invited this lunatic to my castle?" As you embarked on an epic adventure, the fire extinguisher decided that this was the perfect moment to sputter and quit, only for you to find yourself hurtling towards a towering wall in a hilariously heroic fashion. 
 Snoop around in the Giants box of goodies 
 snoop
@@ -3401,7 +3689,7 @@ GC10034
 
 
 GC10050
-As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery   a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
+As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
 back
 GC10072
@@ -3689,7 +3977,7 @@ GC10082
 
 
 GC10067
-As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery   a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
+As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
 back
 GC10085
@@ -3761,7 +4049,7 @@ GC10090
 
 
 GC10071
-As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery   a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
+As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
 back
 GC10091
@@ -4355,7 +4643,7 @@ GC10085
 
 
 GC10105
-As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery   a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
+As I tiptoed through the vast and rather cluttered halls of the giant's castle, I stumbled upon an extraordinary discovery a box that looked like it had been put together by a very confused IKEA enthusiast. Upon prying it open, I found a tape measure that seemed to be on a mission to measure the kingdom's epic proportions (and my inability to lift it). But the piece de resistance was a massive, leather bound book, which looked like the giant's secret diary of "How To Put Together Ikea Furniture"
 Go Back to the previous options
 back
 GC10109
@@ -4391,16 +4679,16 @@ GC10034
 
 
 GC10107
-In the sprawling giant's castle, I found myself facing a colossal challenge   deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
+In the sprawling giant's castle, I found myself facing a colossal challenge deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
 Go Back to the previous options
 back
 GC10106
+Prove youre smarter than the giant by assembing the Ikea furniture for him
+ikea
+IK10000
 Read The Giants Diary
 diary
 GC10113
-
-
-
 
 
 
@@ -4445,16 +4733,16 @@ GC10034
 
 
 GC10110
-In the sprawling giant's castle, I found myself facing a colossal challenge   deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
+In the sprawling giant's castle, I found myself facing a colossal challenge deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
 Go Back to the previous options
 back
 GC10109
+Prove youre smarter than the giant by assembing the Ikea furniture for him
+ikea
+IK10000
 Read The Giants Diary
 diary
 GC10115
-
-
-
 
 
 
@@ -4517,13 +4805,13 @@ GC10106
 
 
 GC10114
-In the sprawling giant's castle, I found myself facing a colossal challenge   deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
+In the sprawling giant's castle, I found myself facing a colossal challenge deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
+Prove youre smarter than the giant by assembing the Ikea furniture for him
+ikea
+IK10000
 Go Back to the previous options
 back
 GC10106
-
-
-
 
 
 
@@ -4553,13 +4841,13 @@ GC10109
 
 
 GC10116
-In the sprawling giant's castle, I found myself facing a colossal challenge   deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
+In the sprawling giant's castle, I found myself facing a colossal challenge deciphering an IKEA instruction manual! As I unfolded the gigantic pamphlet, it unfurled like a never ending tapestry, leaving me feeling like an ant in a maze of hieroglyphics. Armed with a minuscule Allen wrench and my best squinting technique, I bravely attempted to assemble an equally enormous bookshelf. But as I struggled to connect the "Gnorblatt" to the "Flurgenwinkle," I couldn't help but wonder if the giants had designed these instructions as a practical joke. In my epic quest to fathom the unfathomable, I realized that understanding giant sized IKEA manuals might be the true test of whether you've earned the title of "mighty assembler" or just a bewildered Lilliputian lost in a world of allen key adventures.
+Prove youre smarter than the giant by assembing the Ikea furniture for him
+ikea
+IK10000
 Go Back to the previous options
 back
 GC10109
-
-
-
 
 
 
@@ -6593,7 +6881,7 @@ climb
 GC06000
 With curiosity piqued by this mysterious development, I bent down to look inside the hole, eager to uncover the nature of the obstacle and any potential clues it might hold about the giant's castle.
 look
-GC05100
+GC05100Abeanstalkbean
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC04600
@@ -6626,7 +6914,7 @@ GC05900
 The chair now remained firmly lodged, and I wondered what lay within the hole beneath it.
 With curiosity piqued by this mysterious development, I bent down to look inside the hole, eager to uncover the nature of the obstacle and any potential clues it might hold about the giant's castle.
 look
-GC06600
+GC06600Abeanstalkbean
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC06100
@@ -6644,7 +6932,7 @@ GC05800
 As I began to push the immense chair towards the kitchen counter, I encountered an unexpected obstacle. The chair's ornate legs became wedged into a concealed hole in the floor, preventing any further movement. It appeared that this chamber held its own secrets, and my ambitious efforts had unwittingly revealed one of them. The chair now remained firmly lodged, and I wondered what lay within the hole beneath it.
 With curiosity piqued by this mysterious development, I bent down to look inside the hole, eager to uncover the nature of the obstacle and any potential clues it might hold about the giant's castle.
 look
-GC06600
+GC06600Abeanstalkbean
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC06100
@@ -6662,7 +6950,7 @@ GC06000
 The grand chair in the giant's kitchen, with its lofty seat and imposing stature, proved to be an insurmountable challenge. No matter how I stretched and strained, my attempts to reach the seat were in vain. It towered above me, a reminder of the colossal scale of this magical realm. The futility of my efforts became evident, and I resigned myself to the fact that this particular seat would remain beyond my grasp. The chair, like the rest of the giant's castle, stood as a testament to the extraordinary and the unreachable, leaving me with a sense of humility in the face of its imposing grandeur.
 With curiosity piqued by this mysterious development, I bent down to look inside the hole, eager to uncover the nature of the obstacle and any potential clues it might hold about the giant's castle.
 look
-GC06600
+GC06600Abeanstalkbean
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
 GC06100
@@ -6694,7 +6982,7 @@ GC07100
 
 
 
-GC06600
+GC06600Abeanstalkbean
 Beneath the chair and within the concealed hole, I uncovered a hidden treasure that filled me with awe and excitement. Nestled within the darkness of the chamber, I discovered a single, iridescent beanstalk bean. It glimmered with an otherworldly radiance, clearly of the same mystical nature as the legendary bean I had been seeking. Its presence confirmed that this giant's castle held many more secrets than I had initially imagined. As I reached out to grasp the bean, a subtle movement to my side caught my attention.
 I found the massive broom particularly interesting and decided to investigate it further, curious about its intended use in a kitchen of such grand scale.
 broom
@@ -7637,7 +7925,7 @@ north
 RE23400
 Go west
 west
-RE24000
+RE24000Aacidicbean
 Go East
 east
 RE23000D17
@@ -7712,7 +8000,7 @@ east
 RE23400
 Go south
 south
-RE24000
+RE24000Aacidicbean
 
 
 
@@ -7720,8 +8008,8 @@ RE24000
 
 
 
-RE24000
-Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your west and to your south is a massive, boiling tar pit. CONGRATULATIONS YOU WON THE ACID PITS!! I promise there will be a better reward in the future!!!!
+RE24000Aacidicbean
+Pools of sulfuric acid bubble and churn in craggy pits. Small streams of acid are oozing out of the ground like mucus. A yellow-ish haze blankets the area, and blurs the horizon. To your west and to your south is a massive, boiling tar pit. Right in front of you, on the ground there is a half dissloved bean! Chef Garbanzo might want it. CONGRATULATIONS YOU WON THE ACID PITS!! The real question is... How do you get out? 
 Go north
 north
 RE23900D17
@@ -7743,6 +8031,654 @@ Your ran out of health points and died! Sounds like a skill issue to me ngl. Hit
 Restart the game (do this or else)
 restart
 LS00100
+
+
+
+
+
+
+
+
+
+
+
+
+
+LS00200
+The following commands can be used at any time during the game: (Pg 1/2)
+Brings you to this screen
+help
+LS00200
+Saves the game, allowing you to return at any time to the screen you used this on via typing "load" on title screen
+save
+LS00200
+Quits the game and saves your current position into an autosave by typing "autosave" on title screen
+quit
+LS00100
+Return to the Title Screen
+title
+LS00100
+Go to the next page (This Screen Only)
+next
+LS00201
+
+LS00201
+The following commands can be used at any time during the game: (Pg 2/2)
+Close this screen (Help Screens Only)
+close
+Previous
+View and manage your inventory (works on all screens but this particular one)
+inventory
+LS00201
+Go to the previous page: (This Screen Only)
+previous
+LS00200
+
+
+
+
+
+
+
+IK10000
+In the quirky world of "Ikea Labyrinth Challenge," players are thrust into the baffling realm of assembling furniture with instructions that make hieroglyphics seem like bedtime stories. Armed with an Allen wrench and a dictionary of Swedish words that sound suspiciously like furniture parts, players decipher cryptic commands like "Attach the flibberflabber to the wobblejig, but beware the wrath of the snogglewhack if you tighten too much!" It's a game where understanding the manual is as elusive as finding matching socks in the laundry. It's a race against logic and linguistics, and if you manage to create something resembling a chair, you're practically a flat-pack wizard. Welcome to the wild and wobbly world of "Ikea Labyrinth Challenge" - where furniture assembly is an enigma wrapped in a mystery and sealed with an Allen wrench. Good luck, and may the Swedish meatballs be ever in your favor!
+Start the Minigame!
+start
+IK10001
+Return to the giants castle
+return
+GC10109
+
+
+
+
+
+
+
+
+
+
+IK10001
+Begin the journey into the whimsical world of minimalist spatial absurdity by caressing the ethereal packaging, whispering sweet nothings to the unassuming wooden planks. Arrange the pieces in a formation that reflects your innermost thoughts on existential angst - extra points for creating a design that raises eyebrows among passing philosophers. Take the enigmatic "Zormal Allen Wrench" and, with the solemnity of an ancient ritual, tighten the screws in a sequence known only to the ghosts of Swedish furniture designers past. Remember, the box must be three-sided to honor the elusive trinity of simplicity, confusion, and occasional frustration. Stand back and behold your creation, questioning whether you've birthed a profound statement on the transitory nature of materialism or just a really confusing place to store your socks. Marvel at the unanswered question: "Is it a box, or is it a metaphor?" Then, celebrate your triumph with a cup of tea, because coffee is too mainstream for a box this avant-garde.
+Arrage The 3 sides in a straight line
+straight
+IK10002S
+Arrange the 3 sides like a Z
+z
+IK10002
+Arrange the 3 sides like a C
+c
+IK10002C
+Arrange the 3 sides like a L
+l
+IK10002
+
+
+
+
+IK10002
+Prepare yourself for the mind-bending sequel in the IKEA saga - the TriTrunk 3000 Expansion Pack: Two More Pieces of Wood Edition! First, locate the enigmatic wooden appendages, cleverly disguised as "Plank Delta" and "Plank Gamma." Ensure they haven't developed a rebellious streak and opted for a game of hide-and-seek. Now, the real brain gymnastics begin - synchronize the cosmic alignment of the existing three-sided wonder with the new planks, making sure the gravitational pull isn't disrupted in the process. Engage in a riveting debate with the bolts, convincing them to form alliances without triggering an existential crisis. Ignore any skepticism from bystander furniture; they're just jealous of your groundbreaking collaboration skills. As the pieces click into place, revel in the triumph of your enhanced three-and-a-half-sided marvel, a testament to your prowess in assembling furniture that transcends the boundaries of logic and coherence. If all else fails, blame the furniture gnomes residing in the fractal forest - they're known troublemakers in the world of flat-pack enigmas.
+Arrange the 5 sheets of wood lengthwise like a snake
+snek
+IK10003
+Arrange the 5 sheets like a box
+box
+IK10003
+Arrange the 5 sheets like a 2d box with a piece of wood sticking out
+stick
+IK10003
+Arrange the 5 sheets like a giant U
+u
+IK10003
+
+
+
+
+IK10002C
+Prepare yourself for the mind-bending sequel in the IKEA saga - the TriTrunk 3000 Expansion Pack: Two More Pieces of Wood Edition! First, locate the enigmatic wooden appendages, cleverly disguised as "Plank Delta" and "Plank Gamma." Ensure they haven't developed a rebellious streak and opted for a game of hide-and-seek. Now, the real brain gymnastics begin - synchronize the cosmic alignment of the existing three-sided wonder with the new planks, making sure the gravitational pull isn't disrupted in the process. Engage in a riveting debate with the bolts, convincing them to form alliances without triggering an existential crisis. Ignore any skepticism from bystander furniture; they're just jealous of your groundbreaking collaboration skills. As the pieces click into place, revel in the triumph of your enhanced three-and-a-half-sided marvel, a testament to your prowess in assembling furniture that transcends the boundaries of logic and coherence. If all else fails, blame the furniture gnomes residing in the fractal forest - they're known troublemakers in the world of flat-pack enigmas.
+Arrange the 5 sheets of wood winding like a snake
+snek
+IK10003
+Arrange the 5 sheets like an open box
+box
+IK10003C
+Arrange the 5 sheets like a 2d box with a diagonal line inside of it
+diagonal
+IK10003
+Arrange the 5 sheets like a giant U
+u
+IK10003
+
+
+
+
+IK10002S
+Prepare yourself for the mind-bending sequel in the IKEA saga - the TriTrunk 3000 Expansion Pack: Two More Pieces of Wood Edition! First, locate the enigmatic wooden appendages, cleverly disguised as "Plank Delta" and "Plank Gamma." Ensure they haven't developed a rebellious streak and opted for a game of hide-and-seek. Now, the real brain gymnastics begin - synchronize the cosmic alignment of the existing three-sided wonder with the new planks, making sure the gravitational pull isn't disrupted in the process. Engage in a riveting debate with the bolts, convincing them to form alliances without triggering an existential crisis. Ignore any skepticism from bystander furniture; they're just jealous of your groundbreaking collaboration skills. As the pieces click into place, revel in the triumph of your enhanced three-and-a-half-sided marvel, a testament to your prowess in assembling furniture that transcends the boundaries of logic and coherence. If all else fails, blame the furniture gnomes residing in the fractal forest - they're known troublemakers in the world of flat-pack enigmas.
+Arrange the 5 sheets of wood lengthwise like a snake
+snek
+IK10003S
+Try to follow the image and create a entirely seperate part that resembles the vague image
+image
+IK10003
+Arrange the 5 sheets like a short U
+short
+IK10003
+Arrange the 5 sheets like a giant lobsided U
+u
+IK10003
+
+
+
+
+IK10003
+Embark on a journey into the labyrinthine abyss of absurdity with the Quadrilateral Quagmire, the IKEA challenge that defies both logic and Euclidean geometry! Begin by identifying the four planks - Alpha, Beta, Gamma, and the elusive Zeta, rumored to have existential doubts about its role in this cosmic puzzle. Arrange the planks in a formation that mirrors the chaos theory of butterfly wings or the doodles on a caffeine-fueled barista's napkin. Engage in a riveting dance with the screws, coaxing them into a synchronized ballet without triggering a philosophical debate among the planks. Amidst the chaos, remember to maintain eye contact with Plank Zeta to avoid any identity crises. As the wooden chaos edges toward box-shaped enlightenment, celebrate your success with a victory dance, preferably in the style of a perplexed penguin trying to waltz. If the result looks more like a modern art installation than a wooden box, rest assured - you have just unlocked the avant-garde dimension of IKEA craftsmanship.
+Extend it like a snake
+snek
+IK10004
+Create a "wooden butterfly" hoping via the butterfly effect it somehow is the right choice
+butterfly
+IK10014
+Add a wooden cross to your wooden monstrosity hoping that jesus can purify the sin that youve created
+cross
+IK10016
+Disregard the instructions and create a seperate wooden box
+box
+IK10004
+
+
+
+
+IK10003C
+Embark on a journey into the labyrinthine abyss of absurdity with the Quadrilateral Quagmire, the IKEA challenge that defies both logic and Euclidean geometry! Begin by identifying the four planks - Alpha, Beta, Gamma, and the elusive Zeta, rumored to have existential doubts about its role in this cosmic puzzle. Arrange the planks in a formation that mirrors the chaos theory of butterfly wings or the doodles on a caffeine-fueled barista's napkin. Engage in a riveting dance with the screws, coaxing them into a synchronized ballet without triggering a philosophical debate among the planks. Amidst the chaos, remember to maintain eye contact with Plank Zeta to avoid any identity crises. As the wooden chaos edges toward box-shaped enlightenment, celebrate your success with a victory dance, preferably in the style of a perplexed penguin trying to waltz. If the result looks more like a modern art installation than a wooden box, rest assured - you have just unlocked the avant-garde dimension of IKEA craftsmanship.
+extend it like a snake
+snek
+IK10004
+Create a "wooden butterfly" hoping via the butterfly effect it somehow is the right choice
+butterfly
+IK10014
+Add a wooden cross to your wooden monstrosity hoping that jesus can purify the sin that youve created
+cross
+IK10016
+Disregard the instructions and create a seperate wooden box
+box
+IK10004C
+
+
+
+
+IK10003S
+Embark on a journey into the labyrinthine abyss of absurdity with the Quadrilateral Quagmire, the IKEA challenge that defies both logic and Euclidean geometry! Begin by identifying the four planks - Alpha, Beta, Gamma, and the elusive Zeta, rumored to have existential doubts about its role in this cosmic puzzle. Arrange the planks in a formation that mirrors the chaos theory of butterfly wings or the doodles on a caffeine-fueled barista's napkin. Engage in a riveting dance with the screws, coaxing them into a synchronized ballet without triggering a philosophical debate among the planks. Amidst the chaos, remember to maintain eye contact with Plank Zeta to avoid any identity crises. As the wooden chaos edges toward box-shaped enlightenment, celebrate your success with a victory dance, preferably in the style of a perplexed penguin trying to waltz. If the result looks more like a modern art installation than a wooden box, rest assured - you have just unlocked the avant-garde dimension of IKEA craftsmanship.
+Make a EVEN LONGER SNAKE
+snek
+IK10004S
+Create a "wooden butterfly" hoping via the butterfly effect it somehow is the right choice
+butterfly
+IK10014
+Add a wooden cross to your wooden monstrosity hoping that jesus can purify the sin that youve created
+cross
+IK10016
+Disregard the instructions and create a seperate wooden box
+box
+IK10004
+
+
+
+
+IK10004
+Gear up for the Extraterrestrial Enigma Expansion Pack: Introducing the PentaPlank Pandemonium! First, hunt down the elusive Plank Epsilon, which might be disguised as a ninja turtle or a quantum leap enthusiast; your guess is as good as ours. Arrange the planks in a formation that screams, "I dare you to make sense of this!" Engage in a riveting debate with the screws, convincing them that participating in the cosmic pentagon party is the hippest thing since disco. Ignore judgmental stares from neighboring furniture - they're just jealous they weren't invited to the multidimensional fiesta. As Plank Epsilon reluctantly joins the circus of wood, celebrate with a victory dance that would make a confused chicken proud. If your creation resembles a surrealist painting more than a box, congratulations - you've just become the Picasso of furniture assembly, and Plank Epsilon is your starry night.
+You know what a giants castle needs? A giant Snake!
+snake
+IK10005
+Disassemble what you did in the last step and create a wooden triangle hoping the ninja turtles will mistake it for a slice of pizza
+pizza
+IK10015
+Attach this piece of wood to all of the 4 pieces of wood from the last step
+attach
+IK10005
+Use this piece of wood to connect the two pieces of your wooden creation together
+connect
+IK10005
+
+
+
+
+IK10004S
+Gear up for the Extraterrestrial Enigma Expansion Pack: Introducing the PentaPlank Pandemonium! First, hunt down the elusive Plank Epsilon, which might be disguised as a ninja turtle or a quantum leap enthusiast; your guess is as good as ours. Arrange the planks in a formation that screams, "I dare you to make sense of this!" Engage in a riveting debate with the screws, convincing them that participating in the cosmic pentagon party is the hippest thing since disco. Ignore judgmental stares from neighboring furniture - they're just jealous they weren't invited to the multidimensional fiesta. As Plank Epsilon reluctantly joins the circus of wood, celebrate with a victory dance that would make a confused chicken proud. If your creation resembles a surrealist painting more than a box, congratulations - you've just become the Picasso of furniture assembly, and Plank Epsilon is your starry night.
+You know what a giants castle needs? A giant Snake!
+snake
+IK10005S
+Disassemble what you did in the last step and create a wooden triangle hoping the ninja turtles will mistake it for a slice of pizza
+pizza
+IK10015
+Attach this piece of wood to all of the 4 pieces of wood from the last step
+attach
+IK10005
+Use this piece of wood to connect the two pieces of your wooden creation together
+connect
+IK10005
+
+
+
+
+IK10004C
+Gear up for the Extraterrestrial Enigma Expansion Pack: Introducing the PentaPlank Pandemonium! First, hunt down the elusive Plank Epsilon, which might be disguised as a ninja turtle or a quantum leap enthusiast; your guess is as good as ours. Arrange the planks in a formation that screams, "I dare you to make sense of this!" Engage in a riveting debate with the screws, convincing them that participating in the cosmic pentagon party is the hippest thing since disco. Ignore judgmental stares from neighboring furniture - they're just jealous they weren't invited to the multidimensional fiesta. As Plank Epsilon reluctantly joins the circus of wood, celebrate with a victory dance that would make a confused chicken proud. If your creation resembles a surrealist painting more than a box, congratulations - you've just become the Picasso of furniture assembly, and Plank Epsilon is your starry night.
+You know what a giants castle needs? A giant Snake!
+snake
+IK10005
+Disassemble what you did in the last step and create a wooden triangle hoping the ninja turtles will mistake it for a slice of pizza
+pizza
+IK10015
+Attach this piece of wood to all of the 4 pieces of wood from the last step
+attach
+IK10005C
+Use this piece of wood to connect the two pieces of your wooden creation together
+connect
+IK10005
+
+
+
+
+IK10005
+Prepare for the Duality Deciphering Challenge: The Drawer Handles That Double as Shackles on a Cross Edition! Locate the mystical metal handles, which might bear an uncanny resemblance to medieval relics or alien artifacts - their dual purpose is the cosmic twist you didn't know you needed. As you approach this enigma, ponder whether you're assembling handles or participating in an unwitting reenactment of an ancient ritual. Engage in a gripping debate with yourself about whether to invoke drawer functionality or unleash your inner Houdini and test their potential as escape artist shackles. Ignore any speculative glances from nearby furniture; they're just eavesdropping on your philosophical discourse with the handles. Once affixed, celebrate your achievement with a toast to your newfound versatility - your drawers now pull double duty as storage solutions and potential props for a historically inaccurate escape act. And if by chance you accidentally reenact a scene from an obscure period drama, just own it - you're the director of your furniture's fate!
+Throw the handles on randomly, who needs them anyways?
+random
+IK10006
+Attach the handles to each of your wooden components, or one on each half
+handle
+IK10006
+Attach it to the wooden cross as if the metal components are the nails of jesus' crusifiction
+nails
+IK10006
+Install the metal handles as a ladder for you to use to help you constuct future steps of the Ikea furniture
+install
+IK10006
+
+
+
+
+IK10005C
+Prepare for the Duality Deciphering Challenge: The Drawer Handles That Double as Shackles on a Cross Edition! Locate the mystical metal handles, which might bear an uncanny resemblance to medieval relics or alien artifacts - their dual purpose is the cosmic twist you didn't know you needed. As you approach this enigma, ponder whether you're assembling handles or participating in an unwitting reenactment of an ancient ritual. Engage in a gripping debate with yourself about whether to invoke drawer functionality or unleash your inner Houdini and test their potential as escape artist shackles. Ignore any speculative glances from nearby furniture; they're just eavesdropping on your philosophical discourse with the handles. Once affixed, celebrate your achievement with a toast to your newfound versatility - your drawers now pull double duty as storage solutions and potential props for a historically inaccurate escape act. And if by chance you accidentally reenact a scene from an obscure period drama, just own it - you're the director of your furniture's fate!
+Throw the handles on randomly, Who needs them anyways?
+random
+IK10006
+Attach the handles to each of your wooden components, or one on each half
+handle
+IK10006C
+Attach it to the wooden cross as if the metal components are the nails of jesus' crusifiction
+nails
+IK10006
+Install the metal handles as a ladder for you to use to help you constuct future steps of the Ikea furniture
+install
+IK10006
+
+
+
+
+IK10005S
+Prepare for the Duality Deciphering Challenge: The Drawer Handles That Double as Shackles on a Cross Edition! Locate the mystical metal handles, which might bear an uncanny resemblance to medieval relics or alien artifacts - their dual purpose is the cosmic twist you didn't know you needed. As you approach this enigma, ponder whether you're assembling handles or participating in an unwitting reenactment of an ancient ritual. Engage in a gripping debate with yourself about whether to invoke drawer functionality or unleash your inner Houdini and test their potential as escape artist shackles. Ignore any speculative glances from nearby furniture; they're just eavesdropping on your philosophical discourse with the handles. Once affixed, celebrate your achievement with a toast to your newfound versatility - your drawers now pull double duty as storage solutions and potential props for a historically inaccurate escape act. And if by chance you accidentally reenact a scene from an obscure period drama, just own it - you're the director of your furniture's fate!
+Attach the handles to the front of the snake to make little fangs for it
+fangs
+IK10006S
+Attach the handles to each of your wooden components, or one on each half
+handle
+IK10006
+Attach it to the wooden cross as if the metal components are the nails of jesus' crusifiction
+nails
+IK10006
+Install the metal handles as a ladder for you to use to help you constuct future steps of the Ikea furniture
+install
+IK10006
+
+
+
+
+IK10006
+Welcome to the Gigantic Tome Tower Construction Extravaganza - a grandiose affair fit for a giant's castle! Begin your colossal endeavor by identifying the "Behemoth Beam," a piece of lumber so massive it could double as a small bridge. Assemble the frame in a way that pays homage to the intricate dance moves of a confused giraffe in high heels - graceful, yet utterly perplexing. Engage in a fierce philosophical debate with the bolts, pondering whether they symbolize the futility of human endeavor or merely a giant's attempt at irony. Ignore the quizzical glances from neighboring furniture; they're just trying to figure out if they're living in a furniture circus. Once the towering frame stands tall, revel in the achievement of creating a bookshelf so colossal it could double as a portal to the literary dimension. And if, by chance, you find yourself pondering the meaning of life within the confines of this towering tome tower, fear not - you've successfully transcended the boundaries of mere furniture assembly.
+Tall pieces of wood call for longer snakes
+snek
+IK10007
+Attach the 3 giant boards to the two seperate parts from earlier as the supports and make a very long bridge.
+bridge
+IK10007
+Attempt to summon the devil by creating a wooden sigil of baphomet (Afterall Jesus didnt come)
+devil
+IK10017
+try to create a book-like stucture using the wood
+book
+IK10007
+
+
+
+
+IK10006S
+Welcome to the Gigantic Tome Tower Construction Extravaganza - a grandiose affair fit for a giant's castle! Begin your colossal endeavor by identifying the "Behemoth Beam," a piece of lumber so massive it could double as a small bridge. Assemble the frame in a way that pays homage to the intricate dance moves of a confused giraffe in high heels - graceful, yet utterly perplexing. Engage in a fierce philosophical debate with the bolts, pondering whether they symbolize the futility of human endeavor or merely a giant's attempt at irony. Ignore the quizzical glances from neighboring furniture; they're just trying to figure out if they're living in a furniture circus. Once the towering frame stands tall, revel in the achievement of creating a bookshelf so colossal it could double as a portal to the literary dimension. And if, by chance, you find yourself pondering the meaning of life within the confines of this towering tome tower, fear not - you've successfully transcended the boundaries of mere furniture assembly.
+Tall pieces of wood call for longer snakes
+snek
+IK10007S
+Attach the 3 giant boards to the two seperate parts from earlier as the supports and make a very long bridge.
+bridge
+IK10007
+Attempt to summon the devil by creating a wooden sigil of baphomet (Afterall Jesus didnt come)
+devil
+IK10017
+try to create a book-like stucture using the wood
+book
+IK10007
+
+
+
+
+IK10006C
+Welcome to the Gigantic Tome Tower Construction Extravaganza - a grandiose affair fit for a giant's castle! Begin your colossal endeavor by identifying the "Behemoth Beam," a piece of lumber so massive it could double as a small bridge. Assemble the frame in a way that pays homage to the intricate dance moves of a confused giraffe in high heels - graceful, yet utterly perplexing. Engage in a fierce philosophical debate with the bolts, pondering whether they symbolize the futility of human endeavor or merely a giant's attempt at irony. Ignore the quizzical glances from neighboring furniture; they're just trying to figure out if they're living in a furniture circus. Once the towering frame stands tall, revel in the achievement of creating a bookshelf so colossal it could double as a portal to the literary dimension. And if, by chance, you find yourself pondering the meaning of life within the confines of this towering tome tower, fear not - you've successfully transcended the boundaries of mere furniture assembly.
+Tall pieces of wood call for longer snakes
+snek
+IK10007
+Attach the 3 giant boards to the two seperate parts from earlier as the supports and make a very long bridge.
+bridge
+IK10007
+Attempt to summon the devil by creating a wooden sigil of baphomet (Afterall Jesus didnt come)
+devil
+IK10017
+try to create a book-like structure using the wood
+book
+IK10007C
+
+
+
+
+IK10007
+In the midst of constructing the Wooden Monstrosity Shelfinator, I found myself knee-deep in a perplexing puzzle of plank placement. The instructions resembled a cryptic scroll written in an alien language, and my attempts at deciphering the proper spacing left me feeling like a mathematician trying to calculate pi with Roman numerals. I juggled the shelves like a confused chef tossing pizza dough, desperately hoping that gravitational forces would magically arrange them in an aesthetically pleasing manner. Alas, the spacing conundrum persisted, leading me to wonder if the ancient philosophers had ever grappled with the existential crisis of shelf alignment.
+Trick Question! They arent shelves! they are to make the snake longer!
+snake
+IK10008
+Evenly space the shelves throughout the tall structure
+even
+IK10008
+Evenly space the shelves on the upper half of the tall structure
+upper
+IK10008
+Evenly space the shelves on the lower half of the tall structure
+lower
+IK10008
+
+
+
+
+IK10007S
+In the midst of constructing the Wooden Monstrosity Shelfinator, I found myself knee-deep in a perplexing puzzle of plank placement. The instructions resembled a cryptic scroll written in an alien language, and my attempts at deciphering the proper spacing left me feeling like a mathematician trying to calculate pi with Roman numerals. I juggled the shelves like a confused chef tossing pizza dough, desperately hoping that gravitational forces would magically arrange them in an aesthetically pleasing manner. Alas, the spacing conundrum persisted, leading me to wonder if the ancient philosophers had ever grappled with the existential crisis of shelf alignment.
+Trick Question! They arent shelves! they are to make the snake longer!
+snake
+IK10008S
+Evenly space the shelves throughout the tall structure
+even
+IK10008
+Evenly space the shelves on the upper half of the tall structure
+upper
+IK10008
+Evenly space the shelves on the lower half of the tall structure
+lower
+IK10008
+
+
+
+
+IK10007C
+In the midst of constructing the Wooden Monstrosity Shelfinator, I found myself knee-deep in a perplexing puzzle of plank placement. The instructions resembled a cryptic scroll written in an alien language, and my attempts at deciphering the proper spacing left me feeling like a mathematician trying to calculate pi with Roman numerals. I juggled the shelves like a confused chef tossing pizza dough, desperately hoping that gravitational forces would magically arrange them in an aesthetically pleasing manner. Alas, the spacing conundrum persisted, leading me to wonder if the ancient philosophers had ever grappled with the existential crisis of shelf alignment.
+Trick Question! They arent shelves! they are to make the snake longer!
+snake
+IK10008
+Evenly space the shelves throughout the tall structure
+even
+IK10008
+Evenly space the shelves on the upper half of the tall structure
+upper
+IK10008C
+Evenly space the shelves on the lower half of the tall structure
+lower
+IK10008
+
+
+
+
+IK10008
+In the ambitious pursuit of assembling the Trifecta Monstrosity Fusion, I found myself entangled in a web of bewilderment that even a spider with a Ph.D. in confusion would envy. The instructions, akin to a riddle penned by mischievous furniture gremlins, led me through a labyrinth of uncertainty. Attempting to combine three Wooden Monstrosities felt like trying to teach a herd of cats synchronized swimming - a comical exercise in futility. As I juggled colossal planks and puzzled over arcane diagrams, I couldn't help but wonder if the ancient Egyptians had faced similar challenges when constructing the pyramids. Were they secretly building massive Wooden Monstrosities with ambiguous hieroglyphic instructions? The world may never know. In the end, my Trifecta Monstrosity Fusion resembled more of an abstract sculpture than a functional piece of furniture, but hey, who needs clarity when you can have an avant-garde masterpiece in your living room?
+Fuse the remaining parts as if you had an apple pen and a pineapple pen
+ppap
+IK10009
+Combine them like russian matryoshka dolls
+dolls
+IK10009
+Put the two smaller wooden monstrosities into the large one
+inside
+IK10009
+Dissassemble everything and make a pyramid, as the instructions are heirogliphics anyways
+pyramid
+IK10018
+
+
+
+
+IK10008S
+In the ambitious pursuit of assembling the Trifecta Monstrosity Fusion, I found myself entangled in a web of bewilderment that even a spider with a Ph.D. in confusion would envy. The instructions, akin to a riddle penned by mischievous furniture gremlins, led me through a labyrinth of uncertainty. Attempting to combine three Wooden Monstrosities felt like trying to teach a herd of cats synchronized swimming - a comical exercise in futility. As I juggled colossal planks and puzzled over arcane diagrams, I couldn't help but wonder if the ancient Egyptians had faced similar challenges when constructing the pyramids. Were they secretly building massive Wooden Monstrosities with ambiguous hieroglyphic instructions? The world may never know. In the end, my Trifecta Monstrosity Fusion resembled more of an abstract sculpture than a functional piece of furniture, but hey, who needs clarity when you can have an avant-garde masterpiece in your living room?
+Fuse the last part to the snake like you have an apple pen and a pineapple pen
+ppap
+IK10009S
+Combine them like russian matryoshka dolls
+dolls
+IK10009
+Put the two smaller wooden monstrosities into the large one
+inside
+IK10009
+Dissassemble everything and make a pyramid, as the instructions are heirogliphics anyways
+pyramid
+IK10018
+
+
+
+
+IK10008C
+In the ambitious pursuit of assembling the Trifecta Monstrosity Fusion, I found myself entangled in a web of bewilderment that even a spider with a Ph.D. in confusion would envy. The instructions, akin to a riddle penned by mischievous furniture gremlins, led me through a labyrinth of uncertainty. Attempting to combine three Wooden Monstrosities felt like trying to teach a herd of cats synchronized swimming - a comical exercise in futility. As I juggled colossal planks and puzzled over arcane diagrams, I couldn't help but wonder if the ancient Egyptians had faced similar challenges when constructing the pyramids. Were they secretly building massive Wooden Monstrosities with ambiguous hieroglyphic instructions? The world may never know. In the end, my Trifecta Monstrosity Fusion resembled more of an abstract sculpture than a functional piece of furniture, but hey, who needs clarity when you can have an avant-garde masterpiece in your living room?
+Fuse the remaining parts as if you had an apple pen and a pineapple pen
+ppap
+IK10009
+Combine them like russian matryoshka dolls
+dolls
+IK10009
+Put the two smaller wooden monstrosities into the large one
+inside
+IK10009C
+Dissassemble everything and make a pyramid, as the instructions are heirogliphics anyways
+pyramid
+IK10018
+
+
+
+
+IK10014
+In my attempt at crafting a wooden butterfly, I accidentally birthed a lumbering catastrophe that even termites would reject as a vacation home. Defeated, I moved onto my next challenge: the Extraterrestrial Enigma Expansion Pack: Introducing the PentaPlank Pandemonium! First, hunt down the elusive Plank Epsilon, which might be disguised as a ninja turtle or a quantum leap enthusiast; your guess is as good as ours. Arrange the planks in a formation that screams, "I dare you to make sense of this!" Engage in a riveting debate with the screws, convincing them that participating in the cosmic pentagon party is the hippest thing since disco. Ignore judgmental stares from neighboring furniture - they're just jealous they weren't invited to the multidimensional fiesta. As Plank Epsilon reluctantly joins the circus of wood, celebrate with a victory dance that would make a confused chicken proud. If your creation resembles a surrealist painting more than a box, congratulations - you've just become the Picasso of furniture assembly, and Plank Epsilon is your starry night.
+You know what a giants castle needs? A giant Snake!
+snake
+IK10005
+Disassemble what you did in the last step and create a wooden triangle hoping the ninja turtles will mistake it for a slice of pizza
+pizza
+IK10015
+Attach this piece of wood to all of the 4 pieces of wood from the last step
+attach
+IK10005
+Use this piece of wood to connect the two pieces of your wooden creation together
+connect
+IK10005
+
+
+
+
+IK10016
+After painstakingly crafting a wooden cross in hopes of summoning Jesus for a casual chat, I was left with nothing but a divine voicemail that said, "Sorry, currently attending to water-into-wine emergencies - will reschedule our heavenly hangout." Dissapointed, I start my next challenge: the Extraterrestrial Enigma Expansion Pack: Introducing the PentaPlank Pandemonium! First, hunt down the elusive Plank Epsilon, which might be disguised as a ninja turtle or a quantum leap enthusiast; your guess is as good as ours. Arrange the planks in a formation that screams, "I dare you to make sense of this!" Engage in a riveting debate with the screws, convincing them that participating in the cosmic pentagon party is the hippest thing since disco. Ignore judgmental stares from neighboring furniture - they're just jealous they weren't invited to the multidimensional fiesta. As Plank Epsilon reluctantly joins the circus of wood, celebrate with a victory dance that would make a confused chicken proud. If your creation resembles a surrealist painting more than a box, congratulations - you've just become the Picasso of furniture assembly, and Plank Epsilon is your starry night.
+You know what a giants castle needs? A giant Snake!
+snake
+IK10005
+Disassemble what you did in the last step and create a wooden triangle hoping the ninja turtles will mistake it for a slice of pizza
+pizza
+IK10015
+Attach this piece of wood to all of the 4 pieces of wood from the last step
+attach
+IK10005
+Use this piece of wood to connect the two pieces of your wooden creation together
+connect
+IK10005
+
+
+
+
+IK10015
+My attempt at making a wooden pizza for the Ninja Turtles was so abysmal that they retreated into the sewers faster than you can say "cowabunga," leaving me to contemplate the complexities of ninja turtle culinary standards. I then began to prepare for Prepare for the Duality Deciphering Challenge: The Drawer Handles That Double as Shackles on a Cross Edition! Locate the mystical metal handles, which might bear an uncanny resemblance to medieval relics or alien artifacts - their dual purpose is the cosmic twist you didn't know you needed. As you approach this enigma, ponder whether you're assembling handles or participating in an unwitting reenactment of an ancient ritual. Engage in a gripping debate with yourself about whether to invoke drawer functionality or unleash your inner Houdini and test their potential as escape artist shackles. Ignore any speculative glances from nearby furniture; they're just eavesdropping on your philosophical discourse with the handles. Once affixed, celebrate your achievement with a toast to your newfound versatility - your drawers now pull double duty as storage solutions and potential props for a historically inaccurate escape act. And if by chance you accidentally reenact a scene from an obscure period drama, just own it - you're the director of your furniture's fate!
+Throw the handles on randomly, who needs them anyways?
+random
+IK10006
+Attach the handles to each of your wooden components, or one on each half
+handle
+IK10006
+Attach it to the wooden cross as if the metal components are the nails of jesus' crusifiction
+nails
+IK10006
+Install the metal handles as a ladder for you to use to help you constuct future steps of the Ikea furniture
+install
+IK10006
+
+
+
+
+IK10017
+After I accidentally created a pentagram while rearranging my furniture, the devil appeared and, with an oddly enthusiastic tone, suggested I embrace the snake - a dubious piece of advice that left me questioning both my interior decorating skills and the devil's interior design expertise. I returned to constructing the Wooden Monstrosity Shelfinator, I found myself knee-deep in a perplexing puzzle of plank placement. The instructions resembled a cryptic scroll written in an alien language, and my attempts at deciphering the proper spacing left me feeling like a mathematician trying to calculate pi with Roman numerals. I juggled the shelves like a confused chef tossing pizza dough, desperately hoping that gravitational forces would magically arrange them in an aesthetically pleasing manner. Alas, the spacing conundrum persisted, leading me to wonder if the ancient philosophers had ever grappled with the existential crisis of shelf alignment.
+Trick Question! They arent shelves! they are to make the snake longer!
+snake
+IK10008
+Evenly space the shelves throughout the tall structure
+even
+IK10008
+Evenly space the shelves on the upper half of the tall structure
+upper
+IK10008
+Evenly space the shelves on the lower half of the tall structure
+lower
+IK10008
+
+
+
+
+IK10009
+In what can only be described as an epic saga of flat-packed calamity, my attempt to follow the "simple" steps of an IKEA instruction manual turned into a comedic masterpiece of misinterpretation. Armed with an allen wrench and the unwavering belief that I could decipher hieroglyphics, I embarked on the odyssey of assembling a seemingly innocent bookshelf. Little did I know, each step was a cryptic puzzle devised by an unseen Swedish sorcerer. As I confidently flipped through the manual, the once pristine pages soon resembled a battlefield of confusion. Bolts went rogue, planks revolted against alignment, and at one point, I swear the screws engaged in a covert operation to escape. By the end of this Swedish escapade, the bookshelf resembled modern art, and I had unwittingly become the star of a sitcom where furniture mocks the fumbling human.
+Disassemble everything and try again!
+again
+IK10001
+Exit the minigame
+exit
+GC10109
+
+
+
+
+
+
+
+
+
+
+IK10018
+My attempt to build a wooden pyramid can only be described as a spectacular failure that even the ancient Egyptians would've side-eyed. The carefully crafted plans resembled more of a scribbled treasure map drawn by a confused pirate than architectural blueprints. As I stacked the wooden blocks, they defied gravity with a rebellious spirit, opting for a more chaotic arrangement reminiscent of a drunken game of Jenga. The result was less majestic pyramid, more wobbly tower of perplexity. It turns out that achieving architectural greatness requires more than just stacking blocks and hoping for the best - who knew? Perhaps my wooden pyramid could serve as a testament to the architectural prowess of the lost civilization of IKEA-stan.
+Disassemble everything and try again!
+again
+IK10001
+Exit the minigame
+exit
+GC10109
+
+
+
+
+
+
+
+
+
+
+IK10009C
+In a feat that could only be described as a triumph over the IKEA gods and giants alike, I successfully constructed a bookshelf with cabinets using instructions that seemed to have been translated from ancient hieroglyphics by a mischievous giant with a penchant for riddles. Each step was a cryptic dance of bolts, planks, and a mysterious tool that resembled a wand more than an Allen key. As I navigated through the labyrinth of enigmatic diagrams, I couldn't help but feel like a scholarly wizard deciphering the arcane secrets of flat-pack sorcery. Despite the perplexity, the bookshelf emerged victorious, standing tall as a testament to my resilience and a shrine to the cosmic art of assembling furniture in the face of confusion - a victory celebrated with a triumphant cheer and a nod of approval from the neighboring giants.
+Go to the next screen
+next
+IK10010Aikeabean
+
+
+
+
+
+
+
+
+
+
+
+
+
+IK10010Aikeabean
+In a twist of colossal proportions, the giant whose castle I had unwittingly invaded approached me with a booming yet surprisingly polite voice. With a grateful twinkle in his eye, he thanked me profusely for successfully deciphering the confounding IKEA instructions and assembling a bookshelf that had eluded his comprehension. In appreciation, he bestowed upon me a mystical bean, assuring me that it held the ability to navigate perplexing furniture manuals. The giant also told me how to get out of the basement. As the giant lumbered away, I couldn't help but marvel at the bizarre turn of events - who knew that furniture assembly skills could earn you a magical legume in the realm of giants?
+Accept the giants kind offering
+accept
+GC11800
+
+
+
+
+
+
+
+
+
+
+
+
+
+IK10009S
+In an act of sheer rebellion against the confounding IKEA instruction manual, I decided to channel my inner carpenter-wizard and craft a colossal wooden snake instead. Ignoring the manual's cautious whispers about screws and bolts, I embraced my newfound serpent-centric vision. Lo and behold, as the last plank slid into place, the giant wooden snake jolted to life, wriggling with an animated enthusiasm that even startled the nearby houseplants. The giant, alerted by the commotion, wandered into the room, only to find me standing amidst the chaos, armed with an allen wrench and a mischievous grin. The colossal serpent, now a whimsical accomplice, seemed to share in the amusement, creating a surreal tableau of rebellious craftsmanship that left the giant both bewildered and oddly charmed.
+Go to the next screen
+next
+IK10011
+
+
+
+
+
+
+
+
+
+
+
+
+
+IK10011
+In the colossal arena of chaos, a titanic giant squared off against an improbable adversary - a gargantuan wooden snake of mythical proportions. The clash echoed with the resounding thuds of the giant's thunderous footsteps and the creaks and groans of the serpentine behemoth. With each mighty swing, the giant attempted to outmaneuver the wooden coils, but the snake, with its uncanny agility and perplexing flexibility, countered every move. The battle reached a crescendo as the giant, caught in the enigmatic embrace of the serpent, grappled with the wooden coils in a dance of destruction. Alas, the colossal contest concluded in an unexpected twist. The giant, seemingly overwhelmed by the bewilderment of battling a creature crafted from lumber, succumbed to the wooden serpent's strategic maneuvers. With a final constricting embrace, the giant was subdued, leaving the wooden snake victorious in this epic, surreal skirmish. As the defeated giant slumped to the ground, the enigmatic wooden serpent, having accomplished its mystifying mission, slithered off into the annals of myth, leaving the arena forever changed and the spectators scratching their heads in disbelief.
+Loot the Giants pockets
+loot
+IK10012Aikeabean
+Escape! You dont know if the snake will return!
+escape
+GC10080
+
+
+
+
+
+
+
+
+
+
+IK10012Aikeabean
+In the daring escapade of pocket-looting a giant, I stumbled upon a treasure beyond my wildest dreams - a magic bean! As I clutched the bean with a mix of awe and confusion, I couldn't help but notice the peculiar inscription: "Instant IKEA Mastery." Intrigued, I planted the bean in a pot of Allen wrenches and watched in amazement as a flourishing beanstalk spiraled skyward, carrying with it the promise of unparalleled furniture assembly skills. Now equipped with the magical prowess to decipher IKEA hieroglyphics and tame the wildest of hex keys, I felt like the hero of a whimsical home improvement saga. The giant's pockets, once a realm of uncertainty, had bestowed upon me not only the secret to seamless furniture assembly but also the unexpected magic of turning mundane tasks into fairy tale adventures.
+Escape! You dont know if the snake will return!
+escape
+GC10080
 
 
 
