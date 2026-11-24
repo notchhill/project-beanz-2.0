@@ -14,6 +14,7 @@ class Saves {
         int userSaveHP;
         std::string saveFile;
         std::string autosaveFile;
+        std::string userSaveData;
 
         public:
 
@@ -21,11 +22,12 @@ class Saves {
         
         Saves();
         //Default Constructor
-        //Automatically loads values from saves.txt
+        //Initializes empty save state.
 
         Saves(std::string savefileName, std::string autosaveFileName);
         //Constructor
-        //Gets parameters from fileName
+        //Loads web manual saves from the browser bridge, otherwise from the save file.
+        //Loads autosave data from the configured autosave file.
 
         ~Saves();
         //Default Destructor
@@ -46,12 +48,15 @@ class Saves {
         std::string getSaveFile();
         //Returns the directory of the savefile
 
+        std::string getUserSaveData();
+        //Returns the serialized user save data
+
         void changeSaveFile(std::string newSaveFile);
         //change the save file to directory in newSaveFile
 
-        void save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory);
-        //Open the file named 'filename' in write only mode.
-		//Saves the screen ID of current screen in current to the file.
+        bool save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory);
+        //Stores manual save data in the browser in web mode, otherwise writes it to the save file.
+        //Returns false if persistence fails.
 
 		void autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory);
 		//Open the file named 'filename' in write only mode.

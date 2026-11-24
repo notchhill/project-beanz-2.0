@@ -87,7 +87,11 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 		if(playerInput == "load"){
 			beanzGuy->set_hp(saves->userSaveHP);
 			saves->fixUserSaveHealth(beanzGuy);
-			inventory->resetInventory(saves->saveFile);
+			if(isWebOutputEnabled()){
+				inventory->resetInventoryFromData(saves->getUserSaveData());
+			}else{
+				inventory->resetInventory(saves->saveFile);
+			}
 			saves->fixUserSaveInventory(inventory, beanzGuy);
 		}else if(playerInput == "autosave"){
 			beanzGuy->set_hp(saves->autosaveHP);
@@ -123,8 +127,14 @@ std::string GameScreenLinkedList::match(const std::string playerInput, GameScree
 	}
 
 	if(playerInput == "save"){
-		saves->save(currentNode, head, beanzGuy, inventory);
-		std::cout << "\nSuccessfully Saved!\n";
+		if(!isWebOutputEnabled()){
+			saves->save(currentNode, head, beanzGuy, inventory);
+			std::cout << "\nSuccessfully Saved!\n";
+		}else if(saves->save(currentNode, head, beanzGuy, inventory)){
+			std::cout << "\nSuccessfully Saved!\n";
+		}else{
+			std::cout << "\nCould not save your game. Browser cookies have limited storage.\n";
+		}
 		return "";
 	}
 

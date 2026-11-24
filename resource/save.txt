@@ -1,2 +1,12 @@
-GC10010
-50
+GC04500
+100
+beanstalkbean
+Key
+4
+A bean that can be planted, and it will immediately grow a "small" beanstalk.
+0
+0
+
+
+
+

@@ -9,54 +9,80 @@ Saves::Saves(){
 }
 
 Saves::Saves(std::string fileName, std::string autosaveFileName){
+    this->userSaveHP = 100;
+    this->autosaveHP = 100;
+    this->saveFile = fileName;
+    if(isWebOutputEnabled()){
+        this->userSaveData = loadWebSaveData();
+        if(!this->userSaveData.empty()){
+            std::istringstream file(this->userSaveData);
+            std::getline(file, this->userSaveScreenID);
+            if (!this->userSaveScreenID.empty() && this->userSaveScreenID.back() == '\r'){
+                this->userSaveScreenID.pop_back();
+            }
+            file >> this->userSaveHP;
+        }
+    }else{
         std::ifstream file;
         file.open(fileName);
 
         if(!file.fail()){
             std::getline(file, this->userSaveScreenID);
-            if (this->userSaveScreenID.back() == '\r') 
-			{this->userSaveScreenID.pop_back();}
-
+            if (!this->userSaveScreenID.empty() && this->userSaveScreenID.back() == '\r'){
+                this->userSaveScreenID.pop_back();
+            }
             file >> this->userSaveHP;
         }
-		this->saveFile = fileName;
+    }
 
-    	file.close();
+    std::ifstream autosaveFile;
+    autosaveFile.open(autosaveFileName);
 
-        std::ifstream autosaveFile;
-        autosaveFile.open(autosaveFileName);
-
-        if(!autosaveFile.fail()){
-            std::getline(autosaveFile, this->autosaveScreenID);
-            if (this->autosaveScreenID.back() == '\r') 
-			{this->autosaveScreenID.pop_back();}
-
-            autosaveFile >> this->autosaveHP;
-        } 
-        this->autosaveFile = autosaveFileName;
-        autosaveFile.close();
+    if(!autosaveFile.fail()){
+        std::getline(autosaveFile, this->autosaveScreenID);
+        if (!this->autosaveScreenID.empty() && this->autosaveScreenID.back() == '\r'){
+            this->autosaveScreenID.pop_back();
+        }
+        autosaveFile >> this->autosaveHP;
+    }
+    this->autosaveFile = autosaveFileName;
 }
 
 Saves::~Saves(){
 }
 
-void Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory){
+bool Saves::save(const GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory){
+    if(isWebOutputEnabled()){
+        std::ostringstream file;
+        file << current->screenID << "\n";
+        file << beanzGuy->get_hp() << "\n";
+        inventory->dumpInventory(&file);
+        const std::string saveData = file.str();
+        if(!storeWebSaveData(saveData)){
+            return false;
+        }
+        this->userSaveData = saveData;
+    }
+
     this->userSaveScreenID = current->screenID;
     this->userSaveHP = beanzGuy->get_hp();
     head->option3.optionscreenID = current->screenID;
     head->option3.optionTextBlurb = "Load Previous Manual Save";
 	head->option3.optionChoiceText = "load";
-    std::ofstream file(this->saveFile);
-    if(file.is_open()){
-        file << current->screenID << "\n";
-        file << this->userSaveHP << "\n";
-        inventory->dumpInventory(&file);
-        file.close();
-    } else{
-        std::cout << "Couldnt Open File\n";
+    if(!isWebOutputEnabled()){
+        std::ofstream file(this->saveFile);
+        if(file.is_open()){
+            file << current->screenID << "\n";
+            file << this->userSaveHP << "\n";
+            inventory->dumpInventory(&file);
+            file.close();
+        } else{
+            std::cout << "Couldnt Open File\n";
+            return false;
+        }
     }
 
-
+    return true;
 }
 
 void Saves::autosave(GameScreenLinkedList* prev, GameScreenLinkedList* current, GameScreenLinkedList* head, Player* beanzGuy, Inventory* inventory){
@@ -204,6 +230,10 @@ int Saves::getUserSaveHP(){
 //Returns the directory of the savefile
 std::string Saves::getSaveFile(){
     return this->saveFile;
+}
+
+std::string Saves::getUserSaveData(){
+    return this->userSaveData;
 }
 
 void Saves::changeSaveFile(std::string newSaveFile){

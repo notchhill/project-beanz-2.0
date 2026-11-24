@@ -260,7 +260,16 @@ void Inventory::add_item(std::string name)
 void Inventory::resetInventory(std::string fileName){
     std::ifstream inputFile;
     inputFile.open(fileName);
+    resetInventoryContents(inputFile);
+    inputFile.close();
+}
 
+void Inventory::resetInventoryFromData(const std::string& saveData){
+    std::istringstream inputFile(saveData);
+    resetInventoryContents(inputFile);
+}
+
+void Inventory::resetInventoryContents(std::istream& inputFile){
 
     while(!inventory.empty()){
         delete inventory.back();
@@ -276,14 +285,15 @@ void Inventory::resetInventory(std::string fileName){
 
     while(!(inputFile.eof())){
 
-        Items* it = new Items;
-        std::getline(inputFile >> std::ws, it->itemName);  
-        if (it->itemName.back() == '\r') 
-		    {it->itemName.pop_back();}
-        if(it->itemName == ""){
+        std::string itemName;
+        if (!std::getline(inputFile >> std::ws, itemName) || itemName.empty()){
             break;
         }
 
+        Items* it = new Items;
+        it->itemName = itemName;
+        if (it->itemName.back() == '\r')
+		    {it->itemName.pop_back();}
         std::getline(inputFile >> std::ws, it->itemClass);
         if (it->itemClass.back() == '\r') 
 		    {it->itemClass.pop_back();} 
@@ -305,10 +315,9 @@ void Inventory::resetInventory(std::string fileName){
         std::getline(inputFile, garbage);
         this->inventory.push_back(it);
     }
-    inputFile.close();
 }
 
-void Inventory::dumpInventory(std::ofstream* outputFile){
+void Inventory::dumpInventory(std::ostream* outputFile){
     for(auto& it : this->inventory){
         *outputFile << it->itemName << "\n";
         *outputFile << it->itemClass << "\n";

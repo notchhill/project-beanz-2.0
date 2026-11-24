@@ -21,13 +21,13 @@ Linux: ${objectsLinux}
 test: ${objectstest}
 	${general} ${objectstest} -o bin/beanz2 ${socketLibs}
 
-build/main.o: src/main.cpp
+build/main.o: src/main.cpp include/gamescreenlinkedlist.h include/puzzle.h include/items.h include/saves.h include/inventory.h include/utility.h
 	${general} -c $< -o $@
 
 build/test.o: src/test.cpp
 	${general} -c $< -o $@
 
-build/gamescreenlinkedlist.o: src/gamescreenlinkedlist.cpp include/gamescreenlinkedlist.h
+build/gamescreenlinkedlist.o: src/gamescreenlinkedlist.cpp include/gamescreenlinkedlist.h include/saves.h include/inventory.h include/utility.h
 	${general} -c $< -o $@
 
 build/puzzle.o: src/puzzle.cpp include/puzzle.h
@@ -39,10 +39,10 @@ build/player.o: src/player.cpp include/player.h
 build/utility.o: src/utility.cpp include/utility.h
 	${general} -c $< -o $@
 
-build/saves.o: src/saves.cpp include/saves.h
+build/saves.o: src/saves.cpp include/saves.h include/inventory.h include/utility.h
 	${general} -c $< -o $@
 
-build/inventory.o: src/inventory.cpp include/inventory.h
+build/inventory.o: src/inventory.cpp include/inventory.h include/items.h include/utility.h
 	${general} -c $< -o $@
 
 build/items.o: src/items.cpp include/items.h

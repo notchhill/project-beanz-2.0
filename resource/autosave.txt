@@ -1,2 +1,22 @@
-GC10010
-50
+FF00100
+90
+beanstalkbean
+Key
+3
+A bean that can be planted, and it will immediately grow a "small" beanstalk.
+1
+0
+
+
+
+
+giantbean
+Key
+1
+The largest species of bean. This type of bean can feed the entirety of beancouver, however it doesnt have a very appetizing taste.
+0
+0
+
+
+
+

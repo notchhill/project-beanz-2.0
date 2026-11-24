@@ -8,6 +8,7 @@ class Items;
 class Inventory {
 private:
     std::list<Items*> inventory;
+    void resetInventoryContents(std::istream& inputFile);
 
 public:
     Inventory();
@@ -29,8 +30,10 @@ public:
     void displayInventory(Player* beanzGuy);
     //Removes everything in the current inventory, and replaces it with the saved inventory.
     void resetInventory(std::string saveFile);
-    //Dumps the contents of the inventory into a file
-    void dumpInventory(std::ofstream* file);
+    //Restores inventory from serialized save data.
+    void resetInventoryFromData(const std::string& saveData);
+    //Dumps the contents of the inventory into a stream.
+    void dumpInventory(std::ostream* file);
     //Takes the command that the user entered in the inventory and processes it accordingly. returns the name of the command it just processed
     std::string processCommand(std::string playerInput, Player* beanzGuy);
     //Adds and removes items to/from the inventory depending on the story

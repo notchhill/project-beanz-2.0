@@ -15,7 +15,7 @@ The terminal remains the default output mode. On Windows, use the `build` Make t
 
 ## Web game
 
-The web app uses React, Vite, Tailwind CSS, and a small Node.js HTTP bridge. The bridge starts the C++ game with `BEANZ_OUTPUT_MODE=web`; game output and player input are exchanged over HTTP.
+The web app uses React, Vite, Tailwind CSS, and a small Node.js HTTP bridge. The bridge starts the C++ game with `BEANZ_OUTPUT_MODE=web`; game output and player input are exchanged over HTTP. Manual saves in web mode are stored in the browser's HttpOnly `beanz_save` cookie, while terminal-mode saves continue to use `resource/save.txt`. Browser cookie size limits apply, and the web UI reports if a save is too large. An existing server save is imported into the browser cookie the first time web mode is opened without one. Web autosaves continue to use `resource/autosave.txt`.
 
 Requirements: Node.js 18+, npm, GNU Make, and a C++ compiler.
 

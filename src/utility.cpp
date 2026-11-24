@@ -270,6 +270,30 @@ void outputText(const std::string& text) {
 	}
 }
 
+std::string loadWebSaveData() {
+	const HttpResponse response = sendHttpRequest("GET", "/api/save", "");
+	if (response.status == 204) {
+		return "";
+	}
+	if (response.status != 200) {
+		throw std::runtime_error("The web bridge could not load the browser save (HTTP "
+			+ std::to_string(response.status) + ").");
+	}
+	return response.body;
+}
+
+bool storeWebSaveData(const std::string& data) {
+	const HttpResponse response = sendHttpRequest("POST", "/api/save", "{\"data\":\"" + jsonEscape(data) + "\"}");
+	if (response.status == 413) {
+		return false;
+	}
+	if (response.status != 202) {
+		throw std::runtime_error("The web bridge could not store the browser save (HTTP "
+			+ std::to_string(response.status) + ").");
+	}
+	return true;
+}
+
 void clearScreen() {
 	if (webOutputEnabled) {
 		outputText("\f");

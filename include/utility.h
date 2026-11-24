@@ -47,6 +47,8 @@ void nicePrint(std::string text, bool isOption = false);
 void configureOutput();
 bool isWebOutputEnabled();
 void outputText(const std::string& text);
+std::string loadWebSaveData();
+bool storeWebSaveData(const std::string& data);
 void clearScreen();
 
 bool isHelpScreen(std::string screenID);
