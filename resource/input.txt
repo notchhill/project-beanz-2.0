@@ -1,5 +1,5 @@
 LS00100
-Beanz 2.0: Refried Beanz (LOADING).
+Beanz 2.0: Refried Beanz (Select one of the options below to proceed).
 Start the game!
 start
 LS00300
