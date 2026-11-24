@@ -1,0 +1,13 @@
+.git
+.github
+.vscode
+**/node_modules
+/web/dist
+/build
+/bin
+.env
+.env.*
+!.env.example
+/resource/save.txt
+/resource/autosave.txt
+*.log
